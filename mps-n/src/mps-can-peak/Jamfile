@@ -1,0 +1,21 @@
+SubDir TOP src mps-can-peak ;
+
+SubDirHdrs $(TOP)/include ; 
+SubDirHdrs $(TOP)/include/pcan ;
+
+SubDirC++Flags [ FDefines MPSCANPEAK_EXPORTS ] ;
+SubDirObjects $(OUTPUT_OBJECT) mps-can-peak ;
+
+SharedLibrary mps-can-peak :  Driver.cpp
+ 						      DriverImpl.cpp
+                              Wrapper.cpp  
+						      Factory.cpp
+						   ;						  
+
+
+
+LinkFlags  mps-can-peak  : $(MPS_LINKFLAGS) ;
+
+LinkSharedLibraries mps-can-peak : mps-can-drv ;
+
+MakeLocate  mps-can-peak : $(MPS_BINDIR) ;

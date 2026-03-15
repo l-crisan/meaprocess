@@ -1,0 +1,12 @@
+SubDir TOP src mps-fft kiss-fft ;
+
+Library kiss-fft :  
+#					 [ FDirName tools fftutil.c ]
+#					 [ FDirName tools kfc.c ]
+#					 [ FDirName tools kiss_fastfir.c ]
+#					 [ FDirName tools kiss_fftnd.c ]
+#					 [ FDirName tools kiss_fftndr.c ]
+					 [ FDirName tools kiss_fftr.c ]
+#					 [ FDirName tools psdpng.c ]
+					 kiss_fft.c
+					 ;

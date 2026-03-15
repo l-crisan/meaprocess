@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActivePower" xml:space="preserve">
+    <value>Wirkleistung</value>
+  </data>
+  <data name="ApparentPower" xml:space="preserve">
+    <value>Scheinleistung</value>
+  </data>
+  <data name="BitExtraction" xml:space="preserve">
+    <value>Bit Extraktion</value>
+  </data>
+  <data name="BitExtractionDescription" xml:space="preserve">
+    <value>Bit Extraktion
+
+Extrahiert Bits von einem Bit-String Datentyp.</value>
+  </data>
+  <data name="BitGrouping" xml:space="preserve">
+    <value>Bit Bündelung</value>
+  </data>
+  <data name="BitGroupingDescr" xml:space="preserve">
+    <value>Bit Bündelung
+
+Bündelt Bits zu einem Bit-String.</value>
+  </data>
+  <data name="Calculation" xml:space="preserve">
+    <value>Verarbeitung</value>
+  </data>
+  <data name="Current" xml:space="preserve">
+    <value>Strom</value>
+  </data>
+  <data name="Demultiplexer" xml:space="preserve">
+    <value>Demultiplexer</value>
+  </data>
+  <data name="DemuxDescription" xml:space="preserve">
+    <value>Demultiplexer
+
+Schaltet ein Eingangssignal auf mehrere Ausgangsinale.</value>
+  </data>
+  <data name="EffectiveCurrent" xml:space="preserve">
+    <value>Effektivstrom</value>
+  </data>
+  <data name="EffectiveVoltage" xml:space="preserve">
+    <value>Effektivspannung</value>
+  </data>
+  <data name="Electricity" xml:space="preserve">
+    <value>Elektrizität</value>
+  </data>
+  <data name="ElectricityDescription" xml:space="preserve">
+    <value>Elektrizität
+
+Berechnet Elektrotechnische Kenngrößen.</value>
+  </data>
+  <data name="Frequency" xml:space="preserve">
+    <value>Frequenz</value>
+  </data>
+  <data name="FrequenzVoltage" xml:space="preserve">
+    <value>Frequenz</value>
+  </data>
+  <data name="IdlePower" xml:space="preserve">
+    <value>Blindleistung</value>
+  </data>
+  <data name="LinearScaling" xml:space="preserve">
+    <value>Linearskalierung</value>
+  </data>
+  <data name="MeanNDescription" xml:space="preserve">
+    <value>N-Signalemittelwert
+
+Berechenet das Mittelwert über N Signale.</value>
+  </data>
+  <data name="MeanNPSErr" xml:space="preserve">
+    <value>Der Baustein '{0}' hat keine selektierte Signale für den Mittelwertberechnung.</value>
+  </data>
+  <data name="MeanOfNSignals" xml:space="preserve">
+    <value>N-Signalemittelwert</value>
+  </data>
+  <data name="MeanOutSigNameErr" xml:space="preserve">
+    <value>Der Ausgangssignal des Eingangssignals '{0}' brauch einen Name.</value>
+  </data>
+  <data name="MenuProperties" xml:space="preserve">
+    <value>Eigenschaften...</value>
+  </data>
+  <data name="Min2SignalsErr" xml:space="preserve">
+    <value>Minimum zwei Signale werden benötigt.</value>
+  </data>
+  <data name="MinMaxErr" xml:space="preserve">
+    <value>Das Maximum mus großer sein als das Minimum.</value>
+  </data>
+  <data name="MovingMean" xml:space="preserve">
+    <value>Gleitendermittelwert</value>
+  </data>
+  <data name="MovingMeanDescription" xml:space="preserve">
+    <value>Gleitendermittelwert
+
+Berechnet das Gleitendermittelwert einer oder meherer Signale.</value>
+  </data>
+  <data name="Multiplexer" xml:space="preserve">
+    <value>Multiplexer</value>
+  </data>
+  <data name="MuxDescription" xml:space="preserve">
+    <value>Multiplexer
+
+Schaltet mehrere Eingangsignale auf einem Eingangsignal.</value>
+  </data>
+  <data name="NoScalingDefinedErr" xml:space="preserve">
+    <value>Mindestens eine Skalierung muss definiert sein.</value>
+  </data>
+  <data name="Periode" xml:space="preserve">
+    <value>Periode</value>
+  </data>
+  <data name="PhaseAngle" xml:space="preserve">
+    <value>Phasenwinkel Phi</value>
+  </data>
+  <data name="SampleRate" xml:space="preserve">
+    <value>Abtastrate</value>
+  </data>
+  <data name="SampleRateDescription" xml:space="preserve">
+    <value>Abtastrate
+
+Ändert die Abtastrate von einen oder mehreren Signale.</value>
+  </data>
+  <data name="Scaling" xml:space="preserve">
+    <value>Skalierung</value>
+  </data>
+  <data name="ScalingDescription" xml:space="preserve">
+    <value>Skalierung
+
+Skaliert eine oder mehrere Signale.</value>
+  </data>
+  <data name="SigChnMapErr" xml:space="preserve">
+    <value>Den Kanälen müssen Signale zugewiesen werden.</value>
+  </data>
+  <data name="SigMappedErr" xml:space="preserve">
+    <value>Der Baustein '{0}' hat keine Signale zugewiesen. </value>
+  </data>
+  <data name="SignalDelay" xml:space="preserve">
+    <value>Signal Verzögerung</value>
+  </data>
+  <data name="SigNameErr" xml:space="preserve">
+    <value>Das Signal benötigt einen Name.</value>
+  </data>
+  <data name="Simple" xml:space="preserve">
+    <value>Einfach</value>
+  </data>
+  <data name="TableMin2ValuesErr" xml:space="preserve">
+    <value>Minimum zwei Punkten werden benötigt.</value>
+  </data>
+  <data name="TableMonotoneErr" xml:space="preserve">
+    <value>Eingangswerte sind nicht monoton Steigend.</value>
+  </data>
+  <data name="TableScaling" xml:space="preserve">
+    <value>Tabellenskalierung</value>
+  </data>
+  <data name="TableScalingErr" xml:space="preserve">
+    <value>Die Skalierungstabelle des Signals '{0}' ist nicht definiert.</value>
+  </data>
+  <data name="TwoPointScaling" xml:space="preserve">
+    <value>Zweipunktskalierung</value>
+  </data>
+  <data name="Voltage" xml:space="preserve">
+    <value>Spannung</value>
+  </data>
+  <data name="Weighted" xml:space="preserve">
+    <value>Gewichtet</value>
+  </data>
+  <data name="ZeroValueErr" xml:space="preserve">
+    <value>Der Wert 0 ist ungültig.</value>
+  </data>
+  <data name="Max10SecDelay" xml:space="preserve">
+    <value>Die Verzögerungszeit muss ein Wert zwischen 0 .. 10000 Millisekunden haben.</value>
+  </data>
+  <data name="NoSigDelayDefinedErr" xml:space="preserve">
+    <value>Minimum ein Signal muss definiert sein.</value>
+  </data>
+  <data name="OnCharExpectedErr" xml:space="preserve">
+    <value>Ex wird nur ein Zeichen erwartet.</value>
+  </data>
+  <data name="WrongFileFormatErr" xml:space="preserve">
+    <value>Falsche CSV-Datei format.</value>
+  </data>
+  <data name="SigObjetErr" xml:space="preserve">
+    <value>Der Baustein {0} akzeptiert keine Signale von Typ Object.</value>
+  </data>
+  <data name="Convert" xml:space="preserve">
+    <value>Umwandlung</value>
+  </data>
+  <data name="SystemFunc" xml:space="preserve">
+    <value>System Funktion</value>
+  </data>
+</root>

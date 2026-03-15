@@ -1,0 +1,17 @@
+﻿49.00815;8.403736;Karlsruhe;town
+48.759874;8.239768;Baden-Baden;town
+54.322712;10.135843;Kiel,town
+54.090164;12.13294;Rostock;town
+53.553452;9.992183;Hamburg;town
+53.074995;8.807065;Bremen;town
+52.372141;9.735668;Hannover;town
+51.512121;7.463568;Dortmund;town
+50.940711;6.959893;Köln;town
+50.111531;8.680487;Frankfurt am Main; town
+51.339741;12.371292;Leipzig;town
+51.050979;13.73364;Dresden;town
+49.450516;11.080463;Nürnberg;town
+48.139137;11.580116;München;town
+47.997202;7.853744;Freiburg im Breisgau;town
+48.777121;9.180762;Stuttgart;town
+48.857473;8.201648;Rastatt;town

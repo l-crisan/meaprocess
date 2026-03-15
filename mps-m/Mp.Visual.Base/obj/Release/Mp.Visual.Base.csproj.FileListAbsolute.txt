@@ -1,0 +1,8 @@
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Release\Mp.Visual.Base.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Release\Mp.Visual.Base.pdb
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Visual.Base\obj\Release\Mp.Visual.Base.csproj.AssemblyReference.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Visual.Base\obj\Release\Mp.Visual.Base.VisualBlock.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Visual.Base\obj\Release\Mp.Visual.Base.csproj.GenerateResource.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Visual.Base\obj\Release\Mp.Visual.Base.csproj.CoreCompileInputs.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Visual.Base\obj\Release\Mp.Visual.Base.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Visual.Base\obj\Release\Mp.Visual.Base.pdb

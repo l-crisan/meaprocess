@@ -1,0 +1,16 @@
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Release\Mp.Mod.OBD2.View.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Release\Mp.Mod.OBD2.View.pdb
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Release\de-DE\Mp.Mod.OBD2.View.resources.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.OBD2.View\obj\Release\Mp.Mod.OBD2.View.csproj.AssemblyReference.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.OBD2.View\obj\Release\Mp.Mod.OBD2.View.OBD2StatusViewDlg.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.OBD2.View\obj\Release\Mp.Mod.OBD2.View.Properties.Resources.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.OBD2.View\obj\Release\Mp.Mod.OBD2.View.Resource.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.OBD2.View\obj\Release\Mp.Mod.OBD2.View.StringResource.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.OBD2.View\obj\Release\Mp.Mod.OBD2.View.OBD2StatusViewDlg.de-DE.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.OBD2.View\obj\Release\Mp.Mod.OBD2.View.StringResource.de-DE.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.OBD2.View\obj\Release\Mp.Mod.OBD2.View.csproj.GenerateResource.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.OBD2.View\obj\Release\Mp.Mod.OBD2.View.csproj.CoreCompileInputs.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.OBD2.View\obj\Release\de-DE\Mp.Mod.OBD2.View.resources.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.OBD2.View\obj\Release\Mp.Mod.OBD2.View.csproj.CopyComplete
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.OBD2.View\obj\Release\Mp.Mod.OBD2.View.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.OBD2.View\obj\Release\Mp.Mod.OBD2.View.pdb

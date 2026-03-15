@@ -1,0 +1,15 @@
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Release\Mp.Mod.Scripting.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Release\Mp.Mod.Scripting.pdb
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Release\de-DE\Mp.Mod.Scripting.resources.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.Scripting\obj\Release\Mp.Mod.Scripting.csproj.AssemblyReference.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.Scripting\obj\Release\Mp.Mod.Scripting.Images.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.Scripting\obj\Release\Mp.Mod.Scripting.StringResource.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.Scripting\obj\Release\Mp.Mod.Scripting.SystemInputPortDlg.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.Scripting\obj\Release\Mp.Mod.Scripting.StringResource.de-DE.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.Scripting\obj\Release\Mp.Mod.Scripting.SystemInputPortDlg.de-DE.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.Scripting\obj\Release\Mp.Mod.Scripting.csproj.GenerateResource.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.Scripting\obj\Release\Mp.Mod.Scripting.csproj.CoreCompileInputs.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.Scripting\obj\Release\de-DE\Mp.Mod.Scripting.resources.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.Scripting\obj\Release\Mp.Mod.Scripting.csproj.CopyComplete
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.Scripting\obj\Release\Mp.Mod.Scripting.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.Scripting\obj\Release\Mp.Mod.Scripting.pdb

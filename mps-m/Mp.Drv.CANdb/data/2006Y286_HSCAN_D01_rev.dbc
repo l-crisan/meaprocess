@@ -1,0 +1,2006 @@
+VERSION "HIPBNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN/4/%%%/4/'%**4NNN///"
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+
+BS_:
+
+BU_: CEM ECM FSM SAS SIMULATOR SUM TCM TOS AFS BCM DEM EPB TST
+
+BO_ 1838 TST_PhysicalRespCEMHS: 8 CEM
+ SG_ TesterPhysicalRespCEMHS : 7|64@0+ (1,0) [0|0] ""  TST
+
+BO_ 2024 TST_PhysicalRespECM: 8 ECM
+ SG_ TesterPhysicalRespECM : 7|64@0+ (1,0) [0|0] ""  TST
+
+BO_ 1899 TST_PhysicalRespFSM: 8 FSM
+ SG_ TesterPhysicalRespFSM : 7|64@0+ (1,0) [0|0] ""  TST
+
+BO_ 1900 TST_PhysicalRespSAS: 8 SAS
+ SG_ TesterPhysicalRespSAS : 7|64@0+ (1,0) [0|0] ""  TST
+
+BO_ 1833 TST_PhysicalRespSUMCCD: 8 SUM
+ SG_ TesterPhysicalRespSUMCCD : 7|64@0+ (1,0) [0|0] ""  TST
+
+BO_ 2025 TST_PhysicalRespTCM: 8 TCM
+ SG_ TesterPhysicalRespTCM : 7|64@0+ (1,0) [0|0] ""  TST
+
+BO_ 1886 TST_PhysicalRespTOS: 8 TOS
+ SG_ TesterPhysicalRespTOS : 7|64@0+ (1,0) [0|0] ""  TST
+
+BO_ 1701 TCM_UUDT2: 8 TCM
+ SG_ UUDTTCMResponse2 : 7|64@0+ (1,0) [0|0] ""  TST
+
+BO_ 1702 TCM_UUDT3: 8 TCM
+ SG_ UUDTTCMResponse3 : 7|64@0+ (1,0) [0|0] ""  TST
+
+BO_ 1703 TCM_UUDT4: 8 TCM
+ SG_ UUDTTCMResponse4 : 7|64@0+ (1,0) [0|0] ""  TST
+
+BO_ 1696 ECM_UUDT1: 8 ECM
+ SG_ UUDTECMResponse1 : 7|64@0+ (1,0) [0|0] ""  TST
+
+BO_ 1697 ECM_UUDT2: 8 ECM
+ SG_ UUDTECMResponse2 : 7|64@0+ (1,0) [0|0] ""  TST
+
+BO_ 1698 ECM_UUDT3: 8 ECM
+ SG_ UUDTECMResponse3 : 7|64@0+ (1,0) [0|0] ""  TST
+
+BO_ 1057 BCM_h_FrP08: 8 BCM
+ SG_ VehicleSpeedOverGroundEstCS : 31|8@0+ (1,0) [0|0] ""  FSM
+ SG_ VehicleSpeedOverGroundEstCS_UB : 18|1@0+ (1,0) [0|1] ""  FSM
+ SG_ VehicleSpeedOverGroundEst : 55|16@0+ (0.01,0) [0|320] ""  CEM,FSM,TCM
+ SG_ VehicleSpeedOverGroundEst_UB : 19|1@0+ (1,0) [0|1] ""  CEM,FSM,TCM
+ SG_ VehicleSpeedOverGroundEstQF : 17|2@0+ (1,0) [0|0] ""  CEM,FSM,TCM
+ SG_ VehicleSpeedOverGroundEstCounter : 39|4@0+ (1,0) [0|15] ""  FSM
+ SG_ VehicleSpeedOverGroundEstCounter_UB : 20|1@0+ (1,0) [0|1] ""  FSM
+ SG_ WTTD_TotAxleTrqReqMax : 35|12@0+ (8,-16376) [-16376|16384] ""  TCM
+
+BO_ 1024 CEM_h_FrS00: 8 CEM
+ SG_ VehicleConfParametersHS : 7|64@0+ (1,0) [0|0] ""  ECM,FSM,SUM,TCM,TOS,AFS,BCM,DEM,EPB
+
+BO_ 1029 CEM_h_FrS01: 8 CEM
+ SG_ VehicleInfoParametersHS : 7|64@0+ (1,0) [0|0] ""  ECM,FSM,SAS,SUM,TCM,TOS,AFS,BCM,DEM,EPB
+
+BO_ 1825 TST_PhysicalReqSUMCCD: 8 TST
+ SG_ TesterPhysicalReqSUMCCD : 7|64@0+ (1,0) [0|0] ""  SUM
+
+BO_ 1830 TST_PhysicalReqCEMHS: 8 TST
+ SG_ TesterPhysicalReqCEMHS : 7|64@0+ (1,0) [0|0] ""  CEM
+
+BO_ 1878 TST_PhysicalReqTOS: 8 TST
+ SG_ TesterPhysicalReqTOS : 7|64@0+ (1,0) [0|0] ""  TOS
+
+BO_ 1888 TST_PhysicalReqBCM: 8 TST
+ SG_ TesterPhysicalReqBCM : 7|64@0+ (1,0) [0|0] ""  BCM
+
+BO_ 1891 TST_PhysicalReqFSM: 8 TST
+ SG_ TesterPhysicalReqFSM : 7|64@0+ (1,0) [0|0] ""  FSM
+
+BO_ 1892 TST_PhysicalReqSAS: 8 TST
+ SG_ TesterPhysicalReqSAS : 7|64@0+ (1,0) [0|0] ""  SAS
+
+BO_ 1227 AFS_h_FrP00: 8 AFS
+ SG_ DiagnosticInfoAFS : 57|2@0+ (1,0) [0|0] ""  CEM
+ SG_ DiagnosticInfoAFS_UB : 58|1@0+ (1,0) [0|1] ""  CEM
+
+BO_ 522 BCM_h_FrP06: 8 BCM
+ SG_ ACCBrakeLightReq : 38|1@0+ (1,0) [0|0] ""  CEM
+ SG_ ACCBrakeTrqReqAck : 33|10@0+ (10,0) [0|10230] ""  FSM
+ SG_ ACCBrakeTrqReqAck_UB : 39|1@0+ (1,0) [0|1] ""  FSM
+ SG_ AWDDeclutch : 55|3@0+ (1,0) [0|0] ""  DEM
+ SG_ AWDDeclutch_UB : 18|1@0+ (1,0) [0|1] ""  DEM
+ SG_ AWDPropShaftTrqReq : 52|13@0+ (1,0) [0|8191] ""  DEM
+ SG_ AWDPropShaftTrqReq_UB : 19|1@0+ (1,0) [0|1] ""  DEM
+ SG_ AWDPropShaftTrqReqQF : 35|2@0+ (1,0) [0|0] ""  DEM
+ SG_ LongAccOverGroundEstQF : 37|2@0+ (1,0) [0|0] ""  FSM
+ SG_ LongAccOverGroundEst : 17|10@0+ (1,0) [0|0] ""  FSM
+ SG_ LongAccOverGroundEst_UB : 20|1@0+ (1,0) [0|1] ""  FSM
+ SG_ OverSteer : 21|1@0+ (1,0) [0|0] ""  DEM
+ SG_ UnderSteer : 22|1@0+ (1,0) [0|0] ""  DEM
+ SG_ TotWheelBrakeTrq : 1|10@0+ (10,0) [0|10230] ""  FSM
+ SG_ TotWheelBrakeTrq_UB : 23|1@0+ (1,0) [0|1] ""  FSM
+ SG_ VehicleStationary : 2|1@0+ (1,0) [0|0] ""  FSM
+ SG_ VehicleStationary_UB : 3|1@0+ (1,0) [0|1] ""  FSM
+
+BO_ 1121 BCM_h_FrP07: 8 BCM
+ SG_ BCS_TerrainMode : 30|3@0+ (1,0) [0|7] ""  TOS
+ SG_ BCS_TerrainModeChangeStatus : 10|3@0+ (1,0) [0|0] ""  TOS
+ SG_ BrakeLightInhibit : 31|1@0+ (1,0) [0|0] ""  CEM
+ SG_ DiagnosticInfoBCM : 12|2@0+ (1,0) [0|0] ""  CEM
+ SG_ DiagnosticInfoBCM_UB : 13|1@0+ (1,0) [0|1] ""  CEM
+ SG_ EBAStatus : 14|1@0+ (1,0) [0|0] ""  CEM
+ SG_ EBAStatus_UB : 15|1@0+ (1,0) [0|1] ""  CEM
+ SG_ KeepNetworkBCM : 0|1@0+ (1,0) [0|0] ""  CEM
+ SG_ KeepNetworkBCM_UB : 1|1@0+ (1,0) [0|1] ""  CEM
+ SG_ OdometerBackUp_BCM : 47|24@0+ (1,0) [0|0] ""  CEM
+ SG_ OdometerBackUp_BCM_UB : 2|1@0+ (1,0) [0|1] ""  CEM
+ SG_ WheelRotationCnt : 23|8@0+ (1,0) [0|255] ""  CEM
+ SG_ WheelRotationCnt_UB : 3|1@0+ (1,0) [0|1] ""  CEM
+
+BO_ 686 CEM_h_FrP03: 8 CEM
+ SG_ DrivingCycleOffTime : 55|16@0+ (0.039062,1) [1|2560.850046] ""  ECM,BCM
+ SG_ DrivingCycleOffTime_UB : 7|1@0+ (1,0) [0|1] ""  ECM,BCM
+ SG_ TrailerConnection : 8|1@0+ (1,0) [0|0] ""  DEM
+ SG_ EvapTemp : 33|10@0+ (0.125,-50) [-50|77.875] ""  ECM
+ SG_ EvapTempQF : 39|2@0+ (1,0) [0|0] ""  ECM
+ SG_ EvapTempSetPt : 17|10@0+ (0.125,-50) [-50|77.875] ""  ECM
+ SG_ EnableAc : 9|1@0+ (1,0) [0|0] ""  ECM
+ SG_ EnableAc_UB : 10|1@0+ (1,0) [0|1] ""  ECM
+ SG_ ReversedGearQF : 23|2@0+ (1,0) [0|0] ""  ECM,FSM,SUM,AFS,BCM,DEM,EPB
+ SG_ ReversedGear : 11|1@0+ (1,0) [0|0] ""  ECM,FSM,SUM,AFS,BCM,DEM,EPB
+ SG_ ReversedGear_UB : 12|1@0+ (1,0) [0|1] ""  ECM,FSM,SUM,AFS,BCM,DEM,EPB
+ SG_ RheostatPositionCmd : 37|4@0+ (1,0) [0|15] ""  SUM,TCM,EPB
+ SG_ SCLSpeedReq : 13|1@0+ (1,0) [0|0] ""  BCM
+ SG_ SCLSpeedReq_UB : 14|1@0+ (1,0) [0|1] ""  BCM
+ SG_ ClimHighIdleSpeedReq : 15|1@0+ (1,0) [0|0] ""  ECM
+ SG_ IndicationIlluminationCmd : 0|1@0+ (1,0) [0|0] ""  FSM,SUM,TCM,AFS,EPB
+ SG_ FuelHatchPopUp : 1|1@0+ (1,0) [0|0] ""  ECM
+ SG_ FuelHatchPopUp_UB : 2|1@0+ (1,0) [0|1] ""  ECM
+ SG_ ManualGearLeverPosition : 3|1@0+ (1,0) [0|0] ""  TOS,BCM
+ SG_ ManualGearLeverPosition_UB : 4|1@0+ (1,0) [0|1] ""  TOS,BCM
+ SG_ CarMode : 21|4@0+ (1,0) [0|0] ""  SUM,TCM
+
+BO_ 653 CEM_h_FrP04: 8 CEM
+ SG_ DSTCSwitch_UB : 3|1@0+ (1,0) [0|1] "" BCM
+ SG_ SWSecurityError : 22|1@0+ (1,0) [0|0] ""  ECM
+ SG_ FuelPumpStatus : 18|3@0+ (1,0) [0|0] ""  ECM
+ SG_ FuelPumpStatus_UB : 23|1@0+ (1,0) [0|1] ""  ECM
+ SG_ CMbBAllowedByMonitor : 8|1@0+ (1,0) [0|0] ""  ECM,FSM,BCM
+ SG_ CMbBAllowedByMonitor_UB : 9|1@0+ (1,0) [0|1] ""  ECM,FSM,BCM
+ SG_ ACCAllowedByMonitor : 10|1@0+ (1,0) [0|0] ""  ECM,FSM,BCM
+ SG_ ACCAllowedByMonitor_UB : 11|1@0+ (1,0) [0|1] ""  ECM,FSM,BCM
+ SG_ ImpactTriggerOutputCEM : 12|1@0+ (1,0) [0|0] ""  ECM
+ SG_ ImpactTriggerOutputCEM_UB : 13|1@0+ (1,0) [0|1] ""  ECM
+ SG_ ParkingBrakeActive : 14|1@0+ (1,0) [0|0] ""  ECM,BCM,DEM
+ SG_ ParkingBrakeActive_UB : 15|1@0+ (1,0) [0|1] ""  ECM,BCM,DEM
+ SG_ IdleSpeedIncrease_El : 0|1@0+ (1,0) [0|0] ""  ECM
+ SG_ IdleSpeedIncrease_El_UB : 1|1@0+ (1,0) [0|1] ""  ECM
+ SG_ OdometerMasterValue : 47|24@0+ (1,0) [0|0] ""  ECM,BCM
+ SG_ OdometerMasterValue_UB : 2|1@0+ (1,0) [0|1] ""  ECM,BCM
+ SG_ RecDegree : 31|7@0+ (1,0) [0|100] ""  ECM
+ SG_ AirFlow : 24|9@0+ (10,0) [0|5110] ""  ECM
+ SG_ TerrainModeReq : 21|3@0+ (1,0) [0|7] ""  ECM,TCM,BCM,DEM
+ SG_ ParkHeaterOnOff : 4|1@0+ (1,0) [0|0] ""  ECM
+ SG_ ParkHeaterOnOff_UB : 5|1@0+ (1,0) [0|1] ""  ECM
+
+BO_ 1894 TST_PhysicalReqDEM: 8 TST
+ SG_ TesterPhysicalReqDEM : 7|64@0+ (1,0) [0|0] ""  DEM
+
+BO_ 1072 ECM_h_FrP06: 8 ECM
+ SG_ EvapTempSetPtInfo : 33|10@0+ (0.125,-50) [-50|77.875] ""  CEM
+ SG_ KeepNetworkECM : 34|1@0+ (1,0) [0|0] ""  CEM
+ SG_ KeepNetworkECM_UB : 35|1@0+ (1,0) [0|1] ""  CEM
+ SG_ ECMChecksumResponse : 31|8@0+ (1,0) [0|255] ""  CEM
+ SG_ ECMChecksumResponse_UB : 36|1@0+ (1,0) [0|1] ""  CEM
+ SG_ EngineWarningInd : 23|8@0+ (1,0) [1|255] ""  CEM
+ SG_ DieselFilterWarmer : 37|1@0+ (1,0) [0|0] ""  CEM
+ SG_ DieselFilterWarmer_UB : 38|1@0+ (1,0) [0|1] ""  CEM
+ SG_ ACPressureHighsideQF : 53|2@0+ (1,0) [0|0] ""  CEM
+ SG_ ACPressureHighside : 15|8@0+ (0.125,0) [0|31.875] ""  CEM
+ SG_ Econometer : 7|8@0+ (200,0) [0|51000] ""  CEM
+ SG_ Econometer_UB : 39|1@0+ (1,0) [0|1] ""  CEM
+ SG_ TotAxleFrictionTrq : 51|12@0+ (8,-16376) [-16376|16384] "" Vector__XXX
+ SG_ TotAxleFrictionTrqQF : 55|2@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 555 ECM_h_FrP07: 8 ECM
+ SG_ CMbBEngineStatus : 23|2@0+ (1,0) [0|0] "" FSM
+ SG_ CMbBEngineStatus_UB : 2|1@0+ (1,0) [0|1] "" FSM
+ SG_ KickDown : 20|1@0+ (1,0) [0|0] ""  TCM
+ SG_ KickDown_UB : 21|1@0+ (1,0) [0|1] ""  TCM
+ SG_ AvailableCrankShaftTrqMax : 33|10@0+ (1,-512) [-512|510] ""  TCM
+ SG_ ClutchPedalPressed : 17|10@0+ (0.1,0) [0|102.3] ""  BCM,EPB
+ SG_ CCActive : 34|1@0+ (1,0) [0|0] ""  CEM,FSM,TCM,BCM
+ SG_ CCActive_UB : 35|1@0+ (1,0) [0|1] ""  CEM,FSM,TCM,BCM
+ SG_ CCMode : 55|3@0+ (1,0) [0|0] ""  CEM,FSM,TCM,BCM
+ SG_ CCMode_UB : 36|1@0+ (1,0) [0|1] ""  CEM,FSM,TCM,BCM
+ SG_ CCOverridden : 37|1@0+ (1,0) [0|0] ""  CEM,FSM,TCM,BCM
+ SG_ CCOverridden_UB : 38|1@0+ (1,0) [0|1] ""  CEM,FSM,TCM,BCM
+ SG_ ACCActiveAllowed : 39|1@0+ (1,0) [0|0] ""  CEM,FSM,BCM
+ SG_ ACCActiveAllowed_UB : 18|1@0+ (1,0) [0|1] ""  CEM,FSM,BCM
+ SG_ IdleSpeed : 52|13@0+ (1,0) [0|8191] ""  CEM,BCM,EPB
+ SG_ IdleSpeed_UB : 19|1@0+ (1,0) [0|1] ""  CEM,BCM,EPB
+ SG_ AvailableCrankShaftTrqMin : 1|10@0+ (1,-512) [-512|510] ""  TCM
+
+BO_ 1042 ECM_h_FrP08: 8 ECM
+ SG_ AmbientAirPressureQF : 14|2@0+ (1,0) [0|0] ""  CEM,TCM
+ SG_ CCResumeReq : 15|1@0+ (1,0) [0|0] ""  FSM
+ SG_ CCResumeReq_UB : 0|1@0+ (1,0) [0|1] ""  FSM
+ SG_ TimeGapMinus : 1|1@0+ (1,0) [0|0] ""  FSM
+ SG_ TimeGapMinus_UB : 2|1@0+ (1,0) [0|1] ""  FSM
+ SG_ TimeGapPlus : 3|1@0+ (1,0) [0|0] ""  FSM
+ SG_ TimeGapPlus_UB : 4|1@0+ (1,0) [0|1] ""  FSM
+ SG_ MaxEngineBrakeReached : 5|1@0+ (1,0) [0|0] ""  FSM
+ SG_ MaxEngineBrakeReached_UB : 6|1@0+ (1,0) [0|1] ""  FSM
+ SG_ CCSetSpeed : 31|8@0+ (1,0) [0|255] ""  CEM,FSM,TCM
+ SG_ CCSetSpeed_UB : 7|1@0+ (1,0) [0|1] ""  CEM,FSM,TCM
+ SG_ CCTracForceReq : 52|13@0+ (1,0) [0|0] ""  TCM
+ SG_ TM_TerrainMode : 55|3@0+ (1,0) [0|7] ""  TOS
+ SG_ TM_TerrainModeChangeStatus : 10|3@0+ (1,0) [0|7] ""  TOS
+ SG_ AvailableCurrentAtIdling : 23|8@0+ (1,0) [0|255] ""  CEM
+ SG_ AmbientTemp : 33|10@0+ (0.25,-128) [-128|127.75] ""  CEM,FSM,TCM,TOS
+ SG_ AmbientTemp_UB : 39|1@0+ (1,0) [0|1] ""  CEM,FSM,TCM,TOS
+ SG_ AmbientTempQF : 12|2@0+ (1,0) [0|0] ""  CEM,FSM,TCM,TOS
+ SG_ AmbientAirPressure : 38|5@0+ (20,500) [500|1120] ""  CEM,TCM
+
+BO_ 1240 ECM_h_FrP09: 8 ECM
+ SG_ CCP_DTO : 7|64@0+ (1,0) [0|0] ""  TST
+
+BO_ 1700 TCM_UUDT1: 8 TCM
+ SG_ UUDTTCMResponse1 : 7|64@0+ (1,0) [0|0] ""  TST
+
+BO_ 1081 EPB_h_FrP00: 8 EPB
+ SG_ EPBRedTellTaleActivation : 47|2@0+ (1,0) [0|0] ""  CEM
+ SG_ EPBRedTellTaleActivation_UB : 29|1@0+ (1,0) [0|1] ""  CEM
+ SG_ EPBSwitchActivated : 50|3@0+ (1,0) [0|0] ""  BCM
+ SG_ EPBSwitchActivated_UB : 35|1@0+ (1,0) [0|1] ""  BCM
+ SG_ EPBBrakeLightReq : 24|1@0+ (1,0) [0|0] ""  CEM
+ SG_ HWLitRedLamp : 25|1@0+ (1,0) [0|0] ""  CEM
+ SG_ ServiceBrakeOperationReq : 63|8@0+ (0.01,0) [0|2.54] ""  BCM
+ SG_ ServiceBrakeOperationReq_UB : 26|1@0+ (1,0) [0|1] ""  BCM
+ SG_ DiagnosticInfoEPB : 45|2@0+ (1,0) [0|0] ""  CEM
+ SG_ DiagnosticInfoEPB_UB : 27|1@0+ (1,0) [0|1] ""  CEM
+ SG_ EPBBrakeTrqReq : 28|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPBFailure : 52|2@0+ (1,0) [0|0] ""  CEM
+ SG_ EPBFailure_UB : 36|1@0+ (1,0) [0|1] ""  CEM
+ SG_ EPBMessageReq : 54|2@0+ (1,0) [0|0] ""  CEM
+ SG_ EPBMessageReq_UB : 37|1@0+ (1,0) [0|1] ""  CEM
+ SG_ EPBMessage : 55|1@0+ (1,0) [0|0] ""  CEM
+ SG_ EPBMessage_UB : 32|1@0+ (1,0) [0|1] ""  CEM
+ SG_ EPBStatus : 41|2@0+ (1,0) [0|0] ""  CEM
+ SG_ EPBStatus_UB : 38|1@0+ (1,0) [0|1] ""  CEM
+ SG_ EPBWarningBuzzer : 43|2@0+ (1,0) [0|0] ""  CEM
+ SG_ EPBWarningBuzzer_UB : 39|1@0+ (1,0) [0|1] ""  CEM
+ SG_ EPBWarning : 33|1@0+ (1,0) [0|0] ""  CEM
+ SG_ EPBWarning_UB : 34|1@0+ (1,0) [0|1] ""  CEM
+
+BO_ 1907 TST_PhysicalReqEPB: 8 TST
+ SG_ TesterPhysicalReqEPB : 7|64@0+ (1,0) [0|0] ""  EPB
+
+BO_ 368 FSM_h_FrP03: 8 FSM
+ SG_ ACCBrakeTrqReq : 33|10@0+ (10,0) [0|10230] ""  CEM,BCM
+ SG_ ACCBrakeTrqReq_UB : 38|1@0+ (1,0) [0|1] ""  CEM,BCM
+ SG_ ACCBrakeReqCounter : 37|4@0+ (1,0) [0|15] ""  BCM
+ SG_ ACCBrakeReqCounter_UB : 20|1@0+ (1,0) [0|1] ""  BCM
+ SG_ ACCBrakeReqCS : 31|8@0+ (1,0) [0|0] ""  BCM
+ SG_ ACCBrakeReqCS_UB : 39|1@0+ (1,0) [0|1] ""  BCM
+ SG_ ACCBrakeBoosterPrefill : 21|1@0+ (1,0) [0|0] ""  BCM
+ SG_ ACCBrakeBoosterPrefill_UB : 22|1@0+ (1,0) [0|1] ""  BCM
+ SG_ CurrentFCWSetting : 55|16@0+ (1,0) [0|0] ""  CEM
+ SG_ CurrentFCWSetting_UB : 23|1@0+ (1,0) [0|1] ""  CEM
+ SG_ ACCTimeGap : 19|4@0+ (1,0) [0|0] ""  CEM
+ SG_ ACCTimeGap_UB : 8|1@0+ (1,0) [0|1] ""  CEM
+ SG_ ACCEPBReq : 9|1@0+ (1,0) [0|0] ""  EPB
+
+BO_ 1214 SAS_h_FrP02: 8 SAS
+ SG_ DiagnosticInfoSAS : 57|2@0+ (1,0) [0|0] ""  CEM
+ SG_ DiagnosticInfoSAS_UB : 58|1@0+ (1,0) [0|1] ""  CEM
+
+BO_ 1068 SUM_h_FrP01: 8 SUM
+ SG_ SuspPositionFrL : 50|11@0+ (2,-4) [-4|4090] ""  AFS
+ SG_ SuspPositionFrL_UB : 55|1@0+ (1,0) [0|1] ""  AFS
+ SG_ SuspPositionFrLQF : 52|2@0+ (1,0) [0|0] ""  AFS
+ SG_ SuspPositionFrRQF : 54|2@0+ (1,0) [0|0] ""  AFS
+ SG_ SuspPositionFrR : 34|11@0+ (2,-4) [-4|4090] ""  AFS
+ SG_ SuspPositionReLQF : 36|2@0+ (1,0) [0|0] ""  AFS
+ SG_ SuspPositionReRQF : 38|2@0+ (1,0) [0|0] ""  AFS
+ SG_ SuspPositionReL : 18|11@0+ (2,-4) [-4|4090] ""  AFS
+ SG_ SuspPositionReR : 2|11@0+ (2,-4) [-4|4090] ""  AFS
+
+BO_ 2015 TST_FunctionalReqHS: 8 TST
+ SG_ TesterFunctionalReqHS : 7|64@0+ (1,0) [0|0] ""  CEM,ECM,FSM,SAS,SUM,TCM,TOS,AFS,BCM,DEM,EPB
+
+BO_ 1201 TCM_h_FrP03: 8 TCM
+ SG_ DiagnosticInfoTCM : 55|2@0+ (1,0) [0|0] ""  CEM
+ SG_ DiagnosticInfoTCM_UB : 32|1@0+ (1,0) [0|1] ""  CEM
+ SG_ RM_TerrainMode : 53|3@0+ (1,0) [0|7] ""  TOS
+ SG_ RM_TerrainModeChangeStatus : 42|3@0+ (1,0) [0|7] ""  TOS
+ SG_ TargetEg_rpm : 50|11@0+ (1,0) [0|2000] "" Vector__XXX
+ SG_ LockedInP : 33|1@0+ (1,0) [0|0] ""  CEM
+ SG_ LockedInP_UB : 34|1@0+ (1,0) [0|1] ""  CEM
+ SG_ GearboxServiceRequired : 47|2@0+ (1,0) [0|0] ""  CEM
+ SG_ GearboxServiceRequired_UB : 35|1@0+ (1,0) [0|1] ""  CEM
+ SG_ Gear : 45|3@0+ (1,0) [0|0] ""  CEM,EPB
+ SG_ Gear_UB : 36|1@0+ (1,0) [0|1] ""  CEM,EPB
+
+BO_ 1148 TOS__h_FrP01: 8 TOS
+ SG_ CCP_DAQ_TOS : 7|64@0+ (1,0) [0|0] ""  TST
+
+BO_ 1161 TOS__h_FrP02: 8 TOS
+ SG_ CCP_DTO_TOS : 7|64@0+ (1,0) [0|0] ""  TST
+
+BO_ 2016 TST_PhysicalReqECM: 8 TST
+ SG_ TesterPhysicalReqECM : 7|64@0+ (1,0) [0|0] ""  ECM
+
+BO_ 2017 TST_PhysicalReqTCM: 8 TST
+ SG_ TesterPhysicalReqTCM : 7|64@0+ (1,0) [0|0] ""  TCM
+
+BO_ 1914 TST_PhysicalRespAFS: 8 AFS
+ SG_ TesterPhysicalRespAFS : 7|64@0+ (1,0) [0|0] ""  TST
+
+BO_ 1896 TST_PhysicalRespBCM: 8 BCM
+ SG_ TesterPhysicalRespBCM : 7|64@0+ (1,0) [0|0] ""  TST
+
+BO_ 1902 TST_PhysicalRespDEM: 8 DEM
+ SG_ TesterPhysicalRespDEM : 7|64@0+ (1,0) [0|0] ""  TST
+
+BO_ 1915 TST_PhysicalRespEPB: 8 EPB
+ SG_ TesterPhysicalRespEPB : 7|64@0+ (1,0) [0|0] ""  TST
+
+BO_ 0 CEM_h_FrP00: 8 CEM
+ SG_ FrontbucklePassenger : 23|2@0+ (1,0) [0|0] ""  FSM
+ SG_ FrontbucklePassenger_UB : 1|1@0+ (1,0) [0|1] ""  FSM
+ SG_ DirectionIndication : 9|2@0+ (1,0) [0|0] ""  FSM
+ SG_ DirectionIndication_UB : 2|1@0+ (1,0) [0|1] ""  FSM
+ SG_ AccPedalAnalogPosition : 33|10@0+ (0.1,0) [0|102.3] ""  ECM
+ SG_ AccPedalAnalogPosition_UB : 39|1@0+ (1,0) [0|1] ""  ECM
+ SG_ AccPedalAnalogPositionQF : 19|2@0+ (1,0) [0|0] ""  ECM
+ SG_ ClimCoolFanSpeedReq : 38|5@0+ (1,0) [0|24] ""  ECM
+ SG_ ClutchPedalAnalogPosition : 17|10@0+ (0.1,0) [0|102.3] ""  ECM,BCM
+ SG_ ClutchPedalAnalogPositionQF : 21|2@0+ (1,0) [0|0] ""  ECM,BCM
+ SG_ FCWSetting : 55|16@0+ (1,0) [0|0] ""  FSM
+ SG_ FCWSetting_UB : 10|1@0+ (1,0) [0|1] ""  FSM
+ SG_ ImmoKeyStatus : 11|1@0+ (1,0) [0|0] ""  ECM
+ SG_ ImmoKeyStatus_UB : 12|1@0+ (1,0) [0|1] ""  ECM
+ SG_ SCLEngineEnable : 13|1@0+ (1,0) [0|0] ""  ECM
+ SG_ SCLEngineEnable_UB : 14|1@0+ (1,0) [0|1] ""  ECM
+ SG_ LoadVehicleSettings : 15|1@0+ (1,0) [0|0] ""  FSM
+ SG_ LoadVehicleSettings_UB : 0|1@0+ (1,0) [0|1] ""  FSM
+ SG_ WiperSpeedInfo : 7|5@0+ (1,0) [0|0] "" BCM, FSM
+
+BO_ 1906 TST_PhysicalReqAFS: 8 TST
+ SG_ TesterPhysicalReqAFS : 7|64@0+ (1,0) [0|0] ""  AFS
+
+BO_ 294 SAS_h_FrP00: 8 SAS
+ SG_ SteeringAngleCRShortFilt : 22|15@0+ (0.06104,0) [0|2000.09768] ""  SUM
+ SG_ SteeringAngle : 54|15@0+ (0.04395,0) [0|1440.10965] ""  CEM,FSM,SUM,TCM,TOS,AFS,BCM,DEM
+ SG_ SteeringAngle_UB : 39|1@0+ (1,0) [0|1] ""  CEM,FSM,SUM,TCM,TOS,AFS,BCM,DEM
+ SG_ SteeringAngleStatus : 5|2@0+ (1,0) [0|0] ""  FSM,SUM,TCM,BCM,DEM
+ SG_ SteeringAngleStatus_UB : 55|1@0+ (1,0) [0|1] ""  FSM,SUM,TCM,BCM,DEM
+ SG_ SteeringAngleCR : 38|15@0+ (0.06104,0) [0|2000.09768] ""  FSM,SUM,BCM,DEM
+ SG_ SteeringAngleCS : 15|8@0+ (1,0) [0|255] ""  FSM,SUM,BCM
+ SG_ SteeringAngleCounter : 3|4@0+ (1,0) [0|15] ""  FSM,SUM,BCM
+ SG_ SteeringAngleCRSign : 23|1@0+ (1,0) [0|0] ""  FSM,SUM,BCM,DEM
+ SG_ SteeringAngleSign : 6|1@0+ (1,0) [0|0] ""  FSM,SUM,AFS,BCM,DEM
+
+BO_ 457 FSM_h_FrP00: 8 FSM
+ SG_ CMbBEBASensReq : 39|2@0+ (1,0) [0|0] ""  CEM,BCM
+ SG_ CMbBEBASensReq_UB : 11|1@0+ (1,0) [0|1] ""  CEM,BCM
+ SG_ CMbBBrakePrechargeReq : 55|2@0+ (1,0) [0|0] ""  CEM,BCM
+ SG_ CMbBBrakePrechargeReq_UB : 10|1@0+ (1,0) [0|1] ""  CEM,BCM
+ SG_ CMbBBrakeTrqReq : 33|10@0+ (10,0) [0|10230] ""  CEM,BCM
+ SG_ CMbBBrakeTrqReq_UB : 9|1@0+ (1,0) [0|1] ""  CEM,BCM
+ SG_ CMbBReqCS : 31|8@0+ (1,0) [0|0] ""  BCM
+ SG_ CMbBReqCS_UB : 21|1@0+ (1,0) [0|1] ""  BCM
+ SG_ CMbBAllowed : 23|1@0+ (1,0) [0|0] ""  ECM,BCM
+ SG_ CMbBAllowed_UB : 8|1@0+ (1,0) [0|1] ""  ECM,BCM
+ SG_ CMbBEngineBrakeReqCounter : 37|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ CMbBEngineBrakeReqCounter_UB : 12|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ CMbBEngineBrakeReq : 13|1@0+ (1,0) [0|0] ""  CEM,ECM
+ SG_ CMbBEngineBrakeReq_UB : 14|1@0+ (1,0) [0|1] ""  CEM,ECM
+ SG_ CMbBEngineBrakeReqInv : 15|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMbBEngineBrakeReqInv_UB : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ACCMaxAccelerationReq : 49|10@0+ (0.01,-5) [-5|5.23] ""  CEM,ECM
+ SG_ ACCMaxAccelerationReq_UB : 16|1@0+ (1,0) [0|1] ""  CEM,ECM
+ SG_ ACCCancel : 17|1@0+ (1,0) [0|0] ""  ECM
+ SG_ ACCCancel_UB : 18|1@0+ (1,0) [0|1] ""  ECM
+ SG_ ACCDenied : 19|1@0+ (1,0) [0|0] ""  ECM
+ SG_ ACCDenied_UB : 20|1@0+ (1,0) [0|1] ""  ECM
+ SG_ CMbBReqCounter : 53|4@0+ (1,0) [0|15] ""  BCM
+ SG_ CMbBReqCounter_UB : 22|1@0+ (1,0) [0|1] ""  BCM
+
+BO_ 32 CEM_h_FrP01: 8 CEM
+ SG_ StorePhysicalSettings : 6|1@0+ (1,0) [0|0] ""  FSM
+ SG_ StorePhysicalSettings_UB : 7|1@0+ (1,0) [0|1] ""  FSM
+ SG_ CenterStackBtnsPressed : 10|1@0+ (1,0) [0|0] ""  FSM
+ SG_ CenterStackBtnsPressed_UB : 11|1@0+ (1,0) [0|1] ""  FSM
+ SG_ CVDistanceCenter : 63|8@0+ (1,0) [0|0] ""  FSM
+ SG_ CVDistanceCenter_UB : 12|1@0+ (1,0) [0|1] ""  FSM
+ SG_ CVDistanceLeft : 55|8@0+ (1,0) [0|0] ""  FSM
+ SG_ CVDistanceLeft_UB : 13|1@0+ (1,0) [0|1] ""  FSM
+ SG_ CVDistanceRight : 47|8@0+ (1,0) [0|0] ""  FSM
+ SG_ CVDistanceRight_UB : 14|1@0+ (1,0) [0|1] ""  FSM
+ SG_ CVSpeedCenter : 39|8@0+ (1,0) [0|0] ""  FSM
+ SG_ CVSpeedCenter_UB : 15|1@0+ (1,0) [0|1] ""  FSM
+ SG_ CVSpeedRight : 31|8@0+ (1,0) [0|0] ""  FSM
+ SG_ CVSpeedRight_UB : 0|1@0+ (1,0) [0|1] ""  FSM
+ SG_ CVSpeedLeft : 23|8@0+ (1,0) [0|0] ""  FSM
+ SG_ CVSpeedLeft_UB : 2|1@0+ (1,0) [0|1] ""  FSM
+ SG_ CVSensorStatus : 9|2@0+ (1,0) [0|0] ""  FSM
+ SG_ CVSensorStatus_UB : 1|1@0+ (1,0) [0|1] ""  FSM
+ SG_ TelephoneActive : 3|1@0+ (1,0) [0|0] ""  FSM
+ SG_ TelephoneActive_UB : 4|1@0+ (1,0) [0|1] ""  FSM
+ SG_ SteeringWheelButtonsPressed : 5|1@0+ (1,0) [0|0] ""  FSM
+
+BO_ 228 ECM_h_FrP00: 8 ECM
+ SG_ CCLamp : 3|2@0+ (1,0) [0|0] ""  CEM
+ SG_ CrankShaftTrq : 1|10@0+ (1,-512) [-512|510] ""  TCM,EPB
+ SG_ CrankShaftTrq_UB : 7|1@0+ (1,0) [0|1] ""  TCM,EPB
+ SG_ CrankShaftTrqQF : 5|2@0+ (1,0) [0|0] ""  TCM,EPB
+
+BO_ 147 TCM_h_FrP00: 8 TCM
+ SG_ TrqRatio : 31|8@0+ (0.14,0) [0|4.9] ""  ECM,BCM,EPB
+ SG_ TrqRatio_UB : 39|1@0+ (1,0) [0|1] ""  ECM,BCM,EPB
+ SG_ TrqRatioQF : 38|2@0+ (1,0) [0|0] ""  ECM,BCM
+ SG_ TransmissionIdleTrq : 33|10@0+ (1,0) [0|0] ""  ECM
+ SG_ GearLeverPosition : 55|3@0+ (1,0) [0|0] ""  CEM,ECM,FSM,AFS,BCM
+ SG_ GearLeverPosition_UB : 2|1@0+ (1,0) [0|1] ""  CEM,ECM,FSM,AFS,BCM
+ SG_ TargetGear : 36|3@0+ (1,0) [0|0] ""  CEM,BCM
+ SG_ TotAxleGearRatio : 23|8@0+ (0.0625,0) [0|1] ""  BCM
+ SG_ TotAxleGearRatio_UB : 3|1@0+ (1,0) [0|1] ""  BCM
+ SG_ TotAxleTargetGearRatio : 15|8@0+ (0.0625,0) [0|1] ""  ECM,BCM
+ SG_ TotAxleTargetGearRatio_UB : 4|1@0+ (1,0) [0|1] ""  ECM,BCM
+ SG_ GearLeverPositionQF : 1|2@0+ (1,0) [0|0] ""  CEM,ECM,FSM,AFS,BCM
+ SG_ GearBoxInputSpeed : 52|13@0+ (1,0) [0|8191] ""  ECM
+ SG_ FuelCutEnable : 5|1@0+ (1,0) [0|0] ""  ECM
+ SG_ FuelCutEnable_UB : 6|1@0+ (1,0) [0|1] ""  ECM
+
+BO_ 65 FSM_h_FrP01: 8 FSM
+ SG_ CADSStatus : 31|16@0+ (1,0) [0|0] ""  CEM
+ SG_ CADSStatus_UB : 1|1@0+ (1,0) [0|1] ""  CEM
+ SG_ CADSWarning : 23|8@0+ (1,0) [0|255] ""  CEM
+ SG_ CADSWarning_UB : 2|1@0+ (1,0) [0|1] ""  CEM
+ SG_ FCWMute : 3|1@0+ (1,0) [0|0] ""  CEM
+ SG_ FCWMute_UB : 4|1@0+ (1,0) [0|1] ""  CEM
+ SG_ FSMMonitorResponse : 15|8@0+ (1,0) [0|0] ""  CEM
+ SG_ FSMMonitorResponse_UB : 5|1@0+ (1,0) [0|1] ""  CEM
+ SG_ CADSMsg : 47|24@0+ (1,0) [0|0] ""  CEM
+ SG_ CADSMsg_UB : 0|1@0+ (1,0) [0|1] ""  CEM
+
+BO_ 424 BCM_h_FrP00: 8 BCM
+ SG_ YawRateActual : 51|12@0+ (0.03663,-75) [-75|74.99985] ""  FSM,SUM,DEM
+ SG_ YawRateActual_UB : 36|1@0+ (1,0) [0|1] ""  FSM,SUM,DEM
+ SG_ YawRateQF : 53|2@0+ (1,0) [0|0] ""  FSM,SUM,DEM
+ SG_ YawRateRequested : 35|12@0+ (0.03663,-75) [-75|74.99985] ""  SUM,DEM
+ SG_ YawRateRequested_UB : 37|1@0+ (1,0) [0|1] ""  SUM,DEM
+ SG_ YawStabilityIndex : 0|9@0+ (1,0) [0|0] ""  SUM
+ SG_ YawStabilityIndex_UB : 38|1@0+ (1,0) [0|1] ""  SUM
+ SG_ LateralAccelerationQF : 55|2@0+ (1,0) [0|0] ""  FSM,SUM,TCM,DEM
+ SG_ LateralAcceleration : 17|10@0+ (0.035,-17.9) [-17.9|17.905] ""  FSM,SUM,TCM,DEM
+ SG_ LateralAcceleration_UB : 39|1@0+ (1,0) [0|1] ""  FSM,SUM,TCM,DEM
+
+BO_ 392 SUM_h_FrP00: 8 SUM
+ SG_ VertWheelAccelFrL : 49|10@0+ (0.5,-512) [-512|-256] ""  BCM
+ SG_ VertWheelAccelFrL_UB : 38|1@0+ (1,0) [0|1] ""  BCM
+ SG_ VertWheelAccelFrR : 33|10@0+ (0.5,-512) [-512|-256] ""  BCM
+ SG_ VertWheelAccelFrR_UB : 39|1@0+ (1,0) [0|1] ""  BCM
+ SG_ CCDControlMode : 29|3@0+ (1,0) [0|0] ""  CEM
+ SG_ CCDSwitchActual : 55|2@0+ (1,0) [0|0] ""  CEM
+ SG_ VertWheelAccelFrLQF : 51|2@0+ (1,0) [0|0] ""  BCM
+ SG_ VertWheelAccelFrRQF : 53|2@0+ (1,0) [0|0] ""  BCM
+ SG_ SUMWarnings : 35|2@0+ (1,0) [0|0] ""  CEM
+ SG_ SUMWarnings_UB : 24|1@0+ (1,0) [0|1] ""  CEM
+ SG_ CCDSwitchPerso : 26|1@0+ (1,0) [0|0] ""  CEM
+ SG_ DiagnosticInfoSUMCCD : 37|2@0+ (1,0) [0|0] ""  CEM
+ SG_ DiagnosticInfoSUMCCD_UB : 25|1@0+ (1,0) [0|1] ""  CEM
+
+BO_ 326 TCM_h_FrP01: 8 TCM
+ SG_ CrankShaftTrqEstLim : 33|10@0+ (1,-512) [-512|510] ""  ECM
+ SG_ CrankShaftTrqEstLim_UB : 21|1@0+ (1,0) [0|1] ""  ECM
+ SG_ CrankShaftTrqFastLimReq : 17|10@0+ (1,-512) [-512|510] ""  ECM
+ SG_ CrankShaftTrqFastLimReq_UB : 22|1@0+ (1,0) [0|1] ""  ECM
+ SG_ EngineSpeedCtrl : 3|1@0+ (1,0) [0|0] ""  ECM
+ SG_ EngineSpeedCtrl_UB : 4|1@0+ (1,0) [0|1] ""  ECM
+ SG_ EngineSpeedReq : 52|13@0+ (1,0) [0|0] ""  ECM
+ SG_ EngineSpeedReq_UB : 20|1@0+ (1,0) [0|1] ""  ECM
+ SG_ GearBoxTrqLossQF : 54|2@0+ (1,0) [0|0] ""  ECM
+ SG_ Lockup : 39|2@0+ (1,0) [0|0] ""  ECM,BCM
+ SG_ Lockup_UB : 55|1@0+ (1,0) [0|1] ""  ECM,BCM
+ SG_ TCMText : 37|4@0+ (1,0) [0|0] ""  CEM
+ SG_ TransmissionStartLockQF : 19|2@0+ (1,0) [0|0] ""  ECM
+ SG_ GearBoxTrqLoss : 1|10@0+ (1,0) [0|1023] ""  ECM
+ SG_ GearBoxTrqLoss_UB : 23|1@0+ (1,0) [0|1] ""  ECM
+ SG_ TransmissionStartLock : 2|1@0+ (1,0) [0|0] ""  ECM
+ SG_ GearEngagement : 5|1@0+ (1,0) [0|0] ""  ECM
+ SG_ GearEngagement_UB : 6|1@0+ (1,0) [0|1] ""  ECM
+ SG_ NeutralControl : 7|1@0+ (1,0) [0|0] ""  ECM
+
+BO_ 261 ECM_h_FrP02: 8 ECM
+ SG_ ClutchPedalPositionQF : 35|2@0+ (1,0) [0|0] ""  SUM,EPB
+ SG_ ClutchPedalPosition : 17|10@0+ (0.1,0) [0|102.3] ""  SUM,EPB
+ SG_ ClutchPedalPosition_UB : 18|1@0+ (1,0) [0|1] ""  SUM,EPB
+ SG_ BrakePedalSwitchQF : 37|2@0+ (1,0) [0|0] ""  EPB
+ SG_ BrakePedalSwitch : 19|1@0+ (1,0) [0|0] ""  CEM,FSM,BCM,EPB
+ SG_ BrakePedalSwitch_UB : 20|1@0+ (1,0) [0|1] ""  CEM,FSM,BCM,EPB
+ SG_ TrqRatioEst : 15|8@0+ (0.14,0) [0|4.9] ""  BCM
+ SG_ TrqRatioEst_UB : 21|1@0+ (1,0) [0|1] ""  BCM
+ SG_ TrqLimitDelay : 6|7@0+ (10,0) [0|1270] ""  TCM
+ SG_ TrqLimitDelay_UB : 22|1@0+ (1,0) [0|1] ""  TCM
+ SG_ CCFollowMode : 23|1@0+ (1,0) [0|0] ""  TCM
+ SG_ CCFollowMode_UB : 7|1@0+ (1,0) [0|1] ""  TCM
+ SG_ BrakePedalActive : 55|1@0+ (1,0) [0|0] ""  CEM,TCM,BCM,DEM,EPB
+ SG_ BrakePedalActive_UB : 38|1@0+ (1,0) [0|1] ""  CEM,TCM,BCM,DEM,EPB
+ SG_ EngineSpeed : 52|13@0+ (1,0) [0|8191] ""  CEM,SUM,TCM,BCM,DEM,EPB
+ SG_ EngineSpeed_UB : 39|1@0+ (1,0) [0|1] ""  CEM,SUM,TCM,BCM,DEM,EPB
+ SG_ EngineSpeedQF : 54|2@0+ (1,0) [0|0] ""  CEM,SUM,TCM,BCM,DEM,EPB
+ SG_ SCEngineSpeedCR : 33|10@0+ (1,-512) [-512|511] ""  SUM,BCM
+
+BO_ 359 ECM_h_FrP03: 8 ECM
+ SG_ ImmoBCMIDReq_UB : 1|1@0+ (1,0) [0|1] "" BCM
+ SG_ DriverTotAxleTrqReq : 51|12@0+ (8,-16376) [-16376|16384] ""  SUM,TCM,BCM,DEM,EPB
+ SG_ DriverTotAxleTrqReq_UB : 55|1@0+ (1,0) [0|1] ""  SUM,TCM,BCM,DEM,EPB
+ SG_ TotAxleTrq : 35|12@0+ (8,-16376) [-16376|16384] ""  SUM,BCM,DEM,EPB
+ SG_ TotAxleTrq_UB : 0|1@0+ (1,0) [0|1] ""  SUM,BCM,DEM,EPB
+ SG_ TotAxleTrqMin : 19|12@0+ (1,0) [0|0] ""  BCM
+ SG_ TotAxleTrqQF : 37|2@0+ (1,0) [0|0] ""  SUM,BCM,DEM,EPB
+ SG_ BrakePedalPositionQF : 39|2@0+ (1,0) [0|0] ""  FSM,TCM,EPB
+ SG_ BrakePedalPosition : 15|8@0+ (0.4,0) [0|102] ""  FSM,TCM,EPB
+ SG_ BrakePedalPosition_UB : 2|1@0+ (1,0) [0|1] ""  FSM,TCM,EPB
+ SG_ MaxTrqRpmTargetQF : 21|2@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ MaxTrqRpmTarget : 3|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ ACCompressorClutchStatus : 54|3@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ ClutchPedalSwitchQF : 23|2@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ ClutchPedalSwitch : 4|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ EngineIdleState : 5|1@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 718 BCM_h_FrP01: 8 BCM
+ SG_ BrakePedalAnalogPosition : 33|10@0+ (0.1,0) [0|102.3] ""  CEM,ECM
+ SG_ BrakePedalAnalogPosition_UB : 39|1@0+ (1,0) [0|1] ""  CEM,ECM
+ SG_ BrakePedalAnalogPositionQF : 17|2@0+ (1,0) [0|0] ""  CEM,ECM
+ SG_ TotAxleTrqReqMax : 51|12@0+ (8,-16376) [-16376|16384] ""  ECM,TCM
+ SG_ TotAxleTrqReqMax_UB : 22|1@0+ (1,0) [0|1] ""  ECM,TCM
+ SG_ DSTCWarningLamp : 19|2@0+ (1,0) [0|0] ""  CEM,ECM,EPB
+ SG_ DSTCWarningLamp_UB : 23|1@0+ (1,0) [0|1] ""  CEM,ECM,EPB
+ SG_ BCMText : 38|5@0+ (1,0) [0|0] ""  CEM
+ SG_ BCMText_UB : 10|1@0+ (1,0) [0|1] ""  CEM
+ SG_ ABSWarningLamp : 21|2@0+ (1,0) [0|0] ""  CEM,TCM,EPB
+ SG_ ABSWarningLamp_UB : 11|1@0+ (1,0) [0|1] ""  CEM,TCM,EPB
+ SG_ DSTCSwitchIndication : 8|1@0+ (1,0) [0|0] ""  CEM
+ SG_ DSTCSwitchIndication_UB : 9|1@0+ (1,0) [0|1] ""  CEM
+ SG_ BrakeWarningLamp : 12|1@0+ (1,0) [0|0] ""  CEM,EPB
+ SG_ BrakeWarningLamp_UB : 13|1@0+ (1,0) [0|1] ""  CEM,EPB
+
+BO_ 620 ECM_h_FrP04: 8 ECM
+ SG_ DriverCrankShaftTrqReq : 49|10@0+ (1,-512) [-512|510] ""  TCM
+ SG_ DriverCrankShaftTrqReq_UB : 55|1@0+ (1,0) [0|1] ""  TCM
+ SG_ AccPedalPositionQF : 54|2@0+ (1,0) [0|0] ""  CEM,FSM,SUM,TCM,BCM,DEM,EPB
+ SG_ AccPedalPosition : 33|10@0+ (0.1,0) [0|102.3] ""  CEM,FSM,SUM,TCM,BCM,DEM,EPB
+ SG_ AccPedalPosition_UB : 36|1@0+ (1,0) [0|1] ""  CEM,FSM,SUM,TCM,BCM,DEM,EPB
+ SG_ AccPedalPositionCR : 15|8@0+ (0.7843,-100) [-100|99.9965] ""  SUM,TCM,BCM,EPB
+ SG_ AccPedalPositionCR_UB : 37|1@0+ (1,0) [0|1] ""  SUM,TCM,BCM,EPB
+ SG_ EngineCoolantTempQF : 35|2@0+ (1,0) [0|0] ""  CEM,TCM
+ SG_ EngineCoolantTempQF_UB : 39|1@0+ (1,0) [0|1] ""  CEM,TCM
+ SG_ EngineCoolantTemp : 7|8@0+ (1,-60) [-60|195] ""  CEM,TCM
+ SG_ EngineCoolantTemp_UB : 38|1@0+ (1,0) [0|1] ""  CEM,TCM
+ SG_ EngineState : 52|3@0+ (1,0) [0|0] ""  CEM,TCM,TOS,BCM
+ SG_ EngineState_UB : 18|1@0+ (1,0) [0|1] ""  CEM,TCM,TOS,BCM
+ SG_ ShiftUpTelltale : 19|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ OilPressureWarning : 20|1@0+ (1,0) [0|0] ""  CEM
+ SG_ GlowIndication : 21|1@0+ (1,0) [0|0] ""  CEM
+ SG_ ArbitratedCrankShaftTrq : 17|10@0+ (1,-512) [-512|510] ""  TCM
+
+BO_ 490 BCM_h_FrP02: 8 BCM
+ SG_ WheelSpeedFrRQF : 3|2@0+ (1,0) [0|0] ""  FSM,TCM,DEM,EPB
+ SG_ LongAcceleration : 17|10@0+ (0.035,-17.9) [-17.9|17.905] ""  FSM,SUM,TCM,DEM
+ SG_ LongAcceleration_UB : 55|1@0+ (1,0) [0|1] ""  FSM,SUM,TCM,DEM
+ SG_ LongAccelerationQF : 23|2@0+ (1,0) [0|0] ""  FSM,SUM,TCM,DEM
+ SG_ SensorClusterCounter : 21|4@0+ (1,0) [0|0] ""  FSM
+ SG_ SensorClusterCounter_UB : 7|1@0+ (1,0) [0|1] ""  FSM
+ SG_ SensorClusterCS : 15|8@0+ (1,0) [0|255] ""  FSM
+ SG_ SensorClusterCS_UB : 6|1@0+ (1,0) [0|1] ""  FSM
+ SG_ WheelSpeedFrL : 54|15@0+ (0.01,0) [0|327.67] ""  FSM,TCM,DEM,EPB
+ SG_ WheelSpeedFrL_UB : 39|1@0+ (1,0) [0|1] ""  FSM,TCM,DEM,EPB
+ SG_ WheelSpeedFrR : 38|15@0+ (0.01,0) [0|327.67] ""  FSM,TCM,DEM,EPB
+ SG_ WheelSpeedFrR_UB : 4|1@0+ (1,0) [0|1] ""  FSM,TCM,DEM,EPB
+ SG_ WheelSpeedFrLQF : 1|2@0+ (1,0) [0|0] ""  FSM,TCM,DEM,EPB
+ SG_ EBAActivation : 5|1@0+ (1,0) [0|0] ""  SUM
+
+BO_ 98 BCM_h_FrP03: 8 BCM
+ SG_ ABSMode : 8|1@0+ (1,0) [0|0] ""  FSM,SUM,TCM,DEM,EPB
+ SG_ ABSMode_UB : 9|1@0+ (1,0) [0|1] ""  FSM,SUM,TCM,DEM,EPB
+ SG_ AYCMode : 10|1@0+ (1,0) [0|0] ""  ECM,FSM,SUM,TCM,AFS,DEM,EPB
+ SG_ AYCMode_UB : 11|1@0+ (1,0) [0|1] ""  ECM,FSM,SUM,TCM,AFS,DEM,EPB
+ SG_ BrakePressure : 33|10@0+ (0.1,0) [0|102.3] ""  FSM,SUM,TCM,EPB
+ SG_ BrakePressure_UB : 12|1@0+ (1,0) [0|1] ""  FSM,SUM,TCM,EPB
+ SG_ DriverBraking : 27|4@0+ (1,0) [0|0] ""  CEM,ECM,FSM,SUM
+ SG_ DriverBraking_UB : 14|1@0+ (1,0) [0|1] ""  CEM,ECM,FSM,SUM
+ SG_ SCMode : 1|1@0+ (1,0) [0|0] ""  ECM,FSM,SUM,TCM,EPB
+ SG_ SCMode_UB : 2|1@0+ (1,0) [0|1] ""  ECM,FSM,SUM,TCM,EPB
+ SG_ RFLevel : 21|2@0+ (1,0) [0|0] ""  CEM,FSM
+ SG_ RFLevel_UB : 3|1@0+ (1,0) [0|1] ""  CEM,FSM
+ SG_ TCMode : 4|1@0+ (1,0) [0|0] ""  ECM,FSM,SUM,TCM,DEM,EPB
+ SG_ TCMode_UB : 5|1@0+ (1,0) [0|1] ""  ECM,FSM,SUM,TCM,DEM,EPB
+ SG_ BrakePressureQF : 17|2@0+ (1,0) [0|0] ""  FSM,SUM,TCM,EPB
+ SG_ BrakePressureQF_UB : 13|1@0+ (1,0) [0|1] ""  FSM,SUM,TCM,EPB
+ SG_ DriverBrakingCS : 39|6@0+ (1,0) [0|63] ""  ECM
+ SG_ DriverBrakingCS_UB : 15|1@0+ (1,0) [0|1] ""  ECM
+ SG_ DriverBrakingCounter : 31|4@0+ (1,0) [0|15] ""  ECM
+ SG_ DriverBrakingCounter_UB : 0|1@0+ (1,0) [0|1] ""  ECM
+ SG_ DriverBrakingQF : 19|2@0+ (1,0) [0|0] ""  ECM,FSM
+ SG_ VehicleSpeed : 55|16@0+ (0.01,0) [0|320] ""  CEM,ECM,FSM,SUM,TCM,AFS,EPB
+ SG_ VehicleSpeed_UB : 6|1@0+ (1,0) [0|1] ""  CEM,ECM,FSM,SUM,TCM,AFS,EPB
+ SG_ VehicleSpeedQF : 23|2@0+ (1,0) [0|0] ""  CEM,ECM,FSM,SUM,TCM,AFS,EPB
+ SG_ VehicleSpeedQF_UB : 7|1@0+ (1,0) [0|1] ""  CEM,ECM,FSM,SUM,TCM,AFS,EPB
+
+BO_ 196 BCM_h_FrP04: 8 BCM
+ SG_ WheelSpeedReR : 38|15@0+ (0.01,0) [0|327.67] ""  FSM,TCM,DEM,EPB
+ SG_ WheelSpeedReR_UB : 39|1@0+ (1,0) [0|1] ""  FSM,TCM,DEM,EPB
+ SG_ WheelSpeedReLQF : 22|2@0+ (1,0) [0|0] ""  FSM,TCM,DEM,EPB
+ SG_ WheelSpeedReRQF : 13|2@0+ (1,0) [0|0] ""  FSM,TCM,DEM,EPB
+ SG_ WheelSpeedReL : 54|15@0+ (0.01,0) [0|327.67] ""  FSM,TCM,DEM,EPB
+ SG_ WheelSpeedReL_UB : 55|1@0+ (1,0) [0|1] ""  FSM,TCM,DEM,EPB
+ SG_ ACCBrakeStatus : 20|5@0+ (1,0) [0|0] ""  CEM,FSM
+ SG_ ACCBrakeStatus_UB : 23|1@0+ (1,0) [0|1] ""  CEM,FSM
+ SG_ RFText : 2|1@0+ (1,0) [0|0] ""  CEM
+ SG_ RFText_UB : 3|1@0+ (1,0) [0|1] ""  CEM
+ SG_ HDCWarning : 15|2@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ HDCLamp : 1|2@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMbBBrakeStatus : 11|4@0+ (1,0) [0|0] ""  FSM
+ SG_ CMbBBrakeStatus_UB : 4|1@0+ (1,0) [0|1] ""  FSM
+
+BO_ 816 TCM_h_FrP02: 8 TCM
+ SG_ GearRatioQF : 9|2@0+ (1,0) [0|0] ""  ECM
+ SG_ GearRatio : 31|8@0+ (0.0625,0) [0|1] ""  ECM
+ SG_ GearRatio_UB : 39|1@0+ (1,0) [0|1] ""  ECM
+ SG_ VehicleSpeedTCM : 55|16@0+ (1,0) [0|0] ""  CEM,ECM
+ SG_ VehicleSpeedTCM_UB : 0|1@0+ (1,0) [0|1] ""  CEM,ECM
+ SG_ CrankShaftTrqLimReq : 33|10@0+ (1,-512) [-512|510] ""  ECM
+ SG_ CrankShaftTrqLimReq_UB : 1|1@0+ (1,0) [0|1] ""  ECM
+ SG_ VehicleSpeedTCMQF : 11|2@0+ (1,0) [0|0] ""  CEM,ECM
+ SG_ WinterMode : 2|1@0+ (1,0) [0|0] ""  ECM
+ SG_ WinterMode_UB : 3|1@0+ (1,0) [0|1] ""  ECM
+ SG_ TipMode : 4|1@0+ (1,0) [0|0] ""  CEM,ECM,BCM
+ SG_ TipMode_UB : 5|1@0+ (1,0) [0|1] ""  CEM,ECM,BCM
+ SG_ TCMMILRequest : 13|2@0+ (1,0) [0|0] ""  ECM
+ SG_ GearBoxOilTemp : 23|8@0+ (1,-60) [-60|195] ""  ECM
+ SG_ GearBoxOilTemp_UB : 6|1@0+ (1,0) [0|1] ""  ECM
+ SG_ GearBoxOilTempQF : 15|2@0+ (1,0) [0|0] ""  ECM
+ SG_ CoolFanSpeedReqTCM : 38|5@0+ (1,0) [0|24] ""  ECM
+
+BO_ 1242 TST_h_FrP00: 8 TST
+ SG_ MaintenanceModeReq : 56|1@0+ (1,0) [0|0] ""  EPB
+
+BO_ 1108 FSM_h_FrP02: 8 FSM
+ SG_ DiagnosticInfoFSM : 46|2@0+ (1,0) [0|0] ""  CEM
+ SG_ DiagnosticInfoFSM_UB : 34|1@0+ (1,0) [0|1] ""  CEM
+ SG_ CMbBObjID : 44|5@0+ (1,0) [0|0] ""  CEM
+ SG_ CMbBObjID_UB : 33|1@0+ (1,0) [0|1] ""  CEM
+ SG_ CMbBObjRange : 63|8@0+ (1,0) [0|0] ""  CEM
+ SG_ CMbBObjRange_UB : 47|1@0+ (1,0) [0|1] ""  CEM
+ SG_ CMbBObjRangeRate : 55|8@0+ (1,0) [0|0] ""  CEM
+ SG_ CMbBObjRangeRate_UB : 32|1@0+ (1,0) [0|1] ""  CEM
+
+BO_ 751 BCM_h_FrP05: 8 BCM
+ SG_ HillDescentMode : 2|3@0+ (1,0) [0|0] ""  ECM,TCM,DEM
+ SG_ HillDescentMode_UB : 3|1@0+ (1,0) [0|1] ""  ECM,TCM,DEM
+ SG_ ImmoBCMSerialNo : 23|48@0+ (1,0) [0|0] ""  ECM
+ SG_ ImmoBCMSerialNo_UB : 4|1@0+ (1,0) [0|1] ""  ECM
+ SG_ MaxWheelAccelerationFr : 15|8@0+ (0.08,0) [0|20.4] "" Vector__XXX
+ SG_ MaxWheelAccelerationFr_UB : 5|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MechSensorCheckStat : 6|1@0+ (1,0) [0|0] ""  ECM
+
+BO_ 1095 ECM_h_FrP05: 8 ECM
+ SG_ OdometerBackUp_ECM : 47|24@0+ (1,0) [0|0] ""  CEM
+ SG_ OdometerBackUp_ECM_UB : 12|1@0+ (1,0) [0|1] ""  CEM
+ SG_ ActualCurrent : 39|8@0+ (1,0) [0|255] ""  CEM
+ SG_ AvailableCurrent : 31|8@0+ (1,0) [0|255] ""  CEM
+ SG_ FuelPumpOnOff : 14|1@0+ (1,0) [0|0] ""  CEM
+ SG_ FuelPumpOnOff_UB : 13|1@0+ (1,0) [0|1] ""  CEM
+ SG_ ImmoApprove : 0|1@0+ (1,0) [0|0] ""  CEM
+ SG_ ImmoApprove_UB : 15|1@0+ (1,0) [0|1] ""  CEM
+ SG_ ACMMechanicalFault : 2|1@0+ (1,0) [0|0] ""  CEM
+ SG_ ACMElectricalFault : 1|1@0+ (1,0) [0|0] ""  CEM
+ SG_ ACMTemperatureFault : 4|1@0+ (1,0) [0|0] ""  CEM
+ SG_ StartSwitch1Active3 : 3|1@0+ (1,0) [0|0] ""  CEM
+ SG_ StartSwitch1Active3_UB : 5|1@0+ (1,0) [0|1] ""  CEM
+ SG_ CoolantFanStepAct : 20|5@0+ (1,0) [0|31] ""  CEM
+ SG_ ECMMILRequest : 9|2@0+ (1,0) [0|0] ""  CEM
+ SG_ NoAlternatorResponse : 6|1@0+ (1,0) [0|0] ""  CEM
+ SG_ ACCompressorStatus : 23|3@0+ (1,0) [0|0] ""  CEM
+ SG_ DiagnosticInfoECM : 11|2@0+ (1,0) [0|0] ""  CEM
+ SG_ DiagnosticInfoECM_UB : 7|1@0+ (1,0) [0|1] ""  CEM
+
+BO_ 849 DEM_h_FrP00: 8 DEM
+ SG_ DiagnosticInfoDEM : 35|2@0+ (1,0) [0|0] ""  CEM
+ SG_ DiagnosticInfoDEM_UB : 39|1@0+ (1,0) [0|1] ""  CEM
+ SG_ AWD_TerrainMode : 42|3@0+ (1,0) [0|7] ""  TOS
+ SG_ AWD_TerrainModeChangeStatus : 45|3@0+ (1,0) [0|0] ""  TOS
+ SG_ AWDPropShaftTrq : 52|13@0+ (1,0) [0|8191] ""  BCM
+ SG_ AWDPropShaftTrq_UB : 37|1@0+ (1,0) [0|1] ""  BCM
+ SG_ AWDStatus : 55|3@0+ (1,0) [0|0] ""  BCM
+ SG_ AWDStatus_UB : 38|1@0+ (1,0) [0|1] ""  BCM
+ SG_ AWDPropShaftTrqQF : 33|2@0+ (1,0) [0|0] ""  BCM
+ SG_ AWDText : 47|2@0+ (1,0) [0|0] ""  CEM
+ SG_ AWDText_UB : 36|1@0+ (1,0) [0|1] ""  CEM
+
+BO_ 784 CEM_h_FrP02: 8 CEM
+ SG_ FrontbuckleDriver : 15|2@0+ (1,0) [0|0] ""  FSM
+ SG_ FrontbuckleDriver_UB : 7|1@0+ (1,0) [0|1] ""  FSM
+ SG_ BrakePedalDiagSwitch : 23|1@0+ (1,0) [0|0] ""  FSM,BCM,EPB
+ SG_ BrakePedalDiagSwitch_UB : 0|1@0+ (1,0) [0|1] ""  FSM,BCM,EPB
+ SG_ CCButtons : 34|11@0+ (1,0) [0|2047] ""  ECM,FSM,TCM
+ SG_ CCButtons_UB : 1|1@0+ (1,0) [0|1] ""  ECM,FSM,TCM
+ SG_ CCChecksum : 18|11@0+ (1,0) [0|0] ""  ECM,TCM
+ SG_ CCChecksum_UB : 2|1@0+ (1,0) [0|1] ""  ECM,TCM
+ SG_ CCCounter : 13|6@0+ (10,0) [0|400] ""  ECM
+ SG_ CCCounter_UB : 3|1@0+ (1,0) [0|1] ""  ECM
+ SG_ ImmoCtrlData : 55|16@0+ (1,0) [0|0] ""  ECM
+ SG_ ImmoCtrlData_UB : 5|1@0+ (1,0) [0|1] ""  ECM
+ SG_ PowerMode : 39|5@0+ (1,0) [11|31] ""  ECM,FSM,SAS,SUM,TCM,AFS,BCM,DEM,EPB
+ SG_ PowerMode_UB : 6|1@0+ (1,0) [0|1] ""  ECM,FSM,SAS,SUM,TCM,AFS,BCM,DEM,EPB
+ SG_ PowerModeQF : 22|2@0+ (1,0) [0|0] ""  ECM,FSM,SAS,SUM,TCM,AFS,BCM,DEM,EPB
+
+BO_ 1055 TOS_h_FrP00: 8 TOS
+ SG_ TerrainModeReq : 58|3@0+ (1,0) [0|7] ""  CEM
+ SG_ TerrainModeReq_UB : 59|1@0+ (1,0) [0|1] ""  CEM
+
+BO_ 1241 TST_h_FrP01: 8 TST
+ SG_ CCP_CRO : 7|64@0+ (1,0) [0|0] ""  ECM
+
+BO_ 1187 CEM_h_FrP05: 8 CEM
+ SG_ FSMMonitorRequest : 63|8@0+ (1,0) [0|0] ""  FSM
+ SG_ FSMMonitorRequest_UB : 39|1@0+ (1,0) [0|1] ""  FSM
+ SG_ InCarTemp : 55|8@0+ (0.5,-57) [-57|70.5] ""  AFS
+ SG_ GaseousFuelLevelQF : 41|2@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ PassengerSeatStatus : 33|2@0+ (1,0) [0|0] ""  FSM
+ SG_ PassengerSeatStatus_UB : 24|1@0+ (1,0) [0|1] ""  FSM
+ SG_ GaseousFuelLevel : 36|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ AdaptiveFrontLightSwitchPos : 25|1@0+ (1,0) [0|0] ""  AFS
+
+BO_ 1174 CEM_h_FrP06: 8 CEM
+ SG_ BeltReminderSensor : 23|1@0+ (1,0) [0|0] ""  FSM
+ SG_ BeltReminderSensor_UB : 12|1@0+ (1,0) [0|1] ""  FSM
+ SG_ ChargeVoltageRequest : 39|6@0+ (0.1,10.6) [10.6|16] ""  ECM
+ SG_ DoorStatus : 29|6@0+ (1,0) [1|63] ""  FSM,EPB
+ SG_ DoorStatus_UB : 13|1@0+ (1,0) [0|1] ""  FSM,EPB
+ SG_ PowerSystemStatus : 19|4@0+ (1,0) [0|0] ""  ECM,EPB
+ SG_ PowerSystemStatus_UB : 15|1@0+ (1,0) [0|1] ""  ECM,EPB
+ SG_ SunLoad : 33|10@0+ (1,0) [0|1023] ""  FSM
+ SG_ VirtualKeyPos : 22|3@0+ (1,0) [0|0] ""  EPB
+ SG_ VirtualKeyPosQF : 9|2@0+ (1,0) [0|0] ""  ECM,EPB
+ SG_ ClutchPedalSwitch25pctQF : 11|2@0+ (1,0) [0|0] ""  ECM,EPB
+ SG_ ClutchPedalSwitch25pct : 1|1@0+ (1,0) [0|0] ""  ECM,EPB
+ SG_ BrakePedalSwitchRaw : 2|1@0+ (1,0) [0|0] ""  ECM
+ SG_ BrakeFluidLevelWarning : 3|1@0+ (1,0) [0|0] ""  EPB
+ SG_ ClutchPedalSwitchRaw : 4|1@0+ (1,0) [0|0] ""  ECM
+
+
+
+CM_ SG_ 1838 TesterPhysicalRespCEMHS "Refer to 'Generic Global Diagnostic Specification' (VCC doc. no. 31810161).
+";
+CM_ SG_ 2024 TesterPhysicalRespECM "Refer to 'Generic Global Diagnostic Specification' (VCC doc. no. 31810161).
+";
+CM_ SG_ 1899 TesterPhysicalRespFSM "Refer to 'Generic Global Diagnostic Specification' (VCC doc. no. 31810161).
+";
+CM_ SG_ 1900 TesterPhysicalRespSAS "Refer to 'Generic Global Diagnostic Specification' (VCC doc. no. 31810161).
+";
+CM_ SG_ 1833 TesterPhysicalRespSUMCCD "Refer to 'Generic Global Diagnostic Specification' (VCC doc. no. 31810161).
+";
+CM_ SG_ 2025 TesterPhysicalRespTCM "Refer to 'Generic Global Diagnostic Specification' (VCC doc. no. 31810161).
+";
+CM_ SG_ 1886 TesterPhysicalRespTOS "Refer to 'Generic Global Diagnostic Specification' (VCC doc. no. 31810161).
+";
+CM_ SG_ 1057 VehicleSpeedOverGroundEstCS "Checksum  for EstSpeedOverGround.
+";
+CM_ SG_ 1057 VehicleSpeedOverGroundEst "Estimated vehicle speed over ground using average values from all four wheel speed sensors. For information about implementation see separate specification.
+
+";
+CM_ SG_ 1057 VehicleSpeedOverGroundEstQF "QualityFactor for the signal EstSpeedOverGround.
+
+";
+CM_ SG_ 1057 VehicleSpeedOverGroundEstCounter "Counter for VehicleEstSpeedOverGround.
+";
+CM_ SG_ 1024 VehicleConfParametersHS "Signal used for the distribution of Vehicle Configuration parameters.
+
+See doc 31812330 'Car Configuration EuCD - Vehicle Configuration Parameters'.
+";
+CM_ SG_ 1029 VehicleInfoParametersHS "Contains signals for Network/Node management, diagnostic freeze frame info and Software sequrity request.
+
+See doc 31812331 'Car Configuration EuCD - Vehicle Information Parameters'.
+";
+CM_ SG_ 1825 TesterPhysicalReqSUMCCD "Refer to 'Generic Global Diagnostic Specification' (VCC doc. no. 31810161).
+";
+CM_ SG_ 1830 TesterPhysicalReqCEMHS "Refer to 'Generic Global Diagnostic Specification' (VCC doc. no. 31810161).
+";
+CM_ SG_ 1878 TesterPhysicalReqTOS "Refer to 'Generic Global Diagnostic Specification' (VCC doc. no. 31810161).
+";
+CM_ SG_ 1888 TesterPhysicalReqBCM "Refer to 'Generic Global Diagnostic Specification' (VCC doc. no. 31810161).
+";
+CM_ SG_ 1891 TesterPhysicalReqFSM "Refer to 'Generic Global Diagnostic Specification' (VCC doc. no. 31810161).
+";
+CM_ SG_ 1892 TesterPhysicalReqSAS "Refer to 'Generic Global Diagnostic Specification' (VCC doc. no. 31810161).
+";
+CM_ SG_ 522 ACCBrakeLightReq "Activates brake lights when ACC/ACC S&G or CMbB performs precharge.
+";
+CM_ SG_ 522 ACCBrakeTrqReqAck "Acknowledge of requested brake torque value. Mirror of received brake torque request.
+
+";
+CM_ SG_ 522 AWDDeclutch "The purpose is to deactivate the AWD control  ECU (DEM) during special control mode conditions (Declutch between front- and rear wheel).
+(A 2 bit signal).
+";
+CM_ SG_ 522 LongAccOverGroundEstQF "QualityFactor for the signal LateralAcceleration.
+";
+CM_ SG_ 522 LongAccOverGroundEst "Estimated vehicle longitudinal acceleration over ground. For information about implementation see separate specification.
+";
+CM_ SG_ 522 TotWheelBrakeTrq "Momentary total vehicle brake torque (sum of all four wheels).
+
+";
+CM_ SG_ 522 VehicleStationary "The signal will be used to detect if the brakes are slowly moving.
+
+";
+CM_ SG_ 1121 KeepNetworkBCM "Inform CEM to keep CAN-HS network alive when ignition key in pos 0 , 1 or out.
+";
+CM_ SG_ 686 DrivingCycleOffTime "Inform about the elapsed time since the engine last was running
+";
+CM_ SG_ 686 TrailerConnection "Signal indicating if trailer is connected or not.
+";
+CM_ SG_ 686 EvapTemp "Digital value of the evap temp.
+";
+CM_ SG_ 686 EvapTempQF "Quality of the evaporator temp sensor value.
+";
+CM_ SG_ 686 EvapTempSetPt "Tells the wanted temperature of the air off the evaporator
+";
+CM_ SG_ 686 EnableAc "The climate system enables the AC function to use the compressor, but do not request it to run.
+";
+CM_ SG_ 686 ReversedGearQF "Quality factor for the signal ReversedGear.
+";
+CM_ SG_ 686 ReversedGear "To detect if reversing gear is in use or not for manual cars.
+";
+CM_ SG_ 686 ClimHighIdleSpeedReq "Request a higher engine idle speed
+";
+CM_ SG_ 686 IndicationIlluminationCmd "Out signal to other Function Areas. Desides the brightness of the indication illumination when a system is in function and/or out of function.
+
+
+";
+CM_ SG_ 686 FuelHatchPopUp "Informs if the fuel hatch is open or not. It is used to enable, inhibit or abort the leakage testing.
+
+";
+CM_ SG_ 686 CarMode "Information about which Carmode the vehicle is in i.e. Normal, factory etc.
+";
+CM_ SG_ 653 FuelPumpStatus "Diagnostic status of the fuel pump.
+";
+CM_ SG_ 653 CMbBAllowedByMonitor "Dependability signal. Forces the CADS Mode Manager to immediately cancel CMbB for the rest of the driving cycle.
+
+";
+CM_ SG_ 653 ACCAllowedByMonitor "Dependability signal. 'ACC denied by monitor' forces the CADS Mode Manager to immediately cancel ACC for the rest of the driving cycle.
+
+";
+CM_ SG_ 653 ParkingBrakeActive "Information about Parking brake status, activated or not activated.
+IVDC name:   Ssc_B_PrkBrkActv
+";
+CM_ SG_ 653 RecDegree "The recirculation flap position, range 0..100%
+";
+CM_ SG_ 653 AirFlow "Tells the fanspeed of the climate fan, range 0..6350 rpm
+";
+CM_ SG_ 1894 TesterPhysicalReqDEM "Refer to 'Generic Global Diagnostic Specification' (VCC doc. no. 31810161).
+";
+CM_ SG_ 1072 EvapTempSetPtInfo "Tells the used set point temperature of the air off the evaporator
+";
+CM_ SG_ 1072 KeepNetworkECM "Restarts the KeepNetAliveTimer in the master ECU.
+";
+CM_ SG_ 1072 ECMChecksumResponse "Response to the checksum request from the PJB (Software Security). The PJB must receive a response within 10 sec after a request has been issued in CEM.
+";
+CM_ SG_ 1072 EngineWarningInd "Engine warning information to be displayed in DIM (text and amber warning lamp). Req. on Rx ECU: DIM has to bound amber lamp to text id.Req. on Tx ECU: ECM must synchronize signal with MIL-lamp status to control if the signal shall be sent or not.
+";
+CM_ SG_ 1072 DieselFilterWarmer "Gives infomation if the diesel filter warmer shall be active or not.
+";
+CM_ SG_ 1072 ACPressureHighsideQF "Quality factor to signal ACPressureHighside
+";
+CM_ SG_ 1072 ACPressureHighside "To estimate (stationary) torque, so that CCM can inform ECM
+";
+CM_ SG_ 1072 Econometer "The econometer signal is used to calculate accumulated and instantaneous fuel consuption.The signal contains the accumulated number of fuel flow pulses modulus 256 during the last driving cycle; the signal value shall be reset to 0 at every ignition on.
+";
+CM_ SG_ 1072 TotAxleFrictionTrq "Actual total axle torque to overcame friction effects.This is a calculated value incl.  engine, transmission, final gear and temp. effects.
+
+";
+CM_ SG_ 1072 TotAxleFrictionTrqQF "Quality factor for the signal TotAxleFrictionTrq.
+
+";
+CM_ SG_ 555 KickDown "Information that a driver action shall lead to gear down shift (kick-down). Calculated from accelerator pedal position.
+
+
+IVDC name:  VscDifApif_B_KickDown
+";
+CM_ SG_ 555 AvailableCrankShaftTrqMax "The maximum possible Crank Shaft Torque assuming wide open throttle at the current engine speed and maximum ISG (integrated starter generator) torque boost if fitted. It does not include inertia or turbo transient over-boost
+";
+CM_ SG_ 555 ClutchPedalPressed "Clutch pedal position measured as analog value. The signal shall reflect the raw sensor value.
+";
+CM_ SG_ 555 CCActive "Dependability signal ('CCA'). Indicated that cruise control is active. The signal is contained in the group RequestedThrottleGrp (RTA, CCO, CCA).
+IVDC name:   VscDeScl_D_CcMode
+";
+CM_ SG_ 555 CCMode "Controls the ACC mode.
+
+";
+CM_ SG_ 555 CCOverridden "Dependability signal (CCO). Indicated that cruise control is overridden (ECM decision). Torque required by driver is larger than CC torque request. The signal is contained in the group RequestedThrottleGrp (RTA, CCO, CCA).
+";
+CM_ SG_ 555 ACCActiveAllowed "Primary ON/OFF signal for ACC.
+
+
+";
+CM_ SG_ 555 IdleSpeed "Current idle speed
+";
+CM_ SG_ 1042 AmbientAirPressureQF "Quality factor for the signal AmbientAirPressure.
+";
+CM_ SG_ 1042 CCResumeReq "Indicates if the Resume Button is pressed.
+
+";
+CM_ SG_ 1042 TimeGapMinus "Driver request to decrease one step in ACC time gap, indicates button activated.
+
+";
+CM_ SG_ 1042 TimeGapPlus "Driver request to increase one step in ACC time gap, indicates button activated.
+
+";
+CM_ SG_ 1042 MaxEngineBrakeReached "Indicates that maximum achievable engine brake has been reached.
+
+";
+CM_ SG_ 1042 CCSetSpeed "Indicates the set speed to the cruise control regulator and other stakeholders.
+
+
+
+IVDC name:    VscDeScl_V_CcLongReq
+
+";
+CM_ SG_ 1042 TM_TerrainMode "This signal indicates the terrain mode that the EMS is currently in.
+";
+CM_ SG_ 1042 TM_TerrainModeChangeStatus "Availability of EMS to change from current terrain mode into another mode (not including rock crawl mode) This signal replaces EMS_ModeGroupStatus for L319 HTFB
+";
+CM_ SG_ 1042 AvailableCurrentAtIdling "This signal is the available current from the alternator at idlespeed.
+";
+CM_ SG_ 1042 AmbientTemp "Ambient air temperature
+";
+CM_ SG_ 1042 AmbientTempQF "Quality factor for the signal AmbientTemp.
+";
+CM_ SG_ 1042 AmbientAirPressure "The ambient air pressure measured by the pressure sensor.
+";
+CM_ SG_ 1081 EPBBrakeLightReq "EPB activation of rear brake lamps during dynamic EPB braking
+";
+CM_ SG_ 1081 HWLitRedLamp "WARNING!!!
+THE SIZE OF THIS SIGNAL MAY BE INCORRECT!
+";
+CM_ SG_ 1081 ServiceBrakeOperationReq "Deacceleration demand value from EPB to BCM (brake module)
+";
+CM_ SG_ 1081 EPBBrakeTrqReq "WARNING!!!
+THE SIZE OF THIS SIGNAL MAY BE INCORRECT!
+";
+CM_ SG_ 1081 EPBFailure "To flash the yellow EPB light during an active system intervention
+";
+CM_ SG_ 1081 EPBMessageReq "To indicate the EPB system state in the text message centre
+";
+CM_ SG_ 1081 EPBMessage "WARNING!!!
+THE SIZE OF THIS SIGNAL MAY BE INCORRECT!
+";
+CM_ SG_ 1081 EPBStatus "To inform the BCM (brake control) about Rear caliper ststus and if EPB system is active or inactive
+";
+CM_ SG_ 1081 EPBWarningBuzzer "To indicate the EPBSystem state in the text message centre
+";
+CM_ SG_ 1081 EPBWarning "WARNING!!!
+THE SIZE OF THIS SIGNAL MAY BE INCORRECT!
+";
+CM_ SG_ 1907 TesterPhysicalReqEPB "Refer to 'Generic Global Diagnostic Specification' (VCC doc. no. 31810161).
+";
+CM_ SG_ 368 ACCBrakeTrqReq "Controls the brake system ACC braking. Sum of all four wheel brake torques.
+
+";
+CM_ SG_ 368 ACCBrakeReqCounter "Dependability concept counter.
+
+";
+CM_ SG_ 368 ACCBrakeReqCS "Dependability concept checksum.
+
+";
+CM_ SG_ 368 ACCBrakeBoosterPrefill "Activates brake booster to braking start position.
+
+";
+CM_ SG_ 368 CurrentFCWSetting "Confirmed setting of the FCW function parameters from the IHU unit.
+
+";
+CM_ SG_ 368 ACCTimeGap "ACC Time Gap message for driver interface.
+
+";
+CM_ SG_ 368 ACCEPBReq "WARNING!!!!!!!!
+THE SIZE OF THIS SIGNAL MAY NOT BE CORRECT. 
+";
+CM_ SG_ 2015 TesterFunctionalReqHS "Refer to 'Generic Global Diagnostic Specification' (VCC doc. no. 31810161).
+";
+CM_ SG_ 1201 RM_TerrainMode "This signal identifies in which T/O mode the TCU is operating. 
+";
+CM_ SG_ 1201 RM_TerrainModeChangeStatus "This signal represents theTCM immediate support indication for: TOS standard mode TOS grass mode TOS snow mode TOS sand mode TOS mud mode TOS rock crawl mode TOS sport mode This signal replaces TCU_ModeGroupStatus for L319 HTFB
+";
+CM_ SG_ 1201 TargetEg_rpm "Pressure capacaty at panic brake
+";
+CM_ SG_ 1201 LockedInP "Gear lever locked in P position
+Indicates that the P lock is achieved (and the user is allowed to remove the ignition key by the Immobilizer).
+
+";
+CM_ SG_ 1201 GearboxServiceRequired "To DIM to inform the driver that transmission service required
+";
+CM_ SG_ 1201 Gear "Indicates actual gear. From TCM. FA Vehicle Dynamics_Ratio_Actuator.
+";
+CM_ SG_ 2016 TesterPhysicalReqECM "Refer to 'Generic Global Diagnostic Specification' (VCC doc. no. 31810161).
+";
+CM_ SG_ 2017 TesterPhysicalReqTCM "Refer to 'Generic Global Diagnostic Specification' (VCC doc. no. 31810161).
+";
+CM_ SG_ 1914 TesterPhysicalRespAFS "Refer to 'Generic Global Diagnostic Specification' (VCC doc. no. 31810161).
+";
+CM_ SG_ 1896 TesterPhysicalRespBCM "Refer to 'Generic Global Diagnostic Specification' (VCC doc. no. 31810161).
+";
+CM_ SG_ 1902 TesterPhysicalRespDEM "Refer to 'Generic Global Diagnostic Specification' (VCC doc. no. 31810161).
+";
+CM_ SG_ 1915 TesterPhysicalRespEPB "Refer to 'Generic Global Diagnostic Specification' (VCC doc. no. 31810161).
+";
+CM_ SG_ 0 FrontbucklePassenger "Information from SRS to PJB regarding the front seat passenger beltbuckle.
+";
+CM_ SG_ 0 AccPedalAnalogPosition "Accelerator pedal position measured as analogue value. % of Vcc-Vref. The signal shall reflect the raw sensor value.
+Argument: Position;  Integer;  0..1023;  %
+
+SIZE:   10 bits
+
+RANGE:   0...102.3 %
+";
+CM_ SG_ 0 AccPedalAnalogPositionQF "Quality factor for the signal AccPedalAnalogPosition.
+Argument: QualityFactor;  Enumerated;  Faulty, Evaluation, NotFaulty, OK
+
+
+";
+CM_ SG_ 0 ClimCoolFanSpeedReq "Commands the climate fan to operate at x% capacity
+";
+CM_ SG_ 0 ClutchPedalAnalogPosition "Clutch pedal position measured as analog value. The signal shall reflect the raw sensor value.
+";
+CM_ SG_ 0 FCWSetting "FCW mode status from the ICM unit.
+
+";
+CM_ SG_ 0 ImmoKeyStatus "Tells ECM the status of the key and SCL. Refer to SRD 31812379.003 for full details
+";
+CM_ SG_ 0 LoadVehicleSettings "WARNING!!!
+THE SIZE OF THIS SIGNAL MAY BE INCORRECT!
+";
+CM_ SG_ 1906 TesterPhysicalReqAFS "Refer to 'Generic Global Diagnostic Specification' (VCC doc. no. 31810161).
+";
+CM_ SG_ 294 SteeringAngleCRShortFilt "To inform power steering about actual steering angle change rate of the steering wheel. The value is an absolute value.
+";
+CM_ SG_ 294 SteeringAngleStatus "To inform BCM about the status of the calculations used for the signals SteeringAngle and SteeringAngleCR.
+";
+CM_ SG_ 294 SteeringAngleCS "To inform BCM about if the data in the signals SteeringAngle and SteeringAngleCR is correct or not.
+";
+CM_ SG_ 294 SteeringAngleCounter "To inform BCM that the signal SteeringAngle value (sent in the same frame) is a new value and also to be able to identify if a value is missing.
+
+";
+CM_ SG_ 294 SteeringAngleCRSign "When the vehicle is making a left turn this signal is supposed to show positive numbers. Unfiltered and offset compensated plausibility check.
+";
+CM_ SG_ 294 SteeringAngleSign "To inform BCM about actual steering angle direction, from the centre position of the steering wheel. Used in the AYC-function calculations. The absolute steering wheel angle is supplied in the signal SteeringAngle.
+";
+CM_ SG_ 457 CMbBEBASensReq "CMbB request to brake system for a particular sensitivity of the Emergency Brake Assist (EBA) function. The request indicates that one of four parameter settings for EBA shall be selected.
+
+";
+CM_ SG_ 457 CMbBBrakePrechargeReq "CMbB request to brake system for a pre-charge activation (using the active booster or the pump). Pre-charge level 1 corresponds to approximately 6 bar and level 2 corresponds to approximately 12 bar.
+
+";
+CM_ SG_ 457 CMbBBrakeTrqReq "Controls the brake system CMbB braking. Sum of all four wheel brake torques.
+
+";
+CM_ SG_ 457 CMbBReqCS "Dependability concept checksum.
+
+";
+CM_ SG_ 457 CMbBAllowed "Dependability signal. 'CMbB not allowed' terminates immediately all CMbB activation (enter CMbB Denied Mode) for the rest of the driving cycle.
+
+
+";
+CM_ SG_ 457 CMbBEngineBrakeReqCounter "Dependability concept counter.
+
+
+";
+CM_ SG_ 457 CMbBEngineBrakeReq "CMbB request to powertrain indicating that engine torque shall immediately be reduced to a minimum. This corresponds to a torque level where the accelerator pedal would have been completely  released at the same moment in time.
+
+";
+CM_ SG_ 457 CMbBEngineBrakeReqInv "Dependability concept signal, inverse of CMbBEngineBrakeReq
+
+";
+CM_ SG_ 457 ACCMaxAccelerationReq "Main control signal for ACC Engine Control. Puts a limit on the Cruise Controller acceleration. Normal operating range -3..+2 m/s^2.
+
+";
+CM_ SG_ 457 ACCCancel "Forces the Cruise Control Manager to immediately cancel ACC. Manual set and resume allowed.
+
+";
+CM_ SG_ 457 ACCDenied "Forces the Cruise Control Manager to immediately cancel ACC for the rest of the current driving cycle.
+
+";
+CM_ SG_ 457 CMbBReqCounter "Dependability concept counter.
+
+";
+CM_ SG_ 32 StorePhysicalSettings "WARNING!!!
+THE SIZE OF THIS SIGNAL MAY BE INCORRECT!
+";
+CM_ SG_ 32 CVDistanceCenter "Distance to an object in the center zone of the Close Velocity sensor. Redundant information.
+
+";
+CM_ SG_ 32 CVDistanceLeft "Distance to an object in the left zone of the Close Velocity sensor. Redundant information.
+
+";
+CM_ SG_ 32 CVDistanceRight "Distance to an object in the right zone of the Close Velocity sensor. Redundant information.
+
+";
+CM_ SG_ 32 CVSpeedCenter "Relative velocity of an object in the center zone of the Close Velocity sensor. Redundant information.
+
+";
+CM_ SG_ 32 CVSpeedRight "Relative velocity of an object in the right zone of the Close Velocity sensor. Redundant information.
+
+";
+CM_ SG_ 32 CVSpeedLeft "Relative velocity of an object in the left zone of the Close Velocity sensor. Redundant information.
+
+";
+CM_ SG_ 32 CVSensorStatus "Status of the Closing Velocity sensor.
+";
+CM_ SG_ 32 TelephoneActive "Indication if the driver is accessing the integrated telephone.
+
+";
+CM_ SG_ 228 CCLamp "Indicates that the Cruise Control is On or/and Active.
+
+
+
+IVDC name:    VscDeScl_D_CcLamp
+
+";
+CM_ SG_ 228 CrankShaftTrq "Actual crankshaft torque (ISG + ICE). For shift quality use.
+IVDC name:   VscCifDte_Tq_CrnkShaft
+";
+CM_ SG_ 228 CrankShaftTrqQF "Quality factor for crankshaft  torque.
+";
+CM_ SG_ 147 TrqRatio "Actual ratio between the input and the output torque of the transmission and torque converter This includes torque converter effects, clutch slip effects, and all gearing effects including final drive.
+
+
+
+IVDC name:  AscTmTac_Rt_TrnTq
+";
+CM_ SG_ 147 TrqRatioQF "Quality factor for the signal TrqRatio.
+";
+CM_ SG_ 147 GearLeverPosition "Gear lever position.
+IVDC name:  Ssc_No_TrnGearLevr
+";
+CM_ SG_ 147 TargetGear "Information from TCM about which gear is going to be engaged (target gear) by the automatic gear box.(used only in autom. transm. with Geartronic).  Gear, GearLever, Lockup and TargetGear signals shall be grouped.
+
+";
+CM_ SG_ 147 TotAxleGearRatio "Ratio of speeds from transmission after turbine to output shaft on transmission (i.e. does not include torque converter but includes gears/belts and incl. final drive)
+";
+CM_ SG_ 147 TotAxleTargetGearRatio "Ratio of speeds from transmission after turbine to output shaft on transmission (i.e. does not include torque converter but includes gears/belts and final drive).
+";
+CM_ SG_ 147 FuelCutEnable "The Fuel shut off enable gives a signal for the ECU that the transmission will not open the clutch in coast conditionimmediately. (E.g. during Engine speed lower than e.g. 1500 rpm)
+";
+CM_ SG_ 65 CADSWarning "CADS warning message.
+
+";
+CM_ SG_ 65 FCWMute "Muting to a predefined Audiolevel (similar to the Navigation mute feature). Used when FCW audible warning is active.
+
+";
+CM_ SG_ 65 FSMMonitorResponse "Dependability signal. Respons on FSMMonitorRequest from CADS Monitor. Indicates if all important blocks have been executed.
+
+";
+CM_ SG_ 424 YawRateActual "When the vehicle is making a left turn this signal is supposed to show positive numbers. Unfiltered and offset compensated plausibility check.
+";
+CM_ SG_ 424 YawRateQF "Quality factor for the signal YawRateActual.
+";
+CM_ SG_ 424 YawRateRequested "When the vehicle is making a left turn this signal is supposed to show positive numbers. Unfiltered and offset compensated plausibility check.
+";
+CM_ SG_ 424 YawStabilityIndex "Vehicle stability information sent by ESP (range +/-200%; positive/negative = oversteering/underst. Tendency; >100% or <-100% = ESP intervention; powerslide conditions; Oversteering has higher priority than understeering
+";
+CM_ SG_ 424 LateralAccelerationQF "Quality factor for the signal LateralAcceleration.
+";
+CM_ SG_ 424 LateralAcceleration "When the vehicle is making a left turn this signal is supposed to show positive numbers. Unfiltered and offset compensated plausibility check.
+
+";
+CM_ SG_ 392 CCDControlMode "Information about the current CCDMode in SUM.
+";
+CM_ SG_ 392 CCDSwitchActual "Information about the CCDMode Request via Switch.
+";
+CM_ SG_ 392 VertWheelAccelFrLQF "Quality factor to VertWheelAccelFrL
+";
+CM_ SG_ 392 VertWheelAccelFrRQF "Qualityfactor to VertWheelAccelFrR
+";
+CM_ SG_ 392 SUMWarnings "The purpose of the signal is to show warning messages and the General Amber Warning Lamp in the DIM to inform the driver about  failing CCD functionality.
+";
+CM_ SG_ 392 CCDSwitchPerso "Personalization Request from switch
+
+";
+CM_ SG_ 326 GearBoxTrqLossQF "Quality factor for the signal GearBoxTrqLoss
+";
+CM_ SG_ 326 Lockup "Information from TCM that the gear-box is in lock-up, i.e. no slip in gear-box.
+IVDC name:  AscTmTac_No_TrnLockUpMode
+";
+CM_ SG_ 326 TCMText "The code for the current TCM Text message to be displayed. 4 bits enables up to 15 different messages.
+";
+CM_ SG_ 326 GearBoxTrqLoss "Gearbox pumplosses +(mechanical losses / converter trq amplification). Calculated gearbox losses on the crankshaft side.
+";
+CM_ SG_ 326 GearEngagement "The gearbox is engaged (not in P or N). Used by the engine for load compensation.
+";
+CM_ SG_ 261 ClutchPedalPositionQF "Clutch pedal position measured as analog value. The signal shall reflect the raw sensor value.
+";
+CM_ SG_ 261 ClutchPedalPosition "Interpretation of the analog pedal travel sensor. Adapted value.
+";
+CM_ SG_ 261 BrakePedalSwitch "Informs when the brake light switch is activated.
+
+
+
+IVDC name:  AscSbmSbac_B_BrkPdl
+";
+CM_ SG_ 261 CCFollowMode "The flag is true when ACCReq < CCReq. Used to adapt shift strategy when Cruise Control is following a target vehicle.
+";
+CM_ SG_ 261 BrakePedalActive "Filtered value. Informs when the Brake Switch is activated OR BrakePedalPosition > TBD%.
+
+IVDC name:  VscDeDmm_B_BrkPdlActv
+
+";
+CM_ SG_ 261 EngineSpeed "Actual engine speed.
+IVDC name:  AscEmEac_W_Eng
+";
+CM_ SG_ 261 EngineSpeedQF "Quality factor for EngineSpeed.
+";
+CM_ SG_ 261 SCEngineSpeedCR "Change rate of engine speed, calculated in engine management, used in stability control (SC).
+";
+CM_ SG_ 359 DriverTotAxleTrqReq "Approximate driver desired net torque, including final gear,
+
+from pedals and cruise request. Used by BCM to ramp total
+
+axle torque reductions back up to customer-desired level.
+
+";
+CM_ SG_ 359 TotAxleTrq "Actual powertrain torque incl. friction but excl. inertia efforts. TotAxleTrq is defined as the output from the final gear (before differential).
+
+";
+CM_ SG_ 359 TotAxleTrqQF "Quality factor for the signal TotAxleTrq.
+
+";
+CM_ SG_ 359 BrakePedalPositionQF "Quality factor for the signal BrakePedalPosition.
+";
+CM_ SG_ 359 BrakePedalPosition "Interpretation of the analog brake pedal travel sensor.
+
+% of normalised max brake pedal positon. Zero position adapted.
+Brake pedal position as measured by the pedal travel sensor
+
+IVDC name:  Ps_BrkPdlPostn
+";
+CM_ SG_ 359 ClutchPedalSwitch "WARNING!!
+THE SIZE OF THIS SIGNAL MAY BE INCORRECT. INFORMATION ABOUT SIZE IS FROM ROSE033 WHERE DESCRIPTION SAYS 1 BIT SIGNAL.
+
+Informs when the clutch is pressed, at least, to a specified position.
+";
+CM_ SG_ 718 BrakePedalAnalogPosition "Brake pedal position measured as analog value. The signal shall reflect the raw sensor value.
+";
+CM_ SG_ 718 BrakePedalAnalogPositionQF "Quality factor for the signal BrakePedalAnalogPosition
+";
+CM_ SG_ 718 TotAxleTrqReqMax "Maximum drive shaft torque requested by spin control on front axle requested from STC. 
+";
+CM_ SG_ 718 DSTCWarningLamp "To control the STC warning lamp.
+";
+CM_ SG_ 718 DSTCSwitchIndication "To indicate if the DSTC-switch position is on or off. After receiving the 'ON' or ?OFF? command the DSTC-switch visual indication shall be change status within 30 ms.
+
+";
+CM_ SG_ 620 AccPedalPositionQF "Quality factor for AccPedalPosition
+";
+CM_ SG_ 620 AccPedalPositionCR "Change rate of accelerator pedal position.
+";
+CM_ SG_ 620 EngineCoolantTempQF "Quality factor for EngineCoolantTemp.
+";
+CM_ SG_ 620 EngineCoolantTemp "Engine coolant temperature. Coolant temp warning indication in DIM shall be triggerd at: Petrol engine: over 126 degree C. Diesel engine: over 114 degree C. Hysteresis 4 degree C.
+
+IVDC name:  AscEmEac_Te_Eng
+";
+CM_ SG_ 620 EngineState "Coded information about the actual engine state (where engine running is one defined state).
+
+
+
+IVDC name (partly):  AscEmEac_B_EngRunMode
+";
+CM_ SG_ 620 OilPressureWarning "Status of oil pressure switch.  If the switch is closed (low pressure) a warning lamp shall be lit by DIM.
+";
+CM_ SG_ 620 GlowIndication "Diesel signal only. Lamp activation for glow indication at start.
+";
+CM_ SG_ 490 WheelSpeedFrRQF "Quality factor for the signal WheelSpeedFrR (front right wheel speed).
+";
+CM_ SG_ 490 LongAcceleration "Inform about longitudinal acceleration of the vehicle (used by tramsmission SUM, AWD and CVT). ONLY on AWD.
+";
+CM_ SG_ 490 LongAccelerationQF "Quality factor for the signal LongAcceleration.
+";
+CM_ SG_ 490 SensorClusterCounter "Counter for Sensor Cluster
+
+";
+CM_ SG_ 490 SensorClusterCS "Checksum for Sensor Cluster
+
+";
+CM_ SG_ 490 WheelSpeedFrL "Message containing the individual speed for each wheel. Wheel speed at front left wheel calculated from nominal wheel diameter.
+";
+CM_ SG_ 490 WheelSpeedFrR "Message containing the individual speed for each wheel. Wheel speed at front right wheel calculated from nominal wheel diameter.
+";
+CM_ SG_ 490 WheelSpeedFrLQF "Quality factor for the signal WheelSpeedFrL (front left wheel speed).
+";
+CM_ SG_ 98 BrakePressure "Informs other nodes about brake pressure in the master cylinder.
+";
+CM_ SG_ 98 RFLevel "To control the DSTC warning lamp and inform the driver about low road friction condition.  
+";
+CM_ SG_ 98 BrakePressureQF "Quality factor for the signal BrakePressure.
+
+";
+CM_ SG_ 98 DriverBrakingCS "Bitwise Invers of :
+[DriverBraking DriverBrakingQF].
+The invers shall be calculated directly after the corresponding signal calculations at the same place in the BCM SW. 
+";
+CM_ SG_ 98 DriverBrakingCounter "Invers of DriverBraking information.
+";
+CM_ SG_ 98 DriverBrakingQF "Quality factor for the signal DriverBraking.
+";
+CM_ SG_ 98 VehicleSpeedQF "Quality factor for the signal VehicleSpeed.
+Inform the user of the signals VehicleSpeed, WheelRotationCnt, MaxWheelAcceleration and DifferentialSpeed about the status of the information
+
+";
+CM_ SG_ 196 WheelSpeedReR "Message containing the individual speed for each wheel. Wheel speed at rear right wheel calculated from nominal wheel diameter.
+IVDC name:  AscSbmSbac_W_WhlVec
+Argument: WheelSpeedReR;  Integer;  0..400
+";
+CM_ SG_ 196 WheelSpeedReLQF "Quality factor for the signal WheelSpeedReL (rear left wheel speed).
+";
+CM_ SG_ 196 WheelSpeedReRQF "Quality factor for the signal WheelSpeedReR (rear (right wheel speed).
+";
+CM_ SG_ 196 WheelSpeedReL "Message containing the individual speed for each wheel. Wheel speed at rear left wheel calculated from nominal wheel diameter.
+";
+CM_ SG_ 196 ACCBrakeStatus "To inform that the ACC is in a brake regulation.
+
+";
+CM_ SG_ 196 RFText "To control Road Friction (RF) text messages in the DIM.
+
+";
+CM_ SG_ 196 CMbBBrakeStatus "To inform that the CMbB function is in a brake regulation. Status to be sent to CMbB:
+- CMbB pre-charge on/off
+- CMbB brake assist on/off
+- CMbB autonomous brake assist on/off
+- Time out
+- CMbB denied
+";
+CM_ SG_ 816 VehicleSpeedTCM "Purpose:
+The purpose of the signal is to supply vehicle speed information to other electronic systems.
+Vehicle speed is defined as the average speed of the two front driven wheels.
+";
+CM_ SG_ 816 CrankShaftTrqLimReq "Offset.Maximum allowed engine torque (the absolute torque may not exceed this value).
+Value 511 = no control. Reduction by throttle control.
+
+
+IVDC name:  AscTmTac_Tq_CrnkShaftBaseMaxReq (changed from AscTmTac_Tq_EngMaxReq)
+";
+CM_ SG_ 816 VehicleSpeedTCMQF "Quality factor of VehicleSpeedTCM
+";
+CM_ SG_ 816 WinterMode "Information if the gear box is in winter mode (set by driver from GSM) or not.
+
+
+IVDC name:  VscDifCvsif_B_WntrMode.
+";
+CM_ SG_ 816 TipMode "Signal is active if quick shift mode is chosen and accepted.
+
+IVDC name:  VscDeGr_B_TrmGtrncActv
+";
+CM_ SG_ 816 TCMMILRequest "Information about which gear is going to be engaged (target gear) by the automatic gear box.
+";
+CM_ SG_ 816 GearBoxOilTemp "Temperature of oil temp in gear box. Used to increase/decrease torque from engin and to evaluate gear box losses.
+
+
+IVDC name:  AscTmTac_Te_TrnOil
+";
+CM_ SG_ 816 GearBoxOilTempQF "QF for GearBoxOilTemp signal.
+";
+CM_ SG_ 816 CoolFanSpeedReqTCM "When TCU sends this 'Cooling Fan Activation Request?
+";
+CM_ SG_ 1242 MaintenanceModeReq "WARNING!!!
+THE SIZE OF THIS SIGNAL MAY BE INCORRECT!
+";
+CM_ SG_ 1108 CMbBObjID "ID of the CMbB object that is currently tracked by the radar.
+
+";
+CM_ SG_ 1108 CMbBObjRange "Range, i.e. distance, of the CMbB object that is currently tracked.
+
+";
+CM_ SG_ 1108 CMbBObjRangeRate "Range rate, i.e. relative speed, of the CMbB object that is currently tracked.
+
+";
+CM_ SG_ 1095 AvailableCurrent "This signal is the available current from the alternator at a specific enginespeed
+";
+CM_ SG_ 1095 FuelPumpOnOff "Controls the fuel pump power.
+";
+CM_ SG_ 1095 ImmoApprove "Message to confirm encryptation. Refer to SRD 31812379.003 for full details
+";
+CM_ SG_ 1095 ACMMechanicalFault "Mechanical fault in alternator
+";
+CM_ SG_ 1095 ACMElectricalFault "Electrical fault in alternator
+";
+CM_ SG_ 1095 ACMTemperatureFault "Temperature fault in alternator
+";
+CM_ SG_ 1095 StartSwitch1Active3 "Filtered signal that indicates the state of the main switch
+";
+CM_ SG_ 1095 CoolantFanStepAct "Indicates the actual step the cooling fan is running in. The number of steps is 24, which gives that values 25-31 are undefined.
+";
+CM_ SG_ 1095 ECMMILRequest "ECM requests DIM to switch on/off MIL lamp.
+";
+CM_ SG_ 1095 NoAlternatorResponse "Set if communication with ACM is not possible
+
+";
+CM_ SG_ 1095 ACCompressorStatus "AC compressor status can be running (0) or OFF (1..7).
+";
+CM_ SG_ 849 AWDPropShaftTrq "Requested rear axle torque.
+";
+CM_ SG_ 849 AWDStatus "Status of the AWD system.
+";
+CM_ SG_ 849 AWDPropShaftTrqQF "Quality factor of AWDPropShaftTrq
+";
+CM_ SG_ 784 FrontbuckleDriver "Information from SRS to PJB regarding the driver seat beltbuckle.
+";
+CM_ SG_ 784 CCButtons "Cruise buttons status, indicates when activated
+
+";
+CM_ SG_ 784 ImmoCtrlData "14 bits encrypted. Refer to SRD 31812379.003 for full details
+";
+CM_ SG_ 784 PowerMode "Information of current PowerMode, reflects the current  state of the Power Mode Superviser
+
+";
+CM_ SG_ 784 PowerModeQF "Quality Factor of current PowerMode, reflects the quality of the PowerMode signal
+
+";
+CM_ SG_ 1187 FSMMonitorRequest "Dependability signal. Requests the CADS Monitor to perform execution block test to indicates if all important blocks have been executed. Return signal is 'FSMMonitorRespons'.
+
+";
+CM_ SG_ 1187 InCarTemp "Tells the compartment temperature inside the vehicle. Not available on all cars
+";
+CM_ SG_ 1187 GaseousFuelLevel "WARNING!!!
+THE SIZE OF THIS SIGNAL MAY BE INCORRECT!
+";
+CM_ SG_ 1187 AdaptiveFrontLightSwitchPos "AdaptionErrorRainSensor signal valid.
+
+";
+CM_ SG_ 1174 ChargeVoltageRequest "This function calculates the output voltage from the alternator to charge the battery in the most propriate way.
+";
+CM_ SG_ 1174 DoorStatus "DoorStatus is a service message to inform other systems which present status the doors have (open or closed)
+";
+CM_ SG_ 1174 PowerSystemStatus "Power system fault handling.
+
+";
+CM_ SG_ 1174 SunLoad "Tells the sunload into the vehicle in W/m*m
+";
+CM_ SG_ 1174 ClutchPedalSwitch25pct "WARNING!!
+THE SIZE OF THIS SIGNAL MAY BE INCORRECT.
+
+";
+CM_ SG_ 1174 BrakePedalSwitchRaw "WARNING!!!
+THE SIZE OF THIS SIGNAL MAY BE INCORRECT!
+";
+CM_ SG_ 1174 BrakeFluidLevelWarning "To give information about low brake fluid level.
+";
+BA_DEF_ SG_  "GenSigTimeoutTime_TST" INT 0 0;
+BA_DEF_ SG_  "GenSigTimeoutMsg_TST" INT 0 2047;
+BA_DEF_ SG_  "GenSigTimeoutTime_TOS" INT 0 0;
+BA_DEF_ SG_  "GenSigTimeoutMsg_TOS" INT 0 2047;
+BA_DEF_ SG_  "GenSigTimeoutTime_SAS" INT 0 0;
+BA_DEF_ SG_  "GenSigTimeoutMsg_SAS" INT 0 2047;
+BA_DEF_ SG_  "GenSigTimeoutTime_SUM" INT 0 0;
+BA_DEF_ SG_  "GenSigTimeoutMsg_SUM" INT 0 2047;
+BA_DEF_ SG_  "GenSigTimeoutTime_TCM" INT 0 0;
+BA_DEF_ SG_  "GenSigTimeoutMsg_TCM" INT 0 2047;
+BA_DEF_ SG_  "GenSigTimeoutTime_BCM" INT 0 0;
+BA_DEF_ SG_  "GenSigTimeoutMsg_BCM" INT 0 2047;
+BA_DEF_ SG_  "GenSigTimeoutTime_DEM" INT 0 0;
+BA_DEF_ SG_  "GenSigTimeoutMsg_DEM" INT 0 2047;
+BA_DEF_ SG_  "GenSigTimeoutTime_CEM" INT 0 0;
+BA_DEF_ SG_  "GenSigTimeoutMsg_CEM" INT 0 2047;
+BA_DEF_ SG_  "GenSigTimeoutTime_AFS" INT 0 0;
+BA_DEF_ SG_  "GenSigTimeoutMsg_AFS" INT 0 2047;
+BA_DEF_ SG_  "GenSigTimeoutTime_FSM" INT 0 0;
+BA_DEF_ SG_  "GenSigTimeoutMsg_FSM" INT 0 2047;
+BA_DEF_ SG_  "GenSigTimeoutTime_EPB" INT 0 0;
+BA_DEF_ SG_  "GenSigTimeoutMsg_EPB" INT 0 2047;
+BA_DEF_ SG_  "GenSigTimeoutTime_ECM" INT 0 0;
+BA_DEF_ SG_  "GenSigTimeoutMsg_ECM" INT 0 2047;
+BA_DEF_  "BusType" STRING ;
+BA_DEF_ SG_  "NWM-WakeupAllowed" ENUM  "No","Yes";
+BA_DEF_ SG_  "GenSigStartValue" FLOAT 0 0;
+BA_DEF_ SG_  "GenSigSendType" ENUM  "Cyclic","OnWrite","OnWriteWithRepetition","OnChange","OnChangeWithRepetition","IfActive","IfActiveWithRepetition","NoSigSendType";
+BA_DEF_ BO_  "NetworkInitializationCommand" ENUM  "No","Yes";
+BA_DEF_ BO_  "NetworkWakeUp" ENUM  "No","Yes";
+BA_DEF_ BO_  "NetworkInitialization" ENUM  "No","Yes";
+BA_DEF_ BO_  "DiagState" ENUM  "No","Yes";
+BA_DEF_ BO_  "TpTxIndex" INT 0 0;
+BA_DEF_ BO_  "DiagRequest" ENUM  "No","Yes";
+BA_DEF_ BO_  "DiagResponse" ENUM  "No","Yes";
+BA_DEF_ BO_  "GenMsgStartDelayTime" INT 0 0;
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 0;
+BA_DEF_ BO_  "GenMsgDelayTime" INT 0 0;
+BA_DEF_ BO_  "GenMsgSendType" ENUM  "FixedPeriodic","Event","EnabledPeriodic","NotUsed","NotUsed","EventPeriodic","NotUsed","NotUsed","NoMsgSendType";
+BA_DEF_ BO_  "GenMsgILSupport" ENUM  "No","Yes";
+BA_DEF_ BO_  "NmMessage" ENUM  "No","Yes";
+BA_DEF_ BU_  "NodeLayerModules" STRING ;
+BA_DEF_ BU_  "GenNodSleepTime" INT 0 0;
+BA_DEF_ BU_  "NmCAN" INT 0 0;
+BA_DEF_ BU_  "NmStationAddress" HEX 0 0;
+BA_DEF_ BU_  "NmNode" ENUM  "No","Yes";
+BA_DEF_ BU_  "NetworkInitializationUsed" ENUM  "No","Yes";
+BA_DEF_ BU_  "ILUsed" ENUM  "No","Yes";
+BA_DEF_  "NmMessageCount" INT 1 255;
+BA_DEF_  "NmBaseAddress" HEX 0 2047;
+BA_DEF_  "NmType" STRING ;
+BA_DEF_  "VersionNumber" INT 0 10000;
+BA_DEF_  "VersionYear" INT 0 99;
+BA_DEF_  "VersionMonth" INT 1 12;
+BA_DEF_  "VersionDay" INT 1 31;
+BA_DEF_  "Manufacturer" STRING ;
+BA_DEF_DEF_  "GenSigTimeoutTime_TST" 0;
+BA_DEF_DEF_  "GenSigTimeoutMsg_TST" 0;
+BA_DEF_DEF_  "GenSigTimeoutTime_TOS" 0;
+BA_DEF_DEF_  "GenSigTimeoutMsg_TOS" 0;
+BA_DEF_DEF_  "GenSigTimeoutTime_SAS" 0;
+BA_DEF_DEF_  "GenSigTimeoutMsg_SAS" 0;
+BA_DEF_DEF_  "GenSigTimeoutTime_SUM" 0;
+BA_DEF_DEF_  "GenSigTimeoutMsg_SUM" 0;
+BA_DEF_DEF_  "GenSigTimeoutTime_TCM" 0;
+BA_DEF_DEF_  "GenSigTimeoutMsg_TCM" 0;
+BA_DEF_DEF_  "GenSigTimeoutTime_BCM" 0;
+BA_DEF_DEF_  "GenSigTimeoutMsg_BCM" 0;
+BA_DEF_DEF_  "GenSigTimeoutTime_DEM" 0;
+BA_DEF_DEF_  "GenSigTimeoutMsg_DEM" 0;
+BA_DEF_DEF_  "GenSigTimeoutTime_CEM" 0;
+BA_DEF_DEF_  "GenSigTimeoutMsg_CEM" 0;
+BA_DEF_DEF_  "GenSigTimeoutTime_AFS" 0;
+BA_DEF_DEF_  "GenSigTimeoutMsg_AFS" 0;
+BA_DEF_DEF_  "GenSigTimeoutTime_FSM" 0;
+BA_DEF_DEF_  "GenSigTimeoutMsg_FSM" 0;
+BA_DEF_DEF_  "GenSigTimeoutTime_EPB" 0;
+BA_DEF_DEF_  "GenSigTimeoutMsg_EPB" 0;
+BA_DEF_DEF_  "GenSigTimeoutTime_ECM" 0;
+BA_DEF_DEF_  "GenSigTimeoutMsg_ECM" 0;
+BA_DEF_DEF_  "BusType" "";
+BA_DEF_DEF_  "NWM-WakeupAllowed" "No";
+BA_DEF_DEF_  "GenSigStartValue" 0;
+BA_DEF_DEF_  "GenSigSendType" "NoSigSendType";
+BA_DEF_DEF_  "NetworkInitializationCommand" "No";
+BA_DEF_DEF_  "NetworkWakeUp" "No";
+BA_DEF_DEF_  "NetworkInitialization" "No";
+BA_DEF_DEF_  "DiagState" "No";
+BA_DEF_DEF_  "TpTxIndex" 0;
+BA_DEF_DEF_  "DiagRequest" "No";
+BA_DEF_DEF_  "DiagResponse" "No";
+BA_DEF_DEF_  "GenMsgStartDelayTime" 0;
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
+BA_DEF_DEF_  "GenMsgDelayTime" 0;
+BA_DEF_DEF_  "GenMsgSendType" "NoMsgSendType";
+BA_DEF_DEF_  "GenMsgILSupport" "Yes";
+BA_DEF_DEF_  "NmMessage" "No";
+BA_DEF_DEF_  "NodeLayerModules" "";
+BA_DEF_DEF_  "GenNodSleepTime" 0;
+BA_DEF_DEF_  "NmCAN" 0;
+BA_DEF_DEF_  "NmStationAddress" 0;
+BA_DEF_DEF_  "NmNode" "No";
+BA_DEF_DEF_  "NetworkInitializationUsed" "No";
+BA_DEF_DEF_  "ILUsed" "Yes";
+BA_DEF_DEF_  "NmMessageCount" 128;
+BA_DEF_DEF_  "NmBaseAddress" 1280;
+BA_DEF_DEF_  "NmType" "Ford-OSEK";
+BA_DEF_DEF_  "VersionNumber" 1;
+BA_DEF_DEF_  "VersionYear" 0;
+BA_DEF_DEF_  "VersionMonth" 1;
+BA_DEF_DEF_  "VersionDay" 1;
+BA_DEF_DEF_  "Manufacturer" "";
+BA_ "VersionYear" 4;
+BA_ "VersionMonth" 3;
+BA_ "VersionDay" 3;
+BA_ "Manufacturer" "Ford";
+BA_ "BusType" "CAN";
+BA_ "NodeLayerModules" BU_ SIMULATOR "FORDNM01.dll";
+BA_ "NmNode" BU_ SIMULATOR 1;
+BA_ "NodeLayerModules" BU_ TOS "FORDNM01.dll";
+BA_ "NmNode" BU_ TOS 1;
+BA_ "ILUsed" BU_ TOS 0;
+BA_ "NodeLayerModules" BU_ AFS "FORDNM01.dll";
+BA_ "NmNode" BU_ AFS 1;
+BA_ "NodeLayerModules" BU_ BCM "FORDNM01.dll";
+BA_ "NmNode" BU_ BCM 1;
+BA_ "NodeLayerModules" BU_ DEM "FORDNM01.dll";
+BA_ "NmNode" BU_ DEM 1;
+BA_ "ILUsed" BU_ TST 0;
+BA_ "GenMsgDelayTime" BO_ 1838 25;
+BA_ "GenMsgSendType" BO_ 1838 1;
+BA_ "GenMsgDelayTime" BO_ 2024 25;
+BA_ "GenMsgSendType" BO_ 2024 1;
+BA_ "GenMsgDelayTime" BO_ 1899 25;
+BA_ "GenMsgSendType" BO_ 1899 1;
+BA_ "GenMsgDelayTime" BO_ 1900 25;
+BA_ "GenMsgSendType" BO_ 1900 1;
+BA_ "GenMsgDelayTime" BO_ 1833 25;
+BA_ "GenMsgSendType" BO_ 1833 1;
+BA_ "GenMsgDelayTime" BO_ 2025 25;
+BA_ "GenMsgSendType" BO_ 2025 1;
+BA_ "GenMsgDelayTime" BO_ 1886 75;
+BA_ "GenMsgSendType" BO_ 1886 1;
+BA_ "GenMsgDelayTime" BO_ 1701 10;
+BA_ "GenMsgSendType" BO_ 1701 1;
+BA_ "GenMsgDelayTime" BO_ 1702 10;
+BA_ "GenMsgSendType" BO_ 1702 1;
+BA_ "GenMsgDelayTime" BO_ 1703 10;
+BA_ "GenMsgSendType" BO_ 1703 1;
+BA_ "GenMsgDelayTime" BO_ 1696 10;
+BA_ "GenMsgSendType" BO_ 1696 1;
+BA_ "GenMsgDelayTime" BO_ 1697 10;
+BA_ "GenMsgSendType" BO_ 1697 1;
+BA_ "GenMsgDelayTime" BO_ 1698 10;
+BA_ "GenMsgSendType" BO_ 1698 1;
+BA_ "GenMsgCycleTime" BO_ 1057 20;
+BA_ "GenMsgSendType" BO_ 1057 0;
+BA_ "GenMsgDelayTime" BO_ 1024 250;
+BA_ "GenMsgSendType" BO_ 1024 1;
+BA_ "GenMsgDelayTime" BO_ 1029 250;
+BA_ "GenMsgSendType" BO_ 1029 1;
+BA_ "DiagRequest" BO_ 1825 1;
+BA_ "GenMsgDelayTime" BO_ 1825 25;
+BA_ "GenMsgSendType" BO_ 1825 1;
+BA_ "GenMsgILSupport" BO_ 1825 0;
+BA_ "DiagRequest" BO_ 1830 1;
+BA_ "GenMsgDelayTime" BO_ 1830 25;
+BA_ "GenMsgSendType" BO_ 1830 1;
+BA_ "GenMsgILSupport" BO_ 1830 0;
+BA_ "DiagRequest" BO_ 1878 1;
+BA_ "GenMsgDelayTime" BO_ 1878 25;
+BA_ "GenMsgSendType" BO_ 1878 1;
+BA_ "GenMsgILSupport" BO_ 1878 0;
+BA_ "DiagRequest" BO_ 1888 1;
+BA_ "GenMsgDelayTime" BO_ 1888 25;
+BA_ "GenMsgSendType" BO_ 1888 1;
+BA_ "GenMsgILSupport" BO_ 1888 0;
+BA_ "DiagRequest" BO_ 1891 1;
+BA_ "GenMsgDelayTime" BO_ 1891 25;
+BA_ "GenMsgSendType" BO_ 1891 1;
+BA_ "GenMsgILSupport" BO_ 1891 0;
+BA_ "DiagRequest" BO_ 1892 1;
+BA_ "GenMsgDelayTime" BO_ 1892 25;
+BA_ "GenMsgSendType" BO_ 1892 1;
+BA_ "GenMsgILSupport" BO_ 1892 0;
+BA_ "GenMsgCycleTime" BO_ 1227 420;
+BA_ "GenMsgSendType" BO_ 1227 0;
+BA_ "GenMsgCycleTime" BO_ 522 20;
+BA_ "GenMsgSendType" BO_ 522 0;
+BA_ "GenMsgCycleTime" BO_ 1121 60;
+BA_ "GenMsgSendType" BO_ 1121 0;
+BA_ "GenMsgCycleTime" BO_ 686 20;
+BA_ "GenMsgSendType" BO_ 686 0;
+BA_ "GenMsgCycleTime" BO_ 653 20;
+BA_ "GenMsgSendType" BO_ 653 0;
+BA_ "DiagRequest" BO_ 1894 1;
+BA_ "GenMsgDelayTime" BO_ 1894 25;
+BA_ "GenMsgSendType" BO_ 1894 1;
+BA_ "GenMsgILSupport" BO_ 1894 0;
+BA_ "GenMsgCycleTime" BO_ 1072 80;
+BA_ "GenMsgSendType" BO_ 1072 0;
+BA_ "GenMsgCycleTime" BO_ 555 12;
+BA_ "GenMsgSendType" BO_ 555 0;
+BA_ "GenMsgCycleTime" BO_ 1042 24;
+BA_ "GenMsgSendType" BO_ 1042 0;
+BA_ "GenMsgCycleTime" BO_ 1240 1440;
+BA_ "GenMsgSendType" BO_ 1240 0;
+BA_ "GenMsgDelayTime" BO_ 1700 10;
+BA_ "GenMsgSendType" BO_ 1700 1;
+BA_ "GenMsgCycleTime" BO_ 1081 20;
+BA_ "GenMsgSendType" BO_ 1081 0;
+BA_ "DiagRequest" BO_ 1907 1;
+BA_ "GenMsgDelayTime" BO_ 1907 25;
+BA_ "GenMsgSendType" BO_ 1907 1;
+BA_ "GenMsgILSupport" BO_ 1907 0;
+BA_ "GenMsgCycleTime" BO_ 368 20;
+BA_ "GenMsgSendType" BO_ 368 0;
+BA_ "GenMsgCycleTime" BO_ 1214 10;
+BA_ "GenMsgSendType" BO_ 1214 0;
+BA_ "GenMsgCycleTime" BO_ 1068 20;
+BA_ "GenMsgSendType" BO_ 1068 0;
+BA_ "DiagState" BO_ 2015 1;
+BA_ "GenMsgDelayTime" BO_ 2015 50;
+BA_ "GenMsgSendType" BO_ 2015 1;
+BA_ "GenMsgCycleTime" BO_ 1201 60;
+BA_ "GenMsgSendType" BO_ 1201 0;
+BA_ "GenMsgCycleTime" BO_ 1148 150;
+BA_ "GenMsgSendType" BO_ 1148 0;
+BA_ "GenMsgCycleTime" BO_ 1161 150;
+BA_ "GenMsgSendType" BO_ 1161 0;
+BA_ "DiagRequest" BO_ 2016 1;
+BA_ "GenMsgDelayTime" BO_ 2016 25;
+BA_ "GenMsgSendType" BO_ 2016 1;
+BA_ "GenMsgILSupport" BO_ 2016 0;
+BA_ "DiagRequest" BO_ 2017 1;
+BA_ "GenMsgDelayTime" BO_ 2017 25;
+BA_ "GenMsgSendType" BO_ 2017 1;
+BA_ "GenMsgILSupport" BO_ 2017 0;
+BA_ "GenMsgDelayTime" BO_ 1914 25;
+BA_ "GenMsgSendType" BO_ 1914 1;
+BA_ "GenMsgDelayTime" BO_ 1896 25;
+BA_ "GenMsgSendType" BO_ 1896 1;
+BA_ "GenMsgDelayTime" BO_ 1902 25;
+BA_ "GenMsgSendType" BO_ 1902 1;
+BA_ "GenMsgDelayTime" BO_ 1915 25;
+BA_ "GenMsgSendType" BO_ 1915 1;
+BA_ "GenMsgCycleTime" BO_ 0 10;
+BA_ "GenMsgSendType" BO_ 0 0;
+BA_ "DiagRequest" BO_ 1906 1;
+BA_ "GenMsgDelayTime" BO_ 1906 25;
+BA_ "GenMsgSendType" BO_ 1906 1;
+BA_ "GenMsgILSupport" BO_ 1906 0;
+BA_ "GenMsgCycleTime" BO_ 294 10;
+BA_ "GenMsgSendType" BO_ 294 0;
+BA_ "GenMsgCycleTime" BO_ 457 15;
+BA_ "GenMsgSendType" BO_ 457 0;
+BA_ "GenMsgCycleTime" BO_ 32 10;
+BA_ "GenMsgSendType" BO_ 32 0;
+BA_ "GenMsgCycleTime" BO_ 228 12;
+BA_ "GenMsgSendType" BO_ 228 0;
+BA_ "GenMsgCycleTime" BO_ 147 10;
+BA_ "GenMsgSendType" BO_ 147 0;
+BA_ "GenMsgCycleTime" BO_ 65 10;
+BA_ "GenMsgSendType" BO_ 65 0;
+BA_ "GenMsgCycleTime" BO_ 424 20;
+BA_ "GenMsgSendType" BO_ 424 0;
+BA_ "GenMsgCycleTime" BO_ 392 10;
+BA_ "GenMsgSendType" BO_ 392 0;
+BA_ "GenMsgCycleTime" BO_ 326 10;
+BA_ "GenMsgSendType" BO_ 326 0;
+BA_ "GenMsgCycleTime" BO_ 261 12;
+BA_ "GenMsgSendType" BO_ 261 0;
+BA_ "GenMsgCycleTime" BO_ 359 16;
+BA_ "GenMsgSendType" BO_ 359 0;
+BA_ "GenMsgCycleTime" BO_ 718 20;
+BA_ "GenMsgSendType" BO_ 718 0;
+BA_ "GenMsgCycleTime" BO_ 620 12;
+BA_ "GenMsgSendType" BO_ 620 0;
+BA_ "GenMsgCycleTime" BO_ 490 20;
+BA_ "GenMsgSendType" BO_ 490 0;
+BA_ "GenMsgCycleTime" BO_ 98 10;
+BA_ "GenMsgSendType" BO_ 98 0;
+BA_ "GenMsgCycleTime" BO_ 196 20;
+BA_ "GenMsgSendType" BO_ 196 0;
+BA_ "GenMsgCycleTime" BO_ 816 15;
+BA_ "GenMsgSendType" BO_ 816 0;
+BA_ "GenMsgStartDelayTime" BO_ 1242 50;
+BA_ "GenMsgCycleTime" BO_ 1242 2975;
+BA_ "GenMsgSendType" BO_ 1242 0;
+BA_ "GenMsgCycleTime" BO_ 1108 30;
+BA_ "GenMsgSendType" BO_ 1108 0;
+BA_ "GenMsgCycleTime" BO_ 751 20;
+BA_ "GenMsgSendType" BO_ 751 0;
+BA_ "GenMsgCycleTime" BO_ 1095 32;
+BA_ "GenMsgSendType" BO_ 1095 0;
+BA_ "GenMsgCycleTime" BO_ 849 30;
+BA_ "GenMsgSendType" BO_ 849 0;
+BA_ "GenMsgCycleTime" BO_ 784 20;
+BA_ "GenMsgSendType" BO_ 784 0;
+BA_ "GenMsgCycleTime" BO_ 1055 20;
+BA_ "GenMsgSendType" BO_ 1055 0;
+BA_ "GenMsgStartDelayTime" BO_ 1241 50;
+BA_ "GenMsgCycleTime" BO_ 1241 2975;
+BA_ "GenMsgSendType" BO_ 1241 0;
+BA_ "GenMsgCycleTime" BO_ 1187 180;
+BA_ "GenMsgSendType" BO_ 1187 0;
+BA_ "GenMsgCycleTime" BO_ 1174 150;
+BA_ "GenMsgSendType" BO_ 1174 0;
+BA_ "GenSigSendType" SG_ 1838 TesterPhysicalRespCEMHS 3;
+BA_ "GenSigSendType" SG_ 2024 TesterPhysicalRespECM 3;
+BA_ "GenSigSendType" SG_ 1899 TesterPhysicalRespFSM 3;
+BA_ "GenSigSendType" SG_ 1900 TesterPhysicalRespSAS 3;
+BA_ "GenSigSendType" SG_ 1833 TesterPhysicalRespSUMCCD 3;
+BA_ "GenSigSendType" SG_ 2025 TesterPhysicalRespTCM 3;
+BA_ "GenSigSendType" SG_ 1886 TesterPhysicalRespTOS 3;
+BA_ "GenSigSendType" SG_ 1701 UUDTTCMResponse2 3;
+BA_ "GenSigSendType" SG_ 1702 UUDTTCMResponse3 3;
+BA_ "GenSigSendType" SG_ 1703 UUDTTCMResponse4 3;
+BA_ "GenSigSendType" SG_ 1696 UUDTECMResponse1 3;
+BA_ "GenSigSendType" SG_ 1697 UUDTECMResponse2 3;
+BA_ "GenSigSendType" SG_ 1698 UUDTECMResponse3 3;
+BA_ "GenSigSendType" SG_ 1024 VehicleConfParametersHS 3;
+BA_ "GenSigSendType" SG_ 1029 VehicleInfoParametersHS 3;
+BA_ "GenSigSendType" SG_ 1825 TesterPhysicalReqSUMCCD 3;
+BA_ "GenSigSendType" SG_ 1830 TesterPhysicalReqCEMHS 3;
+BA_ "GenSigSendType" SG_ 1878 TesterPhysicalReqTOS 3;
+BA_ "GenSigSendType" SG_ 1888 TesterPhysicalReqBCM 3;
+BA_ "GenSigSendType" SG_ 1891 TesterPhysicalReqFSM 3;
+BA_ "GenSigSendType" SG_ 1892 TesterPhysicalReqSAS 3;
+BA_ "GenSigSendType" SG_ 686 SCLSpeedReq 7;
+BA_ "GenSigSendType" SG_ 686 FuelHatchPopUp 7;
+BA_ "GenSigSendType" SG_ 653 IdleSpeedIncrease_El 7;
+BA_ "GenSigStartValue" SG_ 653 TerrainModeReq 7;
+BA_ "GenSigSendType" SG_ 1894 TesterPhysicalReqDEM 3;
+BA_ "GenSigSendType" SG_ 1072 ECMChecksumResponse 7;
+BA_ "GenSigStartValue" SG_ 1072 EngineWarningInd 1;
+BA_ "GenSigSendType" SG_ 1700 UUDTTCMResponse1 3;
+BA_ "GenSigSendType" SG_ 1907 TesterPhysicalReqEPB 3;
+BA_ "GenSigSendType" SG_ 2015 TesterFunctionalReqHS 3;
+BA_ "GenSigSendType" SG_ 1201 LockedInP 7;
+BA_ "GenSigSendType" SG_ 1201 GearboxServiceRequired 7;
+BA_ "GenSigSendType" SG_ 2016 TesterPhysicalReqECM 3;
+BA_ "GenSigSendType" SG_ 2017 TesterPhysicalReqTCM 3;
+BA_ "GenSigSendType" SG_ 1914 TesterPhysicalRespAFS 3;
+BA_ "GenSigSendType" SG_ 1896 TesterPhysicalRespBCM 3;
+BA_ "GenSigSendType" SG_ 1902 TesterPhysicalRespDEM 3;
+BA_ "GenSigSendType" SG_ 1915 TesterPhysicalRespEPB 3;
+BA_ "GenSigSendType" SG_ 0 DirectionIndication 7;
+BA_ "GenSigSendType" SG_ 0 SCLEngineEnable 7;
+BA_ "GenSigSendType" SG_ 1906 TesterPhysicalReqAFS 3;
+BA_ "GenSigSendType" SG_ 751 ImmoBCMSerialNo 7;
+BA_ "GenSigSendType" SG_ 1095 ImmoApprove 7;
+BA_ "GenSigSendType" SG_ 1095 StartSwitch1Active3 7;
+BA_ "GenSigSendType" SG_ 784 ImmoCtrlData 7;
+BA_ "GenSigStartValue" SG_ 784 PowerMode 11;
+BA_ "GenSigStartValue" SG_ 1055 TerrainModeReq 7;
+BA_ "GenSigStartValue" SG_ 1174 DoorStatus 1;
+BA_ "GenSigSendType" SG_ 1174 DoorStatus 7;
+BA_ "GenSigSendType" SG_ 1174 PowerSystemStatus 7;
+VAL_ 1057 VehicleSpeedOverGroundEstQF 3 "The data is calculated with the " 2 "The accuracy of the data is not " 1 "The data is temp. undefined, eva" 0 "The accuracy of the data is unde" ;
+VAL_ 522 ACCBrakeLightReq 1 "Activate brake light" 0 "Deactivate brake light" ;
+VAL_ 522 AWDDeclutch 4 "4 = Torque limit" 3 "3 = Full Lock" 2 "2 = Slow opening" 1 "1 = Fast opening" 0 "0 = Normal operation" ;
+VAL_ 522 AWDPropShaftTrqReqQF 3 "The data is calculated with the " 2 "The accuracy of the data is not " 1 "The data is temp. undefined, eva" 0 "The accuracy of the data is unde" ;
+VAL_ 522 LongAccOverGroundEstQF 3 "The data is calculated with the " 2 "The accuracy of the data is not " 1 "The data is temp. undefined, eva" 0 "The accuracy of the data is unde" ;
+VAL_ 522 OverSteer 1 "Oversteered" 0 "Not oversteered" ;
+VAL_ 522 UnderSteer 1 "Understeered" 0 "Not understeered" ;
+VAL_ 1121 BrakeLightInhibit 1 "Inhibition of brake light" 0 "No inhibition of brake light" ;
+VAL_ 1121 KeepNetworkBCM 1 "Restart of the KeepNetAliveTimer" 0 "No restart of the KeepNetAliveTi" ;
+VAL_ 686 TrailerConnection 1 "True trailer connected" 0 "False no trailer connected" ;
+VAL_ 686 EvapTempQF 3 "The data is calculated with the " 2 "The accuracy of the data is not " 1 "The data is temp. undefined, eva" 0 "The accuracy of the data is unde" ;
+VAL_ 686 EnableAc 1 "On" 0 "Off" ;
+VAL_ 686 ReversedGearQF 3 "The data is calculated with the " 2 "The accuracy of the data is not " 1 "The data is temp. undefined, eva" 0 "The accuracy of the data is unde" ;
+VAL_ 686 ReversedGear 0 "False:ReversedGear is not in use" 1 "True: ReversedGear is used" ;
+VAL_ 686 ClimHighIdleSpeedReq 1 "On" 0 "Off" ;
+VAL_ 686 IndicationIlluminationCmd 1 "1=Day illumination" 0 "0=Night illumination" ;
+VAL_ 686 FuelHatchPopUp 1 "Fuelhatch Unlocked" 0 "Fuelhatch Locked" ;
+VAL_ 686 CarMode 15 "Not Used" 14 "Not Used" 13 "Not Used" 12 "Not Used" 11 "Not Used" 10 "Not Used" 9 "Not Used" 8 "Not Used" 7 "Not Used" 6 "Not Used" 5 "Crash" 4 "Not Used" 3 "Transport" 2 "Not Used" 1 "Factory" 0 "Normal" ;
+VAL_ 653 SWSecurityError 1 "Error" 0 "No error" ;
+VAL_ 653 FuelPumpStatus 7 "Not used" 6 "Not used" 5 "Not used" 4 "Fuel pump supply not present" 3 "Short circuit to +12V (SW)" 2 "Fault in relay coil circuit" 1 "Not used" 0 "No faults" ;
+VAL_ 653 CMbBAllowedByMonitor 0 "CMdB denied by monitor" 1 "CMdB allowed by monitor" ;
+VAL_ 653 ACCAllowedByMonitor 1 "1= ACC allowed by monitor" 0 "0= ACC denied by monitor" ;
+VAL_ 653 ParkingBrakeActive 1 "1 = Parking brake activated" 0 "0 = Parking brake not activated" ;
+VAL_ 653 ParkHeaterOnOff 1 "On" 0 "Off" ;
+VAL_ 1072 KeepNetworkECM 1 "Restart of the KeepNetAliveTimer" 0 "No restart of the KeepNetAliveTi" ;
+VAL_ 1072 DieselFilterWarmer 1 "On" 0 "Off" ;
+VAL_ 1072 ACPressureHighsideQF 3 "The data is calculated with the " 2 "The accuracy of the data is not " 1 "The data is temp. undefined, eva" 0 "The accuracy of the data is unde" ;
+VAL_ 1072 TotAxleFrictionTrqQF 3 "The data is calculated with the " 2 "The accuracy of the data is not " 1 "The data is temp. undefined, eva" 0 "The accuracy of the data is unde" ;
+VAL_ 555 KickDown 1 "Kickdown switch is active" 0 "Kickdown switch is passive" ;
+VAL_ 555 AvailableCrankShaftTrqMax 1023 "No control" ;
+VAL_ 555 CCActive 1 "Cruise active" 0 "Cruise not active" ;
+VAL_ 555 CCMode 7 "TapDownWaitng" 6 "TapUpWaitng" 5 "Resuming Low" 4 "Resuming High" 3 "Decelerating" 2 "Accelerating" 1 "KeepingSpeed" 0 "Not active" ;
+VAL_ 555 CCOverridden 1 "Cruise overridden" 0 "Cruise not overridden" ;
+VAL_ 555 ACCActiveAllowed 1 "ACC active" 0 "ACC not active" ;
+VAL_ 555 AvailableCrankShaftTrqMin 1023 "No control" ;
+VAL_ 1042 AmbientAirPressureQF 3 "The data is calculated with the " 2 "The accuracy of the data is not " 1 "The data is temp. undefined, eva" 0 "The accuracy of the data is unde" ;
+VAL_ 1042 CCResumeReq 0 "Resume Not pressed" 1 "Resume pressed" ;
+VAL_ 1042 TimeGapMinus 0 "1= Decrease  ACC Time Gap one st" ;
+VAL_ 1042 TimeGapPlus 0 "1= Increase ACC Time Gap one ste" ;
+VAL_ 1042 MaxEngineBrakeReached 0 "0= Engine max brake not reached" 1 "1 = Engine max brake reached" ;
+VAL_ 1042 AmbientTempQF 3 "The data is calculated with the " 2 "The accuracy of the data is not " 1 "The data is temp. undefined, eva" 0 "The accuracy of the data is unde" ;
+VAL_ 1081 EPBRedTellTaleActivation 3 "FLASH FAST" 2 "FLASH SLOW" 1 "OFF" 0 "ON" ;
+VAL_ 1081 EPBBrakeLightReq 1 "On" 0 "Off" ;
+VAL_ 1081 ServiceBrakeOperationReq 255 "Failure 0xFF" ;
+VAL_ 1081 EPBFailure 3 "FLASH FAST" 2 "FLASH SLOW" 1 "OFF" 0 "ON" ;
+VAL_ 1081 EPBMessageReq 3 "EPB still applied" 2 "EPB total system failure" 1 "EPB limited function" 0 "No message" ;
+VAL_ 1081 EPBWarningBuzzer 3 "Not defined" 2 "On with uncomfortable tone (1kHz" 1 "On with comfortable tone (1kHz 1" 0 "OFF" ;
+VAL_ 368 ACCBrakeBoosterPrefill 1 "ACC brake prefill" 0 "No ACC brake prefill" ;
+VAL_ 1068 SuspPositionFrLQF 3 "The data is calculated with the " 2 "The accuracy of the data is not " 1 "The data is temp. undefined, eva" 0 "The accuracy of the data is unde" ;
+VAL_ 1068 SuspPositionFrRQF 3 "The data is calculated with the " 2 "The accuracy of the data is not " 1 "The data is temp. undefined, eva" 0 "The accuracy of the data is unde" ;
+VAL_ 1068 SuspPositionReLQF 3 "The data is calculated with the " 2 "The accuracy of the data is not " 1 "The data is temp. undefined, eva" 0 "The accuracy of the data is unde" ;
+VAL_ 1068 SuspPositionReRQF 3 "The data is calculated with the " 2 "The accuracy of the data is not " 1 "The data is temp. undefined, eva" 0 "The accuracy of the data is unde" ;
+VAL_ 1201 LockedInP 1 "Locked in P position" 0 "Not locked in P position" ;
+VAL_ 1201 GearboxServiceRequired 3 "TBD" 2 "TBD" 1 "TBD" 0 "TBD" ;
+VAL_ 1201 Gear 7 "Not defined" 6 "6=L (Low)" 5 "5=3rd" 4 "4=4th" 3 "3=D (Drive)" 2 "2=N (Neutral)" 1 "1=R (Reverse)" 0 "0=P (Park)" ;
+VAL_ 0 DirectionIndication 3 "Hazard: Left and Right indicatio" 2 "Right: Right indication is illum" 1 "Left: Left indication is illumin" 0 "Neutral: The indication is not i" ;
+VAL_ 0 AccPedalAnalogPositionQF 3 "The data is calculated with the " 2 "The accuracy of the data is not " 1 "The data is temp. undefined, eva" 0 "The accuracy of the data is unde" ;
+VAL_ 0 ClimCoolFanSpeedReq 30 "Volvo engines: values 25..30 are" 29 "Volvo engines: values 25..30 are" 28 "Volvo engines: values 25..30 are" 27 "Volvo engines: values 25..30 are" 26 "Volvo engines: values 25..30 are" 25 "Volvo engines: values 25..30 are" 31 "Volvo engines: ECM generate the " ;
+VAL_ 0 ClutchPedalAnalogPositionQF 3 "The data is calculated with the " 2 "The accuracy of the data is not " 1 "The data is temp. undefined, eva" 0 "The accuracy of the data is unde" ;
+VAL_ 0 ImmoKeyStatus 1 "Key Status OK and SCL unlocked" 0 "Key Status NOK or SCL locked" ;
+VAL_ 0 SCLEngineEnable 1 "On" 0 "Off" ;
+VAL_ 294 SteeringAngleStatus 3 "The data is calculated with the " 2 "The accuracy of the data is not " 1 "The data is temp. undefined, eva" 0 "The accuracy of the data is unde" ;
+VAL_ 294 SteeringAngleCRSign 1 "1 = Steering wheel velocity righ" 0 "0 = Steering wheel velocity left" ;
+VAL_ 294 SteeringAngleSign 1 "1 = Right turn (Clockwise)" 0 "0 = Left turn (Counterclockwise)" ;
+VAL_ 457 CMbBEBASensReq 3 "3 = level 3 EBA" 2 "2 = level 2 EBA" 1 "1 = level 1 EBA" 0 "0 = normal EBA" ;
+VAL_ 457 CMbBBrakePrechargeReq 3 "3 = NA" 2 "2 = level 2, pre-charge" 1 "1 = level 1,  pre-charge" 0 "0 = No pre-charge" ;
+VAL_ 457 CMbBAllowed 1 "CMbB allowed" 0 "CMbB not allowed" ;
+VAL_ 457 CMbBEngineBrakeReq 1 "1= engine braking" 0 "0= no engine braking" ;
+VAL_ 457 CMbBEngineBrakeReqInv 1 "1= no engine braking" 0 "0= engine braking" ;
+VAL_ 457 ACCCancel 1 "1= ACC Cancel requested by FSM" 0 "0= ACC allowed by FSM" ;
+VAL_ 457 ACCDenied 1 "1= ACC Denied requested by FSM" 0 "0= ACC allowed by FSM" ;
+VAL_ 32 CenterStackBtnsPressed 1 "Pressed" 0 "Not pressed" ;
+VAL_ 32 TelephoneActive 1 "1= (('Off hook' AND 'Voicecall')" 0 "0= On hook" ;
+VAL_ 32 SteeringWheelButtonsPressed 1 "Pushed" 0 "NOT pushed" ;
+VAL_ 228 CCLamp 3 "CC ON and Active (indication 'Cr" 2 "CC ON (indication 'Cruise')" 1 "CC OFF (no indication)" 0 "Not defined" ;
+VAL_ 228 CrankShaftTrq 1023 "No control" ;
+VAL_ 228 CrankShaftTrqQF 3 "The data is calculated with the " 2 "The accuracy of the data is not " 1 "The data is temp. undefined, eva" 0 "The accuracy of the data is unde" ;
+VAL_ 147 TrqRatioQF 3 "The data is calculated with the " 2 "The accuracy of the data is not " 1 "The data is temp. undefined, eva" 0 "The accuracy of the data is unde" ;
+VAL_ 147 GearLeverPosition 7 "Not defined" 6 "6=L (Low)" 5 "5=3rd" 4 "4=4th" 3 "3=D (Drive)" 2 "2=N (Neutral)" 1 "1=R (Reverse)" 0 "0=P (Park)" ;
+VAL_ 147 TargetGear 7 "7 = 8:th gear" 6 "6 = 7:th gear" 5 "5 = 6:th gear" 4 "4 = 5:th gear" 3 "3 = 4:th gear" 2 "2 = 3:rd gear" 1 "1 = 2:nd gear" 0 "0 = 1:st gear" ;
+VAL_ 147 GearLeverPositionQF 3 "The data is calculated with the " 2 "The accuracy of the data is not " 1 "The data is temp. undefined, eva" 0 "The accuracy of the data is unde" ;
+VAL_ 147 FuelCutEnable 1 "Fuel Shut Off Enable" 0 "Fuel Shut Off Not Enable" ;
+VAL_ 65 FCWMute 0 "No mute of audio" 1 "Mute audio" ;
+VAL_ 424 YawRateQF 3 "The data is calculated with the " 2 "The accuracy of the data is not " 1 "The data is temp. undefined, eva" 0 "The accuracy of the data is unde" ;
+VAL_ 424 LateralAccelerationQF 3 "The data is calculated with the " 2 "The accuracy of the data is not " 1 "The data is temp. undefined, eva" 0 "The accuracy of the data is unde" ;
+VAL_ 392 CCDControlMode 7 "Control OffRoad" 6 "Control Advanced" 5 "Control Sport" 4 "Control Normal" 3 "Control Comfort" 2 "Control Reduced" 1 "Control Static" 0 "Control Off" ;
+VAL_ 392 CCDSwitchActual 3 "Switch 3. FoE:Sport; VCC:Advance" 2 "Switch 2. FoE:Normal; VCC:Sport" 1 "Switch 1. Comfort" 0 "No mode selected" ;
+VAL_ 392 VertWheelAccelFrLQF 3 "The data is calculated with the " 2 "The accuracy of the data is not " 1 "The data is temp. undefined, eva" 0 "The accuracy of the data is unde" ;
+VAL_ 392 VertWheelAccelFrRQF 3 "The data is calculated with the " 2 "The accuracy of the data is not " 1 "The data is temp. undefined, eva" 0 "The accuracy of the data is unde" ;
+VAL_ 392 SUMWarnings 3 "no text" 2 "'Four-C temporarily off' and Gen" 1 "'Four-C Service Required' and Ge" 0 "No text" ;
+VAL_ 392 CCDSwitchPerso 1 "Personalization Request" 0 "No Personalization Request" ;
+VAL_ 326 CrankShaftTrqEstLim 1023 "No control" ;
+VAL_ 326 CrankShaftTrqFastLimReq 1023 "No control" ;
+VAL_ 326 GearBoxTrqLossQF 3 "The data is calculated with the " 2 "The accuracy of the data is not " 1 "The data is temp. undefined, eva" 0 "The accuracy of the data is unde" ;
+VAL_ 326 Lockup 3 "3= Lock-up FIX" 2 "2= Not defined" 1 "1= Lock-up SLIP" 0 "0= No Lock-up" ;
+VAL_ 326 TCMText 15 "15 = text 15" 14 "14 = text 14" 13 "13 = text 13" 12 "12 = text 12" 11 "11 = text 11" 10 "10 = text 10" 9 "9 = text 9" 8 "8 = text 8" 7 "7 = text 7" 6 "6 = text 6" 5 "5 = text 5" 4 "4 = text 4" 3 "3 = text 3" 2 "2 = text 2" 1 "1 = text 1" 0 "0 = No message" ;
+VAL_ 326 GearEngagement 1 "Gear engaged" 0 "Gear not engaged" ;
+VAL_ 326 NeutralControl 1 "1 = Neutral control activated" 0 "0 = Neutral control not activate" ;
+VAL_ 261 ClutchPedalPositionQF 3 "The data is calculated with the " 2 "The accuracy of the data is not " 1 "The data is temp. undefined, eva" 0 "The accuracy of the data is unde" ;
+VAL_ 261 BrakePedalSwitchQF 3 "The data is calculated with the " 2 "The accuracy of the data is not " 1 "The data is temp. undefined, eva" 0 "The accuracy of the data is unde" ;
+VAL_ 261 BrakePedalSwitch 1 "On" 0 "Off" ;
+VAL_ 261 CCFollowMode 1 "CC in follow mode" 0 "CC not in follow mode" ;
+VAL_ 261 BrakePedalActive 1 "1 = Brake light switch activated" 0 "0 = Brake light switch not activ" ;
+VAL_ 261 EngineSpeedQF 3 "The data is calculated with the " 2 "The accuracy of the data is not " 1 "The data is temp. undefined, eva" 0 "The accuracy of the data is unde" ;
+VAL_ 359 TotAxleTrqQF 3 "The data is calculated with the " 2 "The accuracy of the data is not " 1 "The data is temp. undefined, eva" 0 "The accuracy of the data is unde" ;
+VAL_ 359 BrakePedalPositionQF 3 "The data is calculated with the " 2 "The accuracy of the data is not " 1 "The data is temp. undefined, eva" 0 "The accuracy of the data is unde" ;
+VAL_ 718 BrakePedalAnalogPositionQF 3 "The data is calculated with the " 2 "The accuracy of the data is not " 1 "The data is temp. undefined, eva" 0 "The accuracy of the data is unde" ;
+VAL_ 718 DSTCWarningLamp 3 "The warning lamp switched off ('" 2 "The warning lamp switched on ('S" 1 "The warning lamp flashing light " 0 "The warning lamp switched on ('B" ;
+VAL_ 718 ABSWarningLamp 3 "Warning Lamp switched off ('OFF'" 2 "NA" 1 "Warning Lamp flashing light ('FL" 0 "Warning Lamp switched on ('ON' c" ;
+VAL_ 718 DSTCSwitchIndication 1 "1 = ON, switch visual feedback s" 0 "0 = OFF, switch visual feedback " ;
+VAL_ 718 BrakeWarningLamp 1 "Warning Lamp switched off ('OFF'" 0 "Warning Lamp switched on ('ON' c" ;
+VAL_ 620 DriverCrankShaftTrqReq 1023 "No control" ;
+VAL_ 620 AccPedalPositionQF 3 "The data is calculated with the " 2 "The accuracy of the data is not " 1 "The data is temp. undefined, eva" 0 "The accuracy of the data is unde" ;
+VAL_ 620 EngineCoolantTempQF 3 "The data is calculated with the " 2 "The accuracy of the data is not " 1 "The data is temp. undefined, eva" 0 "The accuracy of the data is unde" ;
+VAL_ 620 EngineState 7 "Not defined" 6 "Shutdown" 5 "Afterrun" 4 "Stalled" 3 "Running" 2 "Cranking" 1 "Ready" 0 "Off" ;
+VAL_ 620 OilPressureWarning 1 "Switch closed (low pressure, lam" 0 "Switch open (normal pressure, no" ;
+VAL_ 620 GlowIndication 1 "Lamp on" 0 "Lamp off" ;
+VAL_ 620 ArbitratedCrankShaftTrq 1023 "No control" ;
+VAL_ 490 WheelSpeedFrRQF 3 "The data is calculated with the " 2 "The accuracy of the data is not " 1 "The data is temp. undefined, eva" 0 "The accuracy of the data is unde" ;
+VAL_ 490 LongAccelerationQF 3 "The data is calculated with the " 2 "The accuracy of the data is not " 1 "The data is temp. undefined, eva" 0 "The accuracy of the data is unde" ;
+VAL_ 490 WheelSpeedFrLQF 3 "The data is calculated with the " 2 "The accuracy of the data is not " 1 "The data is temp. undefined, eva" 0 "The accuracy of the data is unde" ;
+VAL_ 98 ABSMode 1 "1 = Regulation (ABS/SC/TC/MSR/AY" 0 "0 = No regulation (ABS/SC/TC/MSR" ;
+VAL_ 98 AYCMode 1 "1 = Regulation (ABS/SC/TC/MSR/AY" 0 "0 = No regulation (ABS/SC/TC/MSR" ;
+VAL_ 98 DriverBraking 15 "Invalid / Undefined" 14 "Invalid / Undefined" 12 "Invalid / Undefined" 11 "Invalid / Undefined" 10 "Invalid / Undefined" 9 "Invalid / Undefined" 8 "Invalid / Undefined" 7 "Invalid / Undefined" 5 "Invalid / Undefined" 4 "Invalid / Undefined" 3 "Invalid / Undefined" 2 "Invalid / Undefined" 1 "Invalid / Undefined" 0 "Invalid / Undefined" 13 "(1101b) Driver is not braking" 6 "(0110b) Driver is braking" ;
+VAL_ 98 SCMode 1 "1 = Regulation (ABS/SC/TC/MSR/AY" 0 "0 = No regulation (ABS/SC/TC/MSR" ;
+VAL_ 98 RFLevel 3 "reserved" 2 "reserved" 1 "warning" 0 "no warning" ;
+VAL_ 98 TCMode 1 "1 = Regulation (ABS/SC/TC/MSR/AY" 0 "0 = No regulation (ABS/SC/TC/MSR" ;
+VAL_ 98 BrakePressureQF 3 "The data is calculated with the " 2 "The accuracy of the data is not " 1 "The data is temp. undefined, eva" 0 "The accuracy of the data is unde" ;
+VAL_ 98 DriverBrakingQF 3 "The data is calculated with the " 2 "The accuracy of the data is not " 1 "The data is temp. undefined, eva" 0 "The accuracy of the data is unde" ;
+VAL_ 98 VehicleSpeedQF 3 "The data is calculated with the " 2 "The accuracy of the data is not " 1 "The data is temp. undefined, eva" 0 "The accuracy of the data is unde" ;
+VAL_ 196 WheelSpeedReLQF 3 "The data is calculated with the " 2 "The accuracy of the data is not " 1 "The data is temp. undefined, eva" 0 "The accuracy of the data is unde" ;
+VAL_ 196 WheelSpeedReRQF 3 "The data is calculated with the " 2 "The accuracy of the data is not " 1 "The data is temp. undefined, eva" 0 "The accuracy of the data is unde" ;
+VAL_ 196 ACCBrakeStatus 1 "ACC brake activation" 0 "No ACC brake activation" ;
+VAL_ 196 RFText 1 "RFD-function fault warning, warn" 0 "No fault. General amber warning " ;
+VAL_ 816 GearRatioQF 3 "The data is calculated with the " 2 "The accuracy of the data is not " 1 "The data is temp. undefined, eva" 0 "The accuracy of the data is unde" ;
+VAL_ 816 CrankShaftTrqLimReq 1023 "No control" ;
+VAL_ 816 VehicleSpeedTCMQF 3 "The data is calculated with the " 2 "The accuracy of the data is not " 1 "The data is temp. undefined, eva" 0 "The accuracy of the data is unde" ;
+VAL_ 816 WinterMode 1 "1 = Winter mode" 0 "0 = Normal mode" ;
+VAL_ 816 TipMode 1 "Quick shift mode (tiptronic mode" 0 "Normal Mode" ;
+VAL_ 816 TCMMILRequest 3 "Not defined" 2 "2 = MIL lamp flashing" 1 "1 = MIL lamp on" 0 "0 = MIL lamp off" ;
+VAL_ 816 GearBoxOilTempQF 3 "The data is calculated with the " 2 "The accuracy of the data is not " 1 "The data is temp. undefined, eva" 0 "The accuracy of the data is unde" ;
+VAL_ 751 HillDescentMode 7 "HDC Fault" 6 "Selected, temporary unavailable" 5 "Selected, not enabled - wrong ge" 4 "Selected, not enabled - speed li" 3 "Selected, active braking" 2 "Selected, not active braking" 1 "Off" ;
+VAL_ 751 MechSensorCheckStat 1 "1 = Failure detection window has" 0 "0 = Failure detection window has" ;
+VAL_ 1095 FuelPumpOnOff 1 "On command" 0 "Off command" ;
+VAL_ 1095 ImmoApprove 1 "Immo Check Approved" 0 "Immo Check failed" ;
+VAL_ 1095 ACMMechanicalFault 1 "Fault detected" 0 "No fault" ;
+VAL_ 1095 ACMElectricalFault 1 "Fault detected" 0 "No fault" ;
+VAL_ 1095 ACMTemperatureFault 1 "Fault detected" 0 "No fault" ;
+VAL_ 1095 ECMMILRequest 1 "MIL lamp on" 0 "MIL lamp off" 3 "Not used" 2 "MIL lamp flashing" ;
+VAL_ 1095 NoAlternatorResponse 1 "Fault" 0 "OK" ;
+VAL_ 1095 ACCompressorStatus 7 "OFF - compressor broken" 3 "OFF - Other ECM decision" 2 "OFF - too low pressure on low pr" 1 "OFF - too low air temperature af" 0 "Running" ;
+VAL_ 849 AWDStatus 5 "5 = Coupling disabled (overheat)" 4 "4 = Coupling warning (overheat)" 3 "3 = Coupling failure (not possib" 2 "2 = Coupling inactive (Not ready" 1 "1 = Coupling completely opened b" 6 "6 = Coupling fully locked by com" 0 "0 = OK (working normally)" ;
+VAL_ 849 AWDPropShaftTrqQF 3 "The data is calculated with the " 2 "The accuracy of the data is not " 1 "The data is temp. undefined, eva" 0 "The accuracy of the data is unde" ;
+VAL_ 849 AWDText 3 "3 = message 3" 2 "2 = message 2" 1 "1 = message 1" 0 "0 = No message" ;
+VAL_ 784 BrakePedalDiagSwitch 1 "On" 0 "Off" ;
+VAL_ 784 PowerMode 10 "Not used" 9 "Crank_3" 8 "Not used" 7 "Running_2" 6 "IgnitionOn_2" 5 "PostIgnition_1" 4 "Accessory_1" 3 "PostAccessory_0" 2 "KeyApproved_0" 1 "KeyRecentlyOut" 0 "KeyOut" ;
+VAL_ 784 PowerModeQF 3 "PowerModeOK" 2 "Not defined" 1 "PowerModeEvaluationInProgress" 0 "PowerModeUndefined" ;
+VAL_ 1187 AdaptiveFrontLightSwitchPos 1 "On" 0 "Off" ;
+VAL_ 1174 BeltReminderSensor 1 "Front passenger seated" 0 "No front passenger seated" ;
+VAL_ 1174 PowerSystemStatus 7 "Lowbatt2" 6 "Lowbatt1" 5 "Overvoltage" 4 "DC/DC fault (ISG)(" 3 "Alternator fault" 2 "Alternator fault" 1 "Alternator fault" 0 "No fault" ;
+VAL_ 1174 BrakeFluidLevelWarning 1 "Warning Lamp switched off ('OFF'" 0 "Warning Lamp switched on ('ON' c" ;

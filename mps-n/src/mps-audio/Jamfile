@@ -1,0 +1,22 @@
+SubDir TOP src mps-audio ;
+
+SubDirHdrs $(TOP)/include ; 
+SubDirHdrs $(TOP)/include/portaudio ; 
+
+SubDirC++Flags [ FDefines MPSAUDIO_EXPORTS ] ;
+SubDirObjects $(OUTPUT_OBJECT) mps-audio ;
+
+SharedLibrary mps-audio : InPS.cpp
+						  OutPS.cpp
+						  OutChannel.cpp
+						  OutDevice.cpp
+						  AudioObjectFactory.cpp
+						  AudioSignal.cpp
+						  mps-audio.cpp
+						  ;
+
+LinkSharedLibraries mps-audio : mps-drv-audio mps-core ;
+
+LinkFlags  mps-audio  : $(MPS_LINKFLAGS) $(AUDIO_LIBS) ; 
+
+MakeLocate mps-audio : $(MPS_BINDIR) ;

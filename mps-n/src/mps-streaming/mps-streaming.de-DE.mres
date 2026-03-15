@@ -1,0 +1,2 @@
+Mp.Streaming.Err.Conn#Verbindung '%s' konnte nicht hergestellt werden.
+Mp.Streaming.Err.WrongSigList#Der Baustein '%s' hat einen falsche Signaldaten empfangen.

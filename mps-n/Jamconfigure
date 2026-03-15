@@ -1,0 +1,103 @@
+SubDir TOP ;
+
+Configure CONFIG ;
+EchoOption CONFIG : "Build configuration" ;
+
+#############################################################################
+# Compiler
+#############################################################################
+
+# configure basic C compiler
+ConfigureCc ;
+
+# configure basic C++ compiler
+ConfigureC++ ;
+
+
+#############################################################################
+# System libraries and includes
+#############################################################################
+
+if $(TARGET_OS:L) = winrt
+{
+    SYS = winrt ;
+}
+
+if ! $(SYS)
+{
+    WITH_WIN32 = [ CheckBuildC++ "#include <windows.h>"
+                                 "int main() { return 0; }" ] ;
+    if $(WITH_WIN32)
+    {
+        Load win32.jam ;
+    
+        ConfigurePsapi ;
+    
+        if $(WITH_PSAPI)
+        {
+            SYSLIBS += $(PSAPI_LIBS) ;
+        }
+    
+        ConfigureWsa ;
+    
+        if ! $(WITH_WSA)
+        {
+            Exit "ERROR: WSA is required." ;
+        }
+    
+        NETLIBS = $(WSA_LIBS) ;
+        SYS = win32 ;
+    }
+}
+
+if ! $(SYS)
+{
+    Load posix.jam ;
+
+    ConfigureDl ;
+
+    if ! $(WITH_DL)
+    {
+        Exit "ERROR: dl is required." ;
+    }
+
+    ConfigurePThread ;
+
+    if ! $(WITH_PTHREADS)
+    {
+        Exit "ERROR: pthread is required." ;
+    }
+
+    SYSLIBS += $(DL_LIBS) $(PTHREAD_LIBS) ;
+
+    ConfigureUnixSockets ;
+
+    if ! $(WITH_UNIX_SOCKETS)
+    {
+        Exit "ERROR: unix sockets are required." ;
+    }
+
+    ConfigureNsl ;
+    
+    if ! $(WITH_NSL)
+    {
+        Exit "ERROR: nsl is required." ;
+    }
+
+    NETLIBS = $(UNIX_SOCKET_LIBS) $(NSL_LIBS) ;
+    SYS = posix ;
+}
+
+if $(TARGET_OS) = "aix"
+{
+    LINKLIBS += $(SYSLIBS) ;
+}
+
+EchoOption SYS : "Using subsystem" ;
+Configure SYS ;
+
+Configure SYSLIBS ;
+EchoOption SYSLIBS : "System lib flags" ;
+
+Configure NETLIBS ;
+EchoOption NETLIBS : "Network lib flags" ;

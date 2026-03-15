@@ -1,0 +1,27 @@
+SubDir TOP src mpal-vm ;
+
+SubDirHdrs $(TOP)/include ;
+
+SubDirC++Flags [ FDefines MPAL_API_EXPORT ] ;
+SubDirObjects $(OUTPUT_OBJECT) mpal-vm ;
+
+SharedLibrary mpal-vm : Function.cpp
+                        Loader.cpp
+                        Unit.cpp
+                        Operand.cpp
+                        Parameter.cpp
+                        VirtualMachine.cpp
+                        VirtualMachineImpl.cpp
+                        ProgramInfoImpl.cpp
+                        Debugger.cpp
+                        DebuggerContext.cpp
+                        CallInst.cpp
+						BreakPoint.cpp
+						Instruction.cpp
+						InstructionTable.cpp
+						Variable.cpp
+                        ;
+
+LinkFlags  mpal-vm  : $(MPS_LINKFLAGS) ;
+
+MakeLocate   mpal-vm : $(MPS_BINDIR) ;

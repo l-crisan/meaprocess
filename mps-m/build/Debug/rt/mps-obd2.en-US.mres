@@ -1,0 +1,2 @@
+Mp.OBD2.Err.Driver#The element '%s' couldn't initialize the driver.
+Mp.OBD2.Err.Sig#The signal '%s' was disabled because is not supported by this vehicle.

@@ -1,0 +1,18 @@
+SubDir TOP src mps-builder ;
+
+SubDirHdrs $(TOP)/include ; 
+
+SubDirC++Flags [ FDefines MPS_BUILDER_API_EXPORT ] ;
+
+SubDirObjects $(OUTPUT_OBJECT) mps-builder ;
+
+SharedLibrary  mps-builder :	XmlBuilder.cpp
+								XmlObjectBuilder.cpp
+                              ;
+
+LinkSharedLibraries mps-builder : mps-core  ;
+
+LinkFlags  mps-builder  : $(MPS_LINKFLAGS) ;
+
+MakeLocate    mps-builder : $(MPS_BINDIR) ;
+

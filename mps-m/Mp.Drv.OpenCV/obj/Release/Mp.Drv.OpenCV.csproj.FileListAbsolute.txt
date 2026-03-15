@@ -1,0 +1,6 @@
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Release\Mp.Drv.OpenCV.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Release\Mp.Drv.OpenCV.pdb
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Drv.OpenCV\obj\Release\Mp.Drv.OpenCV.csproj.AssemblyReference.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Drv.OpenCV\obj\Release\Mp.Drv.OpenCV.csproj.CoreCompileInputs.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Drv.OpenCV\obj\Release\Mp.Drv.OpenCV.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Drv.OpenCV\obj\Release\Mp.Drv.OpenCV.pdb

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinX64Debug|Win32'">
+    <LocalDebuggerCommand>C:\Users\cr\projects\atesion\mps\managed\build\Debug\rt\Mp.Runtime.App.exe</LocalDebuggerCommand>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Debug|Win32'">
+    <LocalDebuggerCommand>E:\atesion\open\mp-ui\build\WinX86Debug\Runtime\Mp.Runtime.App.exe</LocalDebuggerCommand>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinX64Debug|Win32'">
+    <LocalDebuggerCommandArguments>C:\Users\cr\Desktop\test.mpw</LocalDebuggerCommandArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Debug|Win32'">
+    <LocalDebuggerCommandArguments>C:\Users\cr\Desktop\dcdcd.mpw</LocalDebuggerCommandArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinX64Debug|Win32'">
+    <LocalDebuggerWorkingDirectory>C:\Users\cr\projects\atesion\mps\managed\build\Debug\rt\</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Debug|Win32'">
+    <LocalDebuggerWorkingDirectory>E:\atesion\open\mp-ui\build\WinX86Debug\Runtime\</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>

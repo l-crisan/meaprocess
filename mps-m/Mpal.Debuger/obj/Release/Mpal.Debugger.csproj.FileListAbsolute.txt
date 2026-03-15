@@ -1,0 +1,16 @@
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Release\Mpal.Debugger.dll.config
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Release\Mpal.Debugger.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Release\Mpal.Debugger.pdb
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Release\de-DE\Mpal.Debugger.resources.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mpal.Debuger\obj\Release\Mpal.Debugger.csproj.AssemblyReference.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mpal.Debuger\obj\Release\Mpal.Debugger.DebuggerSettingsDlg.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mpal.Debuger\obj\Release\Mpal.Debugger.Resource.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mpal.Debuger\obj\Release\Mpal.Debugger.StringResource.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mpal.Debuger\obj\Release\Mpal.Debugger.DebuggerSettingsDlg.de-DE.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mpal.Debuger\obj\Release\Mpal.Debugger.StringResource.de-DE.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mpal.Debuger\obj\Release\Mpal.Debugger.csproj.GenerateResource.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mpal.Debuger\obj\Release\Mpal.Debugger.csproj.CoreCompileInputs.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mpal.Debuger\obj\Release\de-DE\Mpal.Debugger.resources.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mpal.Debuger\obj\Release\Mpal.Debugger.csproj.CopyComplete
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mpal.Debuger\obj\Release\Mpal.Debugger.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mpal.Debuger\obj\Release\Mpal.Debugger.pdb

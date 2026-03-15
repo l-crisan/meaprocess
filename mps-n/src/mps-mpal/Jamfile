@@ -1,0 +1,18 @@
+SubDir TOP src mps-mpal ;
+
+SubDirHdrs $(TOP)/include ;
+
+SubDirC++Flags [ FDefines MPS_MPAL_EXPORTS ] ;
+
+SubDirObjects $(OUTPUT_OBJECT) mps-mpal ;
+
+SharedLibrary mps-mpal :  MpalObjectFactory.cpp 
+                          MpalPS.cpp
+                         ;
+
+
+LinkFlags  mps-mpal  : $(MPS_LINKFLAGS) ;
+
+LinkSharedLibraries mps-mpal : mps-core mpal-vm ;
+
+MakeLocate  mps-mpal : $(MPS_BINDIR) ;

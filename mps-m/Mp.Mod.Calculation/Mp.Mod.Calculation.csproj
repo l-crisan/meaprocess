@@ -1,0 +1,410 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7259BBDD-F58B-45D1-9772-C2227C080436}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Mp.Mod.Calculation</RootNamespace>
+    <AssemblyName>Mp.Mod.Calculation</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\build\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>..\build\Release\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mp.Scheme.Sdk">
+      <HintPath>..\lib\Mp.Scheme.Sdk.dll</HintPath>
+    </Reference>
+    <Reference Include="Mp.Utils">
+      <HintPath>..\lib\Mp.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="Mp.Visual.Diagram">
+      <HintPath>..\lib\Mp.Visual.Diagram.dll</HintPath>
+    </Reference>
+    <Reference Include="Mp.Visual.Tree">
+      <HintPath>..\lib\Mp.Visual.Tree.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BitExtractionDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BitExtractionDlg.Designer.cs">
+      <DependentUpon>BitExtractionDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BitExtractionPS.cs" />
+    <Compile Include="BitGroupingDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BitGroupingDlg.Designer.cs">
+      <DependentUpon>BitGroupingDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BitGroupingPS.cs" />
+    <Compile Include="BitSelectDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BitSelectDialog.Designer.cs">
+      <DependentUpon>BitSelectDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resource.Designer.cs" />
+    <Compile Include="SignalConvertPS.cs" />
+    <Compile Include="SignalConvertPSDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignalConvertPSDlg.designer.cs">
+      <DependentUpon>SignalConvertPSDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SignalDelayPSDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignalDelayPSDlg.Designer.cs">
+      <DependentUpon>SignalDelayPSDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DemultiplexerPortDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DemultiplexerPortDlg.Designer.cs">
+      <DependentUpon>DemultiplexerPortDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DemultiplexerPS.cs" />
+    <Compile Include="ElectricityDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ElectricityDlg.Designer.cs">
+      <DependentUpon>ElectricityDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ElectricityPortDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ElectricityPortDlg.Designer.cs">
+      <DependentUpon>ElectricityPortDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ElectricityPS.cs" />
+    <Compile Include="LinearScalingDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LinearScalingDlg.Designer.cs">
+      <DependentUpon>LinearScalingDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MeanNDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MeanNDlg.Designer.cs">
+      <DependentUpon>MeanNDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MeanNPS.cs" />
+    <Compile Include="MovingMeanDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MovingMeanDlg.Designer.cs">
+      <DependentUpon>MovingMeanDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MovingMeanPS.cs" />
+    <Compile Include="MultiplexerDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MultiplexerDlg.Designer.cs">
+      <DependentUpon>MultiplexerDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MutliplexerPS.cs" />
+    <Compile Include="SampleRateDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SampleRateDlg.Designer.cs">
+      <DependentUpon>SampleRateDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SampleRatePS.cs" />
+    <Compile Include="SignalDelayPS.cs" />
+    <Compile Include="SignalDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignalDlg.Designer.cs">
+      <DependentUpon>SignalDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ScalingPSDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScalingPSDlg.Designer.cs">
+      <DependentUpon>ScalingPSDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CalculationModule.cs" />
+    <Compile Include="StringResource.de-DE.Designer.cs">
+      <DependentUpon>StringResource.de-DE.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ScalingPS.cs" />
+    <Compile Include="StringResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StringResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="TableScalingDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TableScalingDlg.Designer.cs">
+      <DependentUpon>TableScalingDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TableScalingImportDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TableScalingImportDlg.Designer.cs">
+      <DependentUpon>TableScalingImportDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TwoPointScalingDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TwoPointScalingDlg.Designer.cs">
+      <DependentUpon>TwoPointScalingDlg.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BitExtractionDlg.de-DE.resx">
+      <DependentUpon>BitExtractionDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BitExtractionDlg.resx">
+      <DependentUpon>BitExtractionDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BitGroupingDlg.de-DE.resx">
+      <DependentUpon>BitGroupingDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BitGroupingDlg.resx">
+      <DependentUpon>BitGroupingDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BitSelectDialog.de-DE.resx">
+      <DependentUpon>BitSelectDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BitSelectDialog.resx">
+      <DependentUpon>BitSelectDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource.resx" />
+    <EmbeddedResource Include="SignalConvertPSDlg.de-DE.resx">
+      <DependentUpon>SignalConvertPSDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignalConvertPSDlg.resx">
+      <DependentUpon>SignalConvertPSDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignalDelayPSDlg.de-DE.resx">
+      <DependentUpon>SignalDelayPSDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignalDelayPSDlg.resx">
+      <DependentUpon>SignalDelayPSDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DemultiplexerPortDlg.de-DE.resx">
+      <DependentUpon>DemultiplexerPortDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DemultiplexerPortDlg.resx">
+      <DependentUpon>DemultiplexerPortDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ElectricityDlg.de-DE.resx">
+      <DependentUpon>ElectricityDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ElectricityDlg.resx">
+      <DependentUpon>ElectricityDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ElectricityPortDlg.de-DE.resx">
+      <DependentUpon>ElectricityPortDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ElectricityPortDlg.resx">
+      <DependentUpon>ElectricityPortDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LinearScalingDlg.de-DE.resx">
+      <DependentUpon>LinearScalingDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LinearScalingDlg.resx">
+      <DependentUpon>LinearScalingDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MeanNDlg.de-DE.resx">
+      <DependentUpon>MeanNDlg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MeanNDlg.resx">
+      <DependentUpon>MeanNDlg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MovingMeanDlg.de-DE.resx">
+      <DependentUpon>MovingMeanDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MovingMeanDlg.resx">
+      <DependentUpon>MovingMeanDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MultiplexerDlg.de-DE.resx">
+      <DependentUpon>MultiplexerDlg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MultiplexerDlg.resx">
+      <DependentUpon>MultiplexerDlg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SampleRateDlg.de-DE.resx">
+      <DependentUpon>SampleRateDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SampleRateDlg.resx">
+      <DependentUpon>SampleRateDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignalDlg.de-DE.resx">
+      <DependentUpon>SignalDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignalDlg.resx">
+      <DependentUpon>SignalDlg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScalingPSDlg.de-DE.resx">
+      <DependentUpon>ScalingPSDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScalingPSDlg.resx">
+      <DependentUpon>ScalingPSDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StringResource.de-DE.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>StringResource.de-DE.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StringResource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>StringResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableScalingDlg.de-DE.resx">
+      <DependentUpon>TableScalingDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableScalingDlg.resx">
+      <DependentUpon>TableScalingDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableScalingImportDlg.de-DE.resx">
+      <DependentUpon>TableScalingImportDlg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableScalingImportDlg.resx">
+      <DependentUpon>TableScalingImportDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TwoPointScalingDlg.de-DE.resx">
+      <DependentUpon>TwoPointScalingDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TwoPointScalingDlg.resx">
+      <DependentUpon>TwoPointScalingDlg.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScalingImg.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScalingIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MovingMeanIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MovingMeanImg.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MeanNImg.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MeanNIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ElectricityIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ElectricityImg.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrequencyIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrequencyImg.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SampleRateIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SampleRateImg.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MultiplexerImg.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MultiplexerIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DemultiplexerIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DemultiplexerImg.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BitExtractionImg.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BitExtractionIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BitGroupingIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BitGroupingImg.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Signal.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SignalDelayImg.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SignalDelayIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SignalConvertImg.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SignalConvertIcon .ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SystemFuncImg.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SystemFuncIcon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

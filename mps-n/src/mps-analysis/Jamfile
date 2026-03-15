@@ -1,0 +1,19 @@
+SubDir TOP src mps-analysis ;
+
+SubDirHdrs $(TOP)/include ;
+
+SubDirC++Flags [ FDefines MPSANALYSIS_EXPORTS ] ;
+SubDirObjects $(OUTPUT_OBJECT) mps-analysis ;
+
+SharedLibrary mps-analysis : FFTPs.cpp
+							 FFTSignal.cpp
+							 IFFTPs.cpp
+							 AnalysisObjectFactory.cpp
+							 IIRFilterPS.cpp
+						    ;
+
+LinkSharedLibraries mps-analysis : mps-filter mps-fft mps-core ;
+
+LinkFlags  mps-analysis  : $(MPS_LINKFLAGS) ;
+
+MakeLocate   mps-analysis : $(MPS_BINDIR) ;

@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="WinX64Debug|Win32">
+      <Configuration>WinX64Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="LinuxARM64Debug|Win32">
+      <Configuration>LinuxARM64Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="LinuxARM64Release|Win32">
+      <Configuration>LinuxARM64Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WinX64Release|Win32">
+      <Configuration>WinX64Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9811B778-2ACD-4174-A0AD-5F519399EB6A}</ProjectGuid>
+    <RootNamespace>mps-can</RootNamespace>
+    <Keyword>MakeFileProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinX64Release|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Release|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinX64Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinX64Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinX64Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='WinX64Debug|Win32'">$(SolutionDir)\build\$(Configuration)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Debug|Win32'">$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='WinX64Debug|Win32'">$(SolutionDir)\tmp\$(ProjectName)</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Debug|Win32'">$(Configuration)\</IntDir>
+    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='WinX64Debug|Win32'">$(SolutionDir)vs-jam-build.bat $(Configuration) $(ProjectName)</NMakeBuildCommandLine>
+    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Debug|Win32'">$(SolutionDir)vs-jam-build.bat $(Configuration) $(ProjectName)</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='WinX64Debug|Win32'">cd $(SolutionDir) &amp;&amp; pt-jam  configure -sCONFIG=WinX86Debug -sTARGET_OSPLAT=x86 --debug  &amp;&amp; cd $(SolutionDir) &amp;&amp; pt-jam  -sTOP=$(SolutionDir) -j4 -qa</NMakeReBuildCommandLine>
+    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Debug|Win32'">cd $(SolutionDir) &amp;&amp; call "%VS100COMNTOOLS%vsvars32.bat" &amp;&amp; $(SolutionDir)jam.exe  -sCONFIG=debug -sTOP=$(SolutionDir)  -a -q</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='WinX64Debug|Win32'">$(SolutionDir)vs-jam-clean.bat $(Configuration) $(ProjectName)</NMakeCleanCommandLine>
+    <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Debug|Win32'">$(SolutionDir)vs-jam-clean.bat $(Configuration) $(ProjectName)</NMakeCleanCommandLine>
+    <NMakeOutput Condition="'$(Configuration)|$(Platform)'=='WinX64Debug|Win32'" />
+    <NMakeOutput Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Debug|Win32'" />
+    <NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='WinX64Debug|Win32'">WIN32;_DEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Debug|Win32'">WIN32;_DEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath Condition="'$(Configuration)|$(Platform)'=='WinX64Debug|Win32'">..\..\include\</NMakeIncludeSearchPath>
+    <NMakeIncludeSearchPath Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Debug|Win32'">..\include;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes Condition="'$(Configuration)|$(Platform)'=='WinX64Debug|Win32'">
+    </NMakeForcedIncludes>
+    <NMakeForcedIncludes Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Debug|Win32'">$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath Condition="'$(Configuration)|$(Platform)'=='WinX64Debug|Win32'">
+    </NMakeAssemblySearchPath>
+    <NMakeAssemblySearchPath Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Debug|Win32'">$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='WinX64Debug|Win32'">
+    </NMakeForcedUsingAssemblies>
+    <NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Debug|Win32'">$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='WinX64Release|Win32'">$(SolutionDir)\build\$(Configuration)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Release|Win32'">$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='WinX64Release|Win32'">$(SolutionDir)\tmp\$(ProjectName)</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Release|Win32'">$(Configuration)\</IntDir>
+    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='WinX64Release|Win32'">$(SolutionDir)vs-jam-build.bat $(Configuration) $(ProjectName)</NMakeBuildCommandLine>
+    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Release|Win32'">$(SolutionDir)vs-jam-build.bat $(Configuration) $(ProjectName)</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='WinX64Release|Win32'">cd $(SolutionDir) &amp;&amp; call "%VS100COMNTOOLS%vsvars32.bat" &amp;&amp; $(SolutionDir)jam.exe  -sCONFIG=release -a -q</NMakeReBuildCommandLine>
+    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Release|Win32'">cd $(SolutionDir) &amp;&amp; call "%VS100COMNTOOLS%vsvars32.bat" &amp;&amp; $(SolutionDir)jam.exe  -sCONFIG=release -a -q</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='WinX64Release|Win32'">$(SolutionDir)vs-jam-clean.bat $(Configuration) $(ProjectName)</NMakeCleanCommandLine>
+    <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Release|Win32'">$(SolutionDir)vs-jam-clean.bat $(Configuration) $(ProjectName)</NMakeCleanCommandLine>
+    <NMakeOutput Condition="'$(Configuration)|$(Platform)'=='WinX64Release|Win32'" />
+    <NMakeOutput Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Release|Win32'" />
+    <NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='WinX64Release|Win32'">WIN32;NDEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Release|Win32'">WIN32;NDEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath Condition="'$(Configuration)|$(Platform)'=='WinX64Release|Win32'">..\..\include\</NMakeIncludeSearchPath>
+    <NMakeIncludeSearchPath Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Release|Win32'">..\include;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes Condition="'$(Configuration)|$(Platform)'=='WinX64Release|Win32'">$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeForcedIncludes Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Release|Win32'">$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath Condition="'$(Configuration)|$(Platform)'=='WinX64Release|Win32'">$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <NMakeAssemblySearchPath Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Release|Win32'">$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='WinX64Release|Win32'">$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+    <NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Release|Win32'">$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Event.cpp" />
+    <ClCompile Include="EventPS.cpp" />
+    <ClCompile Include="LoggerPS.cpp" />
+    <ClCompile Include="LoggerSignal.cpp" />
+    <ClCompile Include="ObjectFactory.cpp" />
+    <ClCompile Include="OutChannel.cpp" />
+    <ClCompile Include="OutPort.cpp" />
+    <ClCompile Include="OutputPS.cpp" />
+    <ClCompile Include="Signal.cpp" />
+    <ClCompile Include="SourcePS.cpp" />
+    <ClCompile Include="WritePS.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Event.h" />
+    <ClInclude Include="EventPS.h" />
+    <ClInclude Include="LoggerPS.h" />
+    <ClInclude Include="LoggerSignal.h" />
+    <ClInclude Include="ObjectFactory.h" />
+    <ClInclude Include="OutChannel.h" />
+    <ClInclude Include="OutPort.h" />
+    <ClInclude Include="OutputPS.h" />
+    <ClInclude Include="Signal.h" />
+    <ClInclude Include="SourcePS.h" />
+    <ClInclude Include="WritePS.h" />
+    <ClInclude Include="mps-can.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Jamfile" />
+    <None Include="mps-can.de-DE.mres" />
+    <None Include="mps-can.en-US.mres" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

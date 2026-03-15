@@ -1,0 +1,18 @@
+SubDir TOP src mps-can-demo ;
+
+SubDirHdrs $(TOP)/include ; 
+
+SubDirC++Flags [ FDefines MPSCANDEMO_EXPORTS ] ;
+SubDirObjects $(OUTPUT_OBJECT) mps-can-demo ;
+
+SharedLibrary mps-can-demo :  Driver.cpp
+ 						      DriverImpl.cpp
+						      Factory.cpp
+						   ;
+
+
+LinkSharedLibraries mps-can-demo : mps-can-drv  ;
+
+LinkFlags  mps-can-demo  : $(MPS_LINKFLAGS) ;
+
+MakeLocate  mps-can-demo : $(MPS_BINDIR) ;

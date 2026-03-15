@@ -1,0 +1,18 @@
+SubDir TOP src mps-fgen ;
+
+SubDirHdrs $(TOP)/include ; 
+
+SubDirC++Flags [ FDefines MPS_FGEN_EXPORTS ] ;
+
+SubDirObjects $(OUTPUT_OBJECT) mps-fgen ;
+
+SharedLibrary mps-fgen : FuncGenSignal.cpp 
+						 FunctionGenPS.cpp
+						 FGenObjectFactory.cpp
+						 ;
+
+LinkFlags  mps-fgen  : $(MPS_LINKFLAGS) ;
+
+LinkSharedLibraries mps-fgen : mps-core ;
+
+MakeLocate  mps-fgen : $(MPS_BINDIR) ;

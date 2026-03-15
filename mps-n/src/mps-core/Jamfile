@@ -1,0 +1,43 @@
+SubDir TOP src mps-core ;
+
+SubDirHdrs $(TOP)/include ; 
+
+SubDirC++Flags [ FDefines MPS_CORE_API_EXPORT ] ;
+SubDirCcFlags [ FDefines MPS_CORE_API_EXPORT ] ;
+
+SubDirObjects $(OUTPUT_OBJECT) mps-core ;
+
+SharedLibrary    mps-core :	SynchSourcePS.cpp
+							SystemOutPS.cpp 
+							OutputSubPort.cpp
+							SubSchemePS.cpp
+							RecordBuilder.cpp
+							Translator.cpp
+							SplitterPS.cpp
+							SignalScaling.cpp
+							SignalList.cpp
+							Signal.cpp
+							RuntimeEngine.cpp
+							Port.cpp
+							ProcessStation.cpp
+							ObjectFactoryManager.cpp 
+							Message.cpp
+							FiFoSynchSourcePS.cpp
+							FactorOffsetSignalScaling.cpp
+							DefaultObjectFactory.cpp
+							CircularBuffer.cpp
+							TriggerPort.cpp
+							SystemInPS.cpp
+							SourceDescription.cpp
+							Property.cpp
+							StopPS.cpp
+							WritePropertyPS.cpp
+							ReadPropertyPS.cpp
+							PropertySignal.cpp
+                            ;
+
+
+LinkFlags  mps-core : $(MPS_LINKFLAGS) ;
+
+MakeLocate mps-core : $(MPS_BINDIR) ;
+

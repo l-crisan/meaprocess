@@ -1,0 +1,4 @@
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Release\ICSharpCode.TextEditor.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\ICSharpCode.TextEditor\obj\Release\ICSharpCode.TextEditor.csproj.AssemblyReference.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\ICSharpCode.TextEditor\obj\Release\ICSharpCode.TextEditor.csproj.CoreCompileInputs.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\ICSharpCode.TextEditor\obj\Release\ICSharpCode.TextEditor.dll

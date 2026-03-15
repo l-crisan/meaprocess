@@ -1,0 +1,24 @@
+SubDir TOP src mps-labjack ;
+
+SubDirHdrs $(TOP)/include ;
+SubDirObjects $(OUTPUT_OBJECT) mps-labjack ;
+
+SubDirC++Flags [ FDefines MPS_LABJACK_EXPORTS ] ;
+
+SharedLibrary mps-labjack : InputPS.cpp
+                            LJSignal.cpp
+                            LJObjectFactory.cpp
+                            mps-labjack.cpp
+                            InBoard.cpp
+                            DriverWrapper.cpp
+                            LJOutSignal.cpp
+                            OutputPS.cpp
+                            OutBoard.cpp
+                            Board.cpp
+                          ;
+
+LinkFlags  mps-labjack  : $(MPS_LINKFLAGS) ;
+
+LinkSharedLibraries mps-labjack : mps-core ;
+
+MakeLocate mps-labjack : $(MPS_BINDIR) ;

@@ -1,0 +1,98 @@
+﻿<html>
+<head>
+    <title>MCM-Demo</title>
+    <script type="text/javascript" src="xmlrpc.js"> </script>
+    <script type="text/javascript" src="meaprocessapp.js"></script>
+    <script type="text/javascript" src="Slider.js"></script>
+		<style type="text/css">
+.sliderBg {
+	border-color:gray;
+	background-color:#BBB;
+	border: outset 3px gray;
+}
+
+.sliderFg {
+	border-color:#AAF;
+	background-color:#AAf;
+}
+.sliderFgHov {
+	background-color:#CCF;
+}
+.sliderFgAct {
+	background-color:#88E;
+}
+.sliderBtn {
+	font-size:6px;
+}
+		</style>    
+</head>
+
+<body onload="meaAppGetStatus(); window.setInterval(meaAppGetSignalData, 2000);">
+<b>Status:</b><p/>
+<form name="status Form" action="" id="statusForm">
+<label for="statusText">Status:</label>
+<input type="text" name="status text" id="statusText" readonly="true" value="Not connected"/><p></p>
+<label for="schemeText">Current schema:</label>
+<input type="text" name="schema text" id="schemaText" size="50" readonly="true" value=""/>
+
+</form>
+<hr/>
+
+<b>Deploy:</b><p/>
+
+<form name="deploy Form" action="" id="deployForm">
+<label for="schemaFile">Schema:</label>
+<input type="file" name="FileDialog" id="schemaFile" size="50" accept="mpex/*.mpex" />
+<input type="button" id="onDeploy" value ="Deploy" onclick="meaAppDeploy()"/><p/>
+</form>
+<hr/>
+
+
+<b>Initialize:</b><p/>
+
+<form name="initialize Form" action="" id="initForm">
+<input type="button" id="initButton" value ="Initialize" onclick="meaAppInitialize()"/><p/>
+</form>
+<hr/>
+
+
+<b>Start/Stop:</b><p/>
+
+<form name="start stop Form" action="" id="startStopForm">
+<input type="button" id="start" value ="Start" onclick="meaAppStart()"/>
+<input type="button" id="stop" value ="Stop" onclick="meaAppStop()"/><p/>
+<p/>
+</form>
+<hr/>
+
+
+<b>Measurement:</b><p/>
+
+<form name="measurement Form" action="" id="measurementForm">
+<label for="signal1">Signal 1:</label>
+<input type="text" name="Signal 1" id="signal1" readonly="true" value="0.0"/><p></p>
+<label for="signal2">Signal 2:</label>
+<input type="text" name="Signal 2" id="signal2" readonly="true" value="0.0"/><p></p>
+<label for="signal3">Signal 3:</label>
+<input type="text" name="Signal 3" id="signal3" readonly="true" value="0.0"/><p></p>
+<p/>
+</form>
+<hr/>
+
+
+
+<b>Output:</b><p/>
+
+<form name="output Form" action="" id="outputForm">
+<label for="outSignal1">Signal 1:</label>
+<script type="text/javascript">
+	new Slider('test', 200, 20, 1, 100, 1, 1, 5, 
+		"meaAppOutputSignal(Slider.instanz['test'].wert);");
+</script><p></p>
+<p/>
+</form>
+<hr/>
+
+</body>
+
+</html>

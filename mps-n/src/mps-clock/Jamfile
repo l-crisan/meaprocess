@@ -1,0 +1,23 @@
+SubDir TOP src mps-clock ;
+
+SubDirHdrs $(TOP)/include ;
+
+SubDirC++Flags [ FDefines MPS_CLOCK_EXPORTS ] ;
+
+SubDirObjects $(OUTPUT_OBJECT) mps-clock ;
+
+SharedLibrary mps-clock :    StopWatchPS.cpp
+							 StopWatchSignal.cpp
+							 TactPS.cpp
+							 TimerPS.cpp
+							 TimerSignal.cpp
+							 ClockPS.cpp
+							 ClockSignal.cpp
+						 	 ClockObjectFactory.cpp
+						 ;
+
+LinkFlags  mps-clock  : $(MPS_LINKFLAGS) ;
+
+LinkSharedLibraries mps-clock : mps-core ;
+
+MakeLocate mps-clock : $(MPS_BINDIR) ;

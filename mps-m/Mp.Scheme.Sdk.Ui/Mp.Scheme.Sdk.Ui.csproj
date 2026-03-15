@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{42A88218-72E4-43F6-B996-A03C0E9AEEF1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Mp.Scheme.Sdk.Ui</RootNamespace>
+    <AssemblyName>Mp.Scheme.Sdk.Ui</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\build\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\build\Release\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mp.Utils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ab77259e8dfa854d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\Mp.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="Mp.Visual.Analog">
+      <HintPath>..\lib\Mp.Visual.Analog.dll</HintPath>
+    </Reference>
+    <Reference Include="Mp.Visual.Base">
+      <HintPath>..\lib\Mp.Visual.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Mp.Visual.Diagram, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\Mp.Visual.Diagram.dll</HintPath>
+    </Reference>
+    <Reference Include="Mp.Visual.Digital">
+      <HintPath>..\lib\Mp.Visual.Digital.dll</HintPath>
+    </Reference>
+    <Reference Include="Mp.Visual.Docking, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\Mp.Visual.Docking.dll</HintPath>
+    </Reference>
+    <Reference Include="Mp.Visual.Oscilloscope">
+      <HintPath>..\lib\Mp.Visual.Oscilloscope.dll</HintPath>
+    </Reference>
+    <Reference Include="Mp.Visual.PolarChart">
+      <HintPath>..\lib\Mp.Visual.PolarChart.dll</HintPath>
+    </Reference>
+    <Reference Include="Mp.Visual.Tree, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\Mp.Visual.Tree.dll</HintPath>
+    </Reference>
+    <Reference Include="Mp.Visual.WaveChart">
+      <HintPath>..\lib\Mp.Visual.WaveChart.dll</HintPath>
+    </Reference>
+    <Reference Include="Mp.Visual.XYChart">
+      <HintPath>..\lib\Mp.Visual.XYChart.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BarCtrlPS.cs" />
+    <Compile Include="CheckBoxPS.cs" />
+    <Compile Include="ComboBoxPS.cs" />
+    <Compile Include="BarViewBlockPS.cs" />
+    <Compile Include="DigitalMeter7SegBlockPS.cs" />
+    <Compile Include="DigitalMeterBlockPS.cs" />
+    <Compile Include="GaugeBlockPS.cs" />
+    <Compile Include="Images.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Images.resx</DependentUpon>
+    </Compile>
+    <Compile Include="LedBlockPS.cs" />
+    <Compile Include="ManometerBlockPS.cs" />
+    <Compile Include="NumericControlBlockPS.cs" />
+    <Compile Include="OscilloscopePS.cs" />
+    <Compile Include="PolarChartPS.cs" />
+    <Compile Include="RadioButtonPS.cs" />
+    <Compile Include="SignalListViewPS.cs" />
+    <Compile Include="StringResource.de-DE.Designer.cs">
+      <DependentUpon>StringResource.de-DE.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="DigitalMeter7SegPS.cs" />
+    <Compile Include="DigitalMeterPS.cs" />
+    <Compile Include="GaugePS.cs" />
+    <Compile Include="InputButtonPS.cs" />
+    <Compile Include="KnobPS.cs" />
+    <Compile Include="LedPS.cs" />
+    <Compile Include="ManometerPS.cs" />
+    <Compile Include="NumericControlPS.cs" />
+    <Compile Include="NumericInputPS.cs" />
+    <Compile Include="NumericViewPS.cs" />
+    <Compile Include="PanelDesignerTool.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RuntimeOptDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RuntimeOptDlg.Designer.cs">
+      <DependentUpon>RuntimeOptDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RuntimeOptTool.cs" />
+    <Compile Include="SignalBasedControlPS.cs" />
+    <Compile Include="SizeWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SizeWindow.Designer.cs">
+      <DependentUpon>SizeWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SliderPS.cs" />
+    <Compile Include="StringResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StringResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SwitchPS.cs" />
+    <Compile Include="TachometerBlockPS.cs" />
+    <Compile Include="TachometerPS.cs" />
+    <Compile Include="ThermometerBlockPS.cs" />
+    <Compile Include="ThermometerPS.cs" />
+    <Compile Include="VisualBlockPS.cs" />
+    <Compile Include="VisualPS.cs" />
+    <Compile Include="WaveChartPS.cs" />
+    <Compile Include="XYChartPS.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Mp.Scheme.Designer\Mp.Scheme.Designer.csproj">
+      <Project>{32e04b34-73aa-4da9-ab83-75b489520a4e}</Project>
+      <Name>Mp.Scheme.Designer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Mp.Scheme.Sdk\Mp.Scheme.Sdk.csproj">
+      <Project>{75c6bb2d-144e-4df4-a0aa-affff2a4c5a8}</Project>
+      <Name>Mp.Scheme.Sdk</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\ButtonIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\GaugeIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\GUIDesigner.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\KnobIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\LedIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\ManometerIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\NumericInputIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\NumericViewIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\SliderIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Start.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\StartDebug.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\SwitchIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\TableView.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\TachometerIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Thermometer.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\WaveChartIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\XYChartIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Gauge.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\InputButton.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Knob.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Led.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Manometer.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Map.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\NumericInput.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\NumericView.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Slider.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Switch.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\TableView.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Tachometer.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\ThermometerImage.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\WaveChart.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\XYChart.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zip.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="StringResource.de-DE.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>StringResource.de-DE.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Images.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RuntimeOptDlg.de-DE.resx">
+      <DependentUpon>RuntimeOptDlg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RuntimeOptDlg.resx">
+      <DependentUpon>RuntimeOptDlg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SizeWindow.de-DE.resx">
+      <DependentUpon>SizeWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SizeWindow.resx">
+      <DependentUpon>SizeWindow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StringResource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>StringResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\OscilloscopeIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Oscilloscope.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Deutsch.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\English.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\BarViewIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\BarViewImg.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\ListViewIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\ListViewImg.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\PolarChartIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\PolarChartImg.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\RadioButtonIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\RadioButtonImg.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\ComboBoxIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\ComboBoxImg.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\CheckBoxIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\CheckBoxImg.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\BarIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\DesignerIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\ListIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\MapIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\NumericIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\TableIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\ThermometerIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\YTChartIcon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,16 @@
+SubDir TOP src mps-can-drv ;
+
+SubDirHdrs $(TOP)/include ; 
+
+SubDirC++Flags [ FDefines MPSCANDRV_EXPORTS ] ;
+SubDirObjects $(OUTPUT_OBJECT) mps-can-drv ;
+
+SharedLibrary mps-can-drv : Message.cpp						  
+						    Driver.cpp 
+						    DriverImpl.cpp
+						    Factory.cpp
+						   ;
+
+LinkFlags  mps-can-drv  : $(MPS_LINKFLAGS) ;
+
+MakeLocate mps-can-drv : $(MPS_BINDIR) ;

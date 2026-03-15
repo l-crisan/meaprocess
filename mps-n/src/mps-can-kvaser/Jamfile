@@ -1,0 +1,19 @@
+SubDir TOP src mps-can-kvaser ;
+
+SubDirHdrs $(TOP)/include ; 
+SubDirHdrs $(TOP)/include/kvaser ;
+SubDirHdrs $(TOP)/../platinum/include ;
+SubDirC++Flags [ FDefines MPSCANKVASER_EXPORTS ] ;
+
+SharedLibrary mps-can-kvaser : 
+						   KvaserCANDriver.cpp
+ 						   KvaserCANDriverImpl.cpp
+						   Factory.cpp
+						   ;						  
+
+
+LinkFlags  mps-can-kvaser  : $(MPS_LINKFLAGS) canlib32.lib ;
+
+LinkSharedLibraries mps-can-kvaser : mps-drv-can  Pt Pt-System ;
+
+MakeLocate  mps-can-kvaser : $(MPS_BINDIR) ;

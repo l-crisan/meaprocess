@@ -1,0 +1,11 @@
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Release\Mp.Drv.DataFile.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Release\Mp.Drv.DataFile.pdb
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Release\de-DE\Mp.Drv.DataFile.resources.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Drv.DataFile\obj\Release\Mp.Drv.DataFile.csproj.AssemblyReference.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Drv.DataFile\obj\Release\Mp.Drv.DataFile.StringResource.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Drv.DataFile\obj\Release\Mp.Drv.DataFile.StringResource.de-DE.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Drv.DataFile\obj\Release\Mp.Drv.DataFile.csproj.GenerateResource.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Drv.DataFile\obj\Release\Mp.Drv.DataFile.csproj.CoreCompileInputs.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Drv.DataFile\obj\Release\de-DE\Mp.Drv.DataFile.resources.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Drv.DataFile\obj\Release\Mp.Drv.DataFile.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Drv.DataFile\obj\Release\Mp.Drv.DataFile.pdb

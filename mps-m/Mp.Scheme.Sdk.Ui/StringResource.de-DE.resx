@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Button" xml:space="preserve">
+    <value>Knopf</value>
+  </data>
+  <data name="ButtonPsDescription" xml:space="preserve">
+    <value>Knopf
+
+Generiert ein 'Knopf gedrückt'-Signal.</value>
+  </data>
+  <data name="Control" xml:space="preserve">
+    <value>Steuerung</value>
+  </data>
+  <data name="DigitalMeter1" xml:space="preserve">
+    <value>Digitalanzeige 1</value>
+  </data>
+  <data name="DigitalMeter1PsDescription" xml:space="preserve">
+    <value>Digitalanzeige 1
+
+Signalvisualisierung in einer Digitalanzeige mit kleinen Ziffern.</value>
+  </data>
+  <data name="DigitalMeter2" xml:space="preserve">
+    <value>Digitalanzeige 2</value>
+  </data>
+  <data name="DigitalMeter2PsDescription" xml:space="preserve">
+    <value>Digitalanzeige 2
+
+Signalvisualisierung in einer Digitalanzeige mit großen Ziffern.</value>
+  </data>
+  <data name="DigitalMeter3" xml:space="preserve">
+    <value>Digitalanzeige 3</value>
+  </data>
+  <data name="DigitalMeter7PsDescription" xml:space="preserve">
+    <value>Digitalanzeige 3
+
+Signalvisualisierung in einer 7 Segmentanzeige.</value>
+  </data>
+  <data name="Display" xml:space="preserve">
+    <value>Signal Anzeigen</value>
+  </data>
+  <data name="Gauge" xml:space="preserve">
+    <value>Analoganzeige</value>
+  </data>
+  <data name="GaugePsDescription" xml:space="preserve">
+    <value>Analoganzeige
+
+Signalvisualisierung in einem Analoganzeige.</value>
+  </data>
+  <data name="Knob" xml:space="preserve">
+    <value>Drehknopf</value>
+  </data>
+  <data name="KnobPsDescription" xml:space="preserve">
+    <value>Drehknopf
+
+Generiert ein Signal durch einen Drehknopf.</value>
+  </data>
+  <data name="LEDPsDescription" xml:space="preserve">
+    <value>LED
+
+Zeigt den Signalstatus mit einer LED an.</value>
+  </data>
+  <data name="ManometerPsDescription" xml:space="preserve">
+    <value>Manometer
+
+Signalvisualisierung in einem Manometer.</value>
+  </data>
+  <data name="NumericInput" xml:space="preserve">
+    <value>Numerische Eingabe</value>
+  </data>
+  <data name="NumericInputPsDescription" xml:space="preserve">
+    <value>Numerische Eingabe
+
+Generiert ein Signal durch eine numerische Eingabe.</value>
+  </data>
+  <data name="Oscilloscope" xml:space="preserve">
+    <value>Oszilloskop</value>
+  </data>
+  <data name="OscilloscopePsDescription" xml:space="preserve">
+    <value>Oszilloskop
+
+Signalvisualisierung in einem Oszilloskop.</value>
+  </data>
+  <data name="OsciSigErr" xml:space="preserve">
+    <value>Der Baustein '{0}' erwartet minimal ein Eigangssignal.</value>
+  </data>
+  <data name="RemoveRefCurve" xml:space="preserve">
+    <value>Möchten Sie die Referenzkurve(n) entfernen?</value>
+  </data>
+  <data name="RunTimeEngineMenu" xml:space="preserve">
+    <value>Laufzeitumgebung...</value>
+  </data>
+  <data name="RunTimeEngineText" xml:space="preserve">
+    <value>Öffnet die Laufzeitumgebung (F6).</value>
+  </data>
+  <data name="RuntimeOptionsMenu" xml:space="preserve">
+    <value>Laufzeitumgebung Optionen...</value>
+  </data>
+  <data name="RuntimeOptionsText" xml:space="preserve">
+    <value>Öffnet den Optionendialog der Laufzeitumgebung.</value>
+  </data>
+  <data name="Slider" xml:space="preserve">
+    <value>Schieberegler</value>
+  </data>
+  <data name="SliderPsDescription" xml:space="preserve">
+    <value>Schieberegler
+
+Generiert ein Signal durch einen Schieberegler.</value>
+  </data>
+  <data name="SrcRateErr" xml:space="preserve">
+    <value>Die zugewiesenen Signale müssen die gleiche Quelle und Abtastrate haben.</value>
+  </data>
+  <data name="Switch" xml:space="preserve">
+    <value>Schalter</value>
+  </data>
+  <data name="SwitchPsDescription" xml:space="preserve">
+    <value>Schalter
+
+Generiert ein Signal durch einen Schalter.</value>
+  </data>
+  <data name="TableView" xml:space="preserve">
+    <value>Tabelle Anzeige</value>
+  </data>
+  <data name="TableViewPsDescription" xml:space="preserve">
+    <value>Tabelle Anzeige
+
+Signalvisualisierung in einer Tabelle. </value>
+  </data>
+  <data name="TachometerPsDescription" xml:space="preserve">
+    <value>Tachometer
+
+Signalvisualisierung in einem Tachometer.</value>
+  </data>
+  <data name="ThermometerPsDescription" xml:space="preserve">
+    <value>Thermometer
+
+Signalvisualisierung in einem Thermometer.</value>
+  </data>
+  <data name="TwoSigErr" xml:space="preserve">
+    <value>Der Baustein '{0}' erwartet minimal zwei Eigangssignale.</value>
+  </data>
+  <data name="WaveChart" xml:space="preserve">
+    <value>Y/t-Diagramm</value>
+  </data>
+  <data name="WaveChartPsDescription" xml:space="preserve">
+    <value>Y/t-Diagramm
+
+Signalvisualisierung in einem Kurvendiagram (Y/t).</value>
+  </data>
+  <data name="WinRuntime" xml:space="preserve">
+    <value>Windows</value>
+  </data>
+  <data name="XYChart" xml:space="preserve">
+    <value>X/Y-Diagramm</value>
+  </data>
+  <data name="XYChartPsDescription" xml:space="preserve">
+    <value>X/Y-Diagramm
+
+Signalvisualisierung in einem X/Y-Diagramm.</value>
+  </data>
+  <data name="BarView" xml:space="preserve">
+    <value>Balkenanzeige</value>
+  </data>
+  <data name="BarViewPsDescription" xml:space="preserve">
+    <value>Balkenanzeige
+
+Signalvisualisierung in einer Balkenanzeige.</value>
+  </data>
+  <data name="ListView" xml:space="preserve">
+    <value>Liste Anzeige</value>
+  </data>
+  <data name="ListViewPsDescription" xml:space="preserve">
+    <value>Liste Anzeige
+
+Visualisiert die Signale in eine Liste.</value>
+  </data>
+  <data name="PolarChart" xml:space="preserve">
+    <value>Polar-Diagramm</value>
+  </data>
+  <data name="PolarChartPsDescription" xml:space="preserve">
+    <value>Polar-Diagramm
+
+Signalvisualisierung in einem Polar-Diagramm.</value>
+  </data>
+  <data name="RadioButtons" xml:space="preserve">
+    <value>Radio Buttons</value>
+  </data>
+  <data name="RadionButtonsPsDescription" xml:space="preserve">
+    <value>Radio Buttons
+
+Generiert ein Signal von Radio Buttons Werte.</value>
+  </data>
+  <data name="ComboBoxPsDescription" xml:space="preserve">
+    <value>Combo Box
+
+Generiert ein Signal von der Combo Box Selektion.</value>
+  </data>
+  <data name="CheckBoxPS" xml:space="preserve">
+    <value>Check Box</value>
+  </data>
+  <data name="CheckBoxPsDescription" xml:space="preserve">
+    <value>Check Box
+
+Generiert ein Signal von der Check Box Steuerelement.</value>
+  </data>
+  <data name="PropertiesMenu" xml:space="preserve">
+    <value>Eigenschaften...</value>
+  </data>
+  <data name="DisplayBlock" xml:space="preserve">
+    <value>Block Anzeigen</value>
+  </data>
+</root>

@@ -1,0 +1,3 @@
+Mp.Audio.Err.InputDev#The element '%s' couldn't open the audio input device.
+Mp.Audio.Err.OutputDev#The element '%s' couldn't open the audio output device.
+Mp.Audio.Err.Data#The element '%s' lost data.

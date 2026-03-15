@@ -1,0 +1,67 @@
+Load vswhere.jam ;
+
+##############################################################################
+# Platform specific prefixes and suffixes
+##############################################################################
+
+SUFOBJ ?= .obj ;
+PRELIB ?= "" ;
+SUFLIB ?= .lib ;
+SUFEXE ?= .exe ;
+SUFDLL ?= .dll ;
+SUFDBG ?= "" ;
+
+##############################################################################
+# Default toolkit
+##############################################################################
+
+if ! $(TOOLSET)
+{
+	VSWHERE_RESULT = [ EXEC $(VSWHERE)" -nologo -property installationPath -products * -version 16.0" ] ;
+
+	if $(VSWHERE_RESULT[2])
+	{
+		TOOLSET = vc16 ;
+	}
+}
+
+if ! $(TOOLSET)
+{	
+	VSWHERE_RESULT = [ EXEC $(VSWHERE)" -nologo -property installationPath -products * -version 15.0" ] ;
+
+	if $(VSWHERE_RESULT[2])
+	{
+		TOOLSET = vc15 ;
+	}
+}
+
+if $(VS140COMNTOOLS)
+{
+    TOOLSET ?= vc14 ;
+}
+
+if $(VS120COMNTOOLS)
+{
+    TOOLSET ?= vc12 ;
+}
+
+if $(VS110COMNTOOLS)
+{
+    TOOLSET ?= vc11 ;
+}
+
+if $(VS100COMNTOOLS)
+{
+    TOOLSET ?= vc10 ;
+}
+
+if $(VS90COMNTOOLS)
+{
+    TOOLSET ?= vc9 ;
+}
+
+if $(VS80COMNTOOLS)
+{
+    TOOLSET ?= vc8 ;
+}
+

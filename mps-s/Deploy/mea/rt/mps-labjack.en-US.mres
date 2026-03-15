@@ -1,0 +1,3 @@
+Mp.Labjack.Err.InDriver#The board '%s' of the element '%s' couldn't be initialized.
+Mp.Labjack.Err.InBoard#The element '%s' couldn't load the LabJack driver.
+Mp.Labjack.Err.OutBoard#The element '%s' lost data.

@@ -1,0 +1,15 @@
+SubDir TOP src mps-stream-prot ;
+
+SubDirHdrs $(TOP)/include ; 
+SubDirC++Flags [ FDefines MPS_STREAM_PROT_EXPORTS ] ;
+
+SubDirObjects $(OUTPUT_OBJECT) mps-stream-prot ;
+
+SharedLibrary mps-stream-prot : MeaSendProtocol.cpp
+							    MeaReceiveProtocol.cpp
+								StreamProtocol.cpp
+						     ;
+
+LinkFlags  mps-stream-prot  : $(MPS_LINKFLAGS) ;
+
+MakeLocate    mps-stream-prot : $(MPS_BINDIR) ;

@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>407, 376</value>
+  </data>
+  <data name="cancel.Text" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>579, 407</value>
+  </data>
+  <data name="help.Location" type="System.Drawing.Point, System.Drawing">
+    <value>492, 376</value>
+  </data>
+  <data name="help.Text" xml:space="preserve">
+    <value>Hilfe</value>
+  </data>
+  <data name="language.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 240</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 243</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 13</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Laufzeitumgebungssprache:</value>
+  </data>
+  <data name="showPanelTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 17</value>
+  </data>
+  <data name="showPanelTab.Text" xml:space="preserve">
+    <value>Paneltab anzeigen</value>
+  </data>
+  <data name="ctrlBarEditProp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 142</value>
+  </data>
+  <data name="ctrlBarEditProp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 17</value>
+  </data>
+  <data name="ctrlBarEditProp.Text" xml:space="preserve">
+    <value>Steuerleiste mit Eigenschafteditierbutton</value>
+  </data>
+  <data name="title.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 19</value>
+  </data>
+  <data name="title.Size" type="System.Drawing.Size, System.Drawing">
+    <value>424, 20</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 13</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Fensterüberschrift:</value>
+  </data>
+  <data name="fixedWinSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 268</value>
+  </data>
+  <data name="fixedWinSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 17</value>
+  </data>
+  <data name="fixedWinSize.Text" xml:space="preserve">
+    <value>Fixe Fenstergroße</value>
+  </data>
+  <data name="editPrpBtFlag.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 188</value>
+  </data>
+  <data name="editPrpBtFlag.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 17</value>
+  </data>
+  <data name="editPrpBtFlag.Text" xml:space="preserve">
+    <value>Eigenschafteditierbutton in Dialog anzeigen</value>
+  </data>
+  <data name="closeOnStop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 119</value>
+  </data>
+  <data name="closeOnStop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 17</value>
+  </data>
+  <data name="closeOnStop.Text" xml:space="preserve">
+    <value>Schliessen beim stoppen</value>
+  </data>
+  <data name="resetPropOnStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 17</value>
+  </data>
+  <data name="resetPropOnStart.Text" xml:space="preserve">
+    <value>Eigenschaften vor jeden Start abfragen</value>
+  </data>
+  <data name="mandatoryPropFlag.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 165</value>
+  </data>
+  <data name="mandatoryPropFlag.Size" type="System.Drawing.Size, System.Drawing">
+    <value>272, 17</value>
+  </data>
+  <data name="mandatoryPropFlag.Text" xml:space="preserve">
+    <value>Notwendig-Flag in Eigenschafteditierdialog anzeigen</value>
+  </data>
+  <data name="undockPanels.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 17</value>
+  </data>
+  <data name="undockPanels.Text" xml:space="preserve">
+    <value>Benutzer erlauben die Panels auszudocken</value>
+  </data>
+  <data name="startOnOpen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 96</value>
+  </data>
+  <data name="startOnOpen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 17</value>
+  </data>
+  <data name="startOnOpen.Text" xml:space="preserve">
+    <value>Starten beim öffnen</value>
+  </data>
+  <data name="showControlBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 17</value>
+  </data>
+  <data name="showControlBar.Text" xml:space="preserve">
+    <value>Steuerleiste anzeigen</value>
+  </data>
+  <data name="showStatusBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 17</value>
+  </data>
+  <data name="showStatusBar.Text" xml:space="preserve">
+    <value>Statusleiste anzeigen</value>
+  </data>
+  <data name="showMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 17</value>
+  </data>
+  <data name="showMenu.Text" xml:space="preserve">
+    <value>Menu anzeigen</value>
+  </data>
+  <data name="defineSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 23</value>
+  </data>
+  <data name="defineSize.Text" xml:space="preserve">
+    <value>Große definieren...</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 13</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Höhe:</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 13</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Breite:</value>
+  </data>
+  <data name="groupBoxSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 270</value>
+  </data>
+  <data name="groupBoxSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>531, 75</value>
+  </data>
+  <data name="onDefaultIcon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 23</value>
+  </data>
+  <data name="onDefaultIcon.Text" xml:space="preserve">
+    <value>Standard Icon</value>
+  </data>
+  <data name="icon.InitialImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAL1JREFUWEftl4EO
+        gCAIRO3/P5p0y1JSlARxzVpr04rnHaEezjnwl+kRACyvKzj4+8zzGfRqANp2RJWrCmyArQBSAELSSKrC
+        TUJTgBhcFIKjgClAOmoTBXDQrxCv93osKAVrtVH9WZ8mQM02FgAldSlAaMPJWlPjfjavLfl0PAIQClYz
+        V3osoCpf6ddsBk0rqQYAq1RLALBGjOeRUYAun6nJ6xcALM81LNgAugrM2h2ttzOSXHjyviW86uUFhxP1
+        ZQ07uVNFZgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>531, 40</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Icon:</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>555, 358</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Optionen:</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAIAEBAQAAAAAAAoAQAAJgAAACAgEAAAAAAA6AIAAE4BAAAoAAAAEAAAACAAAAABAAQAAAAAAIAA
+        AAAAAAAAAAAAABAAAAAQAAAAAAAAAAAAgAAAgAAAAICAAIAAAACAAIAAgIAAAICAgADAwMAAAAD/AAD/
+        AAAA//8A/wAAAP8A/wD//wAA////AAAAAAAAAAAACqqqqqqqqqAKAAAAAAAAoAoAAAAAsACgCgAACwCw
+        AKAKAAALC7AAoAqwALsLCwCgCgsAsLALAKAKCwCwsAsAoAoAsLAACwugCgC7AAAAsKAKAAsAAACwoAoA
+        AAAAAACgCgAAAAAAAKAKqqqqqqqqoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgAAAAgAAAAQAAAAAEABAAAAAAAAAIAAAAA
+        AAAAAAAAEAAAABAAAAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAgICAAMDAwAAAAP8AAP8AAAD/
+        /wD/AAAA/wD/AP//AAD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqqqqqqqqqqqq
+        qqqqqqoAAKqqqqqqqqqqqqqqqqqqAACqAAAAAAAAAAAAAAAAqgAAqgAAAAAAAAAAAAAAAKoAAKoAAAAA
+        AAAAAAAAAACqAACqAAAAAAAAAAAAAAAAqgAAqgAAAAALAAAAAAAAAKoAAKoAAAAACwAAAAAAAACqAACq
+        AAAAALsAAAAAAAAAqgAAqgAAAACwsAAAAAAAAKoAAKoAAAAAsLALAAAAAACqAACqsAAACwCwuwCwAAAA
+        qgAAqrAAAAsAsLsLCwAAu7oAAKoLAACwAAsAuwCwCwCqAACqCwAAsAALALAACwsAqgAAqgCwALAAAAAA
+        AACwAKoAAKoAsAsAAAAAAAAAAACqAACqAAsLAAAAAAAAAAAAqgAAqgALCwAAAAAAAAAAAKoAAKoAALAA
+        AAAAAAAAAACqAACqAACwAAAAAAAAAAAAqgAAqgAAAAAAAAAAAAAAAKoAAKoAAAAAAAAAAAAAAACqAACq
+        AAAAAAAAAAAAAAAAqgAAqgAAAAAAAAAAAAAAAKoAAKoAAAAAAAAAAAAAAACqAACqqqqqqqqqqqqqqqqq
+        qgAAqqqqqqqqqqqqqqqqqqoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Laufzeitumgebung</value>
+  </data>
+  <data name="OK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>326, 376</value>
+  </data>
+</root>

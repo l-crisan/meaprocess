@@ -1,0 +1,15 @@
+SubDir TOP src mps-api ;
+
+SubDirHdrs $(TOP)/include ; 
+
+SubDirC++Flags [ FDefines MPS_API_EXPORTS ] ;
+
+SubDirObjects $(OUTPUT_OBJECT) mps-api ;
+
+SharedLibrary mps-api : mps.cpp ;
+
+LinkSharedLibraries mps-api : mps-core mps-builder mps-modld  ;
+
+LinkFlags  mps-api  : $(MPS_LINKFLAGS) ;
+
+MakeLocate  mps-api : $(MPS_BINDIR) ;

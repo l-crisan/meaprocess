@@ -1,0 +1,1 @@
+xcopy ..\mps-m\build\Release\* .\Deploy\mea\ /E

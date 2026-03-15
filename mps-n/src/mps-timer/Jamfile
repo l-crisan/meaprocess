@@ -1,0 +1,19 @@
+SubDir TOP src mps-timer ;
+
+SubDirC++Flags [ FDefines MPS_TIMER_API_EXPORT ] ;
+SubDirCcFlags [ FDefines MPS_TIMER_API_EXPORT ] ;
+
+SubDirHdrs $(TOP)/include ; 
+SubDirHdrs $(TOP)/src/mps-timer/$(SYS:L) ;
+
+SubDirObjects $(OUTPUT_OBJECT) mps-timer ;
+
+SharedLibrary mps-timer : 
+					$(SYS:L)/TimerImpl.cpp 
+                    Timer.cpp
+                 ;
+
+LinkFlags  mps-timer  : $(MPS_LINKFLAGS) ;
+
+MakeLocate mps-timer : $(MPS_BINDIR) ;
+

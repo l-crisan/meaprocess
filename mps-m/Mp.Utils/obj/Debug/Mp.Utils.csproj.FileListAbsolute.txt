@@ -1,0 +1,11 @@
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Debug\Mp.Utils.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Debug\Mp.Utils.pdb
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Utils\obj\Debug\Mp.Utils.csproj.CoreCompileInputs.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Utils\obj\Debug\Mp.Utils.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Utils\obj\Debug\Mp.Utils.pdb
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-m\build\Debug\Mp.Utils.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-m\build\Debug\Mp.Utils.pdb
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-m\Mp.Utils\obj\Debug\Mp.Utils.csproj.AssemblyReference.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-m\Mp.Utils\obj\Debug\Mp.Utils.csproj.CoreCompileInputs.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-m\Mp.Utils\obj\Debug\Mp.Utils.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-m\Mp.Utils\obj\Debug\Mp.Utils.pdb

@@ -1,0 +1,1041 @@
+VERSION "HNPBNNNYNNNNNNNNNNNNNNNNNNNNNNNNYNYYYNNNNN/4/%%%/4/'%**4NNN///"
+
+
+NS_ : 
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+
+BS_:
+
+BU_: Vector__XXX MRM ME LWR LF_ABC KOMBI EZS EWM ESP_ASR EGS ART
+
+
+BO_ 568 MRM_238h: 4 MRM
+ SG_ LW_LO : 24|8@1+ (0.5,0) [0|720] "°"  ESP_ASR,LF_ABC,ART
+ SG_ LW_PA : 23|1@1+ (1,0) [0|0] ""  ESP_ASR,LF_ABC,ART
+ SG_ LW_OV : 22|1@1+ (1,0) [0|0] ""  ESP_ASR,LF_ABC,ART
+ SG_ LW_CF : 21|1@1+ (1,0) [0|0] ""  ESP_ASR,LF_ABC,ART
+ SG_ LW_INI : 20|1@1+ (1,0) [0|0] ""  ESP_ASR,LF_ABC,ART
+ SG_ LW_VZ : 19|1@1+ (1,0) [0|0] ""  ESP_ASR,LF_ABC,ART
+ SG_ LW10 : 18|1@1+ (1,0) [0|0] ""  ESP_ASR,LF_ABC,ART
+ SG_ LW9 : 17|1@1+ (1,0) [0|0] ""  ESP_ASR,LF_ABC,ART
+ SG_ LW8 : 16|1@1+ (1,0) [0|0] ""  ESP_ASR,LF_ABC,ART
+ SG_ BLI_RE : 15|1@1+ (1,0) [0|0] ""  ART
+ SG_ BLI_LI : 14|1@1+ (1,0) [0|0] ""  ART
+ SG_ WH_PA : 12|1@1+ (1,0) [0|0] ""  EZS,ART
+ SG_ BZ238h3 : 11|1@1+ (1,0) [0|0] ""  ESP_ASR,EZS,ART
+ SG_ BZ238h2 : 10|1@1+ (1,0) [0|0] ""  ESP_ASR,EZS,ART
+ SG_ BZ238h1 : 9|1@1+ (1,0) [0|0] ""  ESP_ASR,EZS,ART
+ SG_ BZ238h0 : 8|1@1+ (1,0) [0|0] ""  ESP_ASR,EZS,ART
+ SG_ WH_UP : 5|1@1+ (1,0) [0|0] ""  EZS,ART
+ SG_ VMAX_AKT : 4|1@1+ (1,0) [0|0] ""  EZS,ART
+ SG_ S_MINUS_B : 3|1@1+ (1,0) [0|0] ""  EZS,ART
+ SG_ S_PLUS_B : 2|1@1+ (1,0) [0|0] ""  EZS,ART
+ SG_ WA : 1|1@1+ (1,0) [0|0] ""  EZS,ART
+ SG_ AUS : 0|1@1+ (1,0) [0|0] ""  EZS,ART
+
+BO_ 1544 ME_608h: 7 ME
+ SG_ VB_LO : 48|8@1+ (1,0) [0|0] ""  KOMBI
+ SG_ VB_HI : 40|8@1+ (0.217,0) [0|14200] "µl/250ms"  KOMBI
+ SG_ GETR_VAR : 30|1@1+ (1,0) [0|0] ""  ESP_ASR
+ SG_ FCOD5_LO : 29|1@1+ (1,0) [0|0] ""  ESP_ASR,ART
+ SG_ FCOD4_LO : 28|1@1+ (1,0) [0|0] ""  ESP_ASR,ART
+ SG_ FCOD3_LO : 27|1@1+ (1,0) [0|0] ""  ESP_ASR,ART
+ SG_ FCOD2_LO : 26|1@1+ (1,0) [0|0] ""  ESP_ASR,ART
+ SG_ FCOD1_LO : 25|1@1+ (1,0) [0|0] ""  ESP_ASR,ART
+ SG_ FCOD0_LO : 24|1@1+ (1,0) [0|0] ""  ESP_ASR,ART
+ SG_ FCOD7_HI : 23|1@1+ (1,0) [0|0] ""  ESP_ASR,ART
+ SG_ FCOD6_HI : 22|1@1+ (1,0) [0|0] ""  ESP_ASR,ART
+ SG_ FCOD5_HI : 21|1@1+ (1,0) [0|0] ""  ESP_ASR,ART
+ SG_ FCOD4_HI : 20|1@1+ (1,0) [0|0] ""  ESP_ASR,ART
+ SG_ FCOD3_HI : 19|1@1+ (1,0) [0|0] ""  ESP_ASR,ART
+ SG_ FCOD2_HI : 18|1@1+ (1,0) [0|0] ""  ESP_ASR,ART
+ SG_ FCOD1_HI : 17|1@1+ (1,0) [0|0] ""  ESP_ASR,ART
+ SG_ FCOD0_HI : 16|1@1+ (1,0) [0|0] ""  ESP_ASR,ART
+ SG_ T_LUFT : 8|8@1+ (1,-40) [-40|214] "°C"  LF_ABC
+ SG_ T_MOT : 0|8@1+ (1,-40) [-40|214] "°C"  EGS,EZS,KOMBI
+
+BO_ 784 ME_310h: 8 ME
+ SG_ MMOTMIN : 56|8@1+ (3,0) [0|762] "Nm"  ESP_ASR,ART
+ SG_ MMOTMAX : 48|8@1+ (3,0) [0|762] "Nm"  ESP_ASR,ART
+ SG_ MMOTSCH : 40|8@1+ (3,0) [0|762] "Nm"  ESP_ASR,EGS,ART
+ SG_ MMOTI : 32|8@1+ (3,0) [0|762] "Nm"  ESP_ASR,EGS
+ SG_ FMMOTMAX : 24|8@1+ (0.0078,0) [0|1.98] ""  ESP_ASR,EGS,LF_ABC,ART
+ SG_ ML : 16|8@1+ (0.5,0) [0|127] "%"  ESP_ASR,EGS,KOMBI
+ SG_ KPL : 7|1@1+ (1,0) [0|0] ""  ESP_ASR
+ SG_ SAST : 4|1@1+ (1,0) [0|0] ""  ART
+ SG_ SASV : 3|1@1+ (1,0) [0|0] ""  ART
+ SG_ ZASBED : 0|1@1+ (1,0) [0|0] ""  EGS
+
+BO_ 776 ME_308h: 8 ME
+ SG_ OEL_QUAL : 56|8@1+ (0.01969,1) [1|6] ""  KOMBI
+ SG_ OEL_FS : 48|8@1+ (0.315,0) [0|80] "mm"  KOMBI
+ SG_ T_OEL : 40|8@1+ (1,-40) [-40|160] "°C"  KOMBI
+ SG_ UEHITZ : 39|1@1+ (1,0) [0|0] ""  KOMBI
+ SG_ ZAS : 38|1@1+ (1,0) [0|0] ""  ESP_ASR
+ SG_ ANL_LFT : 35|1@1+ (1,0) [0|0] ""  EZS
+ SG_ LUEFT_MOT_KL : 34|1@1+ (1,0) [0|0] ""  EZS,KOMBI
+ SG_ JAPAN_KL : 33|1@1+ (1,0) [0|0] ""  KOMBI
+ SG_ SLV3 : 31|1@1+ (1,0) [0|0] ""  EGS
+ SG_ SLV2 : 30|1@1+ (1,0) [0|0] ""  EGS
+ SG_ SLV1 : 29|1@1+ (1,0) [0|0] ""  EGS
+ SG_ SLV0 : 28|1@1+ (1,0) [0|0] ""  EGS
+ SG_ OEL_KL : 26|1@1+ (1,0) [0|0] ""  KOMBI
+ SG_ DIAG_KL : 25|1@1+ (1,0) [0|0] ""  KOMBI
+ SG_ TANK_KL : 24|1@1+ (1,0) [0|0] ""  KOMBI
+ SG_ NMOT_LO : 16|8@1+ (1,0) [0|0] ""  ESP_ASR,EGS,EZS,KOMBI,ART
+ SG_ NMOT_HI : 8|8@1+ (1,0) [0|65534] "1/min"  ESP_ASR,EGS,EZS,KOMBI,ART
+ SG_ KUEB_O_A : 6|1@1+ (1,0) [0|0] ""  EGS
+ SG_ N_MAX_BG : 5|1@1+ (1,0) [0|0] ""  EGS
+ SG_ LWB : 4|1@1+ (1,0) [0|0] ""  EGS
+ SG_ WLAK : 3|1@1+ (1,0) [0|0] ""  EGS
+ SG_ MOM_AB : 2|1@1+ (1,0) [0|0] ""  EGS
+ SG_ ZWVQ : 1|1@1+ (1,0) [0|0] ""  ESP_ASR
+ SG_ GSQ : 0|1@1+ (1,0) [0|0] ""  EGS
+
+BO_ 528 ME_210h: 8 ME
+ SG_ V_MAX_TM : 56|8@1+ (1,0) [0|250] "(mph)"  KOMBI
+ SG_ MMOTE : 48|8@1+ (3,0) [0|762] "Nm"  ESP_ASR,ART
+ SG_ FBS_SE : 47|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ TM_EIN : 45|1@1+ (1,0) [0|0] ""  KOMBI
+ SG_ V_MAX_REG : 44|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ V_DSPL_LIM : 43|1@1+ (1,0) [0|0] ""  KOMBI
+ SG_ V_DSPL_ERR : 42|1@1+ (1,0) [0|0] ""  KOMBI
+ SG_ V_DSPL_BL : 41|1@1+ (1,0) [0|0] ""  KOMBI
+ SG_ V_DSPL_EIN : 40|1@1+ (1,0) [0|0] ""  KOMBI
+ SG_ NSL_AK : 39|1@1+ (1,0) [0|0] ""  EGS
+ SG_ LL : 38|1@1+ (1,0) [0|0] ""  EGS
+ SG_ VG : 37|1@1+ (1,0) [0|0] ""  EGS
+ SG_ TM_REG : 36|1@1+ (1,0) [0|0] ""  EGS
+ SG_ V_MAX_EIN : 35|1@1+ (1,0) [0|0] ""  EGS,KOMBI
+ SG_ NOTL : 33|1@1+ (1,0) [0|0] ""  EGS
+ SG_ V_MAX_SUM : 32|1@1+ (1,0) [0|0] ""  KOMBI
+ SG_ KOMP_BAUS : 25|1@1+ (1,0) [0|0] ""  EZS
+ SG_ DZA : 24|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ PW : 16|8@1+ (0.4,0) [0|100] "%"  ESP_ASR,EGS,KOMBI,LWR
+ SG_ DKI : 8|8@1+ (0.35,0) [0|88.9] ""  ESP_ASR,EGS
+ SG_ KOMP_NOTAUS : 7|1@1+ (1,0) [0|0] ""  EZS
+ SG_ GHALT_EMS : 6|1@1+ (1,0) [0|0] ""  EGS
+ SG_ ANF2_EMS : 5|1@1+ (1,0) [0|0] ""  EGS
+ SG_ AKT_R : 4|1@1+ (1,0) [0|0] ""  EGS
+ SG_ MMOTQ : 1|1@1+ (1,0) [0|0] ""  ESP_ASR
+ SG_ MSRD : 0|1@1+ (1,0) [0|0] ""  ESP_ASR
+
+BO_ 256 ME_100h: 8 ME
+ SG_ FBS7 : 56|8@1+ (1,0) [0|0] ""  EZS
+ SG_ FBS6 : 48|8@1+ (1,0) [0|0] ""  EZS
+ SG_ FBS5 : 40|8@1+ (1,0) [0|0] ""  EZS
+ SG_ FBS4 : 32|8@1+ (1,0) [0|0] ""  EZS
+ SG_ FBS3 : 24|8@1+ (1,0) [0|0] ""  EZS
+ SG_ FBS2 : 16|8@1+ (1,0) [0|0] ""  EZS
+ SG_ FBS1 : 8|8@1+ (1,0) [0|0] ""  EZS
+ SG_ FBS0 : 0|8@1+ (1,0) [0|0] ""  EZS
+
+BO_ 832 LF_ABC_340h: 8 LF_ABC
+ SG_ M_LAST1 : 58|1@1+ (1,0) [0|0] ""  ME
+ SG_ M_LAST0 : 57|1@1+ (1,0) [0|0] ""  ME
+ SG_ M_LAST_DYN : 56|1@1+ (1,0) [0|0] ""  ME
+ SG_ T_OEL_ABC : 48|8@1+ (1,-40) [-40|120] "°C" Vector__XXX
+ SG_ FZGN_HR : 40|8@1+ (1,-127) [-127|127] "mm"  LWR
+ SG_ FZGN_HL : 32|8@1+ (1,-127) [-127|127] "mm"  LWR
+ SG_ FZGN_VR : 24|8@1+ (1,-127) [-127|127] "mm"  LWR
+ SG_ FZGN_VL : 16|8@1+ (1,-127) [-127|127] "mm"  LWR
+ SG_ BELAD1 : 14|1@1+ (1,0) [0|0] ""  EZS
+ SG_ BELAD0 : 13|1@1+ (1,0) [0|0] ""  EZS
+ SG_ K_S_LED_DL : 12|1@1+ (1,0) [0|0] ""  EZS
+ SG_ NIV_LED2_BL : 11|1@1+ (1,0) [0|0] ""  EZS
+ SG_ NIV_LED2_DL : 10|1@1+ (1,0) [0|0] ""  EZS
+ SG_ NIV_LED1_BL : 9|1@1+ (1,0) [0|0] ""  EZS
+ SG_ NIV_LED1_DL : 8|1@1+ (1,0) [0|0] ""  EZS
+ SG_ LF_ABC : 7|1@1+ (1,0) [0|0] ""  KOMBI
+ SG_ NEDG : 6|1@1+ (1,0) [0|0] ""  LWR
+ SG_ M2 : 5|1@1+ (1,0) [0|0] ""  KOMBI
+ SG_ M1 : 4|1@1+ (1,0) [0|0] ""  KOMBI
+ SG_ F4 : 3|1@1+ (1,0) [0|0] ""  KOMBI
+ SG_ F3 : 2|1@1+ (1,0) [0|0] ""  KOMBI
+ SG_ F2 : 1|1@1+ (1,0) [0|0] ""  KOMBI
+ SG_ F1 : 0|1@1+ (1,0) [0|0] ""  KOMBI
+
+BO_ 1032 KOMBI_408h: 8 KOMBI
+ SG_ WRC2 : 58|1@1+ (1,0) [0|0] ""  ME,ART
+ SG_ WRC1 : 57|1@1+ (1,0) [0|0] ""  ME,ART
+ SG_ WRC0 : 56|1@1+ (1,0) [0|0] ""  ME,ART
+ SG_ KM_LO : 48|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ KM_HI : 40|8@1+ (2,0) [0|99998] "km" Vector__XXX
+ SG_ MAZ : 32|8@1+ (1,0) [0|254] "min"  ME
+ SG_ KL_58D : 24|8@1+ (1,0) [0|100] "%"  EWM
+ SG_ T_AUSSEN : 16|8@1+ (0.5,-40) [-40|63] "°C"  ME,EZS,LF_ABC
+ SG_ V_DSPL_AUS : 14|1@1+ (1,0) [0|0] ""  ME
+ SG_ TACHO_SYM : 13|1@1+ (1,0) [0|0] ""  ME
+ SG_ V_MPH : 12|1@1+ (1,0) [0|0] ""  ME,ART
+ SG_ KLA_VH : 11|1@1+ (1,0) [0|0] ""  ME
+ SG_ TFSM : 9|1@1+ (1,0) [0|0] ""  ME
+ SG_ KL_61E : 8|1@1+ (1,0) [0|0] ""  ESP_ASR,ME,LF_ABC
+ SG_ TANK_FS : 0|8@1+ (1,0) [0|100] "l"  ME
+
+BO_ 1040 EZS_410h: 4 EZS
+ SG_ NLFTS : 24|8@1+ (1,0) [0|100] "%"  ME
+ SG_ M_KOMP : 16|8@1+ (3,0) [0|762] "Nm"  ME,EGS
+ SG_ P_KAELTE : 8|8@1+ (0.5,0) [0|40] "bar"  ME,EGS
+ SG_ LL_DZA : 6|1@1+ (1,0) [0|0] ""  ME
+ SG_ KOMP_EIN : 0|1@1+ (1,0) [0|0] ""  ME,EGS
+
+BO_ 576 EZS_240h: 8 EZS
+ SG_ ART_VH : 63|1@1+ (1,0) [0|0] ""  ESP_ASR
+ SG_ ZSL : 62|1@1+ (1,0) [0|0] ""  ME
+ SG_ LDC1 : 57|1@1+ (1,0) [0|0] ""  LF_ABC
+ SG_ LDC0 : 56|1@1+ (1,0) [0|0] ""  LF_ABC
+ SG_ ART_ABSTAND : 48|8@1+ (1,0) [0|200] ""  ART
+ SG_ SPORT : 47|1@1+ (1,0) [0|0] ""  LF_ABC
+ SG_ KOMFORT : 46|1@1+ (1,0) [0|0] ""  LF_ABC
+ SG_ NIV_H : 45|1@1+ (1,0) [0|0] ""  LF_ABC
+ SG_ NIV_T : 44|1@1+ (1,0) [0|0] ""  LF_ABC
+ SG_ ART_TON_AUS : 43|1@1+ (1,0) [0|0] ""  ART
+ SG_ ABL_EIN : 41|1@1+ (1,0) [0|0] ""  LWR
+ SG_ ASR_ESP_EIN : 38|1@1+ (1,0) [0|0] ""  ESP_ASR
+ SG_ ASR_ESP_AUS : 37|1@1+ (1,0) [0|0] ""  ESP_ASR
+ SG_ HAS_KL : 36|1@1+ (1,0) [0|0] ""  ESP_ASR
+ SG_ WH_PA : 20|1@1+ (1,0) [0|0] ""  ME
+ SG_ BZ240h3 : 19|1@1+ (1,0) [0|0] ""  ME
+ SG_ BZ240h2 : 18|1@1+ (1,0) [0|0] ""  ME
+ SG_ BZ240h1 : 17|1@1+ (1,0) [0|0] ""  ME
+ SG_ BZ240h0 : 16|1@1+ (1,0) [0|0] ""  ME
+ SG_ KG_KL_AKT : 15|1@1+ (1,0) [0|0] ""  ME
+ SG_ KG_ALB_OK : 14|1@1+ (1,0) [0|0] ""  ME
+ SG_ LL_RLC1 : 13|1@1+ (1,0) [0|0] ""  ESP_ASR,ART
+ SG_ LL_RLC0 : 12|1@1+ (1,0) [0|0] ""  ESP_ASR,ART
+ SG_ BS_SL : 10|1@1+ (1,0) [0|0] ""  EWM
+ SG_ KL_15 : 9|1@1+ (1,0) [0|0] ""  ME
+ SG_ KL_50 : 8|1@1+ (1,0) [0|0] ""  ME
+ SG_ WH_UP : 5|1@1+ (1,0) [0|0] ""  ME
+ SG_ VMAX_AKT : 4|1@1+ (1,0) [0|0] ""  ME
+ SG_ S_MINUS_B : 3|1@1+ (1,0) [0|0] ""  ME
+ SG_ S_PLUS_B : 2|1@1+ (1,0) [0|0] ""  ME
+ SG_ WA : 1|1@1+ (1,0) [0|0] ""  ME
+ SG_ AUS : 0|1@1+ (1,0) [0|0] ""  ME
+
+BO_ 276 EZS_114h: 8 EZS
+ SG_ FBS_EWM7 : 56|8@1+ (1,0) [0|0] ""  EWM
+ SG_ FBS_EWM6 : 48|8@1+ (1,0) [0|0] ""  EWM
+ SG_ FBS_EWM5 : 40|8@1+ (1,0) [0|0] ""  EWM
+ SG_ FBS_EWM4 : 32|8@1+ (1,0) [0|0] ""  EWM
+ SG_ FBS_EWM3 : 24|8@1+ (1,0) [0|0] ""  EWM
+ SG_ FBS_EWM2 : 16|8@1+ (1,0) [0|0] ""  EWM
+ SG_ FBS_EWM1 : 8|8@1+ (1,0) [0|0] ""  EWM
+ SG_ FBS_EWM0 : 0|8@1+ (1,0) [0|0] ""  EWM
+
+BO_ 272 EZS_110h: 8 EZS
+ SG_ IFZ_ST7 : 56|8@1+ (1,0) [0|0] ""  ME
+ SG_ IFZ_ST6 : 48|8@1+ (1,0) [0|0] ""  ME
+ SG_ IFZ_ST5 : 40|8@1+ (1,0) [0|0] ""  ME
+ SG_ IFZ_ST4 : 32|8@1+ (1,0) [0|0] ""  ME
+ SG_ IFZ_ST3 : 24|8@1+ (1,0) [0|0] ""  ME
+ SG_ IFZ_ST2 : 16|8@1+ (1,0) [0|0] ""  ME
+ SG_ IFZ_ST1 : 8|8@1+ (1,0) [0|0] ""  ME
+ SG_ IFZ_ST0 : 0|8@1+ (1,0) [0|0] ""  ME
+
+BO_ 560 EWM_230h: 1 EWM
+ SG_ FPT : 6|1@1+ (1,0) [0|0] ""  EGS
+ SG_ KD : 5|1@1+ (1,0) [0|0] ""  EGS
+ SG_ WHC3 : 3|1@1+ (1,0) [0|0] ""  EGS,EZS
+ SG_ WHC2 : 2|1@1+ (1,0) [0|0] ""  EGS,EZS
+ SG_ WHC1 : 1|1@1+ (1,0) [0|0] ""  EGS,EZS
+ SG_ WHC0 : 0|1@1+ (1,0) [0|0] ""  EGS,EZS
+
+BO_ 260 EWM_104h: 8 EWM
+ SG_ EWM_FBS7 : 56|8@1+ (1,0) [0|0] ""  EZS
+ SG_ EWM_FBS6 : 48|8@1+ (1,0) [0|0] ""  EZS
+ SG_ EWM_FBS5 : 40|8@1+ (1,0) [0|0] ""  EZS
+ SG_ EWM_FBS4 : 32|8@1+ (1,0) [0|0] ""  EZS
+ SG_ EWM_FBS3 : 24|8@1+ (1,0) [0|0] ""  EZS
+ SG_ EWM_FBS2 : 16|8@1+ (1,0) [0|0] ""  EZS
+ SG_ EWM_FBS1 : 8|8@1+ (1,0) [0|0] ""  EZS
+ SG_ EWM_FBS0 : 0|8@1+ (1,0) [0|0] ""  EZS
+
+BO_ 768 ESP_ASR_300h: 8 ESP_ASR
+ SG_ MBRE_ESP_LO : 24|8@1+ (1,0) [0|0] ""  LF_ABC,ART
+ SG_ MBRE_ESP_HI : 16|8@1+ (3,0) [0|12283] "Nm"  LF_ABC,ART
+ SG_ T_Z1 : 12|1@1+ (1,0) [0|0] ""  LF_ABC
+ SG_ T_Z0 : 11|1@1+ (1,0) [0|0] ""  LF_ABC
+ SG_ SFB_PA : 10|1@1+ (1,0) [0|0] ""  ART
+ SG_ SFB1 : 9|1@1+ (1,0) [0|0] ""  ART
+ SG_ SFB0 : 8|1@1+ (1,0) [0|0] ""  ART
+ SG_ BRE_AKT_ESP : 5|1@1+ (1,0) [0|0] ""  ART
+ SG_ VOLLBRE : 4|1@1+ (1,0) [0|0] ""  ART
+ SG_ ART_E : 3|1@1+ (1,0) [0|0] ""  ART
+ SG_ BRE_AKT_ART : 2|1@1+ (1,0) [0|0] ""  ART
+ SG_ LWS_INI_OK : 1|1@1+ (1,0) [0|0] ""  MRM,ART
+ SG_ LWS_INI_EIN : 0|1@1+ (1,0) [0|0] ""  MRM,ART
+
+BO_ 520 ESP_ASR_208h: 8 ESP_ASR
+ SG_ DHL_LO : 56|8@1+ (1,0) [0|0] ""  ME,EGS,EWM,KOMBI
+ SG_ DHL_HI : 48|8@1+ (0.5,0) [0|32767] "1/min"  ME,EGS,EWM,KOMBI
+ SG_ DHR_LO : 40|8@1+ (1,0) [0|0] ""  ME,EGS,EWM,KOMBI
+ SG_ DHR_HI : 32|8@1+ (0.5,0) [0|32767] "1/min"  ME,EGS,EWM,KOMBI
+ SG_ MMOTSE : 24|8@1+ (3,0) [0|762] "Nm"  ME,EGS
+ SG_ MMOTSR : 16|8@1+ (3,0) [0|762] "Nm"  ME,EGS
+ SG_ MMOTSE_BZ_PA : 15|1@1+ (1,0) [0|0] ""  ME
+ SG_ ASR_AUS : 14|1@1+ (1,0) [0|0] ""  ME,EGS,ART
+ SG_ ASR_OK : 13|1@1+ (1,0) [0|0] ""  ME,EGS,KOMBI,ART
+ SG_ TM_AUS : 12|1@1+ (1,0) [0|0] ""  ME,EGS,ART
+ SG_ MMOTSR_EIN : 11|1@1+ (1,0) [0|0] ""  ME
+ SG_ MMOTSE_EIN : 10|1@1+ (1,0) [0|0] ""  ME
+ SG_ ZWV : 9|1@1+ (1,0) [0|0] ""  ME
+ SG_ MMOTSR_BZ_PA : 8|1@1+ (1,0) [0|0] ""  ME
+ SG_ GHALT_ASR : 7|1@1+ (1,0) [0|0] ""  EGS
+ SG_ ANF2_ASR : 6|1@1+ (1,0) [0|0] ""  EGS
+ SG_ MMOTSR_ART_AKT : 5|1@1+ (1,0) [0|0] ""  ME
+ SG_ MMOTSE_ART_AKT : 4|1@1+ (1,0) [0|0] ""  ME
+ SG_ BZ208h3 : 3|1@1+ (1,0) [0|0] ""  ME,ART
+ SG_ BZ208h2 : 2|1@1+ (1,0) [0|0] ""  ME,ART
+ SG_ BZ208h1 : 1|1@1+ (1,0) [0|0] ""  ME,ART
+ SG_ BZ208h0 : 0|1@1+ (1,0) [0|0] ""  ME,ART
+
+BO_ 512 ESP_ASR_200h: 8 ESP_ASR
+ SG_ TM_DL_LO : 56|8@1+ (1,0) [0|0] ""  ME
+ SG_ TM_DL_HI : 48|8@1+ (0.5,0) [0|32767] "1/min"  ME
+ SG_ DVR_LO : 40|8@1+ (1,0) [0|0] ""  ME,EGS,KOMBI,LF_ABC,ART
+ SG_ DVR_HI : 32|8@1+ (0.5,0) [0|32767] "1/min"  ME,EGS,KOMBI,LF_ABC,ART
+ SG_ DVL_LO : 24|8@1+ (1,0) [0|0] ""  ME,EGS,EZS,KOMBI,LF_ABC,ART,LWR
+ SG_ DVL_HI : 16|8@1+ (0.5,0) [0|32767] "1/min"  ME,EGS,EZS,KOMBI,LF_ABC,ART,LWR
+ SG_ BLS_PA : 14|1@1+ (1,0) [0|0] ""  ME,EGS,EZS,ART,LWR
+ SG_ BZ200h3 : 13|1@1+ (1,0) [0|0] ""  ME,EGS,EZS,ART,LWR
+ SG_ BZ200h2 : 12|1@1+ (1,0) [0|0] ""  ME,EGS,EZS,ART,LWR
+ SG_ BZ200h1 : 11|1@1+ (1,0) [0|0] ""  ME,EGS,EZS,ART,LWR
+ SG_ BZ200h0 : 10|1@1+ (1,0) [0|0] ""  ME,EGS,EZS,ART,LWR
+ SG_ BLS1 : 9|1@1+ (1,0) [0|0] ""  ME,EGS,EZS,LF_ABC,ART,LWR
+ SG_ BLS0 : 8|1@1+ (1,0) [0|0] ""  ME,EGS,EZS,LF_ABC,ART,LWR
+ SG_ BAS_KL : 6|1@1+ (1,0) [0|0] ""  KOMBI
+ SG_ ASR_INFO_BL : 5|1@1+ (1,0) [0|0] ""  KOMBI
+ SG_ ASR_INFO_DL : 4|1@1+ (1,0) [0|0] ""  KOMBI
+ SG_ ASR_KL : 3|1@1+ (1,0) [0|0] ""  KOMBI
+ SG_ ABS_KL : 2|1@1+ (1,0) [0|0] ""  KOMBI
+ SG_ BBV_KL : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 808 ESP_328h: 8 ESP_ASR
+ SG_ AY_S : 16|8@1+ (0.08,-10.24) [-10.24|10.08] "m/s²"  LF_ABC
+ SG_ FNS_LO : 8|8@1+ (1,-16384) [-16384|16382] "N"  LF_ABC
+ SG_ FNS_PA : 7|1@1+ (1,0) [0|0] ""  LF_ABC
+ SG_ FNS_VZ : 6|1@1+ (1,0) [0|0] ""  LF_ABC
+ SG_ FNS13 : 5|1@1+ (1,0) [0|0] ""  LF_ABC
+ SG_ FNS12 : 4|1@1+ (1,0) [0|0] ""  LF_ABC
+ SG_ FNS11 : 3|1@1+ (1,0) [0|0] ""  LF_ABC
+ SG_ FNS10 : 2|1@1+ (1,0) [0|0] ""  LF_ABC
+ SG_ FNS9 : 1|1@1+ (1,0) [0|0] ""  LF_ABC
+ SG_ FNS8 : 0|1@1+ (1,0) [0|0] ""  LF_ABC
+
+BO_ 1048 EGS_418h: 2 EGS
+ SG_ FPC7 : 15|1@1+ (1,0) [0|0] ""  KOMBI
+ SG_ FPC6 : 14|1@1+ (1,0) [0|0] ""  KOMBI
+ SG_ FPC5 : 13|1@1+ (1,0) [0|0] ""  KOMBI
+ SG_ FPC4 : 12|1@1+ (1,0) [0|0] ""  KOMBI
+ SG_ FPC3 : 11|1@1+ (1,0) [0|0] ""  KOMBI
+ SG_ FPC2 : 10|1@1+ (1,0) [0|0] ""  KOMBI
+ SG_ FPC1 : 9|1@1+ (1,0) [0|0] ""  KOMBI
+ SG_ FPC0 : 8|1@1+ (1,0) [0|0] ""  KOMBI
+ SG_ FSC7 : 7|1@1+ (1,0) [0|0] ""  KOMBI
+ SG_ FSC6 : 6|1@1+ (1,0) [0|0] ""  KOMBI
+ SG_ FSC5 : 5|1@1+ (1,0) [0|0] ""  KOMBI
+ SG_ FSC4 : 4|1@1+ (1,0) [0|0] ""  KOMBI
+ SG_ FSC3 : 3|1@1+ (1,0) [0|0] ""  KOMBI
+ SG_ FSC2 : 2|1@1+ (1,0) [0|0] ""  KOMBI
+ SG_ FSC1 : 1|1@1+ (1,0) [0|0] ""  KOMBI
+ SG_ FSC0 : 0|1@1+ (1,0) [0|0] ""  KOMBI
+
+BO_ 536 EGS_218h: 6 EGS
+ SG_ COD2 : 47|1@1+ (1,0) [0|0] ""  ME
+ SG_ COD1 : 46|1@1+ (1,0) [0|0] ""  ME
+ SG_ COD0 : 45|1@1+ (1,0) [0|0] ""  ME
+ SG_ FEHLER4 : 44|1@1+ (1,0) [0|0] ""  ME
+ SG_ FEHLER3 : 43|1@1+ (1,0) [0|0] ""  ME
+ SG_ FEHLER2 : 42|1@1+ (1,0) [0|0] ""  ME
+ SG_ FEHLER1 : 41|1@1+ (1,0) [0|0] ""  ME
+ SG_ FEHLER0 : 40|1@1+ (1,0) [0|0] ""  ME
+ SG_ u_WAND : 32|8@1+ (1,0) [100|254] "%"  ESP_ASR,ART
+ SG_ KUEB_S_B : 31|1@1+ (1,0) [0|0] ""  ESP_ASR,ME
+ SG_ KUEB_O_B : 30|1@1+ (1,0) [0|0] ""  ESP_ASR,ME
+ SG_ KUEB_G_B : 29|1@1+ (1,0) [0|0] ""  ESP_ASR,ME
+ SG_ GETR : 28|1@1+ (1,0) [0|0] ""  ESP_ASR,ME,ART
+ SG_ EGS_NOTL : 27|1@1+ (1,0) [0|0] ""  ESP_ASR,ME,ART
+ SG_ SE : 26|1@1+ (1,0) [0|0] ""  ESP_ASR,ME,ART
+ SG_ KD : 25|1@1+ (1,0) [0|0] ""  ME,ART
+ SG_ FRONT : 24|1@1+ (1,0) [0|0] ""  ESP_ASR,ME
+ SG_ GZC3 : 23|1@1+ (1,0) [0|0] ""  ESP_ASR,ME,ART
+ SG_ GZC2 : 22|1@1+ (1,0) [0|0] ""  ESP_ASR,ME,ART
+ SG_ GZC1 : 21|1@1+ (1,0) [0|0] ""  ESP_ASR,ME,ART
+ SG_ GZC0 : 20|1@1+ (1,0) [0|0] ""  ESP_ASR,ME,ART
+ SG_ GIC3 : 19|1@1+ (1,0) [0|0] ""  ESP_ASR,ME,ART
+ SG_ GIC2 : 18|1@1+ (1,0) [0|0] ""  ESP_ASR,ME,ART
+ SG_ GIC1 : 17|1@1+ (1,0) [0|0] ""  ESP_ASR,ME,ART
+ SG_ GIC0 : 16|1@1+ (1,0) [0|0] ""  ESP_ASR,ME,ART
+ SG_ SCHALT : 15|1@1+ (1,0) [0|0] ""  ME
+ SG_ GSP_OK : 13|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ G_G : 12|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ P_N : 11|1@1+ (1,0) [0|0] ""  ME
+ SG_ KS : 10|1@1+ (1,0) [0|0] ""  ME
+ SG_ ALF : 9|1@1+ (1,0) [0|0] ""  ME
+ SG_ GSA : 8|1@1+ (1,0) [0|0] ""  ME
+ SG_ MSOLL_EGS : 0|8@1+ (3,0) [0|759] "Nm"  ME
+
+BO_ 600 ART_258h: 8 ART
+ SG_ ART_EIN : 36|1@1+ (1,0) [0|0] ""  KOMBI
+ SG_ OBJ_ERK : 35|1@1+ (1,0) [0|0] ""  KOMBI
+ SG_ ART_SEG_EIN : 34|1@1+ (1,0) [0|0] ""  KOMBI
+ SG_ V_DSPL_BL_ART : 33|1@1+ (1,0) [0|0] ""  KOMBI
+ SG_ TM_EIN_ART : 32|1@1+ (1,0) [0|0] ""  KOMBI
+ SG_ SI_ABST : 24|8@1+ (1,0) [0|150] "m"  KOMBI
+ SG_ ABST_R_OBJ : 16|8@1+ (1,0) [0|150] "m"  KOMBI
+ SG_ V_ART : 8|8@1+ (1,0) [0|250] "km/h"  KOMBI
+ SG_ ART_DSPL_EIN : 7|1@1+ (1,0) [0|0] ""  KOMBI
+ SG_ S_OBJ : 6|1@1+ (1,0) [0|0] ""  KOMBI
+ SG_ ART_WT : 5|1@1+ (1,0) [0|0] ""  KOMBI
+ SG_ ART_INFO : 4|1@1+ (1,0) [0|0] ""  KOMBI
+ SG_ FEHLER3 : 3|1@1+ (1,0) [0|0] ""  KOMBI
+ SG_ FEHLER2 : 2|1@1+ (1,0) [0|0] ""  KOMBI
+ SG_ FEHLER1 : 1|1@1+ (1,0) [0|0] ""  KOMBI
+ SG_ FEHLER0 : 0|1@1+ (1,0) [0|0] ""  KOMBI
+
+BO_ 592 ART_250h: 8 ART
+ SG_ MBRE_ART_LO : 40|8@1+ (1,0) [0|0] ""  ESP_ASR
+ SG_ MBRE_ART_HI : 32|8@1+ (3,0) [0|12283] "Nm"  ESP_ASR
+ SG_ MMOTSE_ART : 24|8@1+ (3,0) [0|762] "Nm"  ESP_ASR
+ SG_ MMOTSR_ART : 16|8@1+ (3,0) [0|762] "Nm"  ESP_ASR
+ SG_ ART_REG : 13|1@1+ (1,0) [0|0] ""  ESP_ASR,EGS
+ SG_ ART_BRE : 12|1@1+ (1,0) [0|0] ""  ESP_ASR,EGS
+ SG_ ART_OK : 11|1@1+ (1,0) [0|0] ""  ESP_ASR,EGS
+ SG_ BL_UNT : 10|1@1+ (1,0) [0|0] ""  ESP_ASR
+ SG_ MMOTSR_EIN_ART : 9|1@1+ (1,0) [0|0] ""  ESP_ASR
+ SG_ MMOTSE_EIN_ART : 8|1@1+ (1,0) [0|0] ""  ESP_ASR
+ SG_ SLV3 : 7|1@1+ (1,0) [0|0] ""  EGS
+ SG_ SLV2 : 6|1@1+ (1,0) [0|0] ""  EGS
+ SG_ SLV1 : 5|1@1+ (1,0) [0|0] ""  EGS
+ SG_ SLV0 : 4|1@1+ (1,0) [0|0] ""  EGS
+ SG_ DYN_UNT : 3|1@1+ (1,0) [0|0] ""  EGS
+ SG_ GHALT_ART : 2|1@1+ (1,0) [0|0] ""  EGS
+ SG_ ANF2_ART : 1|1@1+ (1,0) [0|0] ""  ESP_ASR,EGS
+ SG_ AKT_R_ART : 0|1@1+ (1,0) [0|0] ""  EGS
+
+BO_ 840 ABC_348h: 8 LF_ABC
+ SG_ BZ348h3 : 51|1@1+ (1,0) [0|0] ""  ESP_ASR
+ SG_ BZ348h2 : 50|1@1+ (1,0) [0|0] ""  ESP_ASR
+ SG_ BZ348h1 : 49|1@1+ (1,0) [0|0] ""  ESP_ASR
+ SG_ BZ348h0 : 48|1@1+ (1,0) [0|0] ""  ESP_ASR
+ SG_ FNR_MAX : 40|8@1+ (64,0) [0|16256] "N"  ESP_ASR
+ SG_ FNE_MAX : 32|8@1+ (64,0) [0|16256] "N"  ESP_ASR
+ SG_ FN_HR : 24|8@1+ (64,0) [0|16256] "N"  ESP_ASR
+ SG_ FN_HL : 16|8@1+ (64,0) [0|16256] "N"  ESP_ASR
+ SG_ FN_VR : 8|8@1+ (64,0) [0|16256] "N"  ESP_ASR
+ SG_ FN_VL : 0|8@1+ (64,0) [0|16256] "N"  ESP_ASR
+
+EV_ Tempomatgeschwindigkeit: 1 [0|65535] "" 0 18 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ T_OEL: 0 [0|200] "°C" 100 17 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ T_MOT: 0 [0|254] "°C" 100 16 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ OEL_QUAL: 0 [0|254] "" 0 15 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ OEL_KL: 0 [0|1] "" 0 14 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ OEL_FS: 0 [0|254] "" 230 13 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ NMOT: 1 [0|65535] "" 0 12 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ Geschwindigkeit_fest: 0 [0|1] "" 0 11 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ Fahrstufe: 0 [0|255] "" 0 10 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ Fahrprogramm: 0 [0|255] "" 0 9 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ DVL: 1 [0|65534] "" 0 8 DUMMY_NODE_VECTOR2  ESP_ASR;
+
+EV_ BLS0: 0 [0|1] "" 0 7 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ BBV_KL: 0 [0|1] "" 0 6 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ BAS_KL: 0 [0|1] "" 0 5 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ ASR_KL: 0 [0|1] "" 0 4 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ ASR_INFO_DL: 0 [0|1] "" 0 3 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ ASR_INFO_BL: 0 [0|1] "" 0 2 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ ABS_KL: 0 [0|1] "" 0 1 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+
+CM_ BO_ 568 "
+Byte 1:MRM-Statusbyte 1
+Byte 2:MRM-Statusbyte 2
+Byte 3:Lenkwinkel, high byte
+Byte 4:Lenkwinkel, low byte";
+CM_ SG_ 568 LW_LO "Lenkwinkel, low byte";
+CM_ SG_ 568 LW_PA "Lenkwinkel Parity Bit (gerade Parität)";
+CM_ SG_ 568 LW_OV "Lenkwinkelsensor: Überlauf";
+CM_ SG_ 568 LW_CF "Lenkwinkelsensor: Codefehler";
+CM_ SG_ 568 LW_INI "Lenkwinkelsensor: nicht initialisiert";
+CM_ SG_ 568 LW_VZ "Lenkwinkel-Vorzeichen (rechts [0], links [1])";
+CM_ SG_ 568 LW10 "Lenkwinkel Bit 10";
+CM_ SG_ 568 LW9 "Lenkwinkel Bit 9";
+CM_ SG_ 568 LW8 "Lenkwinkel Bit 8";
+CM_ SG_ 568 BLI_RE "Blinker rechts betätigt";
+CM_ SG_ 568 BLI_LI "Blinker links betätigt";
+CM_ SG_ 568 WH_PA "Tempomatwählhebel Parity Bit (gerade Parität)";
+CM_ SG_ 568 BZ238h3 "Botschaftszähler Tempomatwählhebel, Bit 3";
+CM_ SG_ 568 BZ238h2 "Botschaftszähler Tempomatwählhebel, Bit 2";
+CM_ SG_ 568 BZ238h1 "Botschaftszähler Tempomatwählhebel, Bit 1";
+CM_ SG_ 568 BZ238h0 "Botschaftszähler Tempomatwählhebel, Bit 0";
+CM_ SG_ 568 WH_UP "Tempomatwählhebel unplausibel";
+CM_ SG_ 568 VMAX_AKT "Bedienung variable Geschwindigkeitsbegrenzung";
+CM_ SG_ 568 S_MINUS_B "Tempomatwählhebel: \"Setzen und verzögern\"";
+CM_ SG_ 568 S_PLUS_B "Tempomatwählhebel: \"Setzen und Beschleunigen\"";
+CM_ SG_ 568 WA "Tempomatwählhebel: \"Wiederaufnahme\"";
+CM_ SG_ 568 AUS "Tempomatwählhebel: \"Ausschalten\"";
+CM_ BO_ 1544 "
+Byte 1:Motortemperatur
+Byte 2:Ansauglufttemperatur
+Byte 3:Fahrzeugcode, high byte
+Byte 4:Fahrzeugcode, low byte
+Byte 6:Verbrauch, high byte
+Byte 7:Verbrauch, low byte";
+CM_ SG_ 1544 VB_LO "Verbrauch, low byte";
+CM_ SG_ 1544 VB_HI "Verbrauch, high byte";
+CM_ SG_ 1544 GETR_VAR "Getriebevariante (Schaltgetr./AK/KSG [1], Automatik [0])";
+CM_ SG_ 1544 FCOD5_LO "Fahrzeugcode Bit 5, Motor";
+CM_ SG_ 1544 FCOD4_LO "Fahrzeugcode Bit 4, Motor";
+CM_ SG_ 1544 FCOD3_LO "Fahrzeugcode Bit 3, Motor";
+CM_ SG_ 1544 FCOD2_LO "Fahrzeugcode Bit 2, Motor";
+CM_ SG_ 1544 FCOD1_LO "Fahrzeugcode Bit 1, Motor";
+CM_ SG_ 1544 FCOD0_LO "Fahrzeugcode Bit 0, Motor";
+CM_ SG_ 1544 FCOD7_HI "Fahrzeugcode Bit 7, Karosserie";
+CM_ SG_ 1544 FCOD6_HI "Fahrzeugcode Bit 6, Karosserie";
+CM_ SG_ 1544 FCOD5_HI "Fahrzeugcode Bit 5, Karosserie";
+CM_ SG_ 1544 FCOD4_HI "Fahrzeugcode Bit 4, Baureihe";
+CM_ SG_ 1544 FCOD3_HI "Fahrzeugcode Bit 3, Baureihe";
+CM_ SG_ 1544 FCOD2_HI "Fahrzeugcode Bit 2, Baureihe";
+CM_ SG_ 1544 FCOD1_HI "Fahrzeugcode Bit 1, Baureihe";
+CM_ SG_ 1544 FCOD0_HI "Fahrzeugcode Bit 0, Baureihe";
+CM_ SG_ 1544 T_LUFT "Ansauglufttemperatur";
+CM_ SG_ 1544 T_MOT "Motortemperatur";
+CM_ BO_ 784 "
+Byte 1:MOT-Statusbyte 4
+Byte 3:Massenliefergrad
+Byte 4:Faktor für Abwert. d. max. Mom. bei abneh. A.druck
+Byte 5:Indiziertes Motormoment
+Byte 6:Motorschleppmoment
+Byte 7:Maximales Motormoment
+Byte 8:Minimales Motormoment";
+CM_ SG_ 784 MMOTMIN "Minimales Motormoment";
+CM_ SG_ 784 MMOTMAX "Maximales Motormoment";
+CM_ SG_ 784 MMOTSCH "Motorschleppmoment";
+CM_ SG_ 784 MMOTI "Indiziertes Motormoment";
+CM_ SG_ 784 FMMOTMAX "Faktor für Abwert. d. max. Mom. bei abneh. A.druck";
+CM_ SG_ 784 ML "Massenliefergrad";
+CM_ SG_ 784 KPL "Kupplung getreten";
+CM_ SG_ 784 SAST "Teilschubabschaltung";
+CM_ SG_ 784 SASV "Schubabschaltung voll";
+CM_ SG_ 784 ZASBED "Zylinderabschaltbedingungen erfüllt";
+CM_ BO_ 776 "
+Byte 1:MOT-Statusbyte 1
+Byte 2:Motordrehzahl, high byte
+Byte 3:Motordrehzahl, low byte
+Byte 4:MOT-Statusbyte 2
+Byte 6:Öltemperatur
+Byte 7:Ölstand
+Byte 8:Ölqualität";
+CM_ SG_ 776 OEL_QUAL "Ölqualität";
+CM_ SG_ 776 OEL_FS "Ölstand";
+CM_ SG_ 776 T_OEL "Öltemperatur";
+CM_ SG_ 776 UEHITZ "Motoröltemperatur zu hoch (Überhitzung)";
+CM_ SG_ 776 ZAS "Zylinderabschaltung";
+CM_ SG_ 776 ANL_LFT "Anlasser läuft";
+CM_ SG_ 776 LUEFT_MOT_KL "Motorlüfter defekt Kontrollampe";
+CM_ SG_ 776 JAPAN_KL "Katalysatortemperatur zu hoch";
+CM_ SG_ 776 SLV3 "Schaltlinienverschiebung Code 3";
+CM_ SG_ 776 SLV2 "Schaltlinienverschiebung Code 2";
+CM_ SG_ 776 SLV1 "Schaltlinienverschiebung Code 1";
+CM_ SG_ 776 SLV0 "Schaltlinienverschiebung Code 0";
+CM_ SG_ 776 OEL_KL "Ölstand/Öldruck Kontrollampe";
+CM_ SG_ 776 DIAG_KL "Diagnose Kontrollampe (OBD II)";
+CM_ SG_ 776 TANK_KL "Tankdeckel offen Kontrollampe";
+CM_ SG_ 776 NMOT_LO "Motordrehzahl, low byte";
+CM_ SG_ 776 NMOT_HI "Motordrehzahl, high byte";
+CM_ SG_ 776 KUEB_O_A "Anf. Wandlerüberbrückungskupplung \"öffnen\"";
+CM_ SG_ 776 N_MAX_BG "Drehzahlbegrenzungsfunktion aktiv";
+CM_ SG_ 776 LWB "Lastwertbegrenzung";
+CM_ SG_ 776 WLAK "Warmlauf aktiv (Spätzündung)";
+CM_ SG_ 776 MOM_AB "Momentenabweichung";
+CM_ SG_ 776 ZWVQ "Quittierung Zündwinkelverstellung ASR/ESP";
+CM_ SG_ 776 GSQ "Quittierung Getriebeschutz";
+CM_ BO_ 528 "
+Byte 1:EMS-Statusbyte 1
+Byte 2:Drosselklappen-Istwert
+Byte 3:Pedalwert
+Byte 4:EMS-Statusbyte 2
+Byte 5:EMS-Statusbyte 3
+Byte 6:EMS-Statusbyte 4
+Byte 7:Eingestelltes Motormoment für Traktionskontrolle
+Byte 8:Eingestellte Höchst- oder Tempomatgeschwindigkeit";
+CM_ SG_ 528 V_MAX_TM "Eingestellte Höchst- oder Tempomatgeschwindigkeit";
+CM_ SG_ 528 MMOTE "Eingestelltes Motormoment für Traktionskontrolle";
+CM_ SG_ 528 FBS_SE "FBS: Start Error";
+CM_ SG_ 528 TM_EIN "Tempomat eingeschaltet";
+CM_ SG_ 528 V_MAX_REG "Geschwindigkeitsbegrenzer regelt";
+CM_ SG_ 528 V_DSPL_LIM "Anzeige \"Limit ?\" am Display";
+CM_ SG_ 528 V_DSPL_ERR "Anzeige \"Fehler\" am Display";
+CM_ SG_ 528 V_DSPL_BL "Display blinkt";
+CM_ SG_ 528 V_DSPL_EIN "Anzeige am Display umschalten";
+CM_ SG_ 528 NSL_AK "Nachstart Leerlauf aktiv";
+CM_ SG_ 528 LL "Leerlauf";
+CM_ SG_ 528 VG "Vollgas";
+CM_ SG_ 528 TM_REG "Tempomat regelt";
+CM_ SG_ 528 V_MAX_EIN "Geschwindigkeitsbegrenzung eingeschaltet";
+CM_ SG_ 528 NOTL "Notlaufbetrieb";
+CM_ SG_ 528 V_MAX_SUM "Warnsummer ein";
+CM_ SG_ 528 KOMP_BAUS "Klima-Kompressor ausschalten: Beschleunigung";
+CM_ SG_ 528 DZA "Drehzahlanhebung";
+CM_ SG_ 528 PW "Pedalwert";
+CM_ SG_ 528 DKI "Drosselklappen-Istwert";
+CM_ SG_ 528 KOMP_NOTAUS "Klima-Kompressor Not-Ausschalten";
+CM_ SG_ 528 GHALT_EMS "EMS-Wunsch: \"Gang halten\"";
+CM_ SG_ 528 ANF2_EMS "EMS-Wunsch: \"Anfahren im 2.Gang\"";
+CM_ SG_ 528 AKT_R "EMS-Wunsch: \"Aktive Rückschaltung\"";
+CM_ SG_ 528 MMOTQ "Quittierung Momentenanforderung ASR/ESP";
+CM_ SG_ 528 MSRD "MSR-Disable";
+CM_ BO_ 256 "
+Byte 1:FBS-Botschaft an EZS (8 Byte)";
+CM_ SG_ 256 FBS7 "FBS-Botschaft an EZS (8 Byte)";
+CM_ SG_ 256 FBS6 "FBS-Botschaft an EZS (8 Byte)";
+CM_ SG_ 256 FBS5 "FBS-Botschaft an EZS (8 Byte)";
+CM_ SG_ 256 FBS4 "FBS-Botschaft an EZS (8 Byte)";
+CM_ SG_ 256 FBS3 "FBS-Botschaft an EZS (8 Byte)";
+CM_ SG_ 256 FBS2 "FBS-Botschaft an EZS (8 Byte)";
+CM_ SG_ 256 FBS1 "FBS-Botschaft an EZS (8 Byte)";
+CM_ SG_ 256 FBS0 "FBS-Botschaft an EZS (8 Byte)";
+CM_ BO_ 832 "
+Byte 1:LF/ABC-Statusbyte 1
+Byte 2:LF/ABC-Statusbyte 2
+Byte 3:Fahrzeugniveau vorne links
+Byte 4:Fahrzeugniveau vorne rechts
+Byte 5:Fahrzeugniveau hinten links
+Byte 6:Fahrzeugniveau hinten rechts
+Byte 7:ABC-Öltemperatur (FFh bei LF)
+Byte 8:ABC-Statusbyte 3";
+CM_ SG_ 832 M_LAST1 "Lastmoment ABC-Pumpe Bit 1";
+CM_ SG_ 832 M_LAST0 "Lastmoment ABC-Pumpe Bit 0";
+CM_ SG_ 832 M_LAST_DYN "Dynamik Lastanforderung ABC-Pumpe";
+CM_ SG_ 832 T_OEL_ABC "ABC-Öltemperatur (FFh bei LF)";
+CM_ SG_ 832 FZGN_HR "Fahrzeugniveau hinten rechts";
+CM_ SG_ 832 FZGN_HL "Fahrzeugniveau hinten links";
+CM_ SG_ 832 FZGN_VR "Fahrzeugniveau vorne rechts";
+CM_ SG_ 832 FZGN_VL "Fahrzeugniveau vorne links";
+CM_ SG_ 832 BELAD1 "Beladung Bit 1";
+CM_ SG_ 832 BELAD0 "Beladung Bit 0";
+CM_ SG_ 832 K_S_LED_DL "Komfort/Sport-LED Dauerlicht";
+CM_ SG_ 832 NIV_LED2_BL "Niveau-LED 2 Blinklicht";
+CM_ SG_ 832 NIV_LED2_DL "Niveau-LED 2 Dauerlicht";
+CM_ SG_ 832 NIV_LED1_BL "Niveau-LED 1 Blinklicht";
+CM_ SG_ 832 NIV_LED1_DL "Niveau-LED 1 Dauerlicht";
+CM_ SG_ 832 LF_ABC "Luftfederung [0], ABC [1]";
+CM_ SG_ 832 NEDG "Niveaueichung durchgeführt";
+CM_ SG_ 832 M2 "Meldung 2: \"Niveauwahl gelöscht\"";
+CM_ SG_ 832 M1 "Meldung 1: \"Fahrzeug hebt an\"";
+CM_ SG_ 832 F4 "Fehler 4: \"Fahrzeug abstellen\"";
+CM_ SG_ 832 F3 "Fehler 3: \"Werkstatt aufsuchen\"";
+CM_ SG_ 832 F2 "Fehler 2: \"Lenkungsöl\" (nur ABC)";
+CM_ SG_ 832 F1 "Fehler 1: \"Warten Niveau zu tief\"";
+CM_ BO_ 1032 "
+Byte 1:Tank-Füllstand
+Byte 2:KOMBI-Statusbyte 1
+Byte 3:Außenlufttemperatur
+Byte 4:Klemme 58 gedimmt
+Byte 5:Motorabstellzeit
+Byte 6:Kilometerstand
+Byte 7:Kilometerstand
+Byte 8:KOMBI-Statusbyte 2";
+CM_ SG_ 1032 WRC2 "Winterreifen-Höchstgeschwindigkeit Bit 2";
+CM_ SG_ 1032 WRC1 "Winterreifen-Höchstgeschwindigkeit Bit 1";
+CM_ SG_ 1032 WRC0 "Winterreifen-Höchstgeschwindigkeit Bit 0";
+CM_ SG_ 1032 KM_LO "Kilometerstand";
+CM_ SG_ 1032 KM_HI "Kilometerstand";
+CM_ SG_ 1032 MAZ "Motorabstellzeit";
+CM_ SG_ 1032 KL_58D "Klemme 58 gedimmt";
+CM_ SG_ 1032 T_AUSSEN "Außenlufttemperatur";
+CM_ SG_ 1032 V_DSPL_AUS "Anzeige am Display nicht möglich";
+CM_ SG_ 1032 TACHO_SYM "Tachoeichung (symmetrisch [1], unsymmetrisch [0])";
+CM_ SG_ 1032 V_MPH "mph statt km/h (variable Geschwindigkeitsbegr.)";
+CM_ SG_ 1032 KLA_VH "Klimaanlage vorhanden";
+CM_ SG_ 1032 TFSM "Tankfüllstandsminimum";
+CM_ SG_ 1032 KL_61E "Klemme 61 entkoppelt";
+CM_ SG_ 1032 TANK_FS "Tank-Füllstand";
+CM_ BO_ 1040 "
+Byte 1:KLA-Statusbyte 1
+Byte 2:Kältemitteldruck
+Byte 3:Klima-Kompressormoment
+Byte 4:Motorlüfter Solldrehzahl";
+CM_ SG_ 1040 NLFTS "Motorlüfter Solldrehzahl";
+CM_ SG_ 1040 M_KOMP "Klima-Kompressormoment";
+CM_ SG_ 1040 P_KAELTE "Kältemitteldruck";
+CM_ SG_ 1040 LL_DZA "Leerlauf-Drehzahlanhebung zur Kälteleistungserhöhung";
+CM_ SG_ 1040 KOMP_EIN "Klima-Kompressor eingeschaltet";
+CM_ BO_ 576 "
+Byte 1:EZS-Statusbyte 1
+Byte 2:EZS-Statusbyte 2
+Byte 3:EZS-Statusbyte 3
+Byte 7:Abstandsfaktor
+Byte 8:EZS-Statusbyte 4";
+CM_ SG_ 576 ART_VH "SA Abstandsregeltempomat vorhanden";
+CM_ SG_ 576 ZSL "Zusatzlüfter [1], E-Sauglüfter [0]";
+CM_ SG_ 576 LDC1 "Ländercode Bit 1";
+CM_ SG_ 576 LDC0 "Ländercode Bit 0";
+CM_ SG_ 576 ART_ABSTAND "Abstandsfaktor";
+CM_ SG_ 576 SPORT "LF/ABC Sport einstellen";
+CM_ SG_ 576 KOMFORT "LF/ABC Komfort einstellen";
+CM_ SG_ 576 NIV_H "Niveautasterbetätigung: Niveau höher";
+CM_ SG_ 576 NIV_T "Niveautasterbetätigung: Niveau tiefer";
+CM_ SG_ 576 ART_TON_AUS "ART Ton ausschalten";
+CM_ SG_ 576 ABL_EIN "Abblendlicht ein";
+CM_ SG_ 576 ASR_ESP_EIN "ASR/ESP einschalten";
+CM_ SG_ 576 ASR_ESP_AUS "ASR/ESP ausschalten";
+CM_ SG_ 576 HAS_KL "Handbremse angezogen";
+CM_ SG_ 576 WH_PA "Tempomatwählhebel Parity Bit (gerade Parität)";
+CM_ SG_ 576 BZ240h3 "Botschaftszähler Tempomatwählhebel, Bit 3";
+CM_ SG_ 576 BZ240h2 "Botschaftszähler Tempomatwählhebel, Bit 2";
+CM_ SG_ 576 BZ240h1 "Botschaftszähler Tempomatwählhebel, Bit 1";
+CM_ SG_ 576 BZ240h0 "Botschaftszähler Tempomatwählhebel, Bit 0";
+CM_ SG_ 576 KG_KL_AKT "Keyless Go Klemmenansteuerung aktiv";
+CM_ SG_ 576 KG_ALB_OK "Keyles Go Anlaßbedingungen erfüllt";
+CM_ SG_ 576 LL_RLC1 "Linkslenker/Rechtslenker, Code 1";
+CM_ SG_ 576 LL_RLC0 "Linkslenker/Rechtslenker, Code 0";
+CM_ SG_ 576 BS_SL "Bremsschalter für Shift-Lock";
+CM_ SG_ 576 KL_15 "Klemme 15";
+CM_ SG_ 576 KL_50 "Klemme 50";
+CM_ SG_ 576 WH_UP "Tempomatwählhebel unplausibel";
+CM_ SG_ 576 VMAX_AKT "Bedienung variable Geschwindigkeitsbegrenzung";
+CM_ SG_ 576 S_MINUS_B "Tempomatwählhebel: \"Setzen und verzögern\"";
+CM_ SG_ 576 S_PLUS_B "Tempomatwählhebel: \"Setzen und Beschleunigen\"";
+CM_ SG_ 576 WA "Tempomatwählhebel: \"Wiederaufnahme\"";
+CM_ SG_ 576 AUS "Tempomatwählhebel: \"Ausschalten\"";
+CM_ BO_ 276 "
+Byte 1:FBS-Botschaft an EWM (8 Byte)";
+CM_ SG_ 276 FBS_EWM7 "FBS-Botschaft an EWM (8 Byte)";
+CM_ SG_ 276 FBS_EWM6 "FBS-Botschaft an EWM (8 Byte)";
+CM_ SG_ 276 FBS_EWM5 "FBS-Botschaft an EWM (8 Byte)";
+CM_ SG_ 276 FBS_EWM4 "FBS-Botschaft an EWM (8 Byte)";
+CM_ SG_ 276 FBS_EWM3 "FBS-Botschaft an EWM (8 Byte)";
+CM_ SG_ 276 FBS_EWM2 "FBS-Botschaft an EWM (8 Byte)";
+CM_ SG_ 276 FBS_EWM1 "FBS-Botschaft an EWM (8 Byte)";
+CM_ SG_ 276 FBS_EWM0 "FBS-Botschaft an EWM (8 Byte)";
+CM_ BO_ 272 "
+Byte 1:FBS-Botschaft an ME (8 Byte)";
+CM_ SG_ 272 IFZ_ST7 "FBS-Botschaft an ME (8 Byte)";
+CM_ SG_ 272 IFZ_ST6 "FBS-Botschaft an ME (8 Byte)";
+CM_ SG_ 272 IFZ_ST5 "FBS-Botschaft an ME (8 Byte)";
+CM_ SG_ 272 IFZ_ST4 "FBS-Botschaft an ME (8 Byte)";
+CM_ SG_ 272 IFZ_ST3 "FBS-Botschaft an ME (8 Byte)";
+CM_ SG_ 272 IFZ_ST2 "FBS-Botschaft an ME (8 Byte)";
+CM_ SG_ 272 IFZ_ST1 "FBS-Botschaft an ME (8 Byte)";
+CM_ SG_ 272 IFZ_ST0 "FBS-Botschaft an ME (8 Byte)";
+CM_ BO_ 560 "
+Byte 1:EWM-Statusbyte 1";
+CM_ SG_ 560 FPT "Fahrprogrammtaster";
+CM_ SG_ 560 KD "Kickdown";
+CM_ SG_ 560 WHC3 "Wählhebelstellung, Code 3";
+CM_ SG_ 560 WHC2 "Wählhebelstellung, Code 2";
+CM_ SG_ 560 WHC1 "Wählhebelstellung, Code 1";
+CM_ SG_ 560 WHC0 "Wählhebelstellung, Code 0";
+CM_ BO_ 260 "
+Byte 1:FBS-Botschaft an EZS (8 Byte)";
+CM_ SG_ 260 EWM_FBS7 "FBS-Botschaft an EZS (8 Byte)";
+CM_ SG_ 260 EWM_FBS6 "FBS-Botschaft an EZS (8 Byte)";
+CM_ SG_ 260 EWM_FBS5 "FBS-Botschaft an EZS (8 Byte)";
+CM_ SG_ 260 EWM_FBS4 "FBS-Botschaft an EZS (8 Byte)";
+CM_ SG_ 260 EWM_FBS3 "FBS-Botschaft an EZS (8 Byte)";
+CM_ SG_ 260 EWM_FBS2 "FBS-Botschaft an EZS (8 Byte)";
+CM_ SG_ 260 EWM_FBS1 "FBS-Botschaft an EZS (8 Byte)";
+CM_ SG_ 260 EWM_FBS0 "FBS-Botschaft an EZS (8 Byte)";
+CM_ BO_ 768 "
+Byte 1:ESP/ASR-Statusbyte 5
+Byte 2:ESP/ASR-Statusbyte 6
+Byte 3:Eingest. Bremsmoment, high byte (Bit 12-15: Zähler)
+Byte 4:Eingest. Bremsmoment, low byte (0000h: Passivwert)";
+CM_ SG_ 768 MBRE_ESP_LO "Eingest. Bremsmoment, low byte (0000h: Passivwert)";
+CM_ SG_ 768 MBRE_ESP_HI "Eingest. Bremsmoment, high byte (Bit 12-15: Zähler)";
+CM_ SG_ 768 T_Z1 "Sendezykluszeit, Bit 1";
+CM_ SG_ 768 T_Z0 "Sendezykluszeit, Bit 0";
+CM_ SG_ 768 SFB_PA "Fahrer bremst Parity Bit";
+CM_ SG_ 768 SFB1 "Fahrer bremst, Bit 1";
+CM_ SG_ 768 SFB0 "Fahrer bremst, Bit 0";
+CM_ SG_ 768 BRE_AKT_ESP "ESP-Bremseingriff aktiv";
+CM_ SG_ 768 VOLLBRE "Vollbremsung (ABS regelt alle 4 Räder)";
+CM_ SG_ 768 ART_E "ART enable (Kommunikation/Booster i.O)";
+CM_ SG_ 768 BRE_AKT_ART "ART-Bremseingriff aktiv";
+CM_ SG_ 768 LWS_INI_OK "Initialisierung Lenkwinkelsensor o.k.";
+CM_ SG_ 768 LWS_INI_EIN "Initialisierung Lenkwinkelsensor möglich";
+CM_ BO_ 520 "
+Byte 1:ESP/ASR-Statusbyte 1
+Byte 2:ESP/ASR-Statusbyte 2
+Byte 3:Motorsollmoment Reduktion ASR
+Byte 4:Motorsollmoment Erhöhung MSR
+Byte 5:Raddrehzahl hinten rechts, high byte
+Byte 6:Raddrehzahl hinten rechts, low byte
+Byte 7:Raddrehzahl hinten links, high byte
+Byte 8:Raddrehzahl hinten links, low byte";
+CM_ SG_ 520 DHL_LO "Raddrehzahl hinten links, low byte";
+CM_ SG_ 520 DHL_HI "Raddrehzahl hinten links, high byte";
+CM_ SG_ 520 DHR_LO "Raddrehzahl hinten rechts, low byte";
+CM_ SG_ 520 DHR_HI "Raddrehzahl hinten rechts, high byte";
+CM_ SG_ 520 MMOTSE "Motorsollmoment Erhöhung MSR";
+CM_ SG_ 520 MMOTSR "Motorsollmoment Reduktion ASR";
+CM_ SG_ 520 MMOTSE_BZ_PA "Parity Bit über MMOTSE und BZ208h (gerade Parität)";
+CM_ SG_ 520 ASR_AUS "ABS/ASR-Betrieb aus";
+CM_ SG_ 520 ASR_OK "ASR in Ordnung";
+CM_ SG_ 520 TM_AUS "Tempomatbetrieb aus";
+CM_ SG_ 520 MMOTSR_EIN "Reduktion Motorsollmoment (ASR aktiv)";
+CM_ SG_ 520 MMOTSE_EIN "Erhöhung Motorsollmoment (MSR aktiv)";
+CM_ SG_ 520 ZWV "Zündwinkelverstellung (Reduktion Drehmoment)";
+CM_ SG_ 520 MMOTSR_BZ_PA "Parity Bit über MMOTSR und BZ208h (gerade Parität)";
+CM_ SG_ 520 GHALT_ASR "ASR-Wunsch: \"Gang halten\"";
+CM_ SG_ 520 ANF2_ASR "ASR-Wunsch: \"Anfahren im 2.Gang\"";
+CM_ SG_ 520 MMOTSR_ART_AKT "MMOTSR kommt von ART";
+CM_ SG_ 520 MMOTSE_ART_AKT "MMOTSE kommt von ART";
+CM_ SG_ 520 BZ208h3 "Botschaftszähler, Bit 3";
+CM_ SG_ 520 BZ208h2 "Botschaftszähler, Bit 2";
+CM_ SG_ 520 BZ208h1 "Botschaftszähler, Bit 1";
+CM_ SG_ 520 BZ208h0 "Botschaftszähler, Bit 0";
+CM_ BO_ 512 "
+Byte 1:ESP/ASR-Statusbyte 3
+Byte 2:ESP/ASR-Statusbyte 4
+Byte 3:Raddrehzahl vorne links, high byte
+Byte 4:Raddrehzahl vorne links, low byte
+Byte 5:Raddrehzahl vorne rechts, high byte
+Byte 6:Raddrehzahl vorne rechts, low byte
+Byte 7:Raddrehzahl links für Tempomat, high byte
+Byte 8:Raddrehzahl links für Tempomat, low byte";
+CM_ SG_ 512 TM_DL_LO "Raddrehzahl links für Tempomat, low byte";
+CM_ SG_ 512 TM_DL_HI "Raddrehzahl links für Tempomat, high byte";
+CM_ SG_ 512 DVR_LO "Raddrehzahl vorne rechts, low byte";
+CM_ SG_ 512 DVR_HI "Raddrehzahl vorne rechts, high byte";
+CM_ SG_ 512 DVL_LO "Raddrehzahl vorne links, low byte";
+CM_ SG_ 512 DVL_HI "Raddrehzahl vorne links, high byte";
+CM_ SG_ 512 BLS_PA "BLS Parity Bit (gerade Parität)";
+CM_ SG_ 512 BZ200h3 "Botschaftszähler, Bit 3";
+CM_ SG_ 512 BZ200h2 "Botschaftszähler, Bit 2";
+CM_ SG_ 512 BZ200h1 "Botschaftszähler, Bit 1";
+CM_ SG_ 512 BZ200h0 "Botschaftszähler, Bit 0";
+CM_ SG_ 512 BLS1 "Bremslichtschalter Bit 1";
+CM_ SG_ 512 BLS0 "Bremslichtschalter Bit 0";
+CM_ SG_ 512 BAS_KL "BAS defekt Kontrollampe (integrierter BAS)";
+CM_ SG_ 512 ASR_INFO_BL "ASR Infolampe Blinklicht";
+CM_ SG_ 512 ASR_INFO_DL "ASR Infolampe Dauerlicht";
+CM_ SG_ 512 ASR_KL "ASR defekt Kontrollampe";
+CM_ SG_ 512 ABS_KL "ABS defekt Kontrollampe";
+CM_ SG_ 512 BBV_KL "Bremsbelagverschleiß Kontrollampe";
+CM_ BO_ 808 "
+Byte 1:Soll-Normalkrafterhöhung, high byte
+Byte 2:Soll-Normalkrafterhöhung, low byte
+Byte 3:Fahrzeugquerbeschl. im Schwerpunkt (FFh bei ASR)";
+CM_ SG_ 808 AY_S "Fahrzeugquerbeschl. im Schwerpunkt (FFh bei ASR)";
+CM_ SG_ 808 FNS_LO "Soll-Normalkrafterhöhung, low byte";
+CM_ SG_ 808 FNS_PA "FNS Parity Bit  (gerade Parität)";
+CM_ SG_ 808 FNS_VZ "FNS Vorzeichen (FNS < 0 [0], FNS >= 0 [1])";
+CM_ SG_ 808 FNS13 "FNS, Bit 13";
+CM_ SG_ 808 FNS12 "FNS, Bit 12";
+CM_ SG_ 808 FNS11 "FNS, Bit 11";
+CM_ SG_ 808 FNS10 "FNS, Bit 10";
+CM_ SG_ 808 FNS9 "FNS, Bit 9";
+CM_ SG_ 808 FNS8 "FNS, Bit 8";
+CM_ BO_ 1048 "
+Byte 1:EGS-Statusbyte 4
+Byte 2:EGS-Statusbyte 5";
+CM_ SG_ 1048 FPC7 "Fahrprogramm, Code 7";
+CM_ SG_ 1048 FPC6 "Fahrprogramm, Code 6";
+CM_ SG_ 1048 FPC5 "Fahrprogramm, Code 5";
+CM_ SG_ 1048 FPC4 "Fahrprogramm, Code 4";
+CM_ SG_ 1048 FPC3 "Fahrprogramm, Code 3";
+CM_ SG_ 1048 FPC2 "Fahrprogramm, Code 2";
+CM_ SG_ 1048 FPC1 "Fahrprogramm, Code 1";
+CM_ SG_ 1048 FPC0 "Fahrprogramm, Code 0";
+CM_ SG_ 1048 FSC7 "Fahrstufe, Code 7";
+CM_ SG_ 1048 FSC6 "Fahrstufe, Code 6";
+CM_ SG_ 1048 FSC5 "Fahrstufe, Code 5";
+CM_ SG_ 1048 FSC4 "Fahrstufe, Code 4";
+CM_ SG_ 1048 FSC3 "Fahrstufe, Code 3";
+CM_ SG_ 1048 FSC2 "Fahrstufe, Code 2";
+CM_ SG_ 1048 FSC1 "Fahrstufe, Code 1";
+CM_ SG_ 1048 FSC0 "Fahrstufe, Code 0";
+CM_ BO_ 536 "
+Byte 1:Motorsollmoment EGS (FEh: Passivwert)
+Byte 2:EGS-Statusbyte 1
+Byte 3:EGS-Statusbyte 2
+Byte 4:EGS-Statusbyte 3
+Byte 5:Momentenverhältnis
+Byte 6:EGS-Diagnose Statusbyte 1";
+CM_ SG_ 536 COD2 "Fehlercode, Bit 2";
+CM_ SG_ 536 COD1 "Fehlercode, Bit 1";
+CM_ SG_ 536 COD0 "Fehlercode, Bit 0";
+CM_ SG_ 536 FEHLER4 "Fehlernummer, Bit 4";
+CM_ SG_ 536 FEHLER3 "Fehlernummer, Bit 3";
+CM_ SG_ 536 FEHLER2 "Fehlernummer, Bit 2";
+CM_ SG_ 536 FEHLER1 "Fehlernummer, Bit 1";
+CM_ SG_ 536 FEHLER0 "Fehlernummer, Bit 0";
+CM_ SG_ 536 u_WAND "Momentenverhältnis";
+CM_ SG_ 536 KUEB_S_B "Best. Wandlerüberbrückungskupplung \"schlupfen\"";
+CM_ SG_ 536 KUEB_O_B "Best. Wandlerüberbrückungskupplung \"offen\"";
+CM_ SG_ 536 KUEB_G_B "Best. Wandlerüberbrückungskupplung \"geschlossen\"";
+CM_ SG_ 536 GETR "Getriebecode (großes Getr. [1], kleines Getr. [0])";
+CM_ SG_ 536 EGS_NOTL "EGS im Notlauf";
+CM_ SG_ 536 SE "Schaltungseinleitung";
+CM_ SG_ 536 KD "Kickdown";
+CM_ SG_ 536 FRONT "Frontantr. (AK/FGS) [1], Allrad/Heckan. (EGS/KSG) [0]";
+CM_ SG_ 536 GZC3 "Ziel-Gang Code 3";
+CM_ SG_ 536 GZC2 "Ziel-Gang Code 2";
+CM_ SG_ 536 GZC1 "Ziel-Gang Code 1";
+CM_ SG_ 536 GZC0 "Ziel-Gang Code 0";
+CM_ SG_ 536 GIC3 "Ist-Gang Code 3";
+CM_ SG_ 536 GIC2 "Ist-Gang Code 2";
+CM_ SG_ 536 GIC1 "Ist-Gang Code 1";
+CM_ SG_ 536 GIC0 "Ist-Gang Code 0";
+CM_ SG_ 536 SCHALT "Handschaltung (AK/KSG) [1], Automat (EGS/FGS) [0]";
+CM_ SG_ 536 GSP_OK "Grundschaltprogramm o.k.";
+CM_ SG_ 536 G_G "Geländegang";
+CM_ SG_ 536 P_N "Wählhebelstellung P/N";
+CM_ SG_ 536 KS "Knallstart";
+CM_ SG_ 536 ALF "Anlaßfreigabe";
+CM_ SG_ 536 GSA "Getriebeschutz aktivieren";
+CM_ SG_ 536 MSOLL_EGS "Motorsollmoment EGS (FEh: Passivwert)";
+CM_ BO_ 600 "
+Byte 1:ART-Statusbyte 3
+Byte 2:Eingestellte ART-Geschwindigkeit
+Byte 3:Abstand relevantes Objekt
+Byte 4:Empfohlener Sicherheitsabstand
+Byte 5:ART-Statusbyte 4";
+CM_ SG_ 600 ART_EIN "Abstandsregeltempomat eingeschaltet";
+CM_ SG_ 600 OBJ_ERK "Relevantes Objekt erkannt";
+CM_ SG_ 600 ART_SEG_EIN "ART-Segmentanzeige einschalten";
+CM_ SG_ 600 V_DSPL_BL_ART "Geschwindigkeitsanzeige blinken";
+CM_ SG_ 600 TM_EIN_ART "ART-Tempomat eingeschaltet";
+CM_ SG_ 600 SI_ABST "Empfohlener Sicherheitsabstand";
+CM_ SG_ 600 ABST_R_OBJ "Abstand relevantes Objekt";
+CM_ SG_ 600 V_ART "Eingestellte ART-Geschwindigkeit";
+CM_ SG_ 600 ART_DSPL_EIN "Display auf ART-Anzeige schalten";
+CM_ SG_ 600 S_OBJ "Erkennung stehendes Objekt";
+CM_ SG_ 600 ART_WT "ART Warnton";
+CM_ SG_ 600 ART_INFO "ART Infolampe";
+CM_ SG_ 600 FEHLER3 "Fehlercode, Bit 3";
+CM_ SG_ 600 FEHLER2 "Fehlercode, Bit 2";
+CM_ SG_ 600 FEHLER1 "Fehlercode, Bit 1";
+CM_ SG_ 600 FEHLER0 "Fehlercode, Bit 0";
+CM_ BO_ 592 "
+Byte 1:ART-Statusbyte 1
+Byte 2:ART-Statusbyte 2
+Byte 3:Motorsollmoment Reduktion ART (FEh: Passivwert)
+Byte 4:Motorsollmoment Erhöhung ART (00h: Passivwert)
+Byte 5:Bremsmoment, high byte (Bit 12-15: Zähler)
+Byte 6:Bremsmoment. low byte (000h: Passivwert)";
+CM_ SG_ 592 MBRE_ART_LO "Bremsmoment. low byte (000h: Passivwert)";
+CM_ SG_ 592 MBRE_ART_HI "Bremsmoment, high byte (Bit 12-15: Zähler)";
+CM_ SG_ 592 MMOTSE_ART "Motorsollmoment Erhöhung ART (00h: Passivwert)";
+CM_ SG_ 592 MMOTSR_ART "Motorsollmoment Reduktion ART (FEh: Passivwert)";
+CM_ SG_ 592 ART_REG "ART regelt";
+CM_ SG_ 592 ART_BRE "ART bremst";
+CM_ SG_ 592 ART_OK "ART in Ordnung";
+CM_ SG_ 592 BL_UNT "Bremslichtunterdrückung";
+CM_ SG_ 592 MMOTSR_EIN_ART "ART-Wunsch: \"Redunktion Motorsollmoment\"";
+CM_ SG_ 592 MMOTSE_EIN_ART "ART-Wunsch: \"Erhöhung Motorsollmoment\"";
+CM_ SG_ 592 SLV3 "Schaltlinienverschiebung Code 3";
+CM_ SG_ 592 SLV2 "Schaltlinienverschiebung Code 2";
+CM_ SG_ 592 SLV1 "Schaltlinienverschiebung Code 1";
+CM_ SG_ 592 SLV0 "Schaltlinienverschiebung Code 0";
+CM_ SG_ 592 DYN_UNT "Unterdrückung dynamische Vollastrückschaltung";
+CM_ SG_ 592 GHALT_ART "ART-Wunsch: \"Gang halten\"";
+CM_ SG_ 592 ANF2_ART "ART-Wunsch: \"Anfahren im 2.Gang\"";
+CM_ SG_ 592 AKT_R_ART "ART-Wunsch: \"Aktive Rückschaltung\"";
+CM_ BO_ 840 "
+Byte 1:Normalkraft Rad vorne links
+Byte 2:Normalkraft Rad vorne rechts
+Byte 3:Normalkraft Rad hinten links
+Byte 4:Normalkraft Rad hinten rechts
+Byte 5:Maximale Normalkrafterhöhung
+Byte 6:Maximale Normalkraftreduzierung
+Byte 7:ABC-Statusbyte 4";
+CM_ SG_ 840 BZ348h3 "Botschaftszähler, Bit 3";
+CM_ SG_ 840 BZ348h2 "Botschaftszähler, Bit 2";
+CM_ SG_ 840 BZ348h1 "Botschaftszähler, Bit 1";
+CM_ SG_ 840 BZ348h0 "Botschaftszähler, Bit 0";
+CM_ SG_ 840 FNR_MAX "Maximale Normalkraftreduzierung";
+CM_ SG_ 840 FNE_MAX "Maximale Normalkrafterhöhung";
+CM_ SG_ 840 FN_HR "Normalkraft Rad hinten rechts";
+CM_ SG_ 840 FN_HL "Normalkraft Rad hinten links";
+CM_ SG_ 840 FN_VR "Normalkraft Rad vorne rechts";
+CM_ SG_ 840 FN_VL "Normalkraft Rad vorne links";
+
+BA_DEF_ BO_  "Zykluszeit" INT 0 999;
+BA_DEF_ BO_  "NWM-Botschaft" ENUM  "nein","ja";
+BA_DEF_  "NWM-Typ" ENUM  "zentral","dezentral","keines";
+
+
+BA_DEF_DEF_  "Zykluszeit" 0;
+BA_DEF_DEF_  "NWM-Botschaft" "";
+BA_DEF_DEF_  "NWM-Typ" "";
+
+
+BA_ "NWM-Typ" 2;
+
+
+BA_ "NWM-Botschaft" BO_ 568 0;
+BA_ "Zykluszeit" BO_ 568 20;
+BA_ "NWM-Botschaft" BO_ 1544 0;
+BA_ "Zykluszeit" BO_ 1544 100;
+BA_ "NWM-Botschaft" BO_ 784 0;
+BA_ "Zykluszeit" BO_ 784 20;
+BA_ "NWM-Botschaft" BO_ 776 0;
+BA_ "Zykluszeit" BO_ 776 20;
+BA_ "NWM-Botschaft" BO_ 528 0;
+BA_ "Zykluszeit" BO_ 528 20;
+BA_ "NWM-Botschaft" BO_ 256 0;
+BA_ "NWM-Botschaft" BO_ 832 0;
+BA_ "Zykluszeit" BO_ 832 20;
+BA_ "NWM-Botschaft" BO_ 1032 0;
+BA_ "Zykluszeit" BO_ 1032 100;
+BA_ "NWM-Botschaft" BO_ 1040 0;
+BA_ "Zykluszeit" BO_ 1040 20;
+BA_ "NWM-Botschaft" BO_ 576 0;
+BA_ "Zykluszeit" BO_ 576 20;
+BA_ "NWM-Botschaft" BO_ 276 0;
+BA_ "NWM-Botschaft" BO_ 272 0;
+BA_ "NWM-Botschaft" BO_ 560 0;
+BA_ "Zykluszeit" BO_ 560 10;
+BA_ "NWM-Botschaft" BO_ 260 0;
+BA_ "NWM-Botschaft" BO_ 768 0;
+BA_ "Zykluszeit" BO_ 768 20;
+BA_ "NWM-Botschaft" BO_ 520 0;
+BA_ "Zykluszeit" BO_ 520 20;
+BA_ "NWM-Botschaft" BO_ 512 0;
+BA_ "Zykluszeit" BO_ 512 20;
+BA_ "NWM-Botschaft" BO_ 808 0;
+BA_ "Zykluszeit" BO_ 808 20;
+BA_ "NWM-Botschaft" BO_ 1048 0;
+BA_ "Zykluszeit" BO_ 1048 20;
+BA_ "NWM-Botschaft" BO_ 536 0;
+BA_ "Zykluszeit" BO_ 536 20;
+BA_ "NWM-Botschaft" BO_ 600 0;
+BA_ "Zykluszeit" BO_ 600 33;
+BA_ "NWM-Botschaft" BO_ 592 0;
+BA_ "Zykluszeit" BO_ 592 33;
+BA_ "NWM-Botschaft" BO_ 840 0;
+BA_ "Zykluszeit" BO_ 840 20;
+
+
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Release\Mp.Drv.CANdb.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Release\Mp.Drv.CANdb.pdb
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Release\de-DE\Mp.Drv.CANdb.resources.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Drv.CANdb\obj\Release\Mp.Drv.CANdb.csproj.AssemblyReference.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Drv.CANdb\obj\Release\Mp.Drv.CANdb.StringResource.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Drv.CANdb\obj\Release\Mp.Drv.CANdb.StringResource.de-DE.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Drv.CANdb\obj\Release\Mp.Drv.CANdb.csproj.GenerateResource.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Drv.CANdb\obj\Release\Mp.Drv.CANdb.csproj.CoreCompileInputs.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Drv.CANdb\obj\Release\de-DE\Mp.Drv.CANdb.resources.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Drv.CANdb\obj\Release\Mp.Drv.CANdb.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Drv.CANdb\obj\Release\Mp.Drv.CANdb.pdb

@@ -1,0 +1,52 @@
+VERSION "MT"
+BS_:
+BU_: received transmitted xx
+
+BO_ 1 Frame_1 : 8 transmitted
+  SG_ PFlt_st : 39|32@0+ (1,0) [0.00|4294967295.00] "particulate filter [-]" xx
+  SG_ AFSCD_mAirPerCyl : 23|16@0- (0.1,0) [-3276.800|3276.700] "cylinder" xx
+  SG_ AccPed_rChkdVal : 7|16@0- (0.0122070315228484,0) [-400.0000|399.9878] "AccPed ratio after security check" xx
+
+BO_ 2 Frame_2 : 8 transmitted
+  SG_ AirCtl_mDesVal : 55|16@0- (0.1,0) [-3276.800|3276.700] "desired air mass" xx
+  SG_ BPACD_rOut : 39|16@0- (0.01,0) [-327.6800|327.6700] "deded" xx
+  SG_ BPSCD_pFltVal : 23|16@0- (1,0) [-32768.00|32767.00] "filtered value of boost pressure." xx
+  SG_ BPSCD_pOutVal : 7|16@0- (1,0) [-32768.00|32767.00] "output value of boost pressure sensor" xx
+
+BO_ 3 Frame_3 : 8 transmitted
+  SG_ BPSCD_uRawVal : 55|16@0- (4.88758538124758,0) [-160156.4|160151.5] "Raw value of boost pressure from sensor" xx
+  SG_ CoEng_trq : 39|16@0- (0.1,0) [-3276.800|3276.700] "actual torque of the engine" xx
+  SG_ EGRCD_rOut : 23|16@0- (0.01,0) [-327.6800|327.6700] "Output duty cycle to the EGR power stage after battery voltage correction" xx
+  SG_ EGRSCD_rRelPos : 7|16@0- (0.0122070315228484,0) [-400.0000|399.9878] "Exhaust gas recirculation valve offset corrected position" xx
+
+BO_ 4 Frame_4 : 8 transmitted
+  SG_ EGSys_tManfStat : 55|16@0- (0.1,-273.139990234375) [-3549.940|3003.560] "stationary exhaust gas temperature in exhaust manifold" xx
+  SG_ Eng_nAvrg : 39|16@0- (1,0) [-32768.00|32767.00] "average engine speed" xx
+  SG_ IATSCD_tAir : 23|16@0- (0.1,-273.139990234375) [-3549.940|3003.560] "intake air temperature" xx
+  SG_ InjCtl_qCurr : 7|16@0- (0.01,0) [-327.6800|327.6700] "current injection mass" xx
+
+BO_ 5 Frame_5 : 8 transmitted
+  SG_ InjCtl_qDes : 55|16@0- (0.01,0) [-327.6800|327.6700] "fuel mass desired value" xx
+  SG_ InjCtl_qRaw : 39|16@0- (0.01,0) [-327.6800|327.6700] "raw value of injection mass" xx
+  SG_ InjCtl_qSet : 23|16@0- (0.01,0) [-327.6800|327.6700] "fuel mass set value" xx
+  SG_ OxiCCD_tLinPre : 7|16@0- (0.1,-273.139990234375) [-3549.940|3003.560] "linearized exhaust gas temperature before Oxidation Catalyst" xx
+
+BO_ 6 Frame_6 : 8 transmitted
+  SG_ PCR_pDesVal : 55|16@0- (1,0) [-32768.00|32767.00] "desired boost pressure" xx
+  SG_ PCR_pGvnrDvt : 39|16@0- (1,0) [-32768.00|32767.00] "Boost pressure governor deviation" xx
+  SG_ PCR_qDes : 23|16@0- (0.01,0) [-327.6800|327.6700] "injection quantity for desired value calculation" xx
+  SG_ PCR_rOutPI : 7|16@0- (0.0122070315228484,0) [-400.0000|399.9878] "PI Governor output" xx
+
+BO_ 7 Frame_7 : 8 transmitted
+  SG_ PFlt_mSot : 55|16@0- (0.01,0) [-327.6800|327.6700] "soot mass in particlefilter" xx
+  SG_ PFlt_pDiff : 39|16@0- (1,0) [-32768.00|32767.00] "Differential pressure of partikulate filter" xx
+  SG_ TVASCD_rRelPos : 23|16@0- (0.01,0) [-327.6800|327.6700] "TVA sensor offset corrected position" xx
+  SG_ VSASCD_rRelPos : 7|16@0- (0.01,0) [-327.6800|327.6700] "Variable swirl actuator relay position" xx
+
+BO_ 8 Frame_8 : 8 transmitted
+  SG_ VSSCD_v : 55|16@0- (0.01,0) [-327.6800|327.6700] "vehicle speed (velocity)" xx
+  SG_ AirCtl_stAirCtl : 47|8@0+ (1,0) [0.00|255.0] "Indicator of shut off in air control monitor" xx
+  SG_ ConvCD_stClth : 39|8@0+ (1,0) [0.00|255.0] "Clutch switch interface" xx
+  SG_ Gearbx_stGear : 31|8@0- (1,0) [-128.0|127.0] "gear information" xx
+
+

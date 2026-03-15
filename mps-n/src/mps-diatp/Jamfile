@@ -1,0 +1,25 @@
+SubDir TOP src mps-diatp ;
+
+SubDirHdrs $(TOP)/include ;
+
+SubDirC++Flags [ FDefines MPS_DIATP_EXPORTS ] ;
+
+SharedLibrary mps-diatp :   mps-diatp.cpp
+                            TPCANHandler.cpp
+                            TPKLineHandler.cpp
+                            CANHandler.cpp
+                            TPConsecutiveFrame.cpp
+                            TPDU.cpp
+                            TPDUAddress.cpp
+                            TPFirstFrame.cpp
+                            TPFlowControlFrame.cpp
+                            TPRequest.cpp
+                            TPSingleFrame.cpp
+                            OBD2Request.cpp
+                            ;
+
+LinkSharedLibraries mps-diatp : mps-can-drv ;
+
+LinkFlags  mps-diatp  : $(MPS_LINKFLAGS) ;
+
+MakeLocate mps-diatp : $(MPS_BINDIR) ;

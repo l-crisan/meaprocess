@@ -1,0 +1,23 @@
+SubDir TOP src mps-event ;
+
+SubDirHdrs $(TOP)/include ; 
+SubDirHdrs $(TOP)/src/mps-event/$(SYS:L) ;
+
+SubDirObjects $(OUTPUT_OBJECT) mps-event ;
+
+SubDirC++Flags [ FDefines MPSEVENT_EXPORTS ] ;
+
+SharedLibrary mps-event :  mps-event.cpp
+						EventFactory.cpp	
+						EventPS.cpp
+						RtEvent.cpp
+						[ FDirName $(SYS:L) SystemOutput.cpp ]
+						ControlSignal.cpp
+						SignalControlPS.cpp
+						 ;
+
+LinkFlags  mps-event  : $(MPS_LINKFLAGS) ;
+
+LinkSharedLibraries mps-event : mps-core ;
+
+MakeLocate    mps-event : $(MPS_BINDIR) ;

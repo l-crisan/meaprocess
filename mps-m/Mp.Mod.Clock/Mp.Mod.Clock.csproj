@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DB712394-9B89-4C6F-B310-4A3D0B3E5951}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Mp.Mod.Clock</RootNamespace>
+    <AssemblyName>Mp.Mod.Clock</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\build\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>..\build\Release\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mp.Scheme.Sdk">
+      <HintPath>..\lib\Mp.Scheme.Sdk.dll</HintPath>
+    </Reference>
+    <Reference Include="Mp.Utils">
+      <HintPath>..\lib\Mp.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="Mp.Visual.Diagram">
+      <HintPath>..\lib\Mp.Visual.Diagram.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClockModule.cs" />
+    <Compile Include="ClockPortDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClockPortDlg.designer.cs">
+      <DependentUpon>ClockPortDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClockPS.cs" />
+    <Compile Include="Images.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Images.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StopWatchOutPortDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StopWatchOutPortDlg.designer.cs">
+      <DependentUpon>StopWatchOutPortDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StopWatchPS.cs" />
+    <Compile Include="StringResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StringResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="TactPortDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TactPortDlg.designer.cs">
+      <DependentUpon>TactPortDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TactPS.cs" />
+    <Compile Include="TimerPortDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TimerPortDlg.designer.cs">
+      <DependentUpon>TimerPortDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TimerPS.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ClockPortDlg.de-DE.resx">
+      <DependentUpon>ClockPortDlg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClockPortDlg.resx">
+      <DependentUpon>ClockPortDlg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Images.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StopWatchOutPortDlg.de-DE.resx">
+      <DependentUpon>StopWatchOutPortDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StopWatchOutPortDlg.resx">
+      <DependentUpon>StopWatchOutPortDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StringResource.de-DE.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StringResource.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>StringResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TactPortDlg.de-DE.resx">
+      <DependentUpon>TactPortDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TactPortDlg.resx">
+      <DependentUpon>TactPortDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimerPortDlg.de-DE.resx">
+      <DependentUpon>TimerPortDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimerPortDlg.resx">
+      <DependentUpon>TimerPortDlg.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\Clock.bmp" />
+    <Content Include="Images\Tact.bmp" />
+    <Content Include="Images\Timer.bmp" />
+    <Content Include="Icons\ClockIcon.ico" />
+    <Content Include="Icons\TactIcon.ico" />
+    <Content Include="Icons\TimerIcon.ico" />
+    <None Include="Resources\TactIcon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

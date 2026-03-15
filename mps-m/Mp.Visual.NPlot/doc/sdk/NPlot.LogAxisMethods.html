@@ -1,0 +1,79 @@
+<html dir="LTR">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=Windows-1252" />
+    <meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5" />
+    <title>LogAxis Methods</title>
+    <xml>
+    </xml>
+    <link rel="stylesheet" type="text/css" href="MSDN.css" />
+  </head>
+  <body id="bodyID" class="dtBODY">
+    <div id="nsbanner">
+      <div id="bannerrow1">
+        <table class="bannerparthead" cellspacing="0">
+          <tr id="hdr">
+            <td class="runninghead">NPlot Documented Class Library</td>
+            <td class="product">
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div id="TitleRow">
+        <h1 class="dtH1">LogAxis Methods</h1>
+      </div>
+    </div>
+    <div id="nstext">
+      <p>The methods of the <b>LogAxis</b> class are listed below. For a complete list of <b>LogAxis</b> class members, see the <a href="NPlot.LogAxisMembers.html">LogAxis Members</a> topic.</p>
+      <h4 class="dtH4">Public Static Methods</h4>
+      <div class="tablediv">
+        <table class="dtTABLE" cellspacing="0">
+<tr VALIGN="top"><td width="50%"><img src="pubmethod.gif"></img><img src="static.gif" /><a href="ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemObjectClassEqualsTopic.htm">Equals</a> (inherited from <b>Object</b>)</td><td width="50%">Determines whether the specified <a href="ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemObjectClassTopic.htm">Object</a> instances are considered equal.</td></tr>
+<tr VALIGN="top"><td width="50%"><img src="pubmethod.gif"></img><img src="static.gif" /><a href="ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemObjectClassReferenceEqualsTopic.htm">ReferenceEquals</a> (inherited from <b>Object</b>)</td><td width="50%">Determines whether the specified <a href="ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemObjectClassTopic.htm">Object</a> instances are the same instance.</td></tr></table>
+      </div>
+      <h4 class="dtH4">Protected Static Methods</h4>
+      <div class="tablediv">
+        <table class="dtTABLE" cellspacing="0">
+<tr VALIGN="top"><td width="50%"><img src="protmethod.gif"></img><img src="static.gif" /><a href="NPlot.Axis.DoClone.html">DoClone</a> (inherited from <b>Axis</b>)</td><td width="50%"> Helper method for Clone. Does all the copying - can be called by derived types so they don't need to implement this part of the copying themselves. also useful in constructor of derived types that takes Axis class. </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="protmethod.gif"></img><img src="static.gif" /><a href="NPlot.Axis.UpdateOffsetAndBounds.html">UpdateOffsetAndBounds</a> (inherited from <b>Axis</b>)</td><td width="50%"> Update the bounding box and label offset associated with an axis to encompass the additionally specified mergeBoundingBox and mergeLabelOffset respectively. </td></tr></table>
+      </div>
+      <h4 class="dtH4">Public Instance Methods</h4>
+      <div class="tablediv">
+        <table class="dtTABLE" cellspacing="0">
+<tr VALIGN="top"><td width="50%"><img src="pubmethod.gif"></img><a href="NPlot.LogAxis.Clone.html">Clone</a></td><td width="50%"> Deep Copy of the LogAxis. </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="pubmethod.gif"></img><a href="NPlot.Axis.Draw.html">Draw</a> (inherited from <b>Axis</b>)</td><td width="50%"> Draw the axis. This involves three steps: (1) Draw the axis line. (2) Draw the tick marks. (3) Draw the label. </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="pubmethod.gif"></img><a href="NPlot.Axis.DrawLabel.html">DrawLabel</a> (inherited from <b>Axis</b>)</td><td width="50%"> Draw the Axis Label </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="pubmethod.gif"></img><a href="NPlot.Axis.DrawTick.html">DrawTick</a> (inherited from <b>Axis</b>)</td><td width="50%"> Draw a tick on the axis. </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="pubmethod.gif"></img><a href="ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemObjectClassEqualsTopic.htm">Equals</a> (inherited from <b>Object</b>)</td><td width="50%">Determines whether the specified <a href="ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemObjectClassTopic.htm">Object</a> is equal to the current <a href="ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemObjectClassTopic.htm">Object</a>.</td></tr>
+<tr VALIGN="top"><td width="50%"><img src="pubmethod.gif"></img><a href="ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemObjectClassGetHashCodeTopic.htm">GetHashCode</a> (inherited from <b>Object</b>)</td><td width="50%">Serves as a hash function for a particular type. <b>GetHashCode</b> is suitable for use in hashing algorithms and data structures like a hash table.</td></tr>
+<tr VALIGN="top"><td width="50%"><img src="pubmethod.gif"></img><a href="ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemObjectClassGetTypeTopic.htm">GetType</a> (inherited from <b>Object</b>)</td><td width="50%">Gets the <a href="ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemTypeClassTopic.htm">Type</a> of the current instance.</td></tr>
+<tr VALIGN="top"><td width="50%"><img src="pubmethod.gif"></img><a href="NPlot.Axis.IncreaseRange.html">IncreaseRange</a> (inherited from <b>Axis</b>)</td><td width="50%"> Moves the world min and max values so that the world axis length is [percent] bigger. If the current world max and min values are the same, they are moved appart an arbitrary amount. This arbitrary amount is currently 0.01, and will probably be configurable in the future. </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="pubmethod.gif"></img><a href="NPlot.Axis.LUB.html">LUB</a> (inherited from <b>Axis</b>)</td><td width="50%"> Sets the world extent of the current axis to be just large enough to encompas the current world extent of the axis, and the world extent of the passed in axis </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="pubmethod.gif"></img><a href="NPlot.Axis.OutOfRange.html">OutOfRange</a> (inherited from <b>Axis</b>)</td><td width="50%"> Determines whether a world value is outside range WorldMin -&gt; WorldMax </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="pubmethod.gif"></img><a href="NPlot.LogAxis.PhysicalToWorld.html">PhysicalToWorld</a></td><td width="50%"> Return the world coordinate of the projection of the point p onto the axis. </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="pubmethod.gif"></img><a href="ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemObjectClassToStringTopic.htm">ToString</a> (inherited from <b>Object</b>)</td><td width="50%">Returns a <a href="ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemStringClassTopic.htm">String</a> that represents the current <a href="ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemObjectClassTopic.htm">Object</a>.</td></tr>
+<tr VALIGN="top"><td width="50%"><img src="pubmethod.gif"></img><a href="NPlot.Axis.WorldTickPositions.html">WorldTickPositions</a> (inherited from <b>Axis</b>)</td><td width="50%"> Determines the positions of all Large and Small ticks. </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="pubmethod.gif"></img><a href="NPlot.LogAxis.WorldToPhysical.html">WorldToPhysical</a></td><td width="50%"> World to physical coordinate transform. </td></tr></table>
+      </div>
+      <h4 class="dtH4">Protected Instance Methods</h4>
+      <div class="tablediv">
+        <table class="dtTABLE" cellspacing="0">
+<tr VALIGN="top"><td width="50%"><img src="protmethod.gif"></img><a href="NPlot.LogAxis.DoClone.html">DoClone</a></td><td width="50%"> Helper method for Clone (actual implementation) </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="protmethod.gif"></img><a href="NPlot.LogAxis.DrawTicks.html">DrawTicks</a></td><td width="50%"> Draw the ticks. </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="protmethod.gif"></img><a href="ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemObjectClassFinalizeTopic.htm">Finalize</a> (inherited from <b>Object</b>)</td><td width="50%">Allows an <a href="ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemObjectClassTopic.htm">Object</a> to attempt to free resources and perform other cleanup operations before the <a href="ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemObjectClassTopic.htm">Object</a> is reclaimed by garbage collection.</td></tr>
+<tr VALIGN="top"><td width="50%"><img src="protmethod.gif"></img><a href="NPlot.Axis.getDefaultLabelOffset.html">getDefaultLabelOffset</a> (inherited from <b>Axis</b>)</td><td width="50%"> returns a suitable offset for the axis label in the case that there are no ticks or tick text in the way. </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="protmethod.gif"></img><a href="ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemObjectClassMemberwiseCloneTopic.htm">MemberwiseClone</a> (inherited from <b>Object</b>)</td><td width="50%">Creates a shallow copy of the current <a href="ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemObjectClassTopic.htm">Object</a>.</td></tr></table>
+      </div>
+      <h4 class="dtH4">See Also</h4>
+      <p>
+        <a href="NPlot.LogAxis.html">LogAxis Class</a> | <a href="NPlot.html">NPlot Namespace</a></p>
+      <hr />
+      <div id="footer">
+        <p>
+          <a href="http://nplot.com/">Copyright (C) 2003-2006 Matt Howlett and others</a>
+        </p>
+        <p>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

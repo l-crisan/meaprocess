@@ -1,0 +1,643 @@
+﻿  Using Jambase [JAMBASE]: jam\Jambase
+  Build Host OS [OS]: nt
+  Host Platform [OSPLAT]: X86
+  Debug Build [--debug]: yes
+  Optimized Build [--optimize]: no
+  Remove file [RM]: del /f/q
+  Move file [MV]: move /y
+  Copy file [CP]: copy
+  Make dir [MKDIR]: mkdir
+  Remove dir [RMDIR]: rmdir /s/q
+  File link [LN]: not supported
+  Directory dot [DOT]: .
+  Directory dotdot [DOTDOT]: ..
+  Directory separator [SLASH]: \
+  Target OS [TARGET_OS]: nt
+  Target Platform [TARGET_OSPLAT]: x86_64
+  Object suffix [SUFOBJ]: .obj
+  Executable suffix [SUFEXE]: .exe
+  Library prefix) [PRELIB]:
+  Library suffix [SUFLIB]: .lib
+  Shared library suffix [SUFDLL]: .dll
+  Toolset [TOOLSET]: vc16
+  Build configuration [CONFIG]: WinX64Debug
+  Using MSVC... 14.29.30133
+  Checking for Visual Studio... C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\\14.29.30133\
+  Checking for Platform SDK... C:\Program Files (x86)\Windows Kits\10\
+  Checking for Windows Kit... 10.0.22621.0
+  Assember [AS]: ml64
+  Archiver [AR]: lib
+  C compiler [CC]: cl nologo
+  Linker [LINK]: link nologo
+  Ranlib tool [RANLIB]:
+  Optimisation [OPTIM]: /Od
+  Warning Level [WARN]: /W3
+  C Flags [CCFLAGS]: /FS /MDd /D DEBUG /D _DEBUG /Zi /DWIN32
+  Standard Headers [STDHDRS]: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\\14.29.30133\\include"
+  Standard Headers [STDHDRS]: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um"
+  Standard Headers [STDHDRS]: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"
+  Standard Headers [STDHDRS]: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared"
+  Standard Headers [STDHDRS]: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt"
+  Link Flags [LINKFLAGS]: /MANIFEST
+  Link Flags [LINKFLAGS]: /LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\\14.29.30133\\lib\x64"
+  Link Flags [LINKFLAGS]: /DEBUG
+  Link Flags [LINKFLAGS]: /LIBPATH:"C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64"
+  Link Flags [LINKFLAGS]: /LIBPATH:"C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\ucrt\x64"
+  Main Link Flags [MAIN_LINKFLAGS]:
+  Dll Link Flags [DLL_LINKFLAGS]:
+  C++ compiler [C++]: cl nologo
+  C++ Linker [LINK++]: link nologo
+  C++ Flags [C++FLAGS]: /std:c++17 /Zc:__cplusplus /FS /DWIN32 /AI
+  C++ Flags [C++FLAGS]: "C:\Program Files (x86)\Windows Kits\10\UnionMetadata" /AI
+  C++ Flags [C++FLAGS]: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\\14.29.30133\\VC\VCPackages"
+  C++ Flags [C++FLAGS]: /EHsc /fp:precise /GR /TP /FD /MDd /D DEBUG /D _DEBUG /Zi
+  C++ Link Flags [C++LINKFLAGS]:
+  PsApi library [WITH_PSAPI]: yes
+  PsAapi lib flags [PSAPI_LIBS]: Psapi.lib
+  WSA2 library [WITH_WSA]: yes
+  WSA2 lib flags [WSA_LIBS]: wsock32.lib ws2_32.lib Iphlpapi.lib
+  Using subsystem [SYS]: win32
+  System lib flags [SYSLIBS]: Psapi.lib
+  Network lib flags [NETLIBS]: wsock32.lib ws2_32.lib Iphlpapi.lib
+  Build configuration [CONFIG]: WinX64Debug
+  Configuration successful.
+  Host Operating System (OS)... nt
+  Host Platform (OSPLAT)... x86
+  Target OS (TARGET_OS)... nt
+  Target Platform (TARGET_OSPLAT)... x86_64
+  Configuration (CONFIG)... WinX64Debug
+  Toolset (TOOLSET)... vc16
+  Use OpenSSL (--with-openssl)...
+  Graphic User Interface (GUI)...
+  System Interface (SYS)... win32
+  C++ Flags (C++FLAGS)... /std:c++17 /Zc:__cplusplus /FS /DWIN32 /AI "C:\Program Files (x86)\Windows Kits\10\UnionMetadata" /AI "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\\14.29.30133\\VC\VCPackages" /EHsc /fp:precise /GR /TP /FD /MDd /D DEBUG /D _DEBUG /Zi /std:c++17 /Zc:__cplusplus /DPT_LE
+  C Flags (CCFLAGS)... /FS /MDd /D DEBUG /D _DEBUG /Zi /DWIN32 /DPT_LE
+  Linker Flags (LINKFLAGS)... /MANIFEST /LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\\14.29.30133\\lib\x64" /DEBUG /LIBPATH:"C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64" /LIBPATH:"C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\ucrt\x64"
+  Optimisation (OPTIM)... /Od
+  Warnings (WARN)... /W3
+  Build targets (OUTPUT_TARGET)... C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug
+  Build objects (OUTPUT_OBJECT)... C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug
+  Unit tests (OUTPUT_TEST)...
+  Install programs (INSTALL_BINDIR)...
+  Install includes (INSTALL_INCLUDEDIR)...
+  Install libraries (INSTALL_LIBDIR)...
+  ...patience...
+  ...found 1075 targets...
+  ...updating 268 targets...
+  MkDir1 C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug
+  MkDir1 C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-core
+  MkDir1 C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-licence
+  MkDir1 C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-builder
+  MkDir1 C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-modld
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-licence\Des.obj
+  Des.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-modld\ModuleLoader.obj
+  ModuleLoader.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-builder\XmlBuilder.obj
+  XmlBuilder.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-core\SynchSourcePS.obj
+  SynchSourcePS.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-builder\XmlObjectBuilder.obj
+  XmlObjectBuilder.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-licence\Wrapper.obj
+  Wrapper.cpp
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\src\mps-licence\Wrapper.cpp(195): warning C5033: "register" ist keine unterstützte Speicherklasse mehr.
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\src\mps-licence\Wrapper.cpp(196): warning C5033: "register" ist keine unterstützte Speicherklasse mehr.
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\src\mps-licence\Wrapper.cpp(197): warning C5033: "register" ist keine unterstützte Speicherklasse mehr.
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\src\mps-licence\Wrapper.cpp(198): warning C5033: "register" ist keine unterstützte Speicherklasse mehr.
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\src\mps-licence\Wrapper.cpp(199): warning C5033: "register" ist keine unterstützte Speicherklasse mehr.
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\src\mps-licence\Wrapper.cpp(200): warning C5033: "register" ist keine unterstützte Speicherklasse mehr.
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\src\mps-licence\Wrapper.cpp(201): warning C5033: "register" ist keine unterstützte Speicherklasse mehr.
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\src\mps-licence\Wrapper.cpp(202): warning C5033: "register" ist keine unterstützte Speicherklasse mehr.
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\src\mps-licence\Wrapper.cpp(203): warning C5033: "register" ist keine unterstützte Speicherklasse mehr.
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\src\mps-licence\Wrapper.cpp(217): warning C5033: "register" ist keine unterstützte Speicherklasse mehr.
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\src\mps-licence\Wrapper.cpp(218): warning C5033: "register" ist keine unterstützte Speicherklasse mehr.
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\src\mps-licence\Wrapper.cpp(219): warning C5033: "register" ist keine unterstützte Speicherklasse mehr.
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\src\mps-licence\Wrapper.cpp(220): warning C5033: "register" ist keine unterstützte Speicherklasse mehr.
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\src\mps-licence\Wrapper.cpp(221): warning C5033: "register" ist keine unterstützte Speicherklasse mehr.
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\src\mps-licence\Wrapper.cpp(222): warning C5033: "register" ist keine unterstützte Speicherklasse mehr.
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\src\mps-licence\Wrapper.cpp(223): warning C5033: "register" ist keine unterstützte Speicherklasse mehr.
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\src\mps-licence\Wrapper.cpp(224): warning C5033: "register" ist keine unterstützte Speicherklasse mehr.
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\src\mps-licence\Wrapper.cpp(225): warning C5033: "register" ist keine unterstützte Speicherklasse mehr.
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-core\SystemOutPS.obj
+  SystemOutPS.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-licence\Licence.obj
+  Licence.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-core\OutputSubPort.obj
+  OutputSubPort.cpp
+  Link C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-licence.dll
+     Bibliothek "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-licence.lib" und Objekt "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-licence.exp" werden erstellt.
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-core\SubSchemePS.obj
+  SubSchemePS.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-core\RecordBuilder.obj
+  RecordBuilder.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-core\Translator.obj
+  Translator.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-core\SignalScaling.obj
+  SignalScaling.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-core\SplitterPS.obj
+  SplitterPS.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-core\SignalList.obj
+  SignalList.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-core\Signal.obj
+  Signal.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-core\RuntimeEngine.obj
+  RuntimeEngine.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-core\Port.obj
+  Port.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-core\ProcessStation.obj
+  ProcessStation.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-core\ObjectFactoryManager.obj
+  ObjectFactoryManager.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-core\Message.obj
+  Message.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-core\FactorOffsetSignalScaling.obj
+  FactorOffsetSignalScaling.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-core\FiFoSynchSourcePS.obj
+  FiFoSynchSourcePS.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-core\CircularBuffer.obj
+  CircularBuffer.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-core\DefaultObjectFactory.obj
+  DefaultObjectFactory.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-core\TriggerPort.obj
+  TriggerPort.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-core\SourceDescription.obj
+  SourceDescription.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-core\Property.obj
+  Property.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-core\SystemInPS.obj
+  SystemInPS.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-core\StopPS.obj
+  StopPS.cpp
+  MkDir1 C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-api
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-core\PropertySignal.obj
+  PropertySignal.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-core\WritePropertyPS.obj
+  WritePropertyPS.cpp
+  MkDir1 C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-timer
+  MkDir1 C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-stream-prot
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-core\ReadPropertyPS.obj
+  ReadPropertyPS.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-stream-prot\MeaSendProtocol.obj
+  MeaSendProtocol.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-api\mps.obj
+  mps.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-stream-prot\MeaSendProtocol.obj
+  MeaSendProtocol.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-stream-prot\StreamProtocol.obj
+  StreamProtocol.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-stream-prot\StreamProtocol.obj
+  StreamProtocol.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-timer\TimerImpl.obj
+  TimerImpl.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-stream-prot\MeaReceiveProtocol.obj
+  MeaReceiveProtocol.cpp
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\src\mps-stream-prot\MeaReceiveProtocol.cpp(156): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "Pt::uint32_t", Datenverlust möglich
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\src\mps-stream-prot\MeaReceiveProtocol.cpp(178): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "Pt::uint32_t", Datenverlust möglich
+  MkDir1 C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mpal-vm
+  Link C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-core.dll
+     Bibliothek "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-core.lib" und Objekt "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-core.exp" werden erstellt.
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-timer\Timer.obj
+  Timer.cpp
+  Link C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-builder.dll
+     Bibliothek "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-builder.lib" und Objekt "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-builder.exp" werden erstellt.
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-stream-prot\MeaReceiveProtocol.obj
+  MeaReceiveProtocol.cpp
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\src\mps-stream-prot\MeaReceiveProtocol.cpp(156): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "Pt::uint32_t", Datenverlust möglich
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\src\mps-stream-prot\MeaReceiveProtocol.cpp(178): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "Pt::uint32_t", Datenverlust möglich
+  Link C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-timer.dll
+     Bibliothek "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-timer.lib" und Objekt "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-timer.exp" werden erstellt.
+  Link C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-modld.dll
+     Bibliothek "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-modld.lib" und Objekt "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-modld.exp" werden erstellt.
+  Link C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-stream-prot.dll
+     Bibliothek "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-stream-prot.lib" und Objekt "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-stream-prot.exp" werden erstellt.
+  Link C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-api.dll
+     Bibliothek "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-api.lib" und Objekt "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-api.exp" werden erstellt.
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mpal-vm\Function.obj
+  Function.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mpal-vm\Unit.obj
+  Unit.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mpal-vm\Operand.obj
+  Operand.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mpal-vm\Parameter.obj
+  Parameter.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mpal-vm\Loader.obj
+  Loader.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mpal-vm\VirtualMachine.obj
+  VirtualMachine.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mpal-vm\VirtualMachineImpl.obj
+  VirtualMachineImpl.cpp
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\src\mpal-vm\VirtualMachineImpl.cpp(65): warning C4267: "Argument": Konvertierung von "size_t" nach "Pt::uint32_t", Datenverlust möglich
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\src\mpal-vm\VirtualMachineImpl.cpp(80): warning C4267: "Argument": Konvertierung von "size_t" nach "Pt::uint32_t", Datenverlust möglich
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mpal-vm\ProgramInfoImpl.obj
+  ProgramInfoImpl.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mpal-vm\DebuggerContext.obj
+  DebuggerContext.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mpal-vm\Debugger.obj
+  Debugger.cpp
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\src\mpal-vm\Debugger.cpp(129): warning C4267: "=": Konvertierung von "size_t" nach "Pt::uint32_t", Datenverlust möglich
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mpal-vm\BreakPoint.obj
+  BreakPoint.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mpal-vm\Variable.obj
+  Variable.cpp
+  MkDir1 C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-can-drv
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mpal-vm\CallInst.obj
+  CallInst.cpp
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\src\mpal-vm\CallInst.cpp(186): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "Pt::uint32_t", Datenverlust möglich
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\src\mpal-vm\CallInst.cpp(322): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "Pt::uint32_t", Datenverlust möglich
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mpal-vm\Instruction.obj
+  Instruction.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-can-drv\Message.obj
+  Message.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-can-drv\DriverImpl.obj
+  DriverImpl.cpp
+  MkDir1 C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-can-demo
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-can-drv\Driver.obj
+  Driver.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-can-drv\Factory.obj
+  Factory.cpp
+  Link C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-can-drv.dll
+     Bibliothek "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-can-drv.lib" und Objekt "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-can-drv.exp" werden erstellt.
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mpal-vm\InstructionTable.obj
+  InstructionTable.cpp
+  Link C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-diatp.dll
+     Bibliothek "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-diatp.lib" und Objekt "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-diatp.exp" werden erstellt.
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-can-demo\Driver.obj
+  Driver.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-can-demo\DriverImpl.obj
+  DriverImpl.cpp
+  MkDir1 C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-can-peak
+  MkDir1 C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-drv-opencv
+  Link C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mpal-vm.dll
+     Bibliothek "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mpal-vm.lib" und Objekt "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mpal-vm.exp" werden erstellt.
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-can-demo\Factory.obj
+  Factory.cpp
+  Link C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-can-demo.dll
+     Bibliothek "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-can-demo.lib" und Objekt "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-can-demo.exp" werden erstellt.
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-can-peak\Driver.obj
+  Driver.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-drv-opencv\Driver.obj
+  Driver.cpp
+  Link C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-drv-opencv.dll
+     Bibliothek "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-drv-opencv.lib" und Objekt "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-drv-opencv.exp" werden erstellt.
+  MkDir1 C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-drv-audio
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-can-peak\DriverImpl.obj
+  DriverImpl.cpp
+  MkDir1 C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-filter
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-drv-audio\Driver.obj
+  Driver.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-can-peak\Factory.obj
+  Factory.cpp
+  Link C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-drv-audio.dll
+     Bibliothek "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-drv-audio.lib" und Objekt "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-drv-audio.exp" werden erstellt.
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-filter\Bessel.obj
+  Bessel.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-can-peak\Wrapper.obj
+  Wrapper.cpp
+  ...on 100th target...
+  Link C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-can-peak.dll
+     Bibliothek "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-can-peak.lib" und Objekt "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-can-peak.exp" werden erstellt.
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-filter\BesselCoef.obj
+  BesselCoef.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-filter\Elliptic.obj
+  Elliptic.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-filter\ButterworthCoef.obj
+  ButterworthCoef.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-filter\ChebyshevCoef.obj
+  ChebyshevCoef.cpp
+  MkDir1 C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-analysis
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-filter\mps-filter.obj
+  mps-filter.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-filter\EllipticCoef.obj
+  EllipticCoef.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-filter\Filter.obj
+  Filter.cpp
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\src\mps-filter\Filter.cpp(96): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "Pt::uint32_t", Datenverlust möglich
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\src\mps-filter\Filter.cpp(112): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "Pt::uint32_t", Datenverlust möglich
+  Link C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-filter.dll
+     Bibliothek "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-filter.lib" und Objekt "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-filter.exp" werden erstellt.
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-analysis\FFTSignal.obj
+  FFTSignal.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-analysis\FFTPs.obj
+  FFTPs.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-analysis\IFFTPs.obj
+  IFFTPs.cpp
+  MkDir1 C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-fft
+  MkDir1 C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-audio
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-fft\mps-fft.obj
+  mps-fft.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-analysis\AnalysisObjectFactory.obj
+  AnalysisObjectFactory.cpp
+  Link C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-fft.dll
+     Bibliothek "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-fft.lib" und Objekt "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-fft.exp" werden erstellt.
+LINK : warning LNK4098: Standardbibliothek "MSVCRT" steht in Konflikt mit anderen Bibliotheken; /NODEFAULTLIB:Bibliothek verwenden.
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-analysis\IIRFilterPS.obj
+  IIRFilterPS.cpp
+  Link C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-analysis.dll
+     Bibliothek "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-analysis.lib" und Objekt "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-analysis.exp" werden erstellt.
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-audio\InPS.obj
+  InPS.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-audio\OutChannel.obj
+  OutChannel.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-audio\OutPS.obj
+  OutPS.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-audio\mps-audio.obj
+  mps-audio.cpp
+  MkDir1 C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-calculation
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-calculation\mps-calculation.obj
+  mps-calculation.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-audio\AudioSignal.obj
+  AudioSignal.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-audio\OutDevice.obj
+  OutDevice.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-audio\AudioObjectFactory.obj
+  AudioObjectFactory.cpp
+  Link C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-audio.dll
+     Bibliothek "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-audio.lib" und Objekt "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-audio.exp" werden erstellt.
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-calculation\CalcScaling.obj
+  CalcScaling.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-calculation\CalculationObjectFactory.obj
+  CalculationObjectFactory.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-calculation\ScalingPS.obj
+  ScalingPS.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-calculation\MovingMeanSignal.obj
+  MovingMeanSignal.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-calculation\MovingMeanPS.obj
+  MovingMeanPS.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-calculation\ElectricitySignal.obj
+  ElectricitySignal.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-calculation\MeanNPS.obj
+  MeanNPS.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-calculation\SampleRateSignal.obj
+  SampleRateSignal.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-calculation\ElectricityPS.obj
+  ElectricityPS.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-calculation\SampleRatePS.obj
+  SampleRatePS.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-calculation\DemuxSignal.obj
+  DemuxSignal.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-calculation\MultiplexerPS.obj
+  MultiplexerPS.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-calculation\DemuxPS.obj
+  DemuxPS.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-calculation\BitExtractionSignal.obj
+  BitExtractionSignal.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-calculation\BitGroupingSignal.obj
+  BitGroupingSignal.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-calculation\BitExtractionPS.obj
+  BitExtractionPS.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-calculation\BitGroupingPS.obj
+  BitGroupingPS.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-calculation\DelaySignal.obj
+  DelaySignal.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-calculation\SignalDelayPS.obj
+  SignalDelayPS.cpp
+  MkDir1 C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-can
+  MkDir1 C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-clock
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-calculation\ConvertSignal.obj
+  ConvertSignal.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-clock\StopWatchSignal.obj
+  StopWatchSignal.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-calculation\ConvertPS.obj
+  ConvertPS.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-clock\StopWatchPS.obj
+  StopWatchPS.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-can\SourcePS.obj
+  SourcePS.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-clock\TactPS.obj
+  TactPS.cpp
+  Link C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-calculation.dll
+     Bibliothek "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-calculation.lib" und Objekt "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-calculation.exp" werden erstellt.
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-clock\TimerPS.obj
+  TimerPS.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-clock\TimerSignal.obj
+  TimerSignal.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-clock\ClockSignal.obj
+  ClockSignal.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-clock\ClockPS.obj
+  ClockPS.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-can\Signal.obj
+  Signal.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-clock\ClockObjectFactory.obj
+  ClockObjectFactory.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-can\OutPort.obj
+  OutPort.cpp
+  Link C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-clock.dll
+     Bibliothek "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-clock.lib" und Objekt "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-clock.exp" werden erstellt.
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-can\LoggerPS.obj
+  LoggerPS.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-can\ObjectFactory.obj
+  ObjectFactory.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-can\LoggerSignal.obj
+  LoggerSignal.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-can\WritePS.obj
+  WritePS.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-can\OutChannel.obj
+  OutChannel.cpp
+  MkDir1 C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-controller
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-controller\mps-controller.obj
+  mps-controller.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-can\OutputPS.obj
+  OutputPS.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-can\Event.obj
+  Event.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-can\EventPS.obj
+  EventPS.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-controller\ControllerSignal.obj
+  ControllerSignal.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-controller\ControllerObjectFactory.obj
+  ControllerObjectFactory.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-controller\TwoPointControllerPS.obj
+  TwoPointControllerPS.cpp
+  Link C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-can.dll
+     Bibliothek "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-can.lib" und Objekt "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-can.exp" werden erstellt.
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-controller\LinguisticVar.obj
+  LinguisticVar.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-controller\ThreeStepControllerPS.obj
+  ThreeStepControllerPS.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-controller\PIDControllerPS.obj
+  PIDControllerPS.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-controller\FuzzyControllerPS.obj
+  FuzzyControllerPS.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-controller\FuzzyOperation.obj
+  FuzzyOperation.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-controller\FuzzyRule.obj
+  FuzzyRule.cpp
+  MkDir1 C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-event
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-controller\FuzzyControllerSignal.obj
+  FuzzyControllerSignal.cpp
+  MkDir1 C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-fgen
+  MkDir1 C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-gps
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-event\mps-event.obj
+  mps-event.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-fgen\FuncGenSignal.obj
+  FuncGenSignal.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-gps\GpsObjectFactory.obj
+  GpsObjectFactory.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-gps\GpsPS.obj
+  GpsPS.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-gps\GpsSignal.obj
+  GpsSignal.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-gps\NMEAParser.obj
+  NMEAParser.cpp
+  Link C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-gps.dll
+     Bibliothek "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-gps.lib" und Objekt "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-gps.exp" werden erstellt.
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-fgen\FunctionGenPS.obj
+  FunctionGenPS.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-fgen\FGenObjectFactory.obj
+  FGenObjectFactory.cpp
+  Link C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-fgen.dll
+     Bibliothek "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-fgen.lib" und Objekt "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-fgen.exp" werden erstellt.
+  ...on 200th target...
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-event\EventFactory.obj
+  EventFactory.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-event\EventPS.obj
+  EventPS.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-event\RtEvent.obj
+  RtEvent.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-event\SystemOutput.obj
+  SystemOutput.cpp
+  MkDir1 C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-streaming
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-event\ControlSignal.obj
+  ControlSignal.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-streaming\mps-streaming.obj
+  mps-streaming.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-event\SignalControlPS.obj
+  SignalControlPS.cpp
+  Link C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-event.dll
+     Bibliothek "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-event.lib" und Objekt "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-event.exp" werden erstellt.
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-streaming\StreamingSignal.obj
+  StreamingSignal.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-streaming\StreamingFactory.obj
+  StreamingFactory.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-streaming\StreamingPSBase.obj
+  StreamingPSBase.cpp
+  MkDir1 C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-labjack
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-streaming\InPS.obj
+  InPS.cpp
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\src\mps-streaming\InPS.cpp(211): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "Pt::uint32_t", Datenverlust möglich
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\src\mps-streaming\InPS.cpp(211): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "const Pt::uint32_t", Datenverlust möglich
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\src\mps-streaming\InPS.cpp(262): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "Pt::uint32_t", Datenverlust möglich
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-streaming\OutPS.obj
+  OutPS.cpp
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\src\mps-streaming\OutPS.cpp(91): warning C4267: "Argument": Konvertierung von "size_t" nach "Pt::uint32_t", Datenverlust möglich
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\src\mps-streaming\OutPS.cpp(111): warning C4267: "Argument": Konvertierung von "size_t" nach "Pt::uint32_t", Datenverlust möglich
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\src\mps-streaming\OutPS.cpp(191): warning C4267: "+=": Konvertierung von "size_t" nach "Pt::uint32_t", Datenverlust möglich
+  Link C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-streaming.dll
+     Bibliothek "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-streaming.lib" und Objekt "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-streaming.exp" werden erstellt.
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-labjack\LJSignal.obj
+  LJSignal.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-labjack\InputPS.obj
+  InputPS.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-labjack\mps-labjack.obj
+  mps-labjack.cpp
+  Link C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-controller.dll
+     Bibliothek "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-controller.lib" und Objekt "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-controller.exp" werden erstellt.
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-labjack\LJObjectFactory.obj
+  LJObjectFactory.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-labjack\DriverWrapper.obj
+  DriverWrapper.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-labjack\InBoard.obj
+  InBoard.cpp
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\src\mps-labjack\InBoard.cpp(115): warning C4267: "Argument": Konvertierung von "size_t" nach "long", Datenverlust möglich
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\src\mps-labjack\InBoard.cpp(257): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "long", Datenverlust möglich
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\src\mps-labjack\InBoard.cpp(285): warning C4267: "Argument": Konvertierung von "size_t" nach "long", Datenverlust möglich
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-labjack\LJOutSignal.obj
+  LJOutSignal.cpp
+  MkDir1 C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-obd2
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-labjack\Board.obj
+  Board.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-labjack\OutBoard.obj
+  OutBoard.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-labjack\OutputPS.obj
+  OutputPS.cpp
+  Link C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-labjack.dll
+     Bibliothek "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-labjack.lib" und Objekt "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-labjack.exp" werden erstellt.
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-obd2\OBD2Signal.obj
+  OBD2Signal.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-obd2\OBD2ObjectFactory.obj
+  OBD2ObjectFactory.cpp
+  MkDir1 C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-mpal
+  MkDir1 C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-statistics
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-obd2\OBD2SourcePS.obj
+  OBD2SourcePS.cpp
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\src\mps-obd2\OBD2SourcePS.cpp(698): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "Pt::uint32_t", Datenverlust möglich
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\src\mps-obd2\OBD2SourcePS.cpp(780): warning C4267: "=": Konvertierung von "size_t" nach "Pt::uint32_t", Datenverlust möglich
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\src\mps-obd2\OBD2SourcePS.cpp(782): warning C4267: "=": Konvertierung von "size_t" nach "Pt::uint32_t", Datenverlust möglich
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-obd2\OBD2VehicleInfo.obj
+  OBD2VehicleInfo.cpp
+  Link C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-obd2.dll
+     Bibliothek "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-obd2.lib" und Objekt "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-obd2.exp" werden erstellt.
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-statistics\Classing.obj
+  Classing.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-mpal\MpalObjectFactory.obj
+  MpalObjectFactory.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-statistics\StatisticsObjectFactory.obj
+  StatisticsObjectFactory.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-statistics\StatisticValueSignal.obj
+  StatisticValueSignal.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-statistics\ClassingPS.obj
+  ClassingPS.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-statistics\StatisticValuesPS.obj
+  StatisticValuesPS.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-statistics\CounterPS.obj
+  CounterPS.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-statistics\CounterSignal.obj
+  CounterSignal.cpp
+  MkDir1 C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-storage
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-statistics\MinimaMaximaSignal.obj
+  MinimaMaximaSignal.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-statistics\MinimaMaximaPS.obj
+  MinimaMaximaPS.cpp
+  Link C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-statistics.dll
+     Bibliothek "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-statistics.lib" und Objekt "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-statistics.exp" werden erstellt.
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-storage\StorageObjectFactory.obj
+  StorageObjectFactory.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-mpal\MpalPS.obj
+  MpalPS.cpp
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\src\mps-mpal\MpalPS.cpp(519): warning C4267: "=": Konvertierung von "size_t" nach "Pt::uint32_t", Datenverlust möglich
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\src\mps-mpal\MpalPS.cpp(521): warning C4267: "=": Konvertierung von "size_t" nach "Pt::uint32_t", Datenverlust möglich
+  Link C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-mpal.dll
+     Bibliothek "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-mpal.lib" und Objekt "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-mpal.exp" werden erstellt.
+  MkDir1 C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-video-opencv
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-storage\DataStoragePS.obj
+  DataStoragePS.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-storage\ReadDataPS.obj
+  ReadDataPS.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-storage\StorageGroup.obj
+  StorageGroup.cpp
+  Link C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-storage.dll
+     Bibliothek "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-storage.lib" und Objekt "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-storage.exp" werden erstellt.
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-video-opencv\VideoSignal.obj
+  VideoSignal.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-video-opencv\VidObjectFactory.obj
+  VidObjectFactory.cpp
+  MkDir1 C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mpal-debugger
+  MkDir1 C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-rt
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-video-opencv\Capture.obj
+  Capture.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-video-opencv\CapturePS.obj
+  CapturePS.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mpal-debugger\main.obj
+  main.cpp
+  Link C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-video-opencv.dll
+     Bibliothek "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-video-opencv.lib" und Objekt "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-video-opencv.exp" werden erstellt.
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-rt\main.obj
+  main.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-rt\MpsApplication.obj
+  MpsApplication.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-rt\MpsSettings.obj
+  MpsSettings.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mpal-debugger\main.obj
+  main.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-rt\HTTPResponder.obj
+  HTTPResponder.cpp
+  Link C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mpal-debugger.exe
+     Bibliothek "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mpal-debugger.lib" und Objekt "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mpal-debugger.exp" werden erstellt.
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-rt\HTTPService.obj
+  HTTPService.cpp
+  C++ C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\tmp\winx64debug\mps-rt\System.obj
+  System.cpp
+  Link C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-rt.exe
+     Bibliothek "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-rt.lib" und Objekt "C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-n\build\winx64debug\mps-rt.exp" werden erstellt.
+  ...updated 268 targets...

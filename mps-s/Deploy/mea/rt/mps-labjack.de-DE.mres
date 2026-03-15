@@ -1,0 +1,3 @@
+Mp.Labjack.Err.InDriver#Das Board '%s' des Bausteins '%s' konnte nicht initialisiert werden.
+Mp.Labjack.Err.InBoard#Der Baustein '%s' kann den LabJack Treiber nicht laden.
+Mp.Labjack.Err.OutBoard#Der Baustein '%s' hat Daten verloren.

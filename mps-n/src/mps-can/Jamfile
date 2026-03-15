@@ -1,0 +1,26 @@
+SubDir TOP src mps-can ;
+
+SubDirHdrs $(TOP)/include ; 
+
+SubDirC++Flags [ FDefines MPS_CAN_EXPORTS ] ;
+
+SubDirObjects $(OUTPUT_OBJECT) mps-can ;
+
+SharedLibrary mps-can :  SourcePS.cpp
+						 Signal.cpp 
+						 OutPort.cpp
+						 ObjectFactory.cpp
+						 LoggerPS.cpp
+						 WritePS.cpp
+						 LoggerSignal.cpp
+						 OutputPS.cpp
+						 OutChannel.cpp
+						 Event.cpp
+						 EventPS.cpp
+						 ;
+
+LinkFlags  mps-can  : $(MPS_LINKFLAGS) ;
+
+LinkSharedLibraries mps-can : mps-can-drv  mps-core ;
+
+MakeLocate  mps-can : $(MPS_BINDIR) ;

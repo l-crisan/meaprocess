@@ -1,0 +1,16 @@
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Release\Mp.Visual.Docking.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Release\Mp.Visual.Docking.pdb
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Release\de-DE\Mp.Visual.Docking.resources.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Visual.Docking\obj\Release\Mp.Visual.Docking.csproj.AssemblyReference.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Visual.Docking\obj\Release\Mp.Visual.Docking.Images.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Visual.Docking\obj\Release\Mp.Visual.Docking.Docking.Resources.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Visual.Docking\obj\Release\Mp.Visual.Docking.Docking.Strings.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Visual.Docking\obj\Release\Mp.Visual.Docking.OutputWindow.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Visual.Docking\obj\Release\Mp.Visual.Docking.StringResource.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Visual.Docking\obj\Release\Mp.Visual.Docking.StringResource.de-DE.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Visual.Docking\obj\Release\Mp.Visual.Docking.OutputWindow.de-DE.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Visual.Docking\obj\Release\Mp.Visual.Docking.csproj.GenerateResource.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Visual.Docking\obj\Release\Mp.Visual.Docking.csproj.CoreCompileInputs.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Visual.Docking\obj\Release\de-DE\Mp.Visual.Docking.resources.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Visual.Docking\obj\Release\Mp.Visual.Docking.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Visual.Docking\obj\Release\Mp.Visual.Docking.pdb

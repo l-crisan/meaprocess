@@ -1,0 +1,3 @@
+Mp.Audio.Err.InputDev#Der Baustein '%s' konnte das Audioeingabegerät nicht initialisieren.
+Mp.Audio.Err.OutputDev#Der Baustein '%s' konnte das Audioausgabegerät nicht initialisieren.
+Mp.Audio.Err.Data#Der Baustein '%s' hat Daten verloren.

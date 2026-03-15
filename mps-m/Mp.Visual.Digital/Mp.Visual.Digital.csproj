@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8047D0C4-A6C0-4137-A2BC-C7C50D8EF872}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Mp.Visual.Digital</RootNamespace>
+    <AssemblyName>Mp.Visual.Digital</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>..\build\Release\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <OutputPath>..\build\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <Optimize>false</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ColorMng.cs" />
+    <Compile Include="Input\ComboBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Input\ComboBox.Designer.cs">
+      <DependentUpon>ComboBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ControlLimits.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Input\RoundButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Input\RoundButton.designer.cs">
+      <DependentUpon>RoundButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Input\RoundButtonRenderer.cs" />
+    <Compile Include="Input\Switch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Input\Switch.designer.cs">
+      <DependentUpon>Switch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MathFunc.cs" />
+    <Compile Include="Output\DigitalMeter1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Output\DigitalMeter1.Designer.cs">
+      <DependentUpon>DigitalMeter1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Output\DigitalMeter1Block.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Output\DigitalMeter1Block.Designer.cs">
+      <DependentUpon>DigitalMeter1Block.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Output\DigitalMeter2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Output\DigitalMeter2.Designer.cs">
+      <DependentUpon>DigitalMeter2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Output\DigitalMeter2Block.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Output\DigitalMeter2Block.Designer.cs">
+      <DependentUpon>DigitalMeter2Block.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Output\DigitalMeter3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Output\DigitalMeter3.Designer.cs">
+      <DependentUpon>DigitalMeter3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ItemsUIDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ItemsUIDlg.Designer.cs">
+      <DependentUpon>ItemsUIDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ItemsUIEditor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LimitsEditDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LimitsEditDlg.Designer.cs">
+      <DependentUpon>LimitsEditDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LimitsUIEditor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Input\NumericInput.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Output\DigitalMeter3Block.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Output\DigitalMeter3Block.Designer.cs">
+      <DependentUpon>DigitalMeter3Block.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Output\LabelLed.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Output\LabelLed.designer.cs">
+      <DependentUpon>LabelLed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Output\Led.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Output\Led.Designer.cs">
+      <DependentUpon>Led.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Output\LedBlock.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Output\LedBlock.designer.cs">
+      <DependentUpon>LedBlock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Output\TableView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Output\TableView.Designer.cs">
+      <DependentUpon>TableView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Input\RadioButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Input\RadioButton.Designer.cs">
+      <DependentUpon>RadioButton.cs</DependentUpon>
+    </Compile>
+    <None Include="Resources\StringResource.Designer.cs" />
+    <Compile Include="SevenSegment.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SevenSegmentArray.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Output\ListView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Output\ListView.Designer.cs">
+      <DependentUpon>ListView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SRCategoryAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SRDescriptionAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StringResource.de-DE.Designer.cs">
+      <DependentUpon>StringResource.de-DE.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="StringResource.Designer.cs">
+      <DependentUpon>StringResource.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Mp.Visual.Base\Mp.Visual.Base.csproj">
+      <Project>{EA448F00-687B-415F-9D76-6D066D2FB22F}</Project>
+      <Name>Mp.Visual.Base</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Input\ComboBox.resx">
+      <DependentUpon>ComboBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Input\RoundButton.resx">
+      <DependentUpon>RoundButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Input\Switch.resx">
+      <DependentUpon>Switch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Output\DigitalMeter1.resx">
+      <DependentUpon>DigitalMeter1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Output\DigitalMeter1Block.resx">
+      <DependentUpon>DigitalMeter1Block.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Output\DigitalMeter2.resx">
+      <DependentUpon>DigitalMeter2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Output\DigitalMeter2Block.resx">
+      <DependentUpon>DigitalMeter2Block.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Output\DigitalMeter3.resx">
+      <DependentUpon>DigitalMeter3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ItemsUIDlg.de-DE.resx">
+      <DependentUpon>ItemsUIDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ItemsUIDlg.resx">
+      <DependentUpon>ItemsUIDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LimitsEditDlg.de-DE.resx">
+      <DependentUpon>LimitsEditDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LimitsEditDlg.resx">
+      <DependentUpon>LimitsEditDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Input\NumericInput.resx">
+      <DependentUpon>NumericInput.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Output\DigitalMeter3Block.resx">
+      <DependentUpon>DigitalMeter3Block.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Output\LabelLed.resx">
+      <DependentUpon>LabelLed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Output\LedBlock.resx">
+      <DependentUpon>LedBlock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Output\TableView.de-DE.resx">
+      <DependentUpon>TableView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Output\TableView.resx">
+      <DependentUpon>TableView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Input\RadioButton.resx">
+      <DependentUpon>RadioButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Output\ListView.resx">
+      <DependentUpon>ListView.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Resources\StringResource.de-DE.resx" />
+    <EmbeddedResource Include="StringResource.de-DE.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>StringResource.de-DE.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StringResource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>StringResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

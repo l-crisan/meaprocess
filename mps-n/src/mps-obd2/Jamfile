@@ -1,0 +1,20 @@
+SubDir TOP src mps-obd2 ;
+
+SubDirHdrs $(TOP)/include ;
+SubDirHdrs $(TOP)/../platinum/include ;
+
+SubDirC++Flags [ FDefines MPS_OBD2_EXPORTS ] ;
+
+SubDirObjects $(OUTPUT_OBJECT) mps-obd2 ;
+
+SharedLibrary mps-obd2 : OBD2ObjectFactory.cpp
+                         OBD2SourcePS.cpp
+                         OBD2Signal.cpp
+                         OBD2VehicleInfo.cpp
+                         ;
+
+LinkSharedLibraries mps-obd2 : mps-can-drv mps-diatp mps-core ;
+
+LinkFlags mps-obd2 : $(MPS_LINKFLAGS) ;
+
+MakeLocate mps-obd2 : $(MPS_BINDIR) ;

@@ -1,0 +1,2 @@
+Mp.CAN.Err.Port#Der Treiber '%s' konnte den Port %s nicht initialisieren.
+Mp.CAN.Err.PortInit#Der Port '%s' mit dem Treiber '%s' ist bereits initialisiert.

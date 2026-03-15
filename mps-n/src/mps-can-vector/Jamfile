@@ -1,0 +1,22 @@
+SubDir TOP src mps-can-vector ;
+
+SubDirHdrs $(TOP)/include ; 
+SubDirHdrs $(TOP)/include/vcan ;
+SubDirHdrs $(TOP)/../platinum/include ;
+
+SubDirC++Flags [ FDefines MPSCANVECTOR_EXPORTS ] ;
+
+SharedLibrary mps-can-vector : 
+						   VectorCANDriver.cpp
+						   VectorCANXLDriverImpl.cpp
+						   Factory.cpp
+						   ;						  
+
+echo "Fkags :"  $(MPS_LINKFLAGS) ;
+
+VECTOR_LINK = $(MPS_LINKFLAGS) vxlapi.lib ;
+
+LinkFlags  mps-can-vector  : $(VECTOR_LINK) ;
+LinkSharedLibraries mps-can-vector : mps-drv-can  Pt Pt-System  ;
+
+MakeLocate  mps-can-vector : $(MPS_BINDIR) ;

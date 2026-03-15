@@ -1,0 +1,418 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{75C6BB2D-144E-4DF4-A0AA-AFFFF2A4C5A8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Mp.Scheme.Sdk</RootNamespace>
+    <AssemblyName>Mp.Scheme.Sdk</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>..\build\Release\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <OutputPath>..\build\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <Optimize>false</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mp.Utils">
+      <HintPath>..\lib\Mp.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="Mp.Visual.Diagram">
+      <HintPath>..\lib\Mp.Visual.Diagram.dll</HintPath>
+    </Reference>
+    <Reference Include="Mp.Visual.Docking">
+      <HintPath>..\lib\Mp.Visual.Docking.dll</HintPath>
+    </Reference>
+    <Reference Include="Mp.Visual.Tree">
+      <HintPath>..\lib\Mp.Visual.Tree.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Licence.cs" />
+    <Compile Include="ReadPropPortDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReadPropPortDlg.Designer.cs">
+      <DependentUpon>ReadPropPortDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReadPropPS.cs" />
+    <Compile Include="StringResource.de-DE.Designer.cs">
+      <DependentUpon>StringResource.de-DE.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="DiagramWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DiagramWindow.Designer.cs">
+      <DependentUpon>DiagramWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditStringArrayPropType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditStringArrayPropType.Designer.cs">
+      <DependentUpon>EditStringArrayPropType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Images.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Images.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleLoader.cs" />
+    <Compile Include="Document.cs" />
+    <Compile Include="OneSigControlDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OneSigControlDlg.Designer.cs">
+      <DependentUpon>OneSigControlDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Port.cs" />
+    <Compile Include="ProcessStation.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="SchemePropertyDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SchemePropertyDlg.designer.cs">
+      <DependentUpon>SchemePropertyDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PSDefaultDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PSDefaultDlg.Designer.cs">
+      <DependentUpon>PSDefaultDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Module.cs" />
+    <Compile Include="ModuleManager.cs" />
+    <Compile Include="SignalDataType.cs" />
+    <Compile Include="SignalInputView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SignalInputView.Designer.cs">
+      <DependentUpon>SignalInputView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SignalViewDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignalViewDlg.Designer.cs">
+      <DependentUpon>SignalViewDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleTriggerPortDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SimpleTriggerPortDlg.Designer.cs">
+      <DependentUpon>SimpleTriggerPortDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StopPSPropDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StopPSPropDlg.Designer.cs">
+      <DependentUpon>StopPSPropDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StringResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StringResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SubSchemePS.cs" />
+    <Compile Include="SplitterPS.cs" />
+    <Compile Include="SplitterPSDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplitterPSDlg.Designer.cs">
+      <DependentUpon>SplitterPSDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StopPS.cs" />
+    <Compile Include="Tool.cs" />
+    <Compile Include="TriggerPortDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TriggerPortDlg.Designer.cs">
+      <DependentUpon>TriggerPortDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ValidationInfo.cs" />
+    <Compile Include="WorkPS.cs" />
+    <Compile Include="WritePropPS.cs" />
+    <Compile Include="WritePropPSDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WritePropPSDlg.Designer.cs">
+      <DependentUpon>WritePropPSDlg.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DiagramWindow.de-DE.resx">
+      <DependentUpon>DiagramWindow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditStringArrayPropType.de-DE.resx">
+      <DependentUpon>EditStringArrayPropType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OneSigControlDlg.de-DE.resx">
+      <DependentUpon>OneSigControlDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PSDefaultDlg.de-DE.resx">
+      <DependentUpon>PSDefaultDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReadPropPortDlg.resx">
+      <DependentUpon>ReadPropPortDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SchemePropertyDlg.de-DE.resx">
+      <DependentUpon>SchemePropertyDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignalInputView.de-DE.resx">
+      <DependentUpon>SignalInputView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignalViewDlg.de-DE.resx">
+      <DependentUpon>SignalViewDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleTriggerPortDlg.de-DE.resx">
+      <DependentUpon>SimpleTriggerPortDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplitterPSDlg.de-DE.resx">
+      <DependentUpon>SplitterPSDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StopPSPropDlg.de-DE.resx">
+      <DependentUpon>StopPSPropDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StringResource.de-DE.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>StringResource.de-DE.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DiagramWindow.resx">
+      <DependentUpon>DiagramWindow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditStringArrayPropType.resx">
+      <DependentUpon>EditStringArrayPropType.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Images.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OneSigControlDlg.resx">
+      <DependentUpon>OneSigControlDlg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SchemePropertyDlg.resx">
+      <DependentUpon>SchemePropertyDlg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PSDefaultDlg.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PSDefaultDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignalInputView.resx">
+      <DependentUpon>SignalInputView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignalViewDlg.resx">
+      <DependentUpon>SignalViewDlg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleTriggerPortDlg.resx">
+      <DependentUpon>SimpleTriggerPortDlg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplitterPSDlg.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SplitterPSDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StopPSPropDlg.resx">
+      <DependentUpon>StopPSPropDlg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StringResource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>StringResource.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TriggerPortDlg.de-DE.resx">
+      <DependentUpon>TriggerPortDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TriggerPortDlg.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TriggerPortDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="WritePropPSDlg.de-DE.resx">
+      <DependentUpon>WritePropPSDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WritePropPSDlg.resx">
+      <DependentUpon>WritePropPSDlg.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="EmptyDoc.xcr">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Splitter.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Resources\Port.ico" />
+    <None Include="Resources\Signal.ico" />
+    <None Include="Resources\FuncGenIcon.ico" />
+    <None Include="Resources\SplitterIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MPALIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StopIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Stop.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ClockIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SyncIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Sync.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TactIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TimerIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Satellite.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Top.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\SubScheme.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Property.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Atesion.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\PropertyImage.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Scheme.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SchemeIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StorageIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StructIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="module.set">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

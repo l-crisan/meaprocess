@@ -1,0 +1,2 @@
+Mp.Core.Err.LostData#The element '%s' has lost data.
+Mp.Core.Err.Overload#The system is overloaded. Please reduce the signal sample rate.

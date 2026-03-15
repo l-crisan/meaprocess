@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mps-audio", "mps-audio.vcproj", "{067DEEA1-5C42-4ECD-AFC6-CD8B25AEEA58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{067DEEA1-5C42-4ECD-AFC6-CD8B25AEEA58}.Debug|Win32.ActiveCfg = Debug|Win32
+		{067DEEA1-5C42-4ECD-AFC6-CD8B25AEEA58}.Debug|Win32.Build.0 = Debug|Win32
+		{067DEEA1-5C42-4ECD-AFC6-CD8B25AEEA58}.Release|Win32.ActiveCfg = Release|Win32
+		{067DEEA1-5C42-4ECD-AFC6-CD8B25AEEA58}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

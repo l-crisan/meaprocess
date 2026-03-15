@@ -1,0 +1,12 @@
+SubDir TOP src mpal-debugger ;
+
+SubDirHdrs $(TOP)/include ; 
+SubDirObjects $(OUTPUT_OBJECT) mpal-debugger ;
+
+Main mpal-debugger : main.cpp ;
+
+LinkSharedLibraries mpal-debugger : mpal-vm  ;
+
+LinkFlags mpal-debugger : $(MPS_LINKFLAGS) ;
+
+MakeLocate   mpal-debugger : $(MPS_BINDIR) ;

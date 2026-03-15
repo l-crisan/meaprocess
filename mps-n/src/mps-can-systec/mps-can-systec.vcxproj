@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="LinuxARM64Debug|Win32">
+      <Configuration>LinuxARM64Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="LinuxARM64Release|Win32">
+      <Configuration>LinuxARM64Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WinX64Debug|Win32">
+      <Configuration>WinX64Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WinX64Release|Win32">
+      <Configuration>WinX64Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Factory.h" />
+    <ClInclude Include="SystecCANDriver.h" />
+    <ClInclude Include="SystecCANDriverImpl.h" />
+    <ClInclude Include="UCanLibrary.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Factory.cpp" />
+    <ClCompile Include="SystecCANDriver.cpp" />
+    <ClCompile Include="SystecCANDriverImpl.cpp" />
+    <ClCompile Include="UCanLibrary.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Jamfile" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{624760A0-4D06-4BC6-BFF7-9C43D67571D0}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinX64Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinX64Release|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Release|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='WinX64Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='WinX64Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinX64Debug|Win32'">
+    <NMakeOutput>mps-can-systec.exe</NMakeOutput>
+    <NMakePreprocessorDefinitions>WIN32;_DEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>..\..\include\</NMakeIncludeSearchPath>
+    <OutDir>$(SolutionDir)\build\$(Configuration)</OutDir>
+    <IntDir>$(SolutionDir)\tmp\$(ProjectName)</IntDir>
+    <NMakeBuildCommandLine>$(SolutionDir)vs-jam-build.bat $(Configuration) $(ProjectName)</NMakeBuildCommandLine>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Debug|Win32'">
+    <NMakeOutput>mps-can-systec.exe</NMakeOutput>
+    <NMakePreprocessorDefinitions>WIN32;_DEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>..\..\include\</NMakeIncludeSearchPath>
+    <OutDir>$(SolutionDir)\build\$(Configuration)</OutDir>
+    <IntDir>$(SolutionDir)\tmp\$(ProjectName)</IntDir>
+    <NMakeBuildCommandLine>$(SolutionDir)vs-jam-build.bat $(Configuration) $(ProjectName)</NMakeBuildCommandLine>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinX64Release|Win32'">
+    <NMakeOutput>mps-can-systec.exe</NMakeOutput>
+    <NMakePreprocessorDefinitions>WIN32;NDEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeBuildCommandLine>cd $(SolutionDir) &amp;&amp; call cd $(SolutionDir) &amp;&amp; pt-jam  configure -sCONFIG=WinX86Release -sTARGET_OSPLAT=x86 --release --optimize &amp;&amp; cd $(SolutionDir) &amp;&amp; pt-jam  -sTOP=$(SolutionDir)  mps-can-systec -j4 -q</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>cd $(SolutionDir) &amp;&amp; call cd $(SolutionDir) &amp;&amp; pt-jam  configure -sCONFIG=WinX86Release -sTARGET_OSPLAT=x86 --release --optimize &amp;&amp; cd $(SolutionDir) &amp;&amp; pt-jam  -sTOP=$(SolutionDir) -j4 clean</NMakeCleanCommandLine>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Release|Win32'">
+    <NMakeOutput>mps-can-systec.exe</NMakeOutput>
+    <NMakePreprocessorDefinitions>WIN32;NDEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeBuildCommandLine>$(SolutionDir)vs-jam-build.bat $(Configuration) $(ProjectName)</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>cd $(SolutionDir) &amp;&amp; call cd $(SolutionDir) &amp;&amp; pt-jam  configure -sCONFIG=WinX86Release -sTARGET_OSPLAT=x86 --release --optimize &amp;&amp; cd $(SolutionDir) &amp;&amp; pt-jam  -sTOP=$(SolutionDir) -j4 clean</NMakeCleanCommandLine>
+    <OutDir>$(SolutionDir)\build\$(Configuration)</OutDir>
+    <IntDir>$(SolutionDir)\tmp\$(ProjectName)</IntDir>
+    <NMakeIncludeSearchPath>..\..\include\</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AxisColor" xml:space="preserve">
+    <value>Define the axis color.</value>
+  </data>
+  <data name="Colors" xml:space="preserve">
+    <value>Colors</value>
+  </data>
+  <data name="DrawLine" xml:space="preserve">
+    <value>Shows the lines.</value>
+  </data>
+  <data name="DrawPoint" xml:space="preserve">
+    <value>Shows the points.</value>
+  </data>
+  <data name="Grid" xml:space="preserve">
+    <value>Grid</value>
+  </data>
+  <data name="GridColor" xml:space="preserve">
+    <value>Define the grid color.</value>
+  </data>
+  <data name="GridLineStyle" xml:space="preserve">
+    <value>Define the grid line style.</value>
+  </data>
+  <data name="GridXDivision" xml:space="preserve">
+    <value>Define the grid X division.</value>
+  </data>
+  <data name="GridYDivision" xml:space="preserve">
+    <value>Define the grid Y division.</value>
+  </data>
+  <data name="LineColor" xml:space="preserve">
+    <value>Define the line color.</value>
+  </data>
+  <data name="NoOfPoints" xml:space="preserve">
+    <value>The number of points in the chart.</value>
+  </data>
+  <data name="PointColor" xml:space="preserve">
+    <value>Define the point color.</value>
+  </data>
+  <data name="ShowControlPanel" xml:space="preserve">
+    <value>Show the control panel.</value>
+  </data>
+  <data name="SpectrumDiagram" xml:space="preserve">
+    <value>Define if this diagram is a spectrum diagram.</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Appearance</value>
+  </data>
+  <data name="XAxis" xml:space="preserve">
+    <value>X-Axis</value>
+  </data>
+  <data name="XAxisDevision" xml:space="preserve">
+    <value>Define the X-axis devision.</value>
+  </data>
+  <data name="XAxisPrecision" xml:space="preserve">
+    <value>Define the X-axis precision.</value>
+  </data>
+  <data name="XMaximum" xml:space="preserve">
+    <value>Define the X-axis maximum.</value>
+  </data>
+  <data name="XMinimum" xml:space="preserve">
+    <value>Define the X-axis minimum.</value>
+  </data>
+  <data name="XMinMaxErr" xml:space="preserve">
+    <value>The X maximum must be greather as minimum</value>
+  </data>
+  <data name="YAxis" xml:space="preserve">
+    <value>Y-Axis</value>
+  </data>
+  <data name="YAxisDevision" xml:space="preserve">
+    <value>Define the Y-axis devision.</value>
+  </data>
+  <data name="YAxisPrecision" xml:space="preserve">
+    <value>Define the Y-axis precision.</value>
+  </data>
+  <data name="YMaximum" xml:space="preserve">
+    <value>Define the Y-axis maximum.</value>
+  </data>
+  <data name="YMinimum" xml:space="preserve">
+    <value>Define the Y-axis minimum.</value>
+  </data>
+  <data name="YMinMaxErr" xml:space="preserve">
+    <value>The Y maximum must be greather as minimum.</value>
+  </data>
+  <data name="ReferenceCurves" xml:space="preserve">
+    <value>Reference curves</value>
+  </data>
+  <data name="RemoveRefCurve" xml:space="preserve">
+    <value>Do you want to remove the selected reference curve(s)?</value>
+  </data>
+  <data name="CurveYSigAssgn" xml:space="preserve">
+    <value>The curve no. {0} don't have a Y signal assigned.</value>
+  </data>
+  <data name="Editable" xml:space="preserve">
+    <value>Allow user to edit the chart properties</value>
+  </data>
+  <data name="XLog" xml:space="preserve">
+    <value>The X axis logarithmic.</value>
+  </data>
+  <data name="YLog" xml:space="preserve">
+    <value>The Y axis logatithmic</value>
+  </data>
+  <data name="LogRangeErr" xml:space="preserve">
+    <value>By logarithmic scale the minimum and maximum must be greater or equal as 1.</value>
+  </data>
+</root>

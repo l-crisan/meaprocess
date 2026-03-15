@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="C1001" xml:space="preserve">
+    <value>: error C1001: Der Typ '{0}' kann nicht implizit in den Typ '{1}' konvertiert werden</value>
+  </data>
+  <data name="C1002" xml:space="preserve">
+    <value>: error C1002: Undefiniertes Symbol '{0}'</value>
+  </data>
+  <data name="C1003" xml:space="preserve">
+    <value>: error C1003: Eine Konstante kann nicht beschrieben werden</value>
+  </data>
+  <data name="C1004" xml:space="preserve">
+    <value>: error C1004: Die Operation ist nicht definiert für '{0}' und '{1}'</value>
+  </data>
+  <data name="C1004_1" xml:space="preserve">
+    <value>: error C1004: Operation ist nicht definiert für '{0}'</value>
+  </data>
+  <data name="C1005" xml:space="preserve">
+    <value>: error C1005: Die Integerkonstante ist zu groß</value>
+  </data>
+  <data name="C1006" xml:space="preserve">
+    <value>: error C1006: Die Realkonstante ist zu groß</value>
+  </data>
+  <data name="C1007" xml:space="preserve">
+    <value>: error C1007: Die IF oder die ELSEIF Kondition muss vom Typ BOOL sein</value>
+  </data>
+  <data name="C1008" xml:space="preserve">
+    <value>: error C1008: '{0}' ist kein Element von '{1}'</value>
+  </data>
+  <data name="C1009" xml:space="preserve">
+    <value>: error C1009: '{0}' ist kein Strukturierter Typ und kann nicht selektiert werden</value>
+  </data>
+  <data name="C1010" xml:space="preserve">
+    <value>: error C1010: '{0}' ist kein Arraytyp und kann nicht selektiert werden</value>
+  </data>
+  <data name="C1011" xml:space="preserve">
+    <value>: error C1011: Zu viele Indexparameter für '{0}'</value>
+  </data>
+  <data name="C1012" xml:space="preserve">
+    <value>: error C1012: Der Index '{0}' ist ausserhalb des Bereichs</value>
+  </data>
+  <data name="C1013" xml:space="preserve">
+    <value>: error C1013: Der Funktionsaufruf '{0}' hat zu viele Parameter</value>
+  </data>
+  <data name="C1014" xml:space="preserve">
+    <value>: error C1014: Die explizite Parameterzuweisung für die Funktion '{0}' wird nicht unterstüzt</value>
+  </data>
+  <data name="C1015" xml:space="preserve">
+    <value>: error C1015: Eine Konstante kann nicht inkrementiert oder dekrementiert werden</value>
+  </data>
+  <data name="C1016" xml:space="preserve">
+    <value>: error C1016: Nur Variable können inkrementiert oder dekrementiert werden</value>
+  </data>
+  <data name="C1017" xml:space="preserve">
+    <value>: error C1017: Die Arrayindizierung ist nicht vollständig,  '{0}' kann nicht selektiert werden</value>
+  </data>
+  <data name="C1018" xml:space="preserve">
+    <value>: error C1018: Nur Integertypen können in CASE verwendet werden </value>
+  </data>
+  <data name="C1019" xml:space="preserve">
+    <value>: error C1019: '{0}' ist keine Konstante, nur Konstanten können in CASE verwendet werden</value>
+  </data>
+  <data name="C1020" xml:space="preserve">
+    <value>: error C1020: '{0}' ist keine Integerkonstante, nur Integerkonstanten können in CASE verwendet werden</value>
+  </data>
+  <data name="C1021" xml:space="preserve">
+    <value>: error C1021: Der Fall in der Zeile '{0}' hat eine oder mehrere Werte gleich mit den Werten in der Zeile  '{1}'</value>
+  </data>
+  <data name="C1022" xml:space="preserve">
+    <value>: error C1022: '{0}' ist kein Integer, nur Integertypen können für die Variable verwendet werden</value>
+  </data>
+  <data name="C1023" xml:space="preserve">
+    <value>: error C1023: Ein Integertyp für die Endvariable wird erwartet</value>
+  </data>
+  <data name="C1024" xml:space="preserve">
+    <value>: error C1024: Der EXIT Ausdruck kann nur innerhalb einer Schleife verwendet werden</value>
+  </data>
+  <data name="C1025" xml:space="preserve">
+    <value>: error C1025: Der CONTINUE Ausdruck kann nur innerhalb einer Schleife verwendet werden</value>
+  </data>
+  <data name="C1026" xml:space="preserve">
+    <value>: error C1026: Die Bedingung einer While-Schleife muß vom Typ BOOL sein</value>
+  </data>
+  <data name="C1027" xml:space="preserve">
+    <value>: error C1027: Nur Gleitkommazahlen können gerundet werden</value>
+  </data>
+  <data name="C1028" xml:space="preserve">
+    <value>: error C1028: Die Funktion '{0}' akzeptiert nur numerische Typen</value>
+  </data>
+  <data name="C1029" xml:space="preserve">
+    <value>: error C1029: Die Funktion '{0}' akzeptiert nur Bit-String Typen</value>
+  </data>
+  <data name="C1030" xml:space="preserve">
+    <value>: error C1030: Falsche Parameteranzahl für die Funktion '{0}'</value>
+  </data>
+  <data name="C1031" xml:space="preserve">
+    <value>: error C1031: Falsche Parameterzuweisung für die Funktion '{0}'</value>
+  </data>
+  <data name="C1032" xml:space="preserve">
+    <value>: error C1032: Der IN-Parameter für die Bitstringfunktion '{0}' fehlt</value>
+  </data>
+  <data name="C1033" xml:space="preserve">
+    <value>: error C1033: Der N-Parameter für die Bitstringfunktion '{0}' fehlt</value>
+  </data>
+  <data name="C1034" xml:space="preserve">
+    <value>: error C1034: Die Bitstring-Funktion '{0}' ist nicht definiert für den Typ '{1}'</value>
+  </data>
+  <data name="C1035" xml:space="preserve">
+    <value>: error C1035: Die Funktion '{0}' ist nicht definiert</value>
+  </data>
+  <data name="C1036" xml:space="preserve">
+    <value>: error C1036: Der Parameter '{0}' der Funktion '{1}' kann nicht zugewiesen werden</value>
+  </data>
+  <data name="C1037" xml:space="preserve">
+    <value>: error C1037: Der Parameter '{0}' der Funktion '{1}' ist nicht definiert</value>
+  </data>
+  <data name="C1038" xml:space="preserve">
+    <value>: error C1038: Falsche Parameterzuweisung '{0}' für die Funktion '{1}'</value>
+  </data>
+  <data name="C1039" xml:space="preserve">
+    <value>: error C1039: Zu viele Parameter für die Funktion '{0}'</value>
+  </data>
+  <data name="C1040" xml:space="preserve">
+    <value>: error C1040: Die Funktion '{0}' erwartet nur einen Parameter</value>
+  </data>
+  <data name="C1041" xml:space="preserve">
+    <value>: error C1041: Der Parameter '{0}' der Funktion '{1}' ist ein Ausgabeparameter und kann nicht mit einer Konstante assoziiert werden</value>
+  </data>
+  <data name="C1042" xml:space="preserve">
+    <value>: error C1042: Der Rückgabewert der Funktion '{0}' wird nicht verwendet</value>
+  </data>
+  <data name="C1043" xml:space="preserve">
+    <value>: error C1043: Der Selektor der Funktion SEL muß von Typ BOOL sein</value>
+  </data>
+  <data name="C1044" xml:space="preserve">
+    <value>: error C1044: Die Funktionen MAX, MIN erwarten nur numerische Parameter</value>
+  </data>
+  <data name="C1045" xml:space="preserve">
+    <value>: error C1045: Die Parameter der MUX Funktion müssen den selben Typ haben</value>
+  </data>
+  <data name="C1046" xml:space="preserve">
+    <value>: error C1046: Der Parameter K der Funktion MUX muß vom Typ Integer sein</value>
+  </data>
+  <data name="C1047" xml:space="preserve">
+    <value>: error C1047: Nur Funktionblöcke können als Typ verwendet werden</value>
+  </data>
+  <data name="C1048" xml:space="preserve">
+    <value>: error C1048: Der Funktionsblock '{0}' muss instanziert werden</value>
+  </data>
+  <data name="C1049" xml:space="preserve">
+    <value>: error C1049: Auf das Member '{0}' des Funktionsblocks '{1}' kann nicht zugegriffen werden</value>
+  </data>
+  <data name="C1050" xml:space="preserve">
+    <value>: error C1050: Der Parameter '{0}' der Funktion '{1}' ist ein Ausgabeparameter und kann nicht zugewiesen werden.</value>
+  </data>
+  <data name="C1051" xml:space="preserve">
+    <value>: error C1051: Teilung durch 0-Konstante</value>
+  </data>
+  <data name="C1052" xml:space="preserve">
+    <value>: error C1051: Die Function '{0}' wird nicht unterstützt.</value>
+  </data>
+  <data name="D1001" xml:space="preserve">
+    <value>: error D1001: Der Typ '{0}' ist bereits definiert</value>
+  </data>
+  <data name="D1002" xml:space="preserve">
+    <value>: error D1002: Die Funktion '{0}' ist bereits definiert</value>
+  </data>
+  <data name="D1003" xml:space="preserve">
+    <value>: error D1003: Diese Unit beinhaltet mehr als ein Program</value>
+  </data>
+  <data name="D1004" xml:space="preserve">
+    <value>: error D1004: Die Variable '{0}' ist bereits definiert</value>
+  </data>
+  <data name="D1005" xml:space="preserve">
+    <value>: error D1005: Die Member '{0}' der Struktur '{1}' ist bereits definiert</value>
+  </data>
+  <data name="D1006" xml:space="preserve">
+    <value>: error D1006: Die Länge des Default-Werts '{0}' ist zu groß für diese Zeichenkette</value>
+  </data>
+  <data name="D1007" xml:space="preserve">
+    <value>: error D1007: Die Funktionrückgabevariable '{0}' ist bereits definiert</value>
+  </data>
+  <data name="D1008" xml:space="preserve">
+    <value>: error D1008: Die Enumerationstyp '{0}' ist bereits definiert</value>
+  </data>
+  <data name="G1001" xml:space="preserve">
+    <value>: error G1001: Der Typ des Symbols '{0}' ist nicht kompatibel als Arraybereich</value>
+  </data>
+  <data name="G1002" xml:space="preserve">
+    <value>: error G1002: Der Defaultwert '{0}' ist ungültig</value>
+  </data>
+  <data name="G1004" xml:space="preserve">
+    <value>: error G1004: Der Typ des Default-Werts ist nicht kompatibel zum Variablentyp</value>
+  </data>
+  <data name="G1005" xml:space="preserve">
+    <value>: error G1005: Nicht definiertes Symbol '{0}'</value>
+  </data>
+  <data name="G1006" xml:space="preserve">
+    <value>: error G1006: Der Typ des Symbols '{0}' ist nicht kompatibel als Arraydimension</value>
+  </data>
+  <data name="G1007" xml:space="preserve">
+    <value>: error G1007: Falscher Arraybereich für '{0}'</value>
+  </data>
+  <data name="G1008" xml:space="preserve">
+    <value>: error G1008: Falsche Array-Defaultinitialisierung für '{0}'</value>
+  </data>
+  <data name="G1009" xml:space="preserve">
+    <value>: error G1009: Die Konstante '{0}' muß ein Defaultwert haben</value>
+  </data>
+  <data name="G1010" xml:space="preserve">
+    <value>: error G1010: Der Parameter '{0}' der Funktion '{1}' ist ein Ausgabeparameter und kann nicht mit einer Konstante assoziiert werden</value>
+  </data>
+  <data name="G1011" xml:space="preserve">
+    <value>: error G1011: Der Parameter '{0}' der Funktion '{1}' ist ein 'private' Parameter und kann nicht zugewiesen werden</value>
+  </data>
+  <data name="G1012" xml:space="preserve">
+    <value>: error G1012: Der Parameter '{0}' der Funktion '{1}' kann nicht mit Defaultwerten innerhalb der FB initialisiert werden</value>
+  </data>
+  <data name="G1013" xml:space="preserve">
+    <value>: error G1013: Die Variable '{0}' von Typ FB kann nicht in einer konstanten Sektion instanziert werden</value>
+  </data>
+  <data name="G1014" xml:space="preserve">
+    <value>: error G1013: Die Variable '{0}' von Typ FB kann nicht instanziert werden (Größe = 0)</value>
+  </data>
+  <data name="G1015" xml:space="preserve">
+    <value>: error G1015: Der Datentyp '{0}' wird nicht unterstützt.</value>
+  </data>
+</root>

@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files\API">
+      <UniqueIdentifier>{0d678fbf-5823-4404-bed7-c8d8b7d8daaf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AbsInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AcosInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AddInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AddOffsetInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AndInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AsinInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AtanInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CallInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConvertInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CosInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DebuggerContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DecInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DivInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EqInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpdInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Function.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GrInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IncInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Instruction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InstructionTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JmpFALSEInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JmpInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JmpTRUEInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LeInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LimitInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LineInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LnInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LogInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LsInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MaxInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MinInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ModInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mpal\vm\mpal-vm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MulInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MuxInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NegInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NeInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NotInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Operand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OrInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Parameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PopRefInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PopTempInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PowInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgramInfoImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PushRefInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PushTempInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReturnInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RolInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RorInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RoundInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SelInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShlInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShrInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SinInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SqrInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SqrtInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SubInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TanInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TruncInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualMachineImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VMContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XorInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InstructionCode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mpal\vm\BreakPoint.h">
+      <Filter>Header Files\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mpal\vm\Debugger.h">
+      <Filter>Header Files\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mpal\vm\ProgramInfo.h">
+      <Filter>Header Files\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mpal\vm\Variable.h">
+      <Filter>Header Files\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mpal\vm\VirtualMachine.h">
+      <Filter>Header Files\API</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CallInst.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Debugger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DebuggerContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Function.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Loader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Operand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Parameter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgramInfoImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualMachine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualMachineImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BreakPoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Instruction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InstructionTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Variable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Jamfile" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Classing" xml:space="preserve">
+    <value>Classing</value>
+  </data>
+  <data name="ClassingError" xml:space="preserve">
+    <value>The file for the classing is expected.</value>
+  </data>
+  <data name="ClassingOutError" xml:space="preserve">
+    <value>The element '{0}' doesn't have signals mapped to a classing.</value>
+  </data>
+  <data name="ClassingPsDescription" xml:space="preserve">
+    <value>Classing
+
+Classify the signals.</value>
+  </data>
+  <data name="DataInPortNotConnectedErr" xml:space="preserve">
+    <value>The data input port of the element '{0}' is not connected.</value>
+  </data>
+  <data name="EffectiveValue" xml:space="preserve">
+    <value>Effective value</value>
+  </data>
+  <data name="FileError" xml:space="preserve">
+    <value>A file definition expected.</value>
+  </data>
+  <data name="HistogramView" xml:space="preserve">
+    <value>Histogram</value>
+  </data>
+  <data name="HystError" xml:space="preserve">
+    <value>The hysteresis must be a % number between 0 and 100.</value>
+  </data>
+  <data name="LevelCrossingCounting" xml:space="preserve">
+    <value>Level crossing counting</value>
+  </data>
+  <data name="LowerUpperError" xml:space="preserve">
+    <value>The upper limit must be greater as the lower limit.</value>
+  </data>
+  <data name="Maximum" xml:space="preserve">
+    <value>Maximum</value>
+  </data>
+  <data name="MeanValue" xml:space="preserve">
+    <value>Arithmetic Mean</value>
+  </data>
+  <data name="Median" xml:space="preserve">
+    <value>Median</value>
+  </data>
+  <data name="MenuProperties" xml:space="preserve">
+    <value>Properties...</value>
+  </data>
+  <data name="Minimum" xml:space="preserve">
+    <value>Minimum</value>
+  </data>
+  <data name="MinMaxErr" xml:space="preserve">
+    <value>The maximum value must be greater as the minimum.</value>
+  </data>
+  <data name="NoClassingDefinedErr" xml:space="preserve">
+    <value>Minimum one classing must be defined.</value>
+  </data>
+  <data name="NoOfClassesError" xml:space="preserve">
+    <value>The number of classes must be greather as 0.</value>
+  </data>
+  <data name="PeakCounting1" xml:space="preserve">
+    <value>Peak counting 1</value>
+  </data>
+  <data name="PeakCounting2" xml:space="preserve">
+    <value>Peak counting 2</value>
+  </data>
+  <data name="PeakPeak" xml:space="preserve">
+    <value>Peak-peak value</value>
+  </data>
+  <data name="RootMeanSquareDeviation" xml:space="preserve">
+    <value>Root mean square deviation</value>
+  </data>
+  <data name="Sampling" xml:space="preserve">
+    <value>Sampling</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>Statistics</value>
+  </data>
+  <data name="StatisticValues" xml:space="preserve">
+    <value>Statistic Values</value>
+  </data>
+  <data name="StatisticValuesDescription" xml:space="preserve">
+    <value>Statistic Values
+
+Calculate statistic values of one signal.</value>
+  </data>
+  <data name="TriggerPortNeed2SigErr" xml:space="preserve">
+    <value>The trigger port with start/stop trigger of the process station '' need two signal.</value>
+  </data>
+  <data name="TriggerPortSigError" xml:space="preserve">
+    <value>The trigger port of the element '{0}' don't have a signal.</value>
+  </data>
+  <data name="Variance" xml:space="preserve">
+    <value>Variance</value>
+  </data>
+  <data name="ZeroCrossingPeak" xml:space="preserve">
+    <value>Zero-crossing peak counting</value>
+  </data>
+  <data name="ZeroErr" xml:space="preserve">
+    <value>A value of 0 is not valid.</value>
+  </data>
+  <data name="Counter" xml:space="preserve">
+    <value>Counter</value>
+  </data>
+  <data name="CounterDescription" xml:space="preserve">
+    <value>Counter
+
+Count events.</value>
+  </data>
+  <data name="Event" xml:space="preserve">
+    <value>Event</value>
+  </data>
+  <data name="Maxima" xml:space="preserve">
+    <value>Maxima</value>
+  </data>
+  <data name="Minima" xml:space="preserve">
+    <value>Minima</value>
+  </data>
+  <data name="InPortINotCon" xml:space="preserve">
+    <value>The input port '{0}' of the element '{1}' is not connected.</value>
+  </data>
+  <data name="OutPortINotCon" xml:space="preserve">
+    <value>The output port '{0}' of the element '{1}' is not connected.</value>
+  </data>
+  <data name="SigNameErr" xml:space="preserve">
+    <value>The output signal of the input signal '{0}' needs a name.</value>
+  </data>
+  <data name="OutPortINoSigErr" xml:space="preserve">
+    <value>The output port '{0}' of the element '{1}' don't have signals.</value>
+  </data>
+  <data name="SigDupInInput" xml:space="preserve">
+    <value>The signal '{0}' in the element '{1}' is more than once available as input.</value>
+  </data>
+  <data name="MinimaAndMaxima" xml:space="preserve">
+    <value>Minima and Maxima</value>
+  </data>
+  <data name="MinimaMaxima" xml:space="preserve">
+    <value>Minima/Maxima</value>
+  </data>
+  <data name="MinimaMaximaDescription" xml:space="preserve">
+    <value>Minima/Maxima
+
+Calculate the minima and maxima of one or more signals.</value>
+  </data>
+  <data name="ZeroCrossing" xml:space="preserve">
+    <value>Zero crossing</value>
+  </data>
+  <data name="ZeroCrossingFalling" xml:space="preserve">
+    <value>Zero crossing falling</value>
+  </data>
+  <data name="ZeroCrossingRising" xml:space="preserve">
+    <value>Zero crossing rising</value>
+  </data>
+  <data name="CubicMean" xml:space="preserve">
+    <value>Cubic mean</value>
+  </data>
+  <data name="GeometricMean" xml:space="preserve">
+    <value>Geometric mean</value>
+  </data>
+  <data name="HarmonicMean" xml:space="preserve">
+    <value>Harmonic mean</value>
+  </data>
+  <data name="QuadraticMean" xml:space="preserve">
+    <value>Quadratic mean</value>
+  </data>
+</root>

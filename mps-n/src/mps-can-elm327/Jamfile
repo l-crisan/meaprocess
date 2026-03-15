@@ -1,0 +1,15 @@
+SubDir TOP src mps-can-elm327 ;
+
+SubDirHdrs $(TOP)/include ; 
+
+SubDirC++Flags [ FDefines MPSCANKELM327_EXPORTS ] ;
+
+SharedLibrary mps-can-elm327 : 
+						   ELM327Driver.cpp
+						   Factory.cpp
+						   ;
+
+
+LinkSharedLibraries mps-can-elm327 : mps-drv-ca ;
+
+MakeLocate  mps-can-elm327 : $(MPS_BINDIR) ;

@@ -1,0 +1,15 @@
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Release\Mp.Mod.CAN.View.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Release\Mp.Mod.CAN.View.pdb
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Release\de-DE\Mp.Mod.CAN.View.resources.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.CAN.View\obj\Release\Mp.Mod.CAN.View.csproj.AssemblyReference.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.CAN.View\obj\Release\Mp.Mod.CAN.View.CANViewDlg.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.CAN.View\obj\Release\Mp.Mod.CAN.View.Resource.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.CAN.View\obj\Release\Mp.Mod.CAN.View.StringResource.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.CAN.View\obj\Release\Mp.Mod.CAN.View.CANViewDlg.de-DE.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.CAN.View\obj\Release\Mp.Mod.CAN.View.StringResource.de-DE.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.CAN.View\obj\Release\Mp.Mod.CAN.View.csproj.GenerateResource.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.CAN.View\obj\Release\Mp.Mod.CAN.View.csproj.CoreCompileInputs.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.CAN.View\obj\Release\de-DE\Mp.Mod.CAN.View.resources.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.CAN.View\obj\Release\Mp.Mod.CAN.View.csproj.CopyComplete
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.CAN.View\obj\Release\Mp.Mod.CAN.View.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.CAN.View\obj\Release\Mp.Mod.CAN.View.pdb

@@ -1,0 +1,14 @@
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Release\Mp.Scheme.Info.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Release\Mp.Scheme.Info.pdb
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Release\de-DE\Mp.Scheme.Info.resources.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Scheme.Info\obj\Release\Mp.Scheme.Info.csproj.AssemblyReference.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Scheme.Info\obj\Release\Mp.Scheme.Info.SchemeInfoDlg.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Scheme.Info\obj\Release\Mp.Scheme.Info.StringResource.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Scheme.Info\obj\Release\Mp.Scheme.Info.StringResource.de-DE.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Scheme.Info\obj\Release\Mp.Scheme.Info.SchemeInfoDlg.de-DE.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Scheme.Info\obj\Release\Mp.Scheme.Info.csproj.GenerateResource.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Scheme.Info\obj\Release\Mp.Scheme.Info.csproj.CoreCompileInputs.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Scheme.Info\obj\Release\de-DE\Mp.Scheme.Info.resources.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Scheme.Info\obj\Release\Mp.Scheme.Info.csproj.CopyComplete
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Scheme.Info\obj\Release\Mp.Scheme.Info.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Scheme.Info\obj\Release\Mp.Scheme.Info.pdb

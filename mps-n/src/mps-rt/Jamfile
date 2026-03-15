@@ -1,0 +1,23 @@
+SubDir TOP src mps-rt ;
+
+SubDirHdrs $(TOP)/include ; 
+SubDirHdrs $(TOP)/src/mps-rt/$(SYS:L) ;
+
+
+SubDirObjects $(OUTPUT_OBJECT) mps-rt ;
+
+SystemInitSrc = [ FDirName $(SYS:L) System.cpp ] ;
+
+Main mps-rt : main.cpp
+              MpsApplication.cpp
+              MpsSettings.cpp
+              HTTPResponder.cpp
+              HTTPService.cpp
+              $(SystemInitSrc)
+              ;
+
+LinkSharedLibraries  mps-rt : mps-builder mps-core mps-modld  ;
+
+LinkFlags  mps-rt : $(MPS_LINKFLAGS) ;
+
+MakeLocate mps-rt : $(MPS_BINDIR) ;

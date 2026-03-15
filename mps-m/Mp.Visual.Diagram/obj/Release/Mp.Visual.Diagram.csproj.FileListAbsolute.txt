@@ -1,0 +1,6 @@
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Release\Mp.Visual.Diagram.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Visual.Diagram\obj\Release\Mp.Visual.Diagram.csproj.AssemblyReference.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Visual.Diagram\obj\Release\Mp.Visual.Diagram.DiagramCtrl.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Visual.Diagram\obj\Release\Mp.Visual.Diagram.csproj.GenerateResource.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Visual.Diagram\obj\Release\Mp.Visual.Diagram.csproj.CoreCompileInputs.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Visual.Diagram\obj\Release\Mp.Visual.Diagram.dll

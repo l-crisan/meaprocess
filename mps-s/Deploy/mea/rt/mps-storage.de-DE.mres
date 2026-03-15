@@ -1,0 +1,7 @@
+Mp.Storage.Err.File#Die Datei '%s' konnte nicht erzeugt werden.
+Mp.Storage.Err.SaveStop#Der Speicherungsprozess des Bausteins '%s' wurde gestoppt.
+Mp.Storage.Ask.Overwrite#Möchten Sie die vorhandene Datei '%s' überschreiben?
+Mp.Storage.Err.DescrFile#Die Datenbeschreibungsdatei '%s' konnte nicht gefunden werden.
+Mp.Storage.Err.DescrFileDiff#Die Datenbeschreibungsdatei '%s' unterscheidet sich von der Signaldefinition.
+Mp.Storage.Err.DataFile#Die Datei '%s' konnte nicht gefunden werden.
+Mp.Storage.Err.PS#Der Baustein '%s' wurde ausgeschaltet und in den Fehlerzustand versetzt.

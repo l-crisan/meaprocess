@@ -1,0 +1,7 @@
+Mp.Storage.Err.File#The file '%s' couldn't be created.
+Mp.Storage.Err.SaveStop#The saving task of the process station '%s' was stopped.
+Mp.Storage.Ask.Overwrite#Do you want to overwrite the existing file '%s'?
+Mp.Storage.Err.DescrFile#The data description file '%s' not found.
+Mp.Storage.Err.DescrFileDiff#The data description file '%s' is different from the signal definition.
+Mp.Storage.Err.DataFile#The data file '%s' not found.
+Mp.Storage.Err.PS#The element '%s' was disabled and set in error state.

@@ -1,0 +1,19 @@
+SubDir TOP src mps-gps ;
+
+SubDirHdrs $(TOP)/include ; 
+
+SubDirC++Flags [ FDefines MPS_GPS_EXPORTS ] ;
+
+SubDirObjects $(OUTPUT_OBJECT) mps-gps ;
+
+SharedLibrary mps-gps :  GpsObjectFactory.cpp 
+                         GpsPS.cpp
+                         GpsSignal.cpp
+                         NMEAParser.cpp
+                         ;
+
+LinkFlags  mps-gps  : $(MPS_LINKFLAGS) ;
+
+LinkSharedLibraries mps-gps : mps-core ;
+
+MakeLocate  mps-gps : $(MPS_BINDIR) ;

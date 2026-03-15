@@ -1,0 +1,16 @@
+SubDir TOP src mps-licence ;
+
+SubDirHdrs $(TOP)/include ; 
+
+SubDirC++Flags [ FDefines MPS_LICENCE_EXPORTS ] ;
+
+SubDirObjects $(OUTPUT_OBJECT) mps-licence ;
+
+SharedLibrary mps-licence : Des.cpp 
+                            Licence.cpp 
+                            Wrapper.cpp
+                            ;
+
+LinkFlags  mps-licence  : $(MPS_LINKFLAGS) ;
+
+MakeLocate mps-licence : $(MPS_BINDIR) ;

@@ -1,0 +1,8 @@
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Release\Antlr3.Runtime.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Release\Antlr3.Runtime.pdb
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Antlr3.Runtime\obj\Release\Antlr3.Runtime.csproj.AssemblyReference.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Antlr3.Runtime\obj\Release\Antlr.Runtime.Messages.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Antlr3.Runtime\obj\Release\Antlr3.Runtime.csproj.GenerateResource.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Antlr3.Runtime\obj\Release\Antlr3.Runtime.csproj.CoreCompileInputs.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Antlr3.Runtime\obj\Release\Antlr3.Runtime.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Antlr3.Runtime\obj\Release\Antlr3.Runtime.pdb

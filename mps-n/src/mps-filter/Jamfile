@@ -1,0 +1,21 @@
+SubDir TOP src mps-filter ;
+
+SubDirHdrs $(TOP)/include ; 
+SubDirC++Flags [ FDefines MPS_FILTER_EXPORTS ] ;
+
+SubDirObjects $(OUTPUT_OBJECT) mps-filter ;
+
+SharedLibrary mps-filter : 
+                     Bessel.cpp
+                     Elliptic.cpp 
+                     BesselCoef.cpp
+                     ButterworthCoef.cpp
+                     ChebyshevCoef.cpp
+                     EllipticCoef.cpp
+                     Filter.cpp
+                     mps-filter.cpp
+                     ;
+
+LinkFlags  mps-filter  : $(MPS_LINKFLAGS) ;
+
+MakeLocate mps-filter : $(MPS_BINDIR) ;

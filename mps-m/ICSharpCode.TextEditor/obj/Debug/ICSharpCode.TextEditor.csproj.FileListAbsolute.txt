@@ -1,0 +1,12 @@
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Debug\ICSharpCode.TextEditor.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Debug\ICSharpCode.TextEditor.pdb
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\ICSharpCode.TextEditor\obj\Debug\ICSharpCode.TextEditor.csproj.AssemblyReference.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\ICSharpCode.TextEditor\obj\Debug\ICSharpCode.TextEditor.csproj.CoreCompileInputs.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\ICSharpCode.TextEditor\obj\Debug\ICSharpCode.TextEditor.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\ICSharpCode.TextEditor\obj\Debug\ICSharpCode.TextEditor.pdb
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-m\build\Debug\ICSharpCode.TextEditor.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-m\build\Debug\ICSharpCode.TextEditor.pdb
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-m\ICSharpCode.TextEditor\obj\Debug\ICSharpCode.TextEditor.csproj.AssemblyReference.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-m\ICSharpCode.TextEditor\obj\Debug\ICSharpCode.TextEditor.csproj.CoreCompileInputs.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-m\ICSharpCode.TextEditor\obj\Debug\ICSharpCode.TextEditor.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-m\ICSharpCode.TextEditor\obj\Debug\ICSharpCode.TextEditor.pdb

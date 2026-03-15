@@ -1,0 +1,13 @@
+SubDir TOP src mps-drv-opencv ;
+
+SubDirHdrs $(TOP)/include ; 
+
+SubDirC++Flags [ FDefines MPS_OPENCV_EXPORTS ] ;
+SubDirObjects $(OUTPUT_OBJECT) mps-drv-opencv ;
+
+SharedLibrary mps-drv-opencv :  Driver.cpp
+						 ;
+
+LinkFlags  mps-drv-opencv  : $(MPS_LINKFLAGS) $(OPENCV_LIBS) ;
+
+MakeLocate  mps-drv-opencv : $(MPS_BINDIR) ;

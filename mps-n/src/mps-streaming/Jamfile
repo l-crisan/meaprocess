@@ -1,0 +1,21 @@
+SubDir TOP src mps-streaming ;
+
+SubDirHdrs $(TOP)/include ; 
+
+SubDirC++Flags [ FDefines MPS_STREAMING_EXPORTS ] ;
+
+SubDirObjects $(OUTPUT_OBJECT) mps-streaming ;
+
+SharedLibrary mps-streaming :  mps-streaming.cpp
+                               StreamingFactory.cpp
+                               StreamingSignal.cpp
+                               StreamingPSBase.cpp
+                               InPS.cpp
+                               OutPS.cpp
+                         ;
+
+LinkFlags  mps-streaming  : $(MPS_LINKFLAGS) ;
+
+LinkSharedLibraries mps-streaming : mps-core mps-stream-prot ;
+
+MakeLocate  mps-streaming : $(MPS_BINDIR) ;

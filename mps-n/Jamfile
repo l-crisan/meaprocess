@@ -1,0 +1,83 @@
+SubDir TOP ;
+
+include mps.jam ;
+
+#Applications and executables
+#----------------------------
+SubInclude TOP src mpal-debugger ;
+SubInclude TOP src mps-rt ;
+
+
+#MeaProcess core
+#----------------------------
+SubInclude TOP src mps-core ;
+
+if $(CONFIG) = "WinX64Debug" || $(CONFIG) = "WinX64Release"
+{
+SubInclude TOP src mps-licence ;
+}
+
+SubInclude TOP src mps-builder ;
+SubInclude TOP src mps-modld ;
+SubInclude TOP src mps-api ;
+SubInclude TOP src mps-timer ;
+SubInclude TOP src mps-stream-prot ;
+
+
+#MPAL virtual machines
+#----------------------------
+SubInclude TOP src mpal-vm ;
+SubInclude TOP src mpal-debugger ;
+
+
+#MeaProcess driver
+#----------------------------
+SubInclude TOP src mps-can-drv ;
+#SubInclude TOP src mps-can-elm327 ;
+SubInclude TOP src mps-can-demo ;
+SubInclude TOP src mps-diatp ;
+
+if $(CONFIG) = "WinX64Debug" || $(CONFIG) = "WinX64Release"
+{
+#SubInclude TOP src mps-can-kvaser ;
+SubInclude TOP src mps-can-peak ;
+#SubInclude TOP src mps-can-systec ;
+#SubInclude TOP src mps-can-vector ;
+}
+else
+{
+SubInclude TOP src mps-can-socket ;
+}
+
+SubInclude TOP src mps-drv-opencv ;
+SubInclude TOP src mps-drv-audio ;
+SubInclude TOP src mps-filter ;
+SubInclude TOP src mps-stream-prot ;
+
+
+#MeaProcess modules
+#----------------------------
+SubInclude TOP src mps-analysis ;
+SubInclude TOP src mps-audio ;
+SubInclude TOP src mps-calculation ;
+SubInclude TOP src mps-can ;
+SubInclude TOP src mps-clock ;
+SubInclude TOP src mps-controller ;
+SubInclude TOP src mps-event ;
+SubInclude TOP src mps-fft ;
+SubInclude TOP src mps-fgen ;
+SubInclude TOP src mps-gps ;
+SubInclude TOP src mps-streaming ;
+
+
+if $(CONFIG) = "WinX64Debug" || $(CONFIG) = "WinX64Release"
+{
+SubInclude TOP src mps-labjack ;
+SubInclude TOP src mps-obd2 ;
+}
+
+SubInclude TOP src mps-mpal ;
+
+SubInclude TOP src mps-statistics ;
+SubInclude TOP src mps-storage ;
+SubInclude TOP src mps-video-opencv ;

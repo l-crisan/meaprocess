@@ -1,0 +1,10 @@
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Release\Mp.Conv.Gui.exe.config
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Release\Mp.Conv.Gui.exe
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Release\Mp.Conv.Gui.pdb
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Conv.Gui\obj\Release\Mp.Conv.Gui.csproj.AssemblyReference.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Conv.Gui\obj\Release\Mp.Conv.Properties.Resources.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Conv.Gui\obj\Release\Mp.Conv.Gui.csproj.GenerateResource.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Conv.Gui\obj\Release\Mp.Conv.Gui.csproj.CoreCompileInputs.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Conv.Gui\obj\Release\Mp.Conv.Gui.csproj.CopyComplete
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Conv.Gui\obj\Release\Mp.Conv.Gui.exe
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Conv.Gui\obj\Release\Mp.Conv.Gui.pdb

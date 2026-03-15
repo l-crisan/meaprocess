@@ -1,0 +1,15 @@
+SubDir TOP src mps-modld ;
+
+SubDirHdrs $(TOP)/include ; 
+
+SubDirC++Flags [ FDefines MPS_MODLD_EXPORTS ] ;
+
+SubDirObjects $(OUTPUT_OBJECT) mps-modld ;
+
+SharedLibrary mps-modld :  ModuleLoader.cpp ;
+
+LinkSharedLibraries mps-modld : mps-core ;
+
+LinkFlags  mps-modld  : $(MPS_LINKFLAGS) ;
+
+MakeLocate mps-modld : $(MPS_BINDIR) ;

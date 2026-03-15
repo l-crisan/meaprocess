@@ -1,0 +1,55 @@
+<html dir="LTR">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=Windows-1252" />
+    <meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5" />
+    <title>PhysicalAxis.PhysicalToWorld Method</title>
+    <xml>
+    </xml>
+    <link rel="stylesheet" type="text/css" href="MSDN.css" />
+  </head>
+  <body id="bodyID" class="dtBODY">
+    <div id="nsbanner">
+      <div id="bannerrow1">
+        <table class="bannerparthead" cellspacing="0">
+          <tr id="hdr">
+            <td class="runninghead">NPlot Documented Class Library</td>
+            <td class="product">
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div id="TitleRow">
+        <h1 class="dtH1">PhysicalAxis.PhysicalToWorld Method </h1>
+      </div>
+    </div>
+    <div id="nstext">
+      <p class="topicstatus">[This is preliminary documentation and subject to change.]</p>
+      <p> Given a physical point on the graphics surface, returns the world value of it's projection onto the axis [i.e. closest point on the axis]. The function is implemented for axes of arbitrary orientation. </p>
+      <div class="syntax">public <a href="ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemDoubleClassTopic.htm">double</a> PhysicalToWorld(<br />   <a href="ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemDrawingPointClassTopic.htm">Point</a> <i>p</i>,<br />   <a href="ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemBooleanClassTopic.htm">bool</a> <i>clip</i><br />);</div>
+      <h4 class="dtH4">Parameters</h4>
+      <dl>
+        <dt>
+          <i>p</i>
+        </dt>
+        <dd>Physical point to find corresponding world value of.</dd>
+        <dt>
+          <i>clip</i>
+        </dt>
+        <dd>if true, returns a world position outside WorldMin / WorldMax range if this is closer to the axis line. If false, such values will be clipped to be either WorldMin or WorldMax as appropriate.</dd>
+      </dl>
+      <h4 class="dtH4">Return Value</h4>
+      <p>the world value of the point's projection onto the axis.</p>
+      <h4 class="dtH4">See Also</h4>
+      <p>
+        <a href="NPlot.PhysicalAxis.html">PhysicalAxis Class</a> | <a href="NPlot.html">NPlot Namespace</a></p>
+      <hr />
+      <div id="footer">
+        <p>
+          <a href="http://nplot.com/">Copyright (C) 2003-2006 Matt Howlett and others</a>
+        </p>
+        <p>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

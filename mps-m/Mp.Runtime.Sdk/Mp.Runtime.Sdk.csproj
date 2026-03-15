@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{11202063-A6A1-4766-9FB1-49F23F71D151}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Mp.Runtime.Sdk</RootNamespace>
+    <AssemblyName>Mp.Runtime.Sdk</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>..\build\Release\rt\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <OutputPath>..\Build\Debug\rt\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>false</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mp.Visual.Analog">
+      <HintPath>..\build\Release\Mp.Visual.Analog.dll</HintPath>
+    </Reference>
+    <Reference Include="Mp.Visual.Base">
+      <HintPath>..\build\Release\Mp.Visual.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Mp.Visual.Digital">
+      <HintPath>..\build\Release\Mp.Visual.Digital.dll</HintPath>
+    </Reference>
+    <Reference Include="Mp.Visual.FFT">
+      <HintPath>..\build\Release\Mp.Visual.FFT.dll</HintPath>
+    </Reference>
+    <Reference Include="Mp.Visual.GPS">
+      <HintPath>..\build\Release\Mp.Visual.GPS.dll</HintPath>
+    </Reference>
+    <Reference Include="Mp.Visual.HTML">
+      <HintPath>..\build\Release\Mp.Visual.HTML.dll</HintPath>
+    </Reference>
+    <Reference Include="Mp.Visual.NPlot">
+      <HintPath>..\build\Release\Mp.Visual.NPlot.dll</HintPath>
+    </Reference>
+    <Reference Include="Mp.Visual.Oscilloscope">
+      <HintPath>..\build\Release\Mp.Visual.Oscilloscope.dll</HintPath>
+    </Reference>
+    <Reference Include="Mp.Visual.PolarChart">
+      <HintPath>..\build\Release\Mp.Visual.PolarChart.dll</HintPath>
+    </Reference>
+    <Reference Include="Mp.Visual.TextEditor">
+      <HintPath>..\build\Release\Mp.Visual.TextEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Mp.Visual.Tree">
+      <HintPath>..\build\Release\Mp.Visual.Tree.dll</HintPath>
+    </Reference>
+    <Reference Include="Mp.Visual.Video">
+      <HintPath>..\build\Release\Mp.Visual.Video.dll</HintPath>
+    </Reference>
+    <Reference Include="Mp.Visual.WaveChart">
+      <HintPath>..\build\Release\Mp.Visual.WaveChart.dll</HintPath>
+    </Reference>
+    <Reference Include="Mp.Visual.XYChart">
+      <HintPath>..\build\Release\Mp.Visual.XYChart.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BarCtrlPS.cs" />
+    <Compile Include="CheckBoxPS.cs" />
+    <Compile Include="ComboBoxPS.cs" />
+    <Compile Include="BarViewBlockPS.cs" />
+    <Compile Include="DefaultModule.cs" />
+    <Compile Include="DigitalMeter7SegBlockPS.cs" />
+    <Compile Include="DigitalMeter7SegPS.cs" />
+    <Compile Include="DigitalMeterBlockPS.cs" />
+    <Compile Include="DigitalMeterPS.cs" />
+    <Compile Include="FactorOffsetSignalScaling.cs" />
+    <Compile Include="FFTViewPS.cs" />
+    <Compile Include="GaugeBlockPS.cs" />
+    <Compile Include="GaugePS.cs" />
+    <Compile Include="GPSTrackViewPS.cs" />
+    <Compile Include="HistogramViewPS.cs" />
+    <Compile Include="LedBlockPS.cs" />
+    <Compile Include="ManometerBlockPS.cs" />
+    <Compile Include="NumericControlBlockPS.cs" />
+    <Compile Include="OBD2DTCViewPS.cs" />
+    <Compile Include="OBD2StatusViewPS.cs" />
+    <Compile Include="PolarChartPS.cs" />
+    <Compile Include="RadioButtonPS.cs" />
+    <Compile Include="SignalListViewPS.cs" />
+    <Compile Include="OscilloscopePS.cs" />
+    <Compile Include="StringResource.de-DE.Designer.cs">
+      <DependentUpon>StringResource.de-DE.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="LedPS.cs" />
+    <Compile Include="ManometerPS.cs" />
+    <Compile Include="InputButtonPS.cs" />
+    <Compile Include="KnobPS.cs" />
+    <Compile Include="Module.cs" />
+    <Compile Include="NumericControlPS.cs" />
+    <Compile Include="NumericInputPS.cs" />
+    <Compile Include="NumericViewPS.cs" />
+    <Compile Include="ProcessStation.cs" />
+    <Compile Include="RuntimeEngine.cs" />
+    <Compile Include="Signal.cs" />
+    <Compile Include="SignalBasedPS.cs" />
+    <Compile Include="SignalList.cs" />
+    <Compile Include="ISignalScaling.cs" />
+    <Compile Include="SliderPS.cs" />
+    <Compile Include="StringResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StringResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SwitchPS.cs" />
+    <Compile Include="TachometerBlockPS.cs" />
+    <Compile Include="TachometerPS.cs" />
+    <Compile Include="TextViewPS.cs" />
+    <Compile Include="ThermometerBlockPS.cs" />
+    <Compile Include="ThermometerPS.cs" />
+    <Compile Include="VideoViewPS.cs" />
+    <Compile Include="VisualBlockPS.cs" />
+    <Compile Include="WaveChartPS.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XYChartPS.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="StringResource.de-DE.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>StringResource.de-DE.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StringResource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>StringResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Mp.Runtime.Adaption\Mp.Runtime.Adaption.csproj">
+      <Project>{68885cea-aee0-44f0-9f96-7eeb3ecf694c}</Project>
+      <Name>Mp.Runtime.Adaption</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Mp.Scheme.Deploy\Mp.Scheme.Deploy.csproj">
+      <Project>{33e7ca07-af6f-4792-a4e1-7f265eb20efe}</Project>
+      <Name>Mp.Scheme.Deploy</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Mp.Utils\Mp.Utils.csproj">
+      <Project>{6819783e-8981-4353-b396-e0ee33958260}</Project>
+      <Name>Mp.Utils</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Mp.Visual.OBD2\Mp.Visual.OBD2.csproj">
+      <Project>{eed416ac-7dac-469b-8a6a-2e66c343aaaf}</Project>
+      <Name>Mp.Visual.OBD2</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

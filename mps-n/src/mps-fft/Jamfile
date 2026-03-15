@@ -1,0 +1,19 @@
+SubInclude TOP src mps-fft kiss-fft ;
+
+SubDir TOP src mps-fft ;
+
+SubDirHdrs $(TOP)/include ; 
+SubDirHdrs $(TOP)/src/mps-fft/kiss-fft ;
+SubDirObjects $(OUTPUT_OBJECT) mps-fft ;
+SubDirC++Flags [ FDefines MPS_FFT_EXPORTS ] ;
+
+
+SharedLibrary mps-fft : mps-fft.cpp ;
+
+LinkLibraries  mps-fft : kiss-fft ;
+
+LinkSharedLibraries mps-fft : mps-core ;
+
+LinkFlags  mps-fft  : $(MPS_LINKFLAGS) ;
+
+MakeLocate  mps-fft : $(MPS_BINDIR) ;

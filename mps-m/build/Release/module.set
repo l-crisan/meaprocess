@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Runtimes>
+  <Runtime file="Mp.Scheme.Target.Win.dll">
+    <!--General stuff-->
+    <Module file="Mp.Mod.Clock.dll"/>
+    <Module file="Mp.Mod.Event.dll"/>
+    <Module file="Mp.Mod.Analysis.dll"/>
+    <Module file="Mp.Mod.Statistics.dll"/>
+    <Module file="Mp.Mod.Storage.dll"/>
+    <Module file="Mp.Mod.FGen.dll"/>
+    <Module file="Mp.Mod.MPAL.dll"/>
+    <Module file="Mp.Mod.Controller.dll"/>
+    <Module file="Mp.Mod.Calculation.dll"/>
+    <Module file="Mp.Mod.Streaming.dll"/>
+    <Module file="Mp.Mod.Scripting.dll"/>
+    <Module file="Mp.Mod.Audio.dll"/>
+    <Module file="Mp.Mod.Video.dll"/>
+	<!--IO stuff-->
+	<Module file="Mp.Mod.Can.dll"/>
+	<Module file="Mp.Mod.OBD2.dll"/>	
+	<Module file="Mp.Mod.GPS.dll"/>
+	<Module file="Mp.Mod.LabJackU12.dll"/>	  
+	<!--View stuff-->
+    <Module file="Mp.Mod.HTML.View.dll"/>
+    <Module file="Mp.Mod.FFT.View.dll"/>
+    <Module file="Mp.Mod.Statistics.View.dll"/>
+    <Module file="Mp.Mod.Statistic.View.dll"/>
+    <Module file="Mp.Mod.Video.View.dll"/>
+	<Module file="Mp.Mod.OBD2.View.dll"/>
+	<Module file="Mp.Mod.Can.View.dll"/>
+	<Module file="Mp.Mod.GPS.View.dll"/>
+  </Runtime>
+</Runtimes>

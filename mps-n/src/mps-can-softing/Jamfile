@@ -1,0 +1,21 @@
+SubDir TOP src mps-can-softing ;
+
+SubDirHdrs $(TOP)/include ; 
+SubDirHdrs $(TOP)/include/softing ;
+
+SubDirC++Flags [ FDefines MPSCANSOFTING_EXPORTS ] ;
+
+SharedLibrary mps-can-softing : 
+						   SoftingCANDriver.cpp
+ 						   SoftingCANDriverImpl.cpp
+						   Factory.cpp
+						   ;						  
+
+
+LinkFlags  mps-can-softing  : $(MPS_LINKFLAGS) canL2.lib ;
+
+LinkFlags  mps-can-softing  : $(MPS_LINKFLAGS) ;
+
+LinkSharedLibraries mps-can-softing : mps-drv-can ;
+
+MakeLocate  mps-can-softing : $(MPS_BINDIR) ;

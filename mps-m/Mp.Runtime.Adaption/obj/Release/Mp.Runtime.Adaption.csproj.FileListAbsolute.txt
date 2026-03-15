@@ -1,0 +1,6 @@
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Release\rt\Mp.Runtime.Adaption.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Release\rt\Mp.Runtime.Adaption.pdb
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Runtime.Adaption\obj\Release\Mp.Runtime.Adaption.csproj.AssemblyReference.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Runtime.Adaption\obj\Release\Mp.Runtime.Adaption.csproj.CoreCompileInputs.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Runtime.Adaption\obj\Release\Mp.Runtime.Adaption.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Runtime.Adaption\obj\Release\Mp.Runtime.Adaption.pdb

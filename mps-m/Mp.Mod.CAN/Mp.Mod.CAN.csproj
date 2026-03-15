@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{209773BB-134A-40FA-85F5-A3303000560D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Mp.Mod.CAN</RootNamespace>
+    <AssemblyName>Mp.Mod.CAN</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\build\Release\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\Build\Debug\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>..\..\..\..\build\Release\Scheme\Windows\Modules\</OutputPath>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <OutputPath>..\..\..\..\build\Debug\Scheme\Windows\Modules\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mp.Scheme.Sdk">
+      <HintPath>..\lib\Mp.Scheme.Sdk.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mp.Utils">
+      <HintPath>..\lib\Mp.Utils.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mp.Visual.Diagram">
+      <HintPath>..\lib\Mp.Visual.Diagram.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mp.Visual.Tree">
+      <HintPath>..\lib\Mp.Visual.Tree.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CANdbInportView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CANdbInportView.Designer.cs">
+      <DependentUpon>CANdbInportView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CANEventPS.cs" />
+    <Compile Include="CANInputPS.cs" />
+    <Compile Include="CANLoggerPortDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CANLoggerPortDlg.Designer.cs">
+      <DependentUpon>CANLoggerPortDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CANLoggerPS.cs" />
+    <Compile Include="CANModule.cs" />
+    <Compile Include="CANOutputPS.cs" />
+    <Compile Include="CANOutputPSDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CANOutputPSDlg.Designer.cs">
+      <DependentUpon>CANOutputPSDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CANPortDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CANPortDlg.Designer.cs">
+      <DependentUpon>CANPortDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CANSignalEditorDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CANSignalEditorDlg.Designer.cs">
+      <DependentUpon>CANSignalEditorDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CANEventPSDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CANEventPSDlg.Designer.cs">
+      <DependentUpon>CANEventPSDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CANWriteDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CANWriteDlg.Designer.cs">
+      <DependentUpon>CANWriteDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CANWritePS.cs" />
+    <Compile Include="SearchDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchDlg.Designer.cs">
+      <DependentUpon>SearchDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StringResource.de-DE.Designer.cs">
+      <DependentUpon>StringResource.de-DE.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="CreateMsgDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateMsgDlg.Designer.cs">
+      <DependentUpon>CreateMsgDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditCANOutputDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCANOutputDlg.Designer.cs">
+      <DependentUpon>EditCANOutputDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MessageView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MessageView.Designer.cs">
+      <DependentUpon>MessageView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="StringResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StringResource.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CANdbInportView.de-DE.resx">
+      <DependentUpon>CANdbInportView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CANdbInportView.resx">
+      <DependentUpon>CANdbInportView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CANLoggerPortDlg.de-DE.resx">
+      <DependentUpon>CANLoggerPortDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CANLoggerPortDlg.resx">
+      <DependentUpon>CANLoggerPortDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CANOutputPSDlg.de-DE.resx">
+      <DependentUpon>CANOutputPSDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CANOutputPSDlg.resx">
+      <DependentUpon>CANOutputPSDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CANPortDlg.de-DE.resx">
+      <DependentUpon>CANPortDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CANPortDlg.resx">
+      <DependentUpon>CANPortDlg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CANSignalEditorDlg.de-DE.resx">
+      <DependentUpon>CANSignalEditorDlg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CANSignalEditorDlg.resx">
+      <DependentUpon>CANSignalEditorDlg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CANWriteDlg.de-DE.resx">
+      <DependentUpon>CANWriteDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CANWriteDlg.resx">
+      <DependentUpon>CANWriteDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateMsgDlg.de-DE.resx">
+      <DependentUpon>CreateMsgDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCANOutputDlg.de-DE.resx">
+      <DependentUpon>EditCANOutputDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CANEventPSDlg.de-DE.resx">
+      <DependentUpon>CANEventPSDlg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CANEventPSDlg.resx">
+      <DependentUpon>CANEventPSDlg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessageView.de-DE.resx">
+      <DependentUpon>MessageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchDlg.de-DE.resx">
+      <DependentUpon>SearchDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchDlg.resx">
+      <DependentUpon>SearchDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StringResource.de-DE.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>StringResource.de-DE.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateMsgDlg.resx">
+      <DependentUpon>CreateMsgDlg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCANOutputDlg.resx">
+      <DependentUpon>EditCANOutputDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessageView.resx">
+      <DependentUpon>MessageView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StringResource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>StringResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CANImg.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Signal.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Message.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Folder.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CANImgIN.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CANImgOUT.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CANIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CANIconIN.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CANIconOUT.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DB.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Mp.Drv.CANdb\Mp.Drv.CANdb.csproj">
+      <Project>{65898343-5947-4836-9693-aed5518cad05}</Project>
+      <Name>Mp.Drv.CANdb</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Mp.Drv.CAN\Mp.Drv.CAN.csproj">
+      <Project>{2caa7b88-6b0c-4378-b2e0-ddd191778e70}</Project>
+      <Name>Mp.Drv.CAN</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

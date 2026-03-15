@@ -1,0 +1,7 @@
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Release\Mp.Scheme.Target.RasPi.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Release\Mp.Scheme.Target.RasPi.pdb
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Scheme.Target.RasPi\obj\Release\Mp.Scheme.Target.RasPi.csproj.AssemblyReference.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Scheme.Target.RasPi\obj\Release\Mp.Scheme.Target.RasPi.csproj.CoreCompileInputs.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Scheme.Target.RasPi\obj\Release\Mp.Scheme.Target.RasPi.csproj.CopyComplete
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Scheme.Target.RasPi\obj\Release\Mp.Scheme.Target.RasPi.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Scheme.Target.RasPi\obj\Release\Mp.Scheme.Target.RasPi.pdb

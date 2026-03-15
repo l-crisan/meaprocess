@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <StartArguments>"c:\users\cr\desktop\test.mpw"</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <StartWorkingDirectory>
+    </StartWorkingDirectory>
+    <StartArguments>"C:\Users\cr\Desktop\test.mpw"</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <StartArguments>"c:\users\cr\desktop\test.mpw"</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <StartWorkingDirectory>E:\atesion\open\mp-ui\build\WinX64Debug\Runtime\</StartWorkingDirectory>
+    <StartArguments>"C:\Users\cr\Desktop\video.mpw"</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PublishUrlHistory>C:\Dokumente und Einstellungen\CR\Desktop\MeaProcess\</PublishUrlHistory>
+    <InstallUrlHistory />
+    <SupportUrlHistory />
+    <UpdateUrlHistory />
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <StartArguments>"c:\users\cr\desktop\ee33.mpw"</StartArguments>
+    <StartWorkingDirectory>C:\Program Files %28x86%29\Atesion\MeaProcess Realtime %28PARIS%29\Runtime\</StartWorkingDirectory>
+    <EnableUnmanagedDebugging>true</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <StartWorkingDirectory>C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-m\build\Debug\rt\</StartWorkingDirectory>
+    <StartArguments>C:\Users\Laure\Desktop\dwdwd.mpw</StartArguments>
+    <StartAction>Project</StartAction>
+    <StartProgram>C:\Users\cr\projects\atesion\mps\managed\build\Debug\rt\Mp.Runtime.App.exe</StartProgram>
+  </PropertyGroup>
+</Project>

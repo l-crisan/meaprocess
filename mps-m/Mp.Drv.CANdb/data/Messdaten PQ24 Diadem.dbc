@@ -1,0 +1,91 @@
+VERSION "HIPBNYYYYYYYYYYYYYYYYYYYYYYYYYYYNNNNNNNNNN/4/%%%/4/'%**4NNN///"
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+
+BS_:
+
+BU_: ZKE TSG_hinten_rechts TSG_hinten_links TSG_Fahrer TSG_Beifahrer Telefon_Box RNS_LOW Reifendruckkontrolle RDS_TMS_Box Radio Linearer_Booster Kombi_HighLine DSP Diadem_Messdaten Climatronic Clima_Halbautomat BSG_CANBox BSG
+
+
+BO_ 2018 mClima_Messdaten: 8 Climatronic
+ SG_ aa_TAussen m1 : 15|16@0- (0.00390625,0) [0|0] "°C"  BSG
+ SG_ ab_TInnen m1 : 31|16@0- (0.00390625,0) [0|0] "°C"  BSG
+ SG_ ac_TStosstange m5 : 15|16@0- (0.00390625,0) [0|0] "°C"  BSG
+ SG_ ad_TFrischluft m5 : 31|16@0- (0.00390625,0) [0|0] "°C"  BSG
+ SG_ ae_TSollIntern m4 : 15|16@0- (0.00390625,0) [0|0] "°C"  BSG
+ SG_ af_TMischlSoll m2 : 47|16@0- (0.00390625,0) [0|0] "°C"  BSG
+ SG_ ag_TMischlIst m3 : 15|16@0- (0.00390625,0) [0|0] "°C"  BSG
+ SG_ ah_TMann m3 : 31|16@0- (0.00390625,0) [0|0] "°C"  BSG
+ SG_ ai_TFuss m3 : 47|16@0- (0.00390625,0) [0|0] "°C"  BSG
+ SG_ aj_TKuehlmittel m5 : 47|16@0- (0.00390625,0) [0|0] "°C"  BSG
+ SG_ ak_TDelta m1 : 47|16@0- (0.00390625,0) [0|0] "°C"  BSG
+ SG_ al_TInnenSoll m2 : 31|16@0- (0.00390625,0) [0|0] "°C"  BSG
+ SG_ am_TVerdapferSoll m4 : 31|16@0- (0.00390625,0) [0|0] "°C"  BSG
+ SG_ an_TVerdampferIst m4 : 47|16@0- (0.00390625,0) [0|0] "°C"  BSG
+ SG_ ao_Stellgroesse m2 : 15|16@0- (0.00390625,0) [0|0] "°K"  BSG
+ SG_ ba_GeblaeseSoll m7 : 15|16@0- (0.00390625,0) [0|0] "V"  BSG
+ SG_ bb_GeblaeseIst m7 : 31|16@0- (0.00390625,0) [0|0] "V"  BSG
+ SG_ bc_GeblaesePWM m7 : 47|16@0+ (-0.005,100) [0|0] "%"  BSG
+ SG_ bd_GeblaeseStufe m7 : 56|8@1+ (1,0) [0|0] ""  BSG
+ SG_ ca_KompPWM m6 : 56|8@1+ (0.4,0) [0|0] "%"  BSG
+ SG_ cb_KompAusCode m4 : 56|8@1+ (1,0) [0|0] ""  BSG
+ SG_ cc_KompDruck m6 : 47|16@0- (0.00390625,0) [0|0] "bar"  BSG
+ SG_ da_Kaltanhebung m6 : 15|16@0+ (1,0) [0|0] ""  BSG
+ SG_ db_Warmanhebung m6 : 31|16@0- (0.00390625,0) [0|0] "°C"  BSG
+ SG_ ea_Standzeit m5 : 56|8@1+ (1,0) [0|0] "min"  BSG
+ SG_ eb_Standzeit_neu m11 : 47|16@0- (1,0) [0|0] ""  BSG
+ SG_ ec_Standzeit_alt m11 : 31|16@0- (1,0) [0|0] ""  BSG
+ SG_ fa_SollTempKlappe m9 : 8|8@1+ (2,0) [0|0] ""  BSG
+ SG_ fb_SollZentralKlappe m9 : 24|8@1+ (2,0) [0|0] ""  BSG
+ SG_ fc_SollDefrostKlappe m9 : 16|8@1+ (2,0) [0|0] ""  BSG
+ SG_ fd_SollUmluftKlappe m9 : 32|8@1+ (2,0) [0|0] ""  BSG
+ SG_ fe_IstTempKlappe m8 : 8|8@1+ (0.0195312,0) [0|0] "V"  BSG
+ SG_ ff_IstZentralKlappe m8 : 24|8@1+ (0.0195312,0) [0|0] "V"  BSG
+ SG_ fg_IstDefrostKlappe m8 : 16|8@1+ (0.0195312,0) [0|0] "V"  BSG
+ SG_ fh_IstUmluftKlappe m8 : 32|8@1+ (0.0195312,0) [0|0] "V"  BSG
+ SG_ ga_SunSensor m1 : 56|8@1+ (1,0) [0|0] ""  BSG
+ SG_ gb_Sun_gef m2 : 56|8@1+ (10,0) [0|0] "W/qm"  BSG
+ SG_ ha_Geschwindigkeit m8 : 56|8@1+ (1,0) [0|0] "km/h"  BSG
+ SG_ hb_Drehzahl m8 : 47|16@0+ (1,0) [0|0] "U/min"  BSG
+ SG_ hc_Dimmung m3 : 56|8@1+ (0.392157,0) [0|0] "%"  BSG
+ SG_ hd_Kl30 m10 : 31|16@0- (0.00390625,0) [0|0] "V"  BSG
+ SG_ he_Kl15 m10 : 15|16@0- (0.00390625,0) [0|0] "V"  BSG
+ SG_ hf_USensor m10 : 40|8@1+ (1,0) [0|0] "Bit"  BSG
+ SG_ ia_DeltaKennfld m10 : 56|8@1+ (1,0) [0|0] ""  BSG
+ SG_ ib_Laufzeit m0 : 39|16@0+ (1,0) [0|0] ""  BSG
+ SG_ ic_Fehlercode m0 : 24|8@1+ (1,0) [0|0] ""  BSG
+ SG_ id_Integrator m11 : 15|16@0- (0.00195312,0) [0|0] "%"  BSG
+ SG_ ie_SW m0 : 8|16@1+ (1,0) [0|0] ""  BSG
+ SG_ ja_Info2 m0 : 48|8@1+ (1,0) [0|0] ""  BSG
+ SG_ jb_Bitliste0 m9 : 40|8@1+ (1,0) [0|0] ""  BSG
+ SG_ jc_Bitliste1 m9 : 48|8@1+ (1,0) [0|0] ""  BSG
+ SG_ jd_Bitliste3 m9 : 56|8@1+ (1,0) [0|0] ""  BSG
+ SG_ ka_20km_h_Bit m0 : 56|1@1+ (1,0) [0|0] "Bit"  BSG
+ SG_ kb_AUC_Bit m10 : 53|1@1+ (1,0) [0|0] "Bit"  BSG
+ SG_ kc_WarmstartBit m10 : 50|1@1+ (1,0) [0|0] "Bit"  BSG
+ SG_ kb_KaltstartBit m10 : 49|1@1+ (1,0) [0|0] "Bit"  BSG
+ SG_ ke_Delta_1_2_Bit m0 : 63|1@1+ (1,0) [0|0] "Bit"  BSG
+ SG_ kf_VerdMischBit m11 : 63|1@0+ (1,0) [0|0] ""  BSG
+ SG_ zz_Mode M : 0|8@1+ (1,0) [0|0] ""  BSG
+
+

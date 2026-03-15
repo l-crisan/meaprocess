@@ -1,0 +1,2 @@
+Mp.CAN.Err.Port#Initialising '%s' driver on port %s failed.
+Mp.CAN.Err.PortInit#The port %s of the driver '%s' is all ready initialized.

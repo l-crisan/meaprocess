@@ -1,0 +1,18 @@
+SubDir TOP src mps-can-socket ;
+
+SubDirHdrs $(TOP)/include ; 
+
+SubDirC++Flags [ FDefines MPSCANSOCKET_EXPORTS ] ;
+
+SharedLibrary mps-can-socket : 
+                           SocketCANDriver.cpp
+                           SocketCANDriverImpl.cpp
+                           Factory.cpp
+                           ;
+
+
+LinkFlags  mps-can-socket  : $(MPS_LINKFLAGS) ;
+
+LinkSharedLibraries mps-can-socket : mps-can-drv ;
+
+MakeLocate  mps-can-socket : $(MPS_BINDIR) ;

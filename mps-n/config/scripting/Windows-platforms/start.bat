@@ -1,0 +1,1 @@
+C:\Windows\Syswow64\wscript.exe  DemoScripting.vbs

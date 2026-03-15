@@ -1,0 +1,400 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BD76CBDB-D53F-439C-9EC0-897BD0D65E9F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Mpal.Editor</RootNamespace>
+    <AssemblyName>Mpal.Editor</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>Atesion.ico</ApplicationIcon>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\build\Debug\</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>..\build\Release\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>false</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.TextEditor, Version=3.0.0.3437, Culture=neutral, PublicKeyToken=4d61825e8dd49f1a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\ICSharpCode.TextEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Mp.Utils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ab77259e8dfa854d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\Mp.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="Mp.Visual.Docking, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\Mp.Visual.Docking.dll</HintPath>
+    </Reference>
+    <Reference Include="Mp.Visual.TextEditor, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\Mp.Visual.TextEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Mp.Visual.Tree, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\Mp.Visual.Tree.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddFunctionDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddFunctionDlg.Designer.cs">
+      <DependentUpon>AddFunctionDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddProgramDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddProgramDlg.Designer.cs">
+      <DependentUpon>AddProgramDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddFBDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddFBDlg.Designer.cs">
+      <DependentUpon>AddFBDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BreakPoint.cs" />
+    <Compile Include="CodeCompletionData.cs" />
+    <Compile Include="CompletionDataProvider.cs" />
+    <Compile Include="StringResource.de-DE.Designer.cs">
+      <DependentUpon>StringResource.de-DE.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="DebugArrow.cs" />
+    <Compile Include="DebugVariableView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DebugVariableView.Designer.cs">
+      <DependentUpon>DebugVariableView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CallStackView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CallStackView.Designer.cs">
+      <DependentUpon>CallStackView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="VarTreeItem.cs" />
+    <Compile Include="VarTreeModel.cs" />
+    <Compile Include="ErrorListWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ErrorListWindow.designer.cs">
+      <DependentUpon>ErrorListWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DocumentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocumentForm.designer.cs">
+      <DependentUpon>DocumentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HelpHandler.cs" />
+    <Compile Include="InsertVariableCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="InsertVariableCtrl.Designer.cs">
+      <DependentUpon>InsertVariableCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Folding.cs" />
+    <Compile Include="NewUnitDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewUnitDlg.Designer.cs">
+      <DependentUpon>NewUnitDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OptionsDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OptionsDlg.Designer.cs">
+      <DependentUpon>OptionsDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OutputWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OutputWindow.designer.cs">
+      <DependentUpon>OutputWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GoToLineDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GoToLineDlg.Designer.cs">
+      <DependentUpon>GoToLineDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MPALMainFrame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPALMainFrame.Designer.cs">
+      <DependentUpon>MPALMainFrame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutBox.de-DE.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddFBDlg.de-DE.resx">
+      <DependentUpon>AddFBDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddFunctionDlg.de-DE.resx">
+      <DependentUpon>AddFunctionDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddFunctionDlg.resx">
+      <DependentUpon>AddFunctionDlg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddProgramDlg.de-DE.resx">
+      <DependentUpon>AddProgramDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddProgramDlg.resx">
+      <DependentUpon>AddProgramDlg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddFBDlg.resx">
+      <DependentUpon>AddFBDlg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StringResource.de-DE.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>StringResource.de-DE.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DebugVariableView.de-DE.resx">
+      <DependentUpon>DebugVariableView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DebugVariableView.resx">
+      <DependentUpon>DebugVariableView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CallStackView.de-DE.resx">
+      <DependentUpon>CallStackView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CallStackView.resx">
+      <DependentUpon>CallStackView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewUnitDlg.de-DE.resx">
+      <DependentUpon>NewUnitDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OptionsDlg.de-DE.resx">
+      <DependentUpon>OptionsDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OutputWindow.de-DE.resx">
+      <DependentUpon>OutputWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocumentForm.de-DE.resx">
+      <DependentUpon>DocumentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ErrorListWindow.de-DE.resx">
+      <DependentUpon>ErrorListWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ErrorListWindow.resx">
+      <DependentUpon>ErrorListWindow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocumentForm.resx">
+      <DependentUpon>DocumentForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GoToLineDlg.de-DE.resx">
+      <DependentUpon>GoToLineDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertVariableCtrl.de-DE.resx">
+      <DependentUpon>InsertVariableCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertVariableCtrl.resx">
+      <DependentUpon>InsertVariableCtrl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPALMainFrame.de-DE.resx">
+      <DependentUpon>MPALMainFrame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewUnitDlg.resx">
+      <DependentUpon>NewUnitDlg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OptionsDlg.resx">
+      <DependentUpon>OptionsDlg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OutputWindow.resx">
+      <DependentUpon>OutputWindow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GoToLineDlg.resx">
+      <DependentUpon>GoToLineDlg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPALMainFrame.resx">
+      <DependentUpon>MPALMainFrame.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StringResource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>StringResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="MPAL.xshd">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <Compile Include="StringResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StringResource.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Mpal.Compiler\Mpal.Compiler.csproj">
+      <Project>{2F80BA27-943B-459B-AF2E-2EDA6D872A9D}</Project>
+      <Name>Mpal.Compiler</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Mpal.Debuger\Mpal.Debugger.csproj">
+      <Project>{7DF89FCC-5D16-4236-8F9F-F095E80CADDB}</Project>
+      <Name>Mpal.Debugger</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Mpal.Model\Mpal.Model.csproj">
+      <Project>{844CAEC1-D205-41E9-8760-8C5DA7379401}</Project>
+      <Name>Mpal.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Atesion.ico" />
+    <None Include="Resources\Variable.ico" />
+    <None Include="Resources\Array.ico" />
+    <None Include="Resources\Struct.ico" />
+    <None Include="Resources\Property.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

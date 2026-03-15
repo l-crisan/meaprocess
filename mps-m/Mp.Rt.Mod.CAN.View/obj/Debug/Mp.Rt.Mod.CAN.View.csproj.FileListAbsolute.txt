@@ -1,0 +1,14 @@
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Rt.Mod.CAN.View\obj\Debug\Mp.Rt.Mod.CAN.View.csproj.AssemblyReference.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Rt.Mod.CAN.View\obj\Debug\Mp.Rt.Mod.CAN.View.csproj.CoreCompileInputs.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Build\Debug\rt\Mp.Rt.Mod.CAN.View.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Build\Debug\rt\Mp.Rt.Mod.CAN.View.pdb
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Rt.Mod.CAN.View\obj\Debug\Mp.Rt.Mod.CAN.View.csproj.CopyComplete
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Rt.Mod.CAN.View\obj\Debug\Mp.Rt.Mod.CAN.View.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Rt.Mod.CAN.View\obj\Debug\Mp.Rt.Mod.CAN.View.pdb
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-m\Mp.Rt.Mod.CAN.View\obj\Debug\Mp.Rt.Mod.CAN.View.csproj.AssemblyReference.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-m\Mp.Rt.Mod.CAN.View\obj\Debug\Mp.Rt.Mod.CAN.View.csproj.CoreCompileInputs.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-m\Build\Debug\rt\Mp.Rt.Mod.CAN.View.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-m\Build\Debug\rt\Mp.Rt.Mod.CAN.View.pdb
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-m\Mp.Rt.Mod.CAN.View\obj\Debug\Mp.Rt.Mod.CAN.View.csproj.CopyComplete
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-m\Mp.Rt.Mod.CAN.View\obj\Debug\Mp.Rt.Mod.CAN.View.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-m\Mp.Rt.Mod.CAN.View\obj\Debug\Mp.Rt.Mod.CAN.View.pdb

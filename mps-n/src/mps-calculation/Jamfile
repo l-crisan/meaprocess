@@ -1,0 +1,37 @@
+SubDir TOP src mps-calculation ;
+
+SubDirHdrs $(TOP)/include ; 
+
+SubDirC++Flags [ FDefines MPSCALCULATION_EXPORTS ] ;
+
+SubDirObjects $(OUTPUT_OBJECT) mps-calculation ;
+
+SharedLibrary mps-calculation : mps-calculation.cpp
+                                CalculationObjectFactory.cpp
+                                CalcScaling.cpp
+                                ScalingPS.cpp
+                                MovingMeanPS.cpp
+                                MovingMeanSignal.cpp
+                                MeanNPS.cpp
+                                ElectricitySignal.cpp
+                                ElectricityPS.cpp
+                                SampleRateSignal.cpp
+                                SampleRatePS.cpp
+                                MultiplexerPS.cpp
+                                DemuxSignal.cpp
+                                DemuxPS.cpp
+                                BitExtractionSignal.cpp
+                                BitExtractionPS.cpp
+                                BitGroupingSignal.cpp
+                                BitGroupingPS.cpp
+                                SignalDelayPS.cpp
+                                DelaySignal.cpp
+                                ConvertSignal.cpp
+                                ConvertPS.cpp
+                            ;
+
+LinkFlags  mps-calculation  : $(MPS_LINKFLAGS) ;
+
+LinkSharedLibraries mps-calculation : mps-core ;
+
+MakeLocate   mps-calculation : $(MPS_BINDIR) ;

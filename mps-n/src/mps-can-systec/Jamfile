@@ -1,0 +1,20 @@
+SubDir TOP src mps-can-systec ;
+
+SubDirHdrs $(TOP)/include ; 
+SubDirHdrs $(TOP)/include/systec ;
+
+SubDirC++Flags [ FDefines MPS_CAN_SYSTEC_EXPORTS ] ;
+
+SharedLibrary mps-can-systec : 
+						   SystecCANDriver.cpp
+ 						   SystecCANDriverImpl.cpp
+						   Factory.cpp
+						   UCanLibrary.cpp
+						   ;
+
+
+LinkFlags  mps-can-systec  : $(MPS_LINKFLAGS) ;
+
+LinkSharedLibraries mps-can-systec : mps-drv-can ;
+
+MakeLocate  mps-can-systec : $(MPS_BINDIR) ;

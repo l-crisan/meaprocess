@@ -1,0 +1,26 @@
+SubDir TOP src mps-controller ;
+
+SubDirHdrs $(TOP)/include ; 
+
+SubDirC++Flags [ FDefines MPSCONTROLLER_EXPORTS ] ;
+
+SubDirObjects $(OUTPUT_OBJECT) mps-controller ;
+
+SharedLibrary mps-controller : mps-controller.cpp
+                               ControllerObjectFactory.cpp
+                               ControllerSignal.cpp
+                               TwoPointControllerPS.cpp	
+                               ThreeStepControllerPS.cpp
+                               PIDControllerPS.cpp
+                               LinguisticVar.cpp
+                               FuzzyControllerPS.cpp
+                               FuzzyOperation.cpp
+                               FuzzyRule.cpp
+                               FuzzyControllerSignal.cpp
+                            ;
+
+LinkFlags  mps-controller  : $(MPS_LINKFLAGS) ;
+
+LinkSharedLibraries mps-controller : mps-core ;
+
+MakeLocate   mps-controller : $(MPS_BINDIR) ;

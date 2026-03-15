@@ -1,0 +1,48 @@
+/*
+ * Copyright (C) 2015 by Laurentiu-Gheorghe Crisan
+ *
+ * This library is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public
+ * License as published by the Free Software Foundation; either
+ * version 2.1 of the License, or (at your option) any later version.
+ *
+ * As a special exception, you may use this file as part of a free
+ * software library without restriction. Specifically, if other files
+ * instantiate templates or use macros or inline functions from this
+ * file, or you compile this file and link it with other files to
+ * produce an executable, this file does not by itself cause the
+ * resulting executable to be covered by the GNU General Public
+ * License. This exception does not however invalidate any other
+ * reasons why the executable file might be covered by the GNU Library
+ * General Public License.
+ *
+ * This library is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this library; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+ */
+#include "DebuggerContext.h"
+
+namespace mpal{
+namespace vm{
+
+DebuggerContext::DebuggerContext(Pt::uint8_t* stackPtr_, Pt::uint8_t* basePtr_,Pt::uint8_t* baseAdr_, Pt::uint32_t stackSize_, Pt::System::Mutex& breakPointMutex_, std::vector<BreakPoint>& breakPoints_,
+                                 Pt::System::Condition& condition_, Pt::Signal<BreakPoint>& onBreakPoint_, DebuggerCommand::Command& cmd_,
+                                 Pt::Signal<int,std::string>& onLine_, std::vector<std::string>& callStack_)
+: VMContext(stackPtr_, basePtr_, baseAdr_, stackSize_, breakPointMutex_)
+, breakPoints(breakPoints_)
+, condition(condition_)
+, onBreakPoint(onBreakPoint_)
+, cmd(cmd_)
+, onLine(onLine_)
+, callStack(callStack_)
+{
+}
+
+
+}}
+

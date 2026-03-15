@@ -1,0 +1,55 @@
+# Set Path to file libraries and output dir
+MPS_BINDIR = [ FDirName $(TOP) build  $(CONFIG:L) ] ;
+MPS_LIBDIR = [ FDirName $(TOP) lib  $(CONFIG:L) ] ;
+OUTPUT_TARGET =  $(MPS_BINDIR) ;
+OUTPUT_OBJECT =  [ FDirName $(TOP) tmp  $(CONFIG:L) ] ;
+PT_OUTPUT_TARGET =  $(MPS_BINDIR) ;
+PT_OUTPUT_OBJECT =  $(OUTPUT_OBJECT) ;
+ 
+CCFLAGS += [ FDefines PT_LE ]  ;
+C++FLAGS += [ FDefines PT_LE ] ;
+
+#Set the link flags.
+if $(CONFIG:L) = "winx86debug" || $(CONFIG:L) = "winx86release" || $(CONFIG:L) = "winx64release" || $(CONFIG:L) = "winx64debug"
+{
+    MPS_LINKFLAGS = /LIBPATH:$(MPS_LIBDIR) Winmm.lib Advapi32.lib Pt.lib Pt-System.lib Pt-Xml.lib  Pt-Net.lib Pt-Remoting.lib Pt-XmlRpc.lib Pt-Http.lib plc3-ga-client.lib plc3-trans.lib ;
+    AUDIO_LIBS    = /LIBPATH:$(MPS_LIBDIR) portaudio.lib ;
+    MPS_ECS_LINKFLAGS = /LIBPATH:$(MPS_LIBDIR) Winmm.lib Advapi32.lib Pt.lib Pt-System.lib Pt-Xml.lib  Pt-Net.lib Pt-Remoting.lib Pt-XmlRpc.lib Pt-Http.lib plc3-ethercat-slave.lib ;
+
+    if $(CONFIG) = "WinX86Debug" || $(CONFIG) = "WinX64Debug"
+    {
+        OPENCV_LIBS   = /LIBPATH:$(MPS_LIBDIR) opencv_core243d.lib  opencv_highgui243d.lib opencv_imgproc243d.lib opencv_features2D243d.lib opencv_calib3d243d.lib  ;
+    }
+    else
+    {
+        OPENCV_LIBS   = /LIBPATH:$(MPS_LIBDIR) opencv_core243.lib  opencv_highgui243.lib opencv_imgproc243.lib opencv_features2D243.lib opencv_calib3d243.lib ;
+    }
+}
+
+if $(CONFIG:L) = "linuxarmdebug" || $(CONFIG:L) = "linuxarmrelease" || $(CONFIG:L) = "linuxarm64debug" || $(CONFIG:L) = "linuxarm64release"
+{
+    MPS_LINKFLAGS = -L$(MPS_LIBDIR) -lrt -lPt -lPt-System -lPt-Xml  -lPt-Net -lPt-Ssl -lPt-Remoting -lPt-Unit -lPt-XmlRpc -lPt-Http -lplc3-ga-client -lplc3-vm  -lplc3-vm-cc -lplc3-trans ;
+    MPS_ECS_LINKFLAGS = -L$(MPS_LIBDIR) -lrt -lPt -lPt-System -lPt-Xml  -lPt-Net -lPt-Ssl -lPt-Remoting -lPt-Unit -lPt-XmlRpc -lPt-Http -lplc3-ethercat-slave ;
+}
+   
+ 
+Echo "Host Operating System (OS)..." $(OS:L) ;
+Echo "Host Platform (OSPLAT)..." $(OSPLAT:L) ;
+Echo "Target OS (TARGET_OS)..." $(TARGET_OS:L) ;
+Echo "Target Platform (TARGET_OSPLAT)..." $(TARGET_OSPLAT:L) ;
+Echo "Configuration (CONFIG)..." $(CONFIG) ;
+Echo "Toolset (TOOLSET)..." $(TOOLSET) ;
+Echo "Use OpenSSL (--with-openssl)..." $(WITH_OPENSSL) ;
+Echo "Graphic User Interface (GUI)..." $(GUI) ;
+Echo "System Interface (SYS)..." $(SYS) ;
+Echo "C++ Flags (C++FLAGS)..." $(C++FLAGS) ;
+Echo "C Flags (CCFLAGS)..." $(CCFLAGS) ;
+Echo "Linker Flags (LINKFLAGS)..." $(LINKFLAGS) ;
+Echo "Optimisation (OPTIM)..." $(OPTIM) ;
+Echo "Warnings (WARN)..." $(WARN) ;
+Echo "Build targets (OUTPUT_TARGET)..." $(MPS_BINDIR) ;
+Echo "Build objects (OUTPUT_OBJECT)..." $(OUTPUT_OBJECT) ;
+Echo "Unit tests (OUTPUT_TEST)..." $(OUTPUT_TEST) ;
+Echo "Install programs (INSTALL_BINDIR)..." $(INSTALL_BINDIR) ;
+Echo "Install includes (INSTALL_INCLUDEDIR)..." $(INSTALL_INCLUDEDIR) ;
+Echo "Install libraries (INSTALL_LIBDIR)..." $(INSTALL_LIBDIR) ;

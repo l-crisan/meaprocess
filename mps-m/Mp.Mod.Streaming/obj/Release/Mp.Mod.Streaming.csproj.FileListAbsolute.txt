@@ -1,0 +1,17 @@
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Release\Mp.Mod.Streaming.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Release\Mp.Mod.Streaming.pdb
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Release\de-DE\Mp.Mod.Streaming.resources.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.Streaming\obj\Release\Mp.Mod.Streaming.csproj.AssemblyReference.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.Streaming\obj\Release\Mp.Mod.Streaming.EditConnectionDlg.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.Streaming\obj\Release\Mp.Mod.Streaming.StreamingPSDlg.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.Streaming\obj\Release\Mp.Mod.Streaming.Resource.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.Streaming\obj\Release\Mp.Mod.Streaming.StringResource.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.Streaming\obj\Release\Mp.Mod.Streaming.EditConnectionDlg.de-DE.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.Streaming\obj\Release\Mp.Mod.Streaming.StreamingPSDlg.de-DE.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.Streaming\obj\Release\Mp.Mod.Streaming.StringResource.de-DE.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.Streaming\obj\Release\Mp.Mod.Streaming.csproj.GenerateResource.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.Streaming\obj\Release\Mp.Mod.Streaming.csproj.CoreCompileInputs.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.Streaming\obj\Release\de-DE\Mp.Mod.Streaming.resources.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.Streaming\obj\Release\Mp.Mod.Streaming.csproj.CopyComplete
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.Streaming\obj\Release\Mp.Mod.Streaming.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.Streaming\obj\Release\Mp.Mod.Streaming.pdb

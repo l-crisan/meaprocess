@@ -1,0 +1,7 @@
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Release\Mpal.Model.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Release\Mpal.Model.pdb
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mpal.Model\obj\Release\Mpal.Model.csproj.AssemblyReference.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mpal.Model\obj\Release\Mpal.Model.csproj.CoreCompileInputs.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mpal.Model\obj\Release\Mpal.Model.csproj.CopyComplete
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mpal.Model\obj\Release\Mpal.Model.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mpal.Model\obj\Release\Mpal.Model.pdb

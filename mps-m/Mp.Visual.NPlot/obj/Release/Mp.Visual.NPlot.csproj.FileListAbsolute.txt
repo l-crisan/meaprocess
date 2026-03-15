@@ -1,0 +1,8 @@
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Release\Mp.Visual.NPlot.dll.config
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Release\Mp.Visual.NPlot.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Visual.NPlot\obj\Release\Mp.Visual.NPlot.csproj.AssemblyReference.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Visual.NPlot\obj\Release\Mp.Visual.NPlot.Windows.PlotSurface2D.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Visual.NPlot\obj\Release\Mp.Visual.NPlot.csproj.GenerateResource.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Visual.NPlot\obj\Release\Mp.Visual.NPlot.csproj.CoreCompileInputs.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Visual.NPlot\obj\Release\Mp.Visual.NPlot.csproj.CopyComplete
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Visual.NPlot\obj\Release\Mp.Visual.NPlot.dll

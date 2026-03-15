@@ -1,0 +1,13 @@
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Release\Mp.Mod.Video.View.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Release\Mp.Mod.Video.View.pdb
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Release\de-DE\Mp.Mod.Video.View.resources.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.Video.View\obj\Release\Mp.Mod.Video.View.csproj.AssemblyReference.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.Video.View\obj\Release\Mp.Mod.VideoView.Resource.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.Video.View\obj\Release\Mp.Mod.VideoView.StringResource.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.Video.View\obj\Release\Mp.Mod.VideoView.StringResource.de-DE.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.Video.View\obj\Release\Mp.Mod.Video.View.csproj.GenerateResource.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.Video.View\obj\Release\Mp.Mod.Video.View.csproj.CoreCompileInputs.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.Video.View\obj\Release\de-DE\Mp.Mod.Video.View.resources.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.Video.View\obj\Release\Mp.Mod.Video.View.csproj.CopyComplete
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.Video.View\obj\Release\Mp.Mod.Video.View.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Mod.Video.View\obj\Release\Mp.Mod.Video.View.pdb

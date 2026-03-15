@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object type="Mp.MeaProcess" id="1">
+  <string name="type"></string>
+  <string name="name"></string>
+  <object type="Mp.PS.List" id="2"/>
+  <object type ="Mp.Signals" id="3"/>
+  <object type="Connections" id ="4"/>
+  <object type="GUI" id="5"/>
+  </object>

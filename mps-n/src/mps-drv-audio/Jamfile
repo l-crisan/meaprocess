@@ -1,0 +1,14 @@
+SubDir TOP src mps-drv-audio ;
+
+SubDirHdrs $(TOP)/include ; 
+SubDirHdrs $(TOP)/include/portaudio ; 
+SubDirObjects $(OUTPUT_OBJECT) mps-drv-audio ;
+SubDirC++Flags [ FDefines MPS_AUDIO_PORT_EXPORTS ] ;
+SubDirCcFlags [ FDefines MPS_AUDIO_PORT_EXPORTS ] ;
+
+SharedLibrary mps-drv-audio :  Driver.cpp
+                                  ;
+
+LinkFlags  mps-drv-audio  : $(MPS_LINKFLAGS) $(AUDIO_LIBS) ;
+
+MakeLocate mps-drv-audio : $(MPS_BINDIR) ;

@@ -1,0 +1,13 @@
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Build\Debug\rt\Mp.Runtime.Scripting.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Build\Debug\rt\Mp.Runtime.Scripting.pdb
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Runtime.Scripting\obj\Debug\Mp.Runtime.Scripting.csproj.AssemblyReference.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Runtime.Scripting\obj\Debug\Mp.Runtime.Scripting.csproj.CoreCompileInputs.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Runtime.Scripting\obj\Debug\Mp.Runtime.Scripting.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Runtime.Scripting\obj\Debug\Mp.Runtime.Scripting.pdb
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Build\Debug\rt\Mp.Runtime.Scripting.tlb
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-m\Build\Debug\rt\Mp.Runtime.Scripting.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-m\Build\Debug\rt\Mp.Runtime.Scripting.pdb
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-m\Mp.Runtime.Scripting\obj\Debug\Mp.Runtime.Scripting.csproj.AssemblyReference.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-m\Mp.Runtime.Scripting\obj\Debug\Mp.Runtime.Scripting.csproj.CoreCompileInputs.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-m\Mp.Runtime.Scripting\obj\Debug\Mp.Runtime.Scripting.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-m\Mp.Runtime.Scripting\obj\Debug\Mp.Runtime.Scripting.pdb

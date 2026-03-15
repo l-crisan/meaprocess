@@ -1,0 +1,21 @@
+SubDir TOP src mps-video-opencv ;
+
+SubDirHdrs $(TOP)/include ; 
+
+SubDirC++Flags [ FDefines MPS_VIDEO_OPENCV_EXPORTS ] ;
+
+SubDirObjects $(OUTPUT_OBJECT) mps-video-opencv ;
+
+SharedLibrary mps-video-opencv :  VidObjectFactory.cpp 
+								  VideoSignal.cpp
+								  Capture.cpp
+								  CapturePS.cpp
+								;
+
+LinkFlags mps-video-opencv : $(MPS_LINKFLAGS) $(OPENCV_LIBS) ;
+
+LinkSharedLibraries  mps-video-opencv : mps-drv-opencv mps-core ;
+
+LinkFlags  mps-video-opencv  : $(MPS_LINKFLAGS) ;
+
+MakeLocate   mps-video-opencv : $(MPS_BINDIR) ;

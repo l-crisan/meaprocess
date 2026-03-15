@@ -1,0 +1,16 @@
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Debug\Mp.Visual.FFT.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Debug\Mp.Visual.FFT.pdb
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Visual.FFT\obj\Debug\Mp.Visual.FFT.csproj.AssemblyReference.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Visual.FFT\obj\Debug\Mp.Visual.FFT.FFTViewCtrl.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Visual.FFT\obj\Debug\Mp.Visual.FFT.csproj.GenerateResource.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Visual.FFT\obj\Debug\Mp.Visual.FFT.csproj.CoreCompileInputs.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Visual.FFT\obj\Debug\Mp.Visual.FFT.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.Visual.FFT\obj\Debug\Mp.Visual.FFT.pdb
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-m\build\Debug\Mp.Visual.FFT.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-m\build\Debug\Mp.Visual.FFT.pdb
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-m\Mp.Visual.FFT\obj\Debug\Mp.Visual.FFT.csproj.AssemblyReference.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-m\Mp.Visual.FFT\obj\Debug\Mp.Visual.FFT.FFTViewCtrl.resources
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-m\Mp.Visual.FFT\obj\Debug\Mp.Visual.FFT.csproj.GenerateResource.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-m\Mp.Visual.FFT\obj\Debug\Mp.Visual.FFT.csproj.CoreCompileInputs.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-m\Mp.Visual.FFT\obj\Debug\Mp.Visual.FFT.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-m\Mp.Visual.FFT\obj\Debug\Mp.Visual.FFT.pdb

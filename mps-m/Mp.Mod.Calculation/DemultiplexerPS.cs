@@ -1,0 +1,123 @@
+﻿//    MeaProcess - Meaurement and Automation framework.
+//    Copyright (C) 2010-2016  Laurentiu-Gheorghe Crisan
+//
+//    This program is free software: you can redistribute it and/or modify
+//    it under the terms of the GNU General Public License as published by
+//    the Free Software Foundation, either version 3 of the License, or
+//    (at your option) any later version.
+//
+//    This program is distributed in the hope that it will be useful,
+//    but WITHOUT ANY WARRANTY; without even the implied warranty of
+//    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//    GNU General Public License for more details.
+//
+//    You should have received a copy of the GNU General Public License
+//    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.Windows.Forms;
+using Mp.Scheme.Sdk;
+
+namespace Mp.Mod.Calculation
+{
+    internal class DemultiplexerPS : WorkPS
+    {
+        public DemultiplexerPS()
+        {
+            base.Type = "Mp.Calculation.PS.Demux";
+            base.Text = StringResource.Demultiplexer;
+            base.Group = StringResource.Calculation;
+            base.Symbol = Resource.DemultiplexerImg;
+            base.Icon = Resource.DemultiplexerIcon;
+            base.IsSingleton = false;
+        }
+
+        public override string RuntimeModule
+        {
+            get { return "mps-calculation"; }
+        }
+
+        public override void OnLoadResources()
+        {
+            base.Text = StringResource.Demultiplexer;
+            base.Group = StringResource.Calculation;
+        }
+
+        public override void OnDefaultInit()
+        {
+            base.OnDefaultInit();
+
+            //Data out port.
+            Port port = new Port(new Point(_rectangle.Right + PortWidth, (int)(_rectangle.Top + PortTopOffset)), "Mp.Port.Out", false, true);
+            port.SignalList = Document.CreateSignalList();
+            InitMenuForPort(port);
+            AddPort(port);
+
+            //Data in port. 
+            port = new Port(new Point(_rectangle.Left - PortWidth, (int)(_rectangle.Top + PortTopOffset)), "Mp.Port.In", true, false);
+            AddPort(port);
+
+            //Selector port
+            port = new Port(new Point(_rectangle.Left - PortWidth, (int)(_rectangle.Top + PortTopOffset + DistanceBetweenPort)), "Mp.Port.In", true, false);
+            port.ConnectorBrush = new SolidBrush(Color.DarkGreen);
+            AddPort(port);
+        }
+
+        public override void OnLoadXml()
+        {
+            base.OnLoadXml();
+            InitMenuForPort(OutputPorts[0]);
+        }
+
+        public override string Description
+        {
+            get
+            {
+                return StringResource.DemuxDescription;
+            }
+        }
+
+        private void InitMenuForPort(Port port)
+        {
+            //Create the context menu.
+            port.ContextMenuStrip = new ContextMenuStrip();
+            port.ContextMenuStrip.Tag = port;
+
+            ToolStripMenuItem menuItem = new ToolStripMenuItem(StringResource.MenuProperties);
+
+            menuItem.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            menuItem.Click += new System.EventHandler(this.OnPropertyDataPort);
+            port.ContextMenuStrip.Items.Add(menuItem);
+        }
+
+        public override void OnPortDoubleClick(Port port)
+        {
+            base.OnPortDoubleClick(port);
+
+            if (port.IsInput)
+                return;
+
+            OnPropertyDataPort(null, null);
+        }
+
+        protected void OnPropertyDataPort(object sender, EventArgs e)
+        {
+            Port port = OutputPorts[0];
+
+            DemultiplexerPortDlg dlg = new DemultiplexerPortDlg(Document, XmlRep, port.SignalList);
+            dlg.ShowDialog();
+        }
+
+        public override void OnHelpRequested()
+        {
+            Document.ShowHelp(this.Site, 1460);
+        }
+
+        protected override void OnValidate(List<ValidationInfo> valInfoList)
+        {
+            base.OnValidate(valInfoList);
+        }
+    }
+}

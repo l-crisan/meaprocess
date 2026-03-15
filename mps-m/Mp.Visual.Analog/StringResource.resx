@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AQValue" xml:space="preserve">
+    <value>Value where the pointer will point to.</value>
+  </data>
+  <data name="Arc" xml:space="preserve">
+    <value>Arc</value>
+  </data>
+  <data name="BaseArcColor" xml:space="preserve">
+    <value>The color of the base arc.</value>
+  </data>
+  <data name="BaseArcRadius" xml:space="preserve">
+    <value>The radius of the base arc.</value>
+  </data>
+  <data name="BaseArcStart" xml:space="preserve">
+    <value>The start angle of the base arc.</value>
+  </data>
+  <data name="BaseArcSweep" xml:space="preserve">
+    <value>The sweep angle of the base arc.</value>
+  </data>
+  <data name="BaseArcWidth" xml:space="preserve">
+    <value>The width of the base arc.</value>
+  </data>
+  <data name="Button" xml:space="preserve">
+    <value>Button</value>
+  </data>
+  <data name="ButtonColor" xml:space="preserve">
+    <value>Color of the body of the button</value>
+  </data>
+  <data name="ButtonLabel" xml:space="preserve">
+    <value>Label of the button</value>
+  </data>
+  <data name="ButtonState" xml:space="preserve">
+    <value>State of the button</value>
+  </data>
+  <data name="ButtonStyle" xml:space="preserve">
+    <value>Style of the button</value>
+  </data>
+  <data name="ButtonType" xml:space="preserve">
+    <value>Type of the button</value>
+  </data>
+  <data name="Caption" xml:space="preserve">
+    <value>Caption</value>
+  </data>
+  <data name="CaptionDefinition" xml:space="preserve">
+    <value>Define the captions text.</value>
+  </data>
+  <data name="Center" xml:space="preserve">
+    <value>The center of the gauge (in the control's client area).</value>
+  </data>
+  <data name="DialColor" xml:space="preserve">
+    <value>Background color of the dial</value>
+  </data>
+  <data name="Display" xml:space="preserve">
+    <value> Define the display mode.</value>
+  </data>
+  <data name="Gauge" xml:space="preserve">
+    <value>Gauge</value>
+  </data>
+  <data name="GaugeValue" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Knob" xml:space="preserve">
+    <value>Knob</value>
+  </data>
+  <data name="KnobColor" xml:space="preserve">
+    <value>Color of the knob</value>
+  </data>
+  <data name="KnobCurValue" xml:space="preserve">
+    <value>Current value of the knob</value>
+  </data>
+  <data name="KnobIndicatorBorderOffset" xml:space="preserve">
+    <value>Offset of the indicator from the kob border</value>
+  </data>
+  <data name="KnobIndicatorColor" xml:space="preserve">
+    <value>Color of the indicator</value>
+  </data>
+  <data name="KnobMaxValue" xml:space="preserve">
+    <value>Maximum value of the knob</value>
+  </data>
+  <data name="KnobMinValue" xml:space="preserve">
+    <value>Minimum value of the knob</value>
+  </data>
+  <data name="KnobScaleColor" xml:space="preserve">
+    <value>Color of the scale</value>
+  </data>
+  <data name="KnobStepValue" xml:space="preserve">
+    <value>Step value of the knob</value>
+  </data>
+  <data name="KnobStyle" xml:space="preserve">
+    <value>Style of the knob</value>
+  </data>
+  <data name="LargeTicFreq" xml:space="preserve">
+    <value>Define the large tic frequency.</value>
+  </data>
+  <data name="MaxValue" xml:space="preserve">
+    <value>Maximum value on the scale.</value>
+  </data>
+  <data name="MinValue" xml:space="preserve">
+    <value>Mininum value on the scale.</value>
+  </data>
+  <data name="Needle" xml:space="preserve">
+    <value>Needle</value>
+  </data>
+  <data name="NeedleColor1" xml:space="preserve">
+    <value>The first color of the needle.</value>
+  </data>
+  <data name="NeedleColor2" xml:space="preserve">
+    <value>The second color of the needle.</value>
+  </data>
+  <data name="NeedleRadius" xml:space="preserve">
+    <value>The radius of the needle.</value>
+  </data>
+  <data name="NeedleType" xml:space="preserve">
+    <value>The type of the needle, currently only type 0 and 1 are supported. Type 0 looks nicers but if you experience performance problems you might consider using type 1.</value>
+  </data>
+  <data name="NeedleWidth" xml:space="preserve">
+    <value>The width of the needle.</value>
+  </data>
+  <data name="NoOfDivisions" xml:space="preserve">
+    <value>The number of divisions in the dial scale.</value>
+  </data>
+  <data name="NoOfSubDivisions" xml:space="preserve">
+    <value>The number of sub divisions in the scale per main division.</value>
+  </data>
+  <data name="PosNoErr" xml:space="preserve">
+    <value>A positiv number is expected</value>
+  </data>
+  <data name="Range" xml:space="preserve">
+    <value>Range</value>
+  </data>
+  <data name="RangeDefinition" xml:space="preserve">
+    <value>Define the gauge ranges.</value>
+  </data>
+  <data name="RangeMax" xml:space="preserve">
+    <value>Define the range maximum in Fahreinheit.</value>
+  </data>
+  <data name="RangeMin" xml:space="preserve">
+    <value>Define the range minimum in Fahreinheit.</value>
+  </data>
+  <data name="ScaleLines" xml:space="preserve">
+    <value>Scale Lines</value>
+  </data>
+  <data name="ScaleLinesInterColor" xml:space="preserve">
+    <value>The color of the inter scale lines which are the middle scale lines for an uneven number of minor scale lines.</value>
+  </data>
+  <data name="ScaleLinesInterInnerRadius" xml:space="preserve">
+    <value>The inner radius of the inter scale lines which are the middle scale lines for an uneven number of minor scale lines.</value>
+  </data>
+  <data name="ScaleLinesInterOuterRadius" xml:space="preserve">
+    <value>The outer radius of the inter scale lines which are the middle scale lines for an uneven number of minor scale lines.</value>
+  </data>
+  <data name="ScaleLinesInterWidth" xml:space="preserve">
+    <value>The width of the inter scale lines which are the middle scale lines for an uneven number of minor scale lines.</value>
+  </data>
+  <data name="ScaleLinesMajorColor" xml:space="preserve">
+    <value>The color of the major scale lines.</value>
+  </data>
+  <data name="ScaleLinesMajorInnerRadius" xml:space="preserve">
+    <value>The inner radius of the major scale lines.</value>
+  </data>
+  <data name="ScaleLinesMajorOuterRadius" xml:space="preserve">
+    <value>The outer radius of the major scale lines.</value>
+  </data>
+  <data name="ScaleLinesMajorStepValue" xml:space="preserve">
+    <value>The step value of the major scale lines.</value>
+  </data>
+  <data name="ScaleLinesMajorWidth" xml:space="preserve">
+    <value>The width of the major scale lines.</value>
+  </data>
+  <data name="ScaleLinesMinorColor" xml:space="preserve">
+    <value>The color of the minor scale lines.</value>
+  </data>
+  <data name="ScaleLinesMinorInnerRadius" xml:space="preserve">
+    <value>The inner radius of the minor scale lines.</value>
+  </data>
+  <data name="ScaleLinesMinorNumOf" xml:space="preserve">
+    <value>The number of minor scale lines.</value>
+  </data>
+  <data name="ScaleLinesMinorOuterRadius" xml:space="preserve">
+    <value>The outer radius of the minor scale lines.</value>
+  </data>
+  <data name="ScaleLinesMinorWidth" xml:space="preserve">
+    <value>The width of the minor scale lines.</value>
+  </data>
+  <data name="ScaleNumbers" xml:space="preserve">
+    <value>Scale Numbers</value>
+  </data>
+  <data name="ScaleNumbersColor" xml:space="preserve">
+    <value>The color of the scale numbers.</value>
+  </data>
+  <data name="ScaleNumbersFormat" xml:space="preserve">
+    <value>The format of the scale numbers.</value>
+  </data>
+  <data name="ScaleNumbersRadius" xml:space="preserve">
+    <value>The radius of the scale numbers.</value>
+  </data>
+  <data name="ScaleNumbersRotation" xml:space="preserve">
+    <value>The angle relative to the tangent of the base arc at a scale line that is used to rotate numbers. Set to 0 for no rotation or e.g. set to 90.</value>
+  </data>
+  <data name="ScaleNumbersStartScaleLine" xml:space="preserve">
+    <value>The number of the scale line to start writing numbers next to.</value>
+  </data>
+  <data name="ScaleNumbersStepScaleLines" xml:space="preserve">
+    <value>The number of scale line steps for writing numbers.</value>
+  </data>
+  <data name="SmallTicFreq" xml:space="preserve">
+    <value>Define the small tic frequency.</value>
+  </data>
+  <data name="Thermometer" xml:space="preserve">
+    <value>Thermometer</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Define the current value.</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Appearance</value>
+  </data>
+  <data name="View1" xml:space="preserve">
+    <value>Appearance</value>
+  </data>
+</root>

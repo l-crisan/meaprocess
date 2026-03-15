@@ -1,0 +1,60 @@
+﻿  Using  Jamrules.LinuxARM64Release
+  Host Operating System (OS)... nt
+  Host Platform (OSPLAT)... x86
+  Target OS (TARGET_OS)... linux
+  Target Platform (TARGET_OSPLAT)... arm
+  Configuration (CONFIG)... LinuxARM64Release
+  Toolset (TOOLSET)... gcc
+  Use OpenSSL (--with-openssl)...
+  Graphic User Interface (GUI)...
+  System Interface (SYS)... posix
+  C++ Flags (C++FLAGS)... -fPIC -DNDEBUG -DPT_LE
+  C Flags (CCFLAGS)... -fPIC -DNDEBUG -DPT_LE
+  Linker Flags (LINKFLAGS)...
+  Optimisation (OPTIM)... -O2
+  Warnings (WARN)... -Wall
+  Build targets (OUTPUT_TARGET)... C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-n\build\linuxarm64release
+  Build objects (OUTPUT_OBJECT)... C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-n\tmp\linuxarm64release
+  Unit tests (OUTPUT_TEST)...
+  Install programs (INSTALL_BINDIR)...
+  Install includes (INSTALL_INCLUDEDIR)...
+  Install libraries (INSTALL_LIBDIR)...
+  ...found 221 targets...
+  ...updating 1 target...
+  Link C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-n\build\linuxarm64release\mpal-debugger
+  C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-n\lib\linuxarm64release/libPt-System.so: undefined reference to `sem_trywait@GLIBC_2.34'
+  C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-n\lib\linuxarm64release/libPt-System.so: undefined reference to `dlclose@GLIBC_2.34'
+  C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-n\lib\linuxarm64release/libPt-System.so: undefined reference to `fstat@GLIBC_2.33'
+  C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-n\lib\linuxarm64release/libPt-System.so: undefined reference to `sem_post@GLIBC_2.34'
+  C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-n\lib\linuxarm64release/libPt-System.so: undefined reference to `dlerror@GLIBC_2.34'
+  C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-n\lib\linuxarm64release/libPt-System.so: undefined reference to `pthread_mutexattr_init@GLIBC_2.34'
+  C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-n\lib\linuxarm64release/libPt-System.so: undefined reference to `pthread_rwlock_unlock@GLIBC_2.34'
+  C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-n\lib\linuxarm64release/libPt-System.so: undefined reference to `pthread_detach@GLIBC_2.34'
+  C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-n\lib\linuxarm64release/libPt-System.so: undefined reference to `pthread_rwlock_trywrlock@GLIBC_2.34'
+  C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-n\lib\linuxarm64release/libPt-System.so: undefined reference to `sem_destroy@GLIBC_2.34'
+  C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-n\lib\linuxarm64release/libPt-System.so: undefined reference to `pthread_join@GLIBC_2.34'
+  C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-n\lib\linuxarm64release/libPt-System.so: undefined reference to `pthread_rwlock_destroy@GLIBC_2.34'
+  C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-n\lib\linuxarm64release/libPt-System.so: undefined reference to `pthread_mutex_trylock@GLIBC_2.34'
+  C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-n\lib\linuxarm64release/libPt-System.so: undefined reference to `pthread_rwlock_wrlock@GLIBC_2.34'
+  C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-n\lib\linuxarm64release/libPt-Net.so: undefined reference to `std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::basic_ostringstream()@GLIBCXX_3.4.26'
+  C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-n\lib\linuxarm64release/libPt-System.so: undefined reference to `dlsym@GLIBC_2.34'
+  C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-n\lib\linuxarm64release/libPt-System.so: undefined reference to `pthread_rwlock_tryrdlock@GLIBC_2.34'
+  C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-n\lib\linuxarm64release/libPt.so: undefined reference to `std::__throw_bad_array_new_length()@GLIBCXX_3.4.29'
+  C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-n\lib\linuxarm64release/libPt-System.so: undefined reference to `sem_wait@GLIBC_2.34'
+  C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-n\lib\linuxarm64release/libPt-System.so: undefined reference to `pthread_rwlock_init@GLIBC_2.34'
+  C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-n\lib\linuxarm64release/libPt-System.so: undefined reference to `lstat@GLIBC_2.33'
+  C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-n\lib\linuxarm64release/libPt-System.so: undefined reference to `stat@GLIBC_2.33'
+  C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-n\lib\linuxarm64release/libPt-System.so: undefined reference to `dlopen@GLIBC_2.34'
+  C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-n\lib\linuxarm64release/libPt-System.so: undefined reference to `pthread_mutexattr_settype@GLIBC_2.34'
+  C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-n\lib\linuxarm64release/libPt.so: undefined reference to `powf@GLIBC_2.27'
+  C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-n\lib\linuxarm64release/libPt-System.so: undefined reference to `pthread_rwlock_rdlock@GLIBC_2.34'
+  C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-n\lib\linuxarm64release/libPt-System.so: undefined reference to `pthread_create@GLIBC_2.34'
+  C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-n\lib\linuxarm64release/libPt-System.so: undefined reference to `sem_init@GLIBC_2.34'
+  C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-n\lib\linuxarm64release/libPt.so: undefined reference to `pow@GLIBC_2.29'
+collect2.exe : error : ld returned 1 exit status
+  
+      "C:\sca\gcc-linaro-7.3.1-ARM64\bin\aarch64-linux-gnu-"g++ -Wl,-E -LC:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-n\lib\linuxarm64release -lrt -lPt -lPt-System -lPt-Xml -lPt-Net -lPt-Ssl -lPt-Remoting -lPt-Unit -lPt-XmlRpc -lPt-Http -lplc3-ga-client -lplc3-vm -lplc3-vm-cc -lplc3-trans -Wl,-E -LC:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-n\lib\linuxarm64release -lrt -lPt -lPt-System -lPt-Xml -lPt-Net -lPt-Ssl -lPt-Remoting -lPt-Unit -lPt-XmlRpc -lPt-Http -lplc3-ga-client -lplc3-vm -lplc3-vm-cc -lplc3-trans -Wl,-rpath-link,C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-n\build\linuxarm64release -Wl,-rpath-link,C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-n\build\linuxarm64release -Wl,-rpath-link,C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-n\build\linuxarm64release -Wl,-rpath-link,C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-n\build\linuxarm64release -Wl,-rpath-link,C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-n\build\linuxarm64release -Wl,-rpath-link,C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-n\build\linuxarm64release -Wl,-rpath-link,C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-n\build\linuxarm64release -Wl,-rpath-link,C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-n\build\linuxarm64release -Wl,-rpath-link,C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-n\build\linuxarm64release -Wl,-rpath-link,C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-n\build\linuxarm64release -LC:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-n\build\linuxarm64release -LC:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-n\build\linuxarm64release -Wall -o C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-n\build\linuxarm64release\mpal-debugger  C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-n\tmp\linuxarm64release\mpal-debugger\main.o -Wl,--start-group -lmpal-vm -lmpal-vm   -Wl,--end-group
+  
+  ...failed Link C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-n\build\linuxarm64release\mpal-debugger...
+  ...failed updating 1 target...
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(46,5): error MSB3073: Der Befehl "C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-n\vs-jam-build.bat LinuxARM64Release mpal-debugger" wurde mit dem Code 1 beendet.

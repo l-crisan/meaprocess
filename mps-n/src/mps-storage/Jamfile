@@ -1,0 +1,21 @@
+SubDir TOP src mps-storage ;
+
+SubDirHdrs $(TOP)/include ; 
+
+SubDirC++Flags [ FDefines MPS_STORAGE_EXPORTS ] ;
+SubDirCcFlags [ FDefines MPS_STORAGE_EXPORTS ] ;
+
+SubDirObjects $(OUTPUT_OBJECT) mps-storage ;
+
+SharedLibrary mps-storage : 
+						     StorageObjectFactory.cpp
+							 DataStoragePS.cpp
+						     ReadDataPS.cpp
+						     StorageGroup.cpp
+						 ;
+
+LinkFlags  mps-storage  : $(MPS_LINKFLAGS) ;
+
+LinkSharedLibraries mps-storage : mps-core ;
+
+MakeLocate    mps-storage : $(MPS_BINDIR) ;

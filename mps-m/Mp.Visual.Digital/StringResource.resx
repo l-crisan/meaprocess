@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ColorBackground" xml:space="preserve">
+    <value>Background color of the LED array</value>
+  </data>
+  <data name="ColorDark" xml:space="preserve">
+    <value>Color of inactive LED segments.</value>
+  </data>
+  <data name="ColorLight" xml:space="preserve">
+    <value>Color of active LED segments.</value>
+  </data>
+  <data name="Elements" xml:space="preserve">
+    <value>Number of seven-segment elements in this array</value>
+  </data>
+  <data name="LabelWidth" xml:space="preserve">
+    <value>The width of the label.</value>
+  </data>
+  <data name="LEDView" xml:space="preserve">
+    <value>LED view</value>
+  </data>
+  <data name="Precision" xml:space="preserve">
+    <value>The number of position after decimal point.</value>
+  </data>
+  <data name="ValueBoxBackColor" xml:space="preserve">
+    <value>The backgroundcolor of the value.</value>
+  </data>
+  <data name="ValueBoxForeColor" xml:space="preserve">
+    <value>The foregroundcolor of the value.</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Appearance</value>
+  </data>
+  <data name="Maximum" xml:space="preserve">
+    <value>The maximum value.</value>
+  </data>
+  <data name="Minimum" xml:space="preserve">
+    <value>The minimum value.</value>
+  </data>
+  <data name="NumberType" xml:space="preserve">
+    <value>The type of the number.</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>The value.</value>
+  </data>
+  <data name="HideSignalName" xml:space="preserve">
+    <value>Hides the signal name.</value>
+  </data>
+  <data name="HideSignalUnit" xml:space="preserve">
+    <value>Hides the signal unit.</value>
+  </data>
+  <data name="SignalWidth" xml:space="preserve">
+    <value>Define the signal column width.</value>
+  </data>
+  <data name="UnitWidth" xml:space="preserve">
+    <value>Define the unit column width.</value>
+  </data>
+  <data name="ValueWidthCol" xml:space="preserve">
+    <value>Define the value column width.</value>
+  </data>
+  <data name="ElementWidth" xml:space="preserve">
+    <value>Segment width</value>
+  </data>
+  <data name="AxisDivision" xml:space="preserve">
+    <value>Define the axis division.</value>
+  </data>
+  <data name="AxisPrecision" xml:space="preserve">
+    <value>Define the number precision of the axis.</value>
+  </data>
+  <data name="BarColor" xml:space="preserve">
+    <value>Define the bar color.</value>
+  </data>
+  <data name="Orientation" xml:space="preserve">
+    <value>Define the view orientation.</value>
+  </data>
+  <data name="Limits" xml:space="preserve">
+    <value>Define the view Limits.</value>
+  </data>
+  <data name="LimitsText" xml:space="preserve">
+    <value>Limits</value>
+  </data>
+  <data name="NoOfSamples" xml:space="preserve">
+    <value>Number of samples into the view.</value>
+  </data>
+  <data name="UpperLowerErr" xml:space="preserve">
+    <value>The upper limit must be greater as the lower limit.</value>
+  </data>
+  <data name="ComboItems" xml:space="preserve">
+    <value>Define the Combo Box items.</value>
+  </data>
+  <data name="RBItems" xml:space="preserve">
+    <value>Define the Radio Buttons.</value>
+  </data>
+  <data name="ShowAxis" xml:space="preserve">
+    <value>Show the axis</value>
+  </data>
+  <data name="Button" xml:space="preserve">
+    <value>Button</value>
+  </data>
+  <data name="ButtonColor" xml:space="preserve">
+    <value>Color of the body of the button</value>
+  </data>
+  <data name="ButtonLabel" xml:space="preserve">
+    <value>Label of the button</value>
+  </data>
+  <data name="ButtonState" xml:space="preserve">
+    <value>State of the button</value>
+  </data>
+  <data name="ButtonStyle" xml:space="preserve">
+    <value>Style of the button</value>
+  </data>
+  <data name="ButtonType" xml:space="preserve">
+    <value>Type of the button</value>
+  </data>
+  <data name="OffText" xml:space="preserve">
+    <value>Off switch label.</value>
+  </data>
+  <data name="OnText" xml:space="preserve">
+    <value>On switch label.</value>
+  </data>
+  <data name="View1" xml:space="preserve">
+    <value>Appearance</value>
+  </data>
+</root>

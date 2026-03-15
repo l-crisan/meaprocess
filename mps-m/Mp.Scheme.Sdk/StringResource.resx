@@ -1,0 +1,479 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddInputPortMenu" xml:space="preserve">
+    <value>Add Input Port</value>
+  </data>
+  <data name="AddOutputPortMenu" xml:space="preserve">
+    <value>Add Output Port</value>
+  </data>
+  <data name="Altitude" xml:space="preserve">
+    <value>Altitude</value>
+  </data>
+  <data name="CommandPropNotDef" xml:space="preserve">
+    <value>The property for the 'command' of the element '' is not defined.</value>
+  </data>
+  <data name="Constant" xml:space="preserve">
+    <value>Constant</value>
+  </data>
+  <data name="DataFileExpected" xml:space="preserve">
+    <value>A data file for runtime is expected.</value>
+  </data>
+  <data name="DataFileForPsExpected" xml:space="preserve">
+    <value>A data file for the element '{0} ' is expected.</value>
+  </data>
+  <data name="DataInPortNotConnectedErr" xml:space="preserve">
+    <value>The data input port of the element '{0}' is not connected.</value>
+  </data>
+  <data name="DataOutPortConError" xml:space="preserve">
+    <value>The data output port of the element '{0}' is not connected.</value>
+  </data>
+  <data name="DataOutPortSigError" xml:space="preserve">
+    <value>The data output port of the element '{0}' don't have signals defined.</value>
+  </data>
+  <data name="DataStorageFileErr" xml:space="preserve">
+    <value>A file or property expected.</value>
+  </data>
+  <data name="DefSigMinMaxErr" xml:space="preserve">
+    <value>The Maximum of the output signal '{0}' must be greater as the Minimum.</value>
+  </data>
+  <data name="EvenFreqErr" xml:space="preserve">
+    <value>Only a even frequency is supported</value>
+  </data>
+  <data name="General" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="Generator" xml:space="preserve">
+    <value>Generator</value>
+  </data>
+  <data name="HelpFileName" xml:space="preserve">
+    <value>mp-help.chm</value>
+  </data>
+  <data name="Hour" xml:space="preserve">
+    <value>Hour</value>
+  </data>
+  <data name="InPortINotCon" xml:space="preserve">
+    <value>The input port '{0}' of the element '{1}' is not connected.</value>
+  </data>
+  <data name="InvalidIP" xml:space="preserve">
+    <value>Invalid IP address.</value>
+  </data>
+  <data name="Latitude" xml:space="preserve">
+    <value>Latitude</value>
+  </data>
+  <data name="Longitude" xml:space="preserve">
+    <value>Longitude</value>
+  </data>
+  <data name="MeaCommentNotDef" xml:space="preserve">
+    <value>The measurement comment for the element '{0}' is not defined.</value>
+  </data>
+  <data name="MenuProperties" xml:space="preserve">
+    <value>Properties...</value>
+  </data>
+  <data name="Millisecond" xml:space="preserve">
+    <value>Millisecond</value>
+  </data>
+  <data name="MinOnePortErr" xml:space="preserve">
+    <value>The element '{0}' needs minimum one input and one output port.</value>
+  </data>
+  <data name="Minute" xml:space="preserve">
+    <value>Minute</value>
+  </data>
+  <data name="Month" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="MPALMemSizeErr" xml:space="preserve">
+    <value>A memory of 0 is not supported.</value>
+  </data>
+  <data name="NoProgLoadErr" xml:space="preserve">
+    <value>The element '{0}' doesn't has a program loaded.</value>
+  </data>
+  <data name="NumVarTypeErr" xml:space="preserve">
+    <value>Only numeric types can be assigned to a variable.</value>
+  </data>
+  <data name="OutPortINoSigErr" xml:space="preserve">
+    <value>The output port '{0}' of the element '{1}' don't have signals.</value>
+  </data>
+  <data name="OutPortINotCon" xml:space="preserve">
+    <value>The output port '{0}' of the element '{1}' is not connected.</value>
+  </data>
+  <data name="PeriodeErr" xml:space="preserve">
+    <value>A periode of 0 is not defined.</value>
+  </data>
+  <data name="PostTriggerErr" xml:space="preserve">
+    <value>For post trigger time a positive number is expected.</value>
+  </data>
+  <data name="PreTriggerErr" xml:space="preserve">
+    <value>For pre trigger time a positive number is expected.</value>
+  </data>
+  <data name="ProgLoadErr" xml:space="preserve">
+    <value>The program couldn't be loaded.</value>
+  </data>
+  <data name="Program" xml:space="preserve">
+    <value>Program</value>
+  </data>
+  <data name="PropNotAvail" xml:space="preserve">
+    <value>The property is not available.</value>
+  </data>
+  <data name="PropNotAvailErr" xml:space="preserve">
+    <value>The property '{0}' for the input variable of the element '{1}' is not available.</value>
+  </data>
+  <data name="PsInstanceIsAviable" xml:space="preserve">
+    <value>An instance of the element '{0}' is available.</value>
+  </data>
+  <data name="PsLoadErr" xml:space="preserve">
+    <value>The element '{0}' couldn't be loaded. One or more modules are missing or  a vaild licence not found.</value>
+  </data>
+  <data name="PsUndefined" xml:space="preserve">
+    <value>Element type not definied.</value>
+  </data>
+  <data name="Quality" xml:space="preserve">
+    <value>Quality</value>
+  </data>
+  <data name="Noise" xml:space="preserve">
+    <value>Noise</value>
+  </data>
+  <data name="ReadData" xml:space="preserve">
+    <value>Read Data</value>
+  </data>
+  <data name="Rectangle" xml:space="preserve">
+    <value>Square</value>
+  </data>
+  <data name="RemoveSig" xml:space="preserve">
+    <value>Remove signals?</value>
+  </data>
+  <data name="RemoveUnusedPortsMenu" xml:space="preserve">
+    <value>Remove Unused Ports</value>
+  </data>
+  <data name="RtTypeUnknown" xml:space="preserve">
+    <value>The type of the runtime engine is unknown.</value>
+  </data>
+  <data name="SampleRatePerErr" xml:space="preserve">
+    <value>The sample rate or periode is to small.</value>
+  </data>
+  <data name="Satellites" xml:space="preserve">
+    <value>Satellites used</value>
+  </data>
+  <data name="RampUp" xml:space="preserve">
+    <value>Ramp up</value>
+  </data>
+  <data name="SigDupInInput" xml:space="preserve">
+    <value>The signal '{0}' in the element '{1}' is more than once available as input.</value>
+  </data>
+  <data name="SigMinMaxErr" xml:space="preserve">
+    <value>The signal maximum must be greater than minimum.</value>
+  </data>
+  <data name="SigNameDup" xml:space="preserve">
+    <value>Signal name '{0}' is duplicated.</value>
+  </data>
+  <data name="SigVarDataTypeErr" xml:space="preserve">
+    <value>The data type of the signal is not compatible to this variable.</value>
+  </data>
+  <data name="Sine" xml:space="preserve">
+    <value>Sine</value>
+  </data>
+  <data name="Speed" xml:space="preserve">
+    <value>Speed</value>
+  </data>
+  <data name="Splitter" xml:space="preserve">
+    <value>Splitter</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="StopWatch" xml:space="preserve">
+    <value>Stopwatch</value>
+  </data>
+  <data name="Storage" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="StorageFileNotDef" xml:space="preserve">
+    <value>The storage file for the element '{0}' is not defined.</value>
+  </data>
+  <data name="SubScheme" xml:space="preserve">
+    <value>Sub Scheme</value>
+  </data>
+  <data name="TimerRes10Err" xml:space="preserve">
+    <value>The timer resolution is 10ms. Only multiplier of 10 is supported as interval.</value>
+  </data>
+  <data name="TrackAngle" xml:space="preserve">
+    <value>Track angle</value>
+  </data>
+  <data name="TriggerForProgErr" xml:space="preserve">
+    <value>The element '{0}' needs a trigger signal to execute the program.</value>
+  </data>
+  <data name="TriggerOneSigErr" xml:space="preserve">
+    <value>The trigger input port of the element '{0}' expect minimum one input signal for this trigger type.</value>
+  </data>
+  <data name="TriggerPortNeed2SigErr" xml:space="preserve">
+    <value>The trigger port with start/stop trigger of the element '{0}' need two signal.</value>
+  </data>
+  <data name="TriggerPortNotConErr" xml:space="preserve">
+    <value>The trigger input port of the element '{0}' is not connected.</value>
+  </data>
+  <data name="TriggerPortSigError" xml:space="preserve">
+    <value>The trigger port of the element '{0}' don't have a signal.</value>
+  </data>
+  <data name="TriggerSigExpectedErr" xml:space="preserve">
+    <value>A trigger signal is expected.</value>
+  </data>
+  <data name="TriggerTimePerErr" xml:space="preserve">
+    <value>A time period for pre trigger and post trigger is expected.</value>
+  </data>
+  <data name="TriggerTwoSigErr" xml:space="preserve">
+    <value>The trigger input port of the element '{0}' expect minimum two input signals for this trigger type.</value>
+  </data>
+  <data name="UnknownDocType" xml:space="preserve">
+    <value>Unknown document type.</value>
+  </data>
+  <data name="WriteData" xml:space="preserve">
+    <value>Write Data</value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="ZeroGenRateErr" xml:space="preserve">
+    <value>A generation rate of 0 is not supported.</value>
+  </data>
+  <data name="GeneratorPsDescription" xml:space="preserve">
+    <value>Generator
+
+Generate signals from given functions.</value>
+  </data>
+  <data name="GPSPsDescription" xml:space="preserve">
+    <value>GPS
+
+Acquire data from a GPS device.</value>
+  </data>
+  <data name="ReadDataPsDescription" xml:space="preserve">
+    <value>Read Data
+
+Reads measurement data from a file.</value>
+  </data>
+  <data name="SplitterPsDescription" xml:space="preserve">
+    <value>Splitter
+
+Distributes the signals from input ports to output ports.</value>
+  </data>
+  <data name="StopPsDescription" xml:space="preserve">
+    <value>Stop
+
+Stop the scheme execution.</value>
+  </data>
+  <data name="StopWatchPsDescription" xml:space="preserve">
+    <value>Stopwatch
+
+Stopwatch with start/stop trigger and reset input.</value>
+  </data>
+  <data name="SubschemePsDescription" xml:space="preserve">
+    <value>Subscheme 
+
+Insert a Subscheme.</value>
+  </data>
+  <data name="WriteDataPsDescription" xml:space="preserve">
+    <value>Write Data
+
+Write the measurement data into a file.</value>
+  </data>
+  <data name="ProgramPsDescription" xml:space="preserve">
+    <value>Program
+
+Execute a user defined program.</value>
+  </data>
+  <data name="Signal" xml:space="preserve">
+    <value>signal</value>
+  </data>
+  <data name="Signals" xml:space="preserve">
+    <value>signals</value>
+  </data>
+  <data name="EmptySchemeErr" xml:space="preserve">
+    <value>An empty scheme is not valid.</value>
+  </data>
+  <data name="HalfRoundMinus" xml:space="preserve">
+    <value>Half round -</value>
+  </data>
+  <data name="HalfRoundPlus" xml:space="preserve">
+    <value>Half round +</value>
+  </data>
+  <data name="RampDown" xml:space="preserve">
+    <value>Rampe down</value>
+  </data>
+  <data name="Sinc" xml:space="preserve">
+    <value>Sine Cardinalis +</value>
+  </data>
+  <data name="SineMinus" xml:space="preserve">
+    <value>Sine -</value>
+  </data>
+  <data name="SinePlus" xml:space="preserve">
+    <value>Sine + </value>
+  </data>
+  <data name="ExpMinus" xml:space="preserve">
+    <value>Exp -</value>
+  </data>
+  <data name="ExpPlus" xml:space="preserve">
+    <value>Exp +</value>
+  </data>
+  <data name="SincMinus" xml:space="preserve">
+    <value>Sine Cardinalis -</value>
+  </data>
+  <data name="SignalNameErr" xml:space="preserve">
+    <value>The signal must have a name.</value>
+  </data>
+  <data name="Random" xml:space="preserve">
+    <value>Random</value>
+  </data>
+  <data name="InvalidPassword" xml:space="preserve">
+    <value>Invalid password for the document.</value>
+  </data>
+  <data name="Calculation" xml:space="preserve">
+    <value>Processing</value>
+  </data>
+  <data name="Day" xml:space="preserve">
+    <value>Day</value>
+  </data>
+  <data name="Second" xml:space="preserve">
+    <value>Second</value>
+  </data>
+  <data name="SigNameErr" xml:space="preserve">
+    <value>The signal must have a name.</value>
+  </data>
+  <data name="SigObjetErr" xml:space="preserve">
+    <value>The element {0} don't accespt signals of object type.</value>
+  </data>
+  <data name="PropPsDescription" xml:space="preserve">
+    <value>Write the value of a property</value>
+  </data>
+  <data name="WriteProp" xml:space="preserve">
+    <value>Write parameter</value>
+  </data>
+  <data name="NoPropMapped" xml:space="preserve">
+    <value>In block '{0}' no signal is mapped to a schema property.</value>
+  </data>
+  <data name="ReadProp" xml:space="preserve">
+    <value>Read Parameter</value>
+  </data>
+  <data name="ReadPropDesc" xml:space="preserve">
+    <value>Read Parameter
+
+Read a parameter. </value>
+  </data>
+</root>

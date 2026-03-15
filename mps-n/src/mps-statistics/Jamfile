@@ -1,0 +1,25 @@
+SubDir TOP src mps-statistics ;
+
+SubDirHdrs $(TOP)/include ;
+
+SubDirC++Flags [ FDefines MPSSTATISTICS_EXPORTS ] ;
+
+SubDirObjects $(OUTPUT_OBJECT) mps-statistics ;
+
+SharedLibrary mps-statistics :	Classing.cpp
+                                StatisticsObjectFactory.cpp
+                                ClassingPS.cpp 
+                                StatisticValueSignal.cpp
+                                StatisticValuesPS.cpp
+                                CounterPS.cpp
+                                CounterSignal.cpp
+                                MinimaMaximaPS.cpp
+                                MinimaMaximaSignal.cpp
+                              ;
+
+
+LinkFlags  mps-statistics  : $(MPS_LINKFLAGS) ;
+
+LinkSharedLibraries mps-statistics : mps-core ;
+
+MakeLocate  mps-statistics : $(MPS_BINDIR) ;

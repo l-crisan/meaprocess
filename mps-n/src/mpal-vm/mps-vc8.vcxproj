@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="LinuxARM64Debug|Win32">
+      <Configuration>LinuxARM64Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="LinuxARM64Release|Win32">
+      <Configuration>LinuxARM64Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WinX64Debug|Win32">
+      <Configuration>WinX64Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WinX64Release|Win32">
+      <Configuration>WinX64Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>mpal-vm</ProjectName>
+    <ProjectGuid>{39CB251A-4079-4343-9BA8-73B20C20B606}</ProjectGuid>
+    <RootNamespace>mps-vc8</RootNamespace>
+    <Keyword>MakeFileProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinX64Release|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Release|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinX64Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinX64Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinX64Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Debug|Win32'">$(SolutionDir)\build\$(Configuration)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Release|Win32'">$(SolutionDir)\build\$(Configuration)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='WinX64Debug|Win32'">$(SolutionDir)\build\$(Configuration)</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Debug|Win32'">$(SolutionDir)\tmp\$(ProjectName)</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Release|Win32'">$(SolutionDir)\tmp\$(ProjectName)</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='WinX64Debug|Win32'">$(SolutionDir)\tmp\$(ProjectName)</IntDir>
+    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Debug|Win32'">$(SolutionDir)vs-jam-build.bat $(Configuration) $(ProjectName)</NMakeBuildCommandLine>
+    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Release|Win32'">$(SolutionDir)vs-jam-build.bat $(Configuration) $(ProjectName)</NMakeBuildCommandLine>
+    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='WinX64Debug|Win32'">$(SolutionDir)vs-jam-build.bat $(Configuration) $(ProjectName)</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Debug|Win32'" />
+    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Release|Win32'" />
+    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='WinX64Debug|Win32'" />
+    <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Debug|Win32'">$(SolutionDir)vs-jam-clean.bat $(Configuration) $(ProjectName)</NMakeCleanCommandLine>
+    <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Release|Win32'">$(SolutionDir)vs-jam-clean.bat $(Configuration) $(ProjectName)</NMakeCleanCommandLine>
+    <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='WinX64Debug|Win32'">$(SolutionDir)vs-jam-clean.bat $(Configuration) $(ProjectName)</NMakeCleanCommandLine>
+    <NMakeOutput Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Debug|Win32'" />
+    <NMakeOutput Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Release|Win32'" />
+    <NMakeOutput Condition="'$(Configuration)|$(Platform)'=='WinX64Debug|Win32'" />
+    <NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Debug|Win32'">WIN32;_DEBUG;MPAL_API_EXPORT</NMakePreprocessorDefinitions>
+    <NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Release|Win32'">WIN32;_DEBUG;MPAL_API_EXPORT</NMakePreprocessorDefinitions>
+    <NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='WinX64Debug|Win32'">WIN32;_DEBUG;MPAL_API_EXPORT</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Debug|Win32'">..\..\include\</NMakeIncludeSearchPath>
+    <NMakeIncludeSearchPath Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Release|Win32'">..\..\include\</NMakeIncludeSearchPath>
+    <NMakeIncludeSearchPath Condition="'$(Configuration)|$(Platform)'=='WinX64Debug|Win32'">..\..\include\</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Debug|Win32'" />
+    <NMakeForcedIncludes Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Release|Win32'" />
+    <NMakeForcedIncludes Condition="'$(Configuration)|$(Platform)'=='WinX64Debug|Win32'" />
+    <NMakeAssemblySearchPath Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Debug|Win32'" />
+    <NMakeAssemblySearchPath Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Release|Win32'" />
+    <NMakeAssemblySearchPath Condition="'$(Configuration)|$(Platform)'=='WinX64Debug|Win32'" />
+    <NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Debug|Win32'" />
+    <NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='LinuxARM64Release|Win32'" />
+    <NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='WinX64Debug|Win32'" />
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='WinX64Release|Win32'">$(SolutionDir)\build\$(Configuration)</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='WinX64Release|Win32'">$(SolutionDir)\tmp\$(ProjectName)</IntDir>
+    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='WinX64Release|Win32'">$(SolutionDir)vs-jam-build.bat $(Configuration) $(ProjectName)</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='WinX64Release|Win32'" />
+    <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='WinX64Release|Win32'">$(SolutionDir)vs-jam-clean.bat $(Configuration) $(ProjectName)</NMakeCleanCommandLine>
+    <NMakeOutput Condition="'$(Configuration)|$(Platform)'=='WinX64Release|Win32'" />
+    <NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='WinX64Release|Win32'">WIN32;NDEBUG;</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath Condition="'$(Configuration)|$(Platform)'=='WinX64Release|Win32'">..\..\include\</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes Condition="'$(Configuration)|$(Platform)'=='WinX64Release|Win32'" />
+    <NMakeAssemblySearchPath Condition="'$(Configuration)|$(Platform)'=='WinX64Release|Win32'" />
+    <NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='WinX64Release|Win32'" />
+    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)vs-jam-build.bat $(Configuration)  $(ProjectName)</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)vs-jam-clean.bat $(Configuration)  $(ProjectName)</NMakeCleanCommandLine>
+    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)vs-jam-build.bat $(Configuration)  $(ProjectName)</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)vs-jam-clean.bat $(Configuration)  $(ProjectName)</NMakeCleanCommandLine>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\mpal\vm\BreakPoint.h" />
+    <ClInclude Include="..\..\include\mpal\vm\Debugger.h" />
+    <ClInclude Include="..\..\include\mpal\vm\ProgramInfo.h" />
+    <ClInclude Include="..\..\include\mpal\vm\Variable.h" />
+    <ClInclude Include="..\..\include\mpal\vm\VirtualMachine.h" />
+    <ClInclude Include="AbsInst.h" />
+    <ClInclude Include="AcosInst.h" />
+    <ClInclude Include="AddInst.h" />
+    <ClInclude Include="AddOffsetInst.h" />
+    <ClInclude Include="AndInst.h" />
+    <ClInclude Include="AsinInst.h" />
+    <ClInclude Include="AtanInst.h" />
+    <ClInclude Include="CallInst.h" />
+    <ClInclude Include="ConvertInst.h" />
+    <ClInclude Include="CosInst.h" />
+    <ClInclude Include="DebuggerContext.h" />
+    <ClInclude Include="DecInst.h" />
+    <ClInclude Include="DivInst.h" />
+    <ClInclude Include="EqInst.h" />
+    <ClInclude Include="ExpdInst.h" />
+    <ClInclude Include="ExpInst.h" />
+    <ClInclude Include="Function.h" />
+    <ClInclude Include="GeInst.h" />
+    <ClInclude Include="GrInst.h" />
+    <ClInclude Include="IncInst.h" />
+    <ClInclude Include="Instruction.h" />
+    <ClInclude Include="InstructionCode.h" />
+    <ClInclude Include="InstructionTable.h" />
+    <ClInclude Include="JmpFALSEInst.h" />
+    <ClInclude Include="JmpInst.h" />
+    <ClInclude Include="JmpTRUEInst.h" />
+    <ClInclude Include="LeInst.h" />
+    <ClInclude Include="LimitInst.h" />
+    <ClInclude Include="LineInfo.h" />
+    <ClInclude Include="LnInst.h" />
+    <ClInclude Include="Loader.h" />
+    <ClInclude Include="LogInst.h" />
+    <ClInclude Include="LsInst.h" />
+    <ClInclude Include="MaxInst.h" />
+    <ClInclude Include="MinInst.h" />
+    <ClInclude Include="ModInst.h" />
+    <ClInclude Include="MoveInst.h" />
+    <ClInclude Include="..\..\include\mpal\vm\mpal-vm.h" />
+    <ClInclude Include="MulInst.h" />
+    <ClInclude Include="MuxInst.h" />
+    <ClInclude Include="NegInst.h" />
+    <ClInclude Include="NeInst.h" />
+    <ClInclude Include="NotInst.h" />
+    <ClInclude Include="Operand.h" />
+    <ClInclude Include="OrInst.h" />
+    <ClInclude Include="Parameter.h" />
+    <ClInclude Include="PopRefInst.h" />
+    <ClInclude Include="PopTempInst.h" />
+    <ClInclude Include="PowInst.h" />
+    <ClInclude Include="ProgramInfoImpl.h" />
+    <ClInclude Include="PushRefInst.h" />
+    <ClInclude Include="PushTempInst.h" />
+    <ClInclude Include="ReturnInst.h" />
+    <ClInclude Include="RolInst.h" />
+    <ClInclude Include="RorInst.h" />
+    <ClInclude Include="RoundInst.h" />
+    <ClInclude Include="SelInst.h" />
+    <ClInclude Include="ShlInst.h" />
+    <ClInclude Include="ShrInst.h" />
+    <ClInclude Include="SinInst.h" />
+    <ClInclude Include="SqrInst.h" />
+    <ClInclude Include="SqrtInst.h" />
+    <ClInclude Include="SubInst.h" />
+    <ClInclude Include="TanInst.h" />
+    <ClInclude Include="TruncInst.h" />
+    <ClInclude Include="Unit.h" />
+    <ClInclude Include="VirtualMachineImpl.h" />
+    <ClInclude Include="VMContext.h" />
+    <ClInclude Include="XorInst.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BreakPoint.cpp" />
+    <ClCompile Include="CallInst.cpp" />
+    <ClCompile Include="Debugger.cpp" />
+    <ClCompile Include="DebuggerContext.cpp" />
+    <ClCompile Include="Function.cpp" />
+    <ClCompile Include="Instruction.cpp" />
+    <ClCompile Include="InstructionTable.cpp" />
+    <ClCompile Include="Loader.cpp" />
+    <ClCompile Include="Operand.cpp" />
+    <ClCompile Include="Parameter.cpp" />
+    <ClCompile Include="ProgramInfoImpl.cpp" />
+    <ClCompile Include="Unit.cpp" />
+    <ClCompile Include="Variable.cpp" />
+    <ClCompile Include="VirtualMachine.cpp" />
+    <ClCompile Include="VirtualMachineImpl.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Jamfile" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

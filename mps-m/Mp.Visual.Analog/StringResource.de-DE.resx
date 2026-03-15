@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AQValue" xml:space="preserve">
+    <value>Der aktuelle Wert.</value>
+  </data>
+  <data name="Arc" xml:space="preserve">
+    <value>Bogen</value>
+  </data>
+  <data name="ArrowColor" xml:space="preserve">
+    <value>Definiert die Zeigerfarbe.</value>
+  </data>
+  <data name="BackColor" xml:space="preserve">
+    <value>Definiert die Hintergrundfarbe.</value>
+  </data>
+  <data name="BarNumber" xml:space="preserve">
+    <value>Definiert die Anzahl der Linien zwischen den Zahlen.</value>
+  </data>
+  <data name="BaseArcColor" xml:space="preserve">
+    <value>Die Farbe des Basisbogens.</value>
+  </data>
+  <data name="BaseArcRadius" xml:space="preserve">
+    <value>Der Radius des Basisbogens.</value>
+  </data>
+  <data name="BaseArcStart" xml:space="preserve">
+    <value>Der Startwinkel des Basisbogens.</value>
+  </data>
+  <data name="BaseArcSweep" xml:space="preserve">
+    <value>Der Winkel des Basisbogens.</value>
+  </data>
+  <data name="BaseArcWidth" xml:space="preserve">
+    <value>Die Breite des Basisbogens.</value>
+  </data>
+  <data name="BorderWidth" xml:space="preserve">
+    <value>Definiert die Randbreite.</value>
+  </data>
+  <data name="Caption" xml:space="preserve">
+    <value>Beschriftung</value>
+  </data>
+  <data name="CaptionDefinition" xml:space="preserve">
+    <value>Beschriftungstexte</value>
+  </data>
+  <data name="Center" xml:space="preserve">
+    <value>Der Mittelpunkt des Steuerelements.</value>
+  </data>
+  <data name="ClockWise" xml:space="preserve">
+    <value>Definiert die Anzeigerichtung. 'True' für Uhrzeigersinn.</value>
+  </data>
+  <data name="Decimals" xml:space="preserve">
+    <value>Definiert die Genauigkeit.</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Definiert die Beschreibung.</value>
+  </data>
+  <data name="DialColor" xml:space="preserve">
+    <value>Die Hintergrundfarbe des Zifferblattes.</value>
+  </data>
+  <data name="Display" xml:space="preserve">
+    <value>Definiert den Darstellungsmodus.</value>
+  </data>
+  <data name="Gauge" xml:space="preserve">
+    <value>Rundes Anzeigeinstrument</value>
+  </data>
+  <data name="GaugeValue" xml:space="preserve">
+    <value>Der aktuelle Wert.</value>
+  </data>
+  <data name="IntervalMinMax" xml:space="preserve">
+    <value>Definiert das Intervall zwischen Minimum und Maximum.</value>
+  </data>
+  <data name="LargeTicFreq" xml:space="preserve">
+    <value>Definiert die große Einteilung.</value>
+  </data>
+  <data name="LayoutStartDegrees" xml:space="preserve">
+    <value>Definiert den Startwinkel der Skala.</value>
+  </data>
+  <data name="MaxStore" xml:space="preserve">
+    <value>Definiert, ob das Maximum angezeigt werden soll.</value>
+  </data>
+  <data name="MaxValue" xml:space="preserve">
+    <value>Definiert das Maximum.</value>
+  </data>
+  <data name="MaxValue1" xml:space="preserve">
+    <value>Maximalwert der Skala.</value>
+  </data>
+  <data name="MinValue" xml:space="preserve">
+    <value>Definiert das Minimum.</value>
+  </data>
+  <data name="MinValue1" xml:space="preserve">
+    <value>Minimalwert der Skala.</value>
+  </data>
+  <data name="Needle" xml:space="preserve">
+    <value>Anzeigenadel</value>
+  </data>
+  <data name="NeedleColor1" xml:space="preserve">
+    <value>Die erste Farbe der Anzeigenadel.</value>
+  </data>
+  <data name="NeedleColor2" xml:space="preserve">
+    <value>Die zweite Farbe der Anzeigenadel.</value>
+  </data>
+  <data name="NeedleRadius" xml:space="preserve">
+    <value>Der Anzeigenadelradius.</value>
+  </data>
+  <data name="NeedleType" xml:space="preserve">
+    <value>Der Anzeigenadeltyp: 0 oder 1.</value>
+  </data>
+  <data name="NeedleWidth" xml:space="preserve">
+    <value>Die Breite der Anzeigenadel.</value>
+  </data>
+  <data name="NoOfDivisions" xml:space="preserve">
+    <value>Die Anzahl der Einteilungen des Zifferblattes.</value>
+  </data>
+  <data name="NoOfSubDivisions" xml:space="preserve">
+    <value>Die Anzahl der Unterteilungen innerhalb der Haupteinteilung.</value>
+  </data>
+  <data name="NumberSpacing" xml:space="preserve">
+    <value>Definiert den Abstand zwischen den Zahlen in Grad.</value>
+  </data>
+  <data name="PosNoErr" xml:space="preserve">
+    <value>Ein positive Zahl wird erwartet.</value>
+  </data>
+  <data name="Range" xml:space="preserve">
+    <value>Bereich</value>
+  </data>
+  <data name="RangeDefinition" xml:space="preserve">
+    <value>Legt die Bereiche des Anzeigeinstruments fest.</value>
+  </data>
+  <data name="RangeMax" xml:space="preserve">
+    <value>Definiert das Bereichsmaximum in Grad Fahrenheit.</value>
+  </data>
+  <data name="RangeMin" xml:space="preserve">
+    <value>Definiert das Bereichsminimum in Grad Fahrenheit.</value>
+  </data>
+  <data name="ScaleLines" xml:space="preserve">
+    <value>Skalalinien</value>
+  </data>
+  <data name="ScaleLinesInterColor" xml:space="preserve">
+    <value>Die Farbe zwischen den Skalalinien.</value>
+  </data>
+  <data name="ScaleLinesInterInnerRadius" xml:space="preserve">
+    <value>Der innere Radius der Skalalinien.</value>
+  </data>
+  <data name="ScaleLinesInterOuterRadius" xml:space="preserve">
+    <value>Der äußere Radius der Skalalinien.</value>
+  </data>
+  <data name="ScaleLinesInterWidth" xml:space="preserve">
+    <value>Die Breite der Skalalinien.</value>
+  </data>
+  <data name="ScaleLinesMajorColor" xml:space="preserve">
+    <value>Die Farbe der Hauptskalalinien.</value>
+  </data>
+  <data name="ScaleLinesMajorInnerRadius" xml:space="preserve">
+    <value>Der innere Radius der Hauptskalalinien.</value>
+  </data>
+  <data name="ScaleLinesMajorOuterRadius" xml:space="preserve">
+    <value>Der äußere Radius der Hauptskalalinien.</value>
+  </data>
+  <data name="ScaleLinesMajorStepValue" xml:space="preserve">
+    <value>Die Schrittweite der Hauptskalalinien.</value>
+  </data>
+  <data name="ScaleLinesMajorWidth" xml:space="preserve">
+    <value>Die Breite der Hauptskalalinien.</value>
+  </data>
+  <data name="ScaleLinesMinorColor" xml:space="preserve">
+    <value>Die Farbe der unteren Skalalinien.</value>
+  </data>
+  <data name="ScaleLinesMinorInnerRadius" xml:space="preserve">
+    <value>Der innere Radius der unteren Skalalinien.</value>
+  </data>
+  <data name="ScaleLinesMinorNumOf" xml:space="preserve">
+    <value>Die Anzahl der unteren Skalalinien.</value>
+  </data>
+  <data name="ScaleLinesMinorOuterRadius" xml:space="preserve">
+    <value>Der äußere Radius der unteren Skalalinien.</value>
+  </data>
+  <data name="ScaleLinesMinorWidth" xml:space="preserve">
+    <value>Die Breite der unteren Skalalinien.</value>
+  </data>
+  <data name="ScaleNumbers" xml:space="preserve">
+    <value>Ziffern</value>
+  </data>
+  <data name="ScaleNumbersColor" xml:space="preserve">
+    <value>Die Farbe der Ziffern.</value>
+  </data>
+  <data name="ScaleNumbersFormat" xml:space="preserve">
+    <value>Das Format der Ziffern.</value>
+  </data>
+  <data name="ScaleNumbersRadius" xml:space="preserve">
+    <value>Der Radius der Ziffern.</value>
+  </data>
+  <data name="ScaleNumbersRotation" xml:space="preserve">
+    <value>Die Zifferndrehwinkel.</value>
+  </data>
+  <data name="ScaleNumbersStartScaleLine" xml:space="preserve">
+    <value>Die Skalenposition ab der die Bezifferung beginnen soll.</value>
+  </data>
+  <data name="ScaleNumbersStepScaleLines" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SmallTicFreq" xml:space="preserve">
+    <value>Definiert die kleine Einteilung.</value>
+  </data>
+  <data name="StoredMaximum" xml:space="preserve">
+    <value>Definiert das gespeichterte Maximum.</value>
+  </data>
+  <data name="TextUnit" xml:space="preserve">
+    <value>Definiert die Einheit.</value>
+  </data>
+  <data name="Thermometer" xml:space="preserve">
+    <value>Thermometer</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Definiert den aktuellen Wert.</value>
+  </data>
+  <data name="Value1" xml:space="preserve">
+    <value>Definiert den aktuellen Wert.</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Darstellung</value>
+  </data>
+  <data name="View1" xml:space="preserve">
+    <value>Darstellung</value>
+  </data>
+</root>

@@ -1,0 +1,11 @@
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Debug\Mp.XmlRpc.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\build\Debug\Mp.XmlRpc.pdb
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.XmlRpc\obj\Debug\Mp.XmlRpc.csproj.CoreCompileInputs.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.XmlRpc\obj\Debug\Mp.XmlRpc.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\trunk\mps-m\Mp.XmlRpc\obj\Debug\Mp.XmlRpc.pdb
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-m\build\Debug\Mp.XmlRpc.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-m\build\Debug\Mp.XmlRpc.pdb
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-m\Mp.XmlRpc\obj\Debug\Mp.XmlRpc.csproj.AssemblyReference.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-m\Mp.XmlRpc\obj\Debug\Mp.XmlRpc.csproj.CoreCompileInputs.cache
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-m\Mp.XmlRpc\obj\Debug\Mp.XmlRpc.dll
+C:\Users\Laure\projekte\atesion\sourceforge\mps\mps-m\Mp.XmlRpc\obj\Debug\Mp.XmlRpc.pdb
